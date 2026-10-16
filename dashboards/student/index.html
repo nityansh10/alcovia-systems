@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Alcovian Progress Board</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Geist+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="../assets/common.css">
+<style>
+  .lens { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 14px 0 8px; }
+  @media (max-width: 860px) { .lens { grid-template-columns: 1fr; } }
+  .lens .tile { gap: 6px; }
+  .lens .q { font-size: 13px; font-weight: 700; color: var(--ink); text-transform: none; letter-spacing: 0; }
+  .lens .row { display: flex; justify-content: space-between; gap: 10px; font-size: 13px; color: var(--ink-2); border-top: 1px solid var(--line); padding-top: 6px; }
+  .lens .row b { font-family: var(--font-num); color: var(--ink); font-weight: 600; }
+  .cad { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; font-weight: 700; margin: 10px 0 4px; }
+  .qrow { display: grid; grid-template-columns: minmax(120px, 170px) 1fr 64px 76px; gap: 10px; align-items: center; font-size: 13px; padding: 3px 0; }
+  .qrow .n { font-family: var(--font-num); text-align: right; }
+  .qrow .bar-cell { min-width: 0; }
+  #t-score tr { cursor: pointer; }
+  #t-score tr.sel td { background: var(--accent-wash); }
+  .stages { display: flex; height: 14px; gap: 2px; min-width: 160px; border-radius: 3px; overflow: hidden; }
+  .stages i { display: block; height: 100%; }
+  .drill { display: grid; gap: 12px; grid-template-columns: repeat(12, minmax(0, 1fr)); }
+  .drill .card { grid-column: span 12; }
+  .who { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; }
+  .who h3 { font-size: 18px; margin: 0; }
+  .vs { font-size: 12px; color: var(--muted); }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; margin-top: 10px; }
+  .kpi { border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; display: flex; flex-direction: column; gap: 2px; }
+  .kpi .k { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); font-weight: 600; }
+  .kpi .v { font-family: var(--font-num); font-size: 18px; font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="top">
+  <div class="wrap">
+    <div class="brand"><span class="mark"></span><h1>Alcovian Progress Board</h1><small>Weekly review, all students on one screen</small></div>
+    <div class="filters" id="filters">
+      <select id="advisor" aria-label="Advisor"><option value="">All advisors</option></select>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+  <nav class="nav" aria-label="Sections">
+    <a href="#lenses">Three lenses</a><a href="#quantity">Conducted</a><a href="#quality">Liked</a><a href="#performance">Performance</a><a href="#student">One student</a><a href="#advisor-inputs">Advisor inputs</a>
+  </nav>
+
+  <div class="lens" id="lenses"></div>
+
+  <section id="quantity">
+    <header><h2>Did Alcovia conduct it?</h2><p>Every promised touchpoint in the range, scheduled vs actually held. The tick marks the 95% delivery bar.</p></header>
+    <div class="grid">
+      <div class="card span-6"><div id="q-list"></div></div>
+      <div class="card span-6">
+        <h3>Missed sessions by type</h3>
+        <p class="sub">Scheduled but never held. Each one is a promise to a parent we did not keep.</p>
+        <div class="chart"><canvas id="c-missed" role="img" aria-label="Missed sessions by type"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="quality">
+    <header><h2>Did Alcovians like it?</h2><p>Attendance is the first vote and the rating is the second. Ratings come from a one-tap prompt 30 minutes after each session ends.</p></header>
+    <div class="grid">
+      <div class="card span-7"><div class="tbl" id="t-quality"></div></div>
+      <div class="card span-5">
+        <h3>Workshop soft-skill rubric</h3>
+        <p class="sub">Cohort average per skill, by month (1-5). Darker = stronger. Scored by the facilitator, 11 skills.</p>
+        <div class="tbl" id="heat"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="performance">
+    <header><h2>How are Alcovians doing?</h2><p>One row per student. Click a row to open that student below. Flags follow the thresholds in docs/04; three red flags make a student <b>at risk</b>.</p></header>
+    <div class="grid">
+      <div class="card">
+        <div class="legend"><span><span class="pill good">GOOD</span></span><span><span class="pill warn">WATCH</span></span><span><span class="pill critical">BEHIND</span></span><span class="muted">Blank = no data (no wearable, or no item due in the range)</span></div>
+        <div class="tbl" id="t-score"></div>
+      </div>
+      <div class="card span-6">
+        <h3>Cohort habits, week by week</h3>
+        <p class="sub">Average across the selected students</p>
+        <div class="legend"><span><i class="line" style="background:var(--s1)"></i>Focus minutes / day</span></div>
+        <div class="chart short"><canvas id="c-focus" role="img" aria-label="Weekly focus minutes"></canvas></div>
+        <div class="legend" style="margin-top:10px"><span><i class="line" style="background:var(--s2)"></i>Quiz participation</span><span><i class="line" style="background:var(--s3)"></i>Tasks done on time</span></div>
+        <div class="chart short"><canvas id="c-habits" role="img" aria-label="Weekly quiz participation and on-time tasks"></canvas></div>
+      </div>
+      <div class="card span-6">
+        <h3>Syllabus rigour, by student</h3>
+        <p class="sub">Chapters due so far by the furthest rigour step reached. Step 5 = exam-ready (≥80% accuracy).</p>
+        <div class="legend" id="stage-legend"></div>
+        <div class="tbl" id="t-stages"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="student">
+    <header><h2>One student</h2><p>The weekly review screen for a single Alcovian, compared with the cohort median.</p></header>
+    <div class="drill" id="drill"></div>
+  </section>
+
+  <section id="advisor-inputs">
+    <header><h2>Advisor inputs and automations</h2><p>What the advisor controls. If these are low, the student numbers above cannot be trusted.</p></header>
+    <div class="grid">
+      <div class="card span-6"><h3>Advisor input health</h3><p class="sub">Targets agreed with parents, and students logging chapter progress every week</p><div class="tbl" id="t-adv"></div></div>
+      <div class="card span-6"><h3>Automated escalations</h3><p class="sub">Fired by n8n. Resolved = the behaviour recovered (task done, quiz resumed, focus resumed).</p><div class="tbl" id="t-esc"></div></div>
+    </div>
+  </section>
+
+  <p class="foot">Dummy data for 24 fictional students, generated by <code>data/generate_seed.py</code>. Logic mirrors <code>sql/metrics/40_student_kpis.sql</code>. <a href="../index.html">All dashboards</a> · <a href="../gtm/index.html">GTM tracker</a></p>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="../assets/common.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

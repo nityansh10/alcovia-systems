@@ -1,0 +1,4 @@
+landing_page_id,name,url,purpose
+lp_parent,Program - Parent LP,alcovia.life/roadmap,program_parent
+lp_teen,Program - Teen LP,alcovia.life/ambition,program_teen
+lp_wsp,Workshop checkout,alcovia.life/workshop,workshop_checkout

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Alcovia Systems</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Geist+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/common.css">
+<style>
+  .hero { padding-block: 48px 8px; max-width: 70ch; }
+  .hero h1 { font-size: clamp(26px, 4vw, 36px); letter-spacing: -0.02em; margin: 0 0 10px; text-wrap: balance; }
+  .hero p { color: var(--ink-2); font-size: 15px; margin: 0; }
+  .links { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; margin-top: 28px; }
+  .link { display: flex; flex-direction: column; gap: 6px; padding: 18px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--ink); text-decoration: none; min-width: 0; }
+  .link:hover { border-color: var(--accent); }
+  .link .k { font-size: 11.5px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+  .link b { font-size: 17px; }
+  .link span { color: var(--ink-2); font-size: 13.5px; }
+  .facts { margin-top: 28px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
+  .fact { border-top: 2px solid var(--accent); padding-top: 8px; }
+  .fact .v { font-family: var(--font-num); font-size: 22px; font-weight: 600; }
+  .fact .s { color: var(--muted); font-size: 12.5px; }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="hero">
+    <h1>Alcovia: product, systems and analytics</h1>
+    <p>Two working dashboards on realistic dummy data, backed by the SQL, schemas and n8n workflows in the repository. Pick a date range on either dashboard and every number recomputes.</p>
+  </div>
+  <div class="links">
+    <a class="link" href="gtm/index.html"><span class="k">Problem 2</span><b>GTM tracker</b><span>Revenue vs target, trial / full / workshop split, the funnel from lead to architect session, creative CTR, frequency, landing pages, and a scale / refresh / drop decision for every ad set.</span></a>
+    <a class="link" href="student/index.html"><span class="k">Problem 4</span><b>Alcovian progress board</b><span>Did Alcovia conduct it, did Alcovians like it, how is each Alcovian doing. Cohort scorecard with flags, syllabus rigour, a single-student view, and advisor input health.</span></a>
+    <a class="link" href="https://github.com/nityansh10/alcovia-systems/blob/main/docs/EXECUTIVE_WRITEUP.md"><span class="k">Problems 1 · 3 · plan</span><b>Executive write-up</b><span>The diagnosis behind 2.15 minutes a day, the delivery operating system, and the November team plan.</span></a>
+  </div>
+  <div class="facts">
+    <div class="fact"><div class="v">2.15 = 21% × 10.5</div><div class="s">min/day = daily-open share × minutes per visit</div></div>
+    <div class="fact"><div class="v">26 / 26</div><div class="s">metric queries pass against the seed</div></div>
+    <div class="fact"><div class="v">10</div><div class="s">n8n workflows, idempotent, error-handled</div></div>
+    <div class="fact"><div class="v">6 weeks</div><div class="s">to a working progress board from day one</div></div>
+  </div>
+  <p class="foot">All figures on the dashboards are generated dummy data. <a href="https://github.com/nityansh10/alcovia-systems">Source on GitHub</a></p>
+</main>
+</body>
+</html>

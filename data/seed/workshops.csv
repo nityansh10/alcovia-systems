@@ -1,0 +1,17 @@
+workshop_id,title,profession,held_on,seat_price_inr,capacity
+ws_20260411,A day as a Doctor,Doctor,2026-04-11,3999,40
+ws_20260425,A day as a Founder,Founder,2026-04-25,3999,40
+ws_20260509,A day as a Lawyer,Lawyer,2026-05-09,3999,40
+ws_20260523,A day as a Product Designer,Product Designer,2026-05-23,3999,40
+ws_20260606,A day as a Investment Banker,Investment Banker,2026-06-06,3999,40
+ws_20260620,A day as a Architect,Architect,2026-06-20,3999,40
+ws_20260704,A day as a Journalist,Journalist,2026-07-04,3999,40
+ws_20260718,A day as a Psychologist,Psychologist,2026-07-18,3999,40
+ws_20260801,A day as a Game Developer,Game Developer,2026-08-01,3999,40
+ws_20260815,A day as a Diplomat,Diplomat,2026-08-15,3999,40
+ws_20260829,A day as a Chef-Entrepreneur,Chef-Entrepreneur,2026-08-29,3999,40
+ws_20260912,A day as a Data Scientist,Data Scientist,2026-09-12,3999,40
+ws_20260926,A day as a Film Director,Film Director,2026-09-26,3999,40
+ws_20261010,A day as a Aerospace Engineer,Aerospace Engineer,2026-10-10,3999,40
+ws_20261024,A day as a Doctor,Doctor,2026-10-24,3999,40
+ws_20261107,A day as a Founder,Founder,2026-11-07,3999,40

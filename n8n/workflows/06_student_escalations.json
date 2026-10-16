@@ -1,0 +1,355 @@
+{
+  "name": "06 \u00b7 Nightly student rules \u2192 nudges, parent alerts, tutor triggers",
+  "nodes": [
+    {
+      "id": "8efd4dc2-3074-57bb-b8c4-4351de1708b1",
+      "name": "Daily 21:30 IST",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        300
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "30 21 * * *"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "3a137429-198d-5b39-b71f-75ff7aceb978",
+      "name": "Evaluate rules",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        240,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "-- Each rule returns (student_id, rule, notified). Thresholds live in one table so the\n-- weekly review can tune them without touching the workflow.\nWITH th AS (SELECT * FROM escalation_thresholds),\noverdue AS (\n  SELECT student_id, CASE WHEN CURRENT_DATE - due_on >= 5 THEN 'parent' ELSE 'student' END AS notified, 'task_overdue' AS rule\n  FROM tasks WHERE source = 'advisor' AND completed_on IS NULL AND CURRENT_DATE - due_on IN (2, 5)\n),\nquiz AS (\n  SELECT s.student_id, 'student' AS notified, 'quiz_missed_3d' AS rule FROM students s\n  WHERE NOT EXISTS (SELECT 1 FROM quiz_attempts a JOIN quizzes q USING (quiz_id)\n                    WHERE a.student_id = s.student_id AND q.quiz_date > CURRENT_DATE - 3)\n),\nfocus AS (\n  SELECT s.student_id, 'student', 'no_focus_3d' FROM students s\n  WHERE EXISTS (SELECT 1 FROM focus_sessions f WHERE f.student_id = s.student_id AND f.started_at > now() - interval '30 days')\n    AND NOT EXISTS (SELECT 1 FROM focus_sessions f WHERE f.student_id = s.student_id AND f.started_at > now() - interval '3 days')\n),\ngap AS (   -- latest exam 10+ points under target in a subject with no tutor -> tutor support\n  SELECT sb.student_id, 'tutor', 'readiness_gap' FROM exam_results r\n  JOIN subjects sb USING (subject_id) JOIN exam_targets t ON t.subject_id = r.subject_id AND t.exam_type = r.exam_type\n  WHERE r.exam_date = (SELECT MAX(exam_date) FROM exam_results) AND r.score_pct - t.target_pct <= -(SELECT readiness_gap_pts FROM th)\n    AND NOT sb.has_tutor\n)\nSELECT * FROM overdue UNION ALL SELECT * FROM quiz UNION ALL SELECT * FROM focus UNION ALL SELECT * FROM gap;",
+        "options": {}
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "39350d27-d38f-5b4a-a1ff-0e2e16e0b6a5",
+      "name": "Log escalation (once per rule per day)",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        480,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO escalations (escalation_id, student_id, rule, triggered_on, notified)\nVALUES ('esc_' || $1 || '_' || $2 || '_' || to_char(CURRENT_DATE, 'YYYYMMDD'), $1, $2, CURRENT_DATE, $3)\nON CONFLICT (escalation_id) DO NOTHING RETURNING escalation_id, student_id, rule, notified;",
+        "options": {
+          "queryReplacement": "={{ $json.student_id }},={{ $json.rule }},={{ $json.notified }}"
+        }
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "65fc9384-767a-52da-a079-4ce8fe4362d6",
+      "name": "Who gets it",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [
+        720,
+        300
+      ],
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.notified }}",
+                    "rightValue": "student",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ]
+              },
+              "renameOutput": true,
+              "outputKey": "student"
+            },
+            {
+              "conditions": {
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.notified }}",
+                    "rightValue": "parent",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ]
+              },
+              "renameOutput": true,
+              "outputKey": "parent"
+            },
+            {
+              "conditions": {
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.notified }}",
+                    "rightValue": "tutor",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ]
+              },
+              "renameOutput": true,
+              "outputKey": "tutor"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "6cda4d3f-2e84-592c-ade8-94ee27f4d9bd",
+      "name": "App push to student",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1200,
+        140
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.ALCOVIA_API }}/internal/push",
+        "options": {
+          "timeout": 30000
+        },
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={ \"student_id\": \"{{ $json.student_id }}\", \"template\": \"{{ $json.rule }}\" }"
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "464f6a38-a0a8-5491-b5cf-39cd867e6034",
+      "name": "WhatsApp to parent",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1200,
+        300
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.WHATSAPP_API }}/messages",
+        "options": {
+          "timeout": 30000
+        },
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={ \"to_student_parent\": \"{{ $json.student_id }}\", \"template\": \"parent_{{ $json.rule }}\" }"
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "1429ad14-b0ad-5f27-9b28-e0b8627b4237",
+      "name": "Tutor-support task for advisor",
+      "type": "n8n-nodes-base.clickUp",
+      "typeVersion": 1,
+      "position": [
+        1200,
+        460
+      ],
+      "parameters": {
+        "team": "={{ $env.CLICKUP_TEAM_ID }}",
+        "space": "={{ $env.CLICKUP_PROGRAM_SPACE }}",
+        "list": "={{ $env.CLICKUP_ADVISOR_LIST }}",
+        "name": "=Arrange tutor support: {{ $json.student_id }} is 10+ pts under target",
+        "additionalFields": {
+          "priority": 2,
+          "tags": [
+            "tutor-trigger"
+          ]
+        }
+      },
+      "credentials": {
+        "clickUpApi": {
+          "id": "clickup",
+          "name": "ClickUp (alcovia workspace)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "1350be72-7525-582b-b3b8-35b25b61ddab",
+      "name": "Daily 06:00 IST: resolver",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        700
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 6 * * *"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ab6be733-ff13-5821-8a46-31b013f7e308",
+      "name": "Mark recovered behaviour as resolved",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        240,
+        700
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "UPDATE escalations e SET resolved_on = CURRENT_DATE\nWHERE resolved_on IS NULL AND (\n  (rule = 'task_overdue'   AND NOT EXISTS (SELECT 1 FROM tasks t WHERE t.student_id = e.student_id AND t.source = 'advisor' AND t.completed_on IS NULL AND t.due_on < CURRENT_DATE - 1))\n  OR (rule = 'quiz_missed_3d' AND EXISTS (SELECT 1 FROM quiz_attempts a JOIN quizzes q USING (quiz_id) WHERE a.student_id = e.student_id AND q.quiz_date > e.triggered_on))\n  OR (rule = 'no_focus_3d'    AND EXISTS (SELECT 1 FROM focus_sessions f WHERE f.student_id = e.student_id AND f.started_at::date > e.triggered_on))\n);",
+        "options": {}
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    }
+  ],
+  "connections": {
+    "Daily 21:30 IST": {
+      "main": [
+        [
+          {
+            "node": "Evaluate rules",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Evaluate rules": {
+      "main": [
+        [
+          {
+            "node": "Log escalation (once per rule per day)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Log escalation (once per rule per day)": {
+      "main": [
+        [
+          {
+            "node": "Who gets it",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Who gets it": {
+      "main": [
+        [
+          {
+            "node": "App push to student",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "WhatsApp to parent",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Tutor-support task for advisor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Daily 06:00 IST: resolver": {
+      "main": [
+        [
+          {
+            "node": "Mark recovered behaviour as resolved",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Kolkata",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner",
+    "errorWorkflow": "00_error_handler"
+  },
+  "tags": [
+    {
+      "name": "student"
+    },
+    {
+      "name": "automation"
+    }
+  ],
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "pinData": {}
+}

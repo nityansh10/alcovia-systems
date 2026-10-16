@@ -1,0 +1,25 @@
+student_id,name,grade,board,advisor_id,pod,joined_on,wearable
+stu_01,Aarav Mehta,10,CBSE,adv_riya,Pod Aurora,2026-04-01,whoop
+stu_02,Anika Kapoor,9,CBSE,adv_kabir,Pod Banyan,2026-06-30,apple_watch
+stu_03,Vihaan Bansal,11,CBSE,adv_ananya,Pod Comet,2026-05-20,
+stu_04,Myra Khanna,10,ICSE,adv_riya,Pod Delta,2026-04-08,whoop
+stu_05,Kabir Arora,9,CBSE,adv_kabir,Pod Ember,2026-05-20,
+stu_06,Saanvi Reddy,10,IB,adv_ananya,Pod Aurora,2026-04-01,garmin
+stu_07,Ishaan Gupta,8,CBSE,adv_riya,Pod Banyan,2026-07-30,
+stu_08,Kiara Jain,11,IGCSE,adv_kabir,Pod Comet,2026-04-22,apple_watch
+stu_09,Reyansh Nair,10,CBSE,adv_ananya,Pod Delta,2026-05-06,samsung
+stu_10,Ira Bhatia,9,ICSE,adv_riya,Pod Ember,2026-06-30,whoop
+stu_11,Dhruv Singh,11,CBSE,adv_kabir,Pod Aurora,2026-04-15,
+stu_12,Aadhya Rao,8,CBSE,adv_ananya,Pod Banyan,2026-05-06,
+stu_13,Arjun Chopra,10,CBSE,adv_riya,Pod Comet,2026-04-22,samsung
+stu_14,Tara Agarwal,9,IB,adv_kabir,Pod Delta,2026-05-06,
+stu_15,Ayaan Sharma,10,CBSE,adv_ananya,Pod Ember,2026-05-20,
+stu_16,Navya Iyer,11,CBSE,adv_riya,Pod Aurora,2026-06-30,whoop
+stu_17,Rudra Malhotra,9,ICSE,adv_kabir,Pod Banyan,2026-04-08,
+stu_18,Zoya Sethi,10,CBSE,adv_ananya,Pod Comet,2026-04-15,
+stu_19,Advait Kapoor,8,CBSE,adv_riya,Pod Delta,2026-04-08,
+stu_20,Meher Gupta,9,CBSE,adv_kabir,Pod Ember,2026-05-20,apple_watch
+stu_21,Siya Mehta,10,IGCSE,adv_ananya,Pod Aurora,2026-04-15,
+stu_22,Riya Bansal,11,CBSE,adv_riya,Pod Banyan,2026-06-03,
+stu_23,Dev Arora,9,CBSE,adv_kabir,Pod Comet,2026-04-08,
+stu_24,Naira Khanna,10,CBSE,adv_ananya,Pod Delta,2026-04-08,

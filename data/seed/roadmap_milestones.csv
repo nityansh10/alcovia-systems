@@ -1,0 +1,373 @@
+milestone_id,student_id,roadmap,title,due_on,done_on
+ms_00001,stu_01,personal,Monthly personal milestone - May,2026-05-28,2026-05-21
+ms_00002,stu_01,academic,Monthly syllabus sprint - May,2026-05-28,
+ms_00003,stu_01,personal,Monthly personal milestone - Jun,2026-06-28,
+ms_00004,stu_01,academic,Monthly syllabus sprint - Jun,2026-06-28,2026-06-29
+ms_00005,stu_01,personal,Monthly personal milestone - Jul,2026-07-28,2026-07-20
+ms_00006,stu_01,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-07-27
+ms_00007,stu_01,personal,Monthly personal milestone - Aug,2026-08-28,2026-08-30
+ms_00008,stu_01,academic,Monthly syllabus sprint - Aug,2026-08-28,2026-08-19
+ms_00009,stu_01,personal,Monthly personal milestone - Sep,2026-09-28,2026-09-27
+ms_00010,stu_01,academic,Monthly syllabus sprint - Sep,2026-09-28,2026-09-23
+ms_00011,stu_01,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00012,stu_01,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00013,stu_01,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00014,stu_01,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00015,stu_01,career,Career interest inventory,2026-05-16,
+ms_00016,stu_01,career,Two mentor calls in chosen field,2026-06-30,2026-06-30
+ms_00017,stu_01,career,Shadow a professional for a day,2026-08-14,2026-08-14
+ms_00018,stu_02,personal,Monthly personal milestone - Jul,2026-07-28,2026-07-18
+ms_00019,stu_02,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-07-24
+ms_00020,stu_02,personal,Monthly personal milestone - Aug,2026-08-28,2026-08-20
+ms_00021,stu_02,academic,Monthly syllabus sprint - Aug,2026-08-28,2026-08-18
+ms_00022,stu_02,personal,Monthly personal milestone - Sep,2026-09-28,2026-09-30
+ms_00023,stu_02,academic,Monthly syllabus sprint - Sep,2026-09-28,2026-09-26
+ms_00024,stu_02,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00025,stu_02,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00026,stu_02,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00027,stu_02,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00028,stu_02,career,Career interest inventory,2026-08-14,2026-08-03
+ms_00029,stu_02,career,Two mentor calls in chosen field,2026-09-28,2026-10-04
+ms_00030,stu_02,career,Shadow a professional for a day,2026-11-12,
+ms_00031,stu_03,personal,Monthly personal milestone - Jun,2026-06-28,
+ms_00032,stu_03,academic,Monthly syllabus sprint - Jun,2026-06-28,2026-06-24
+ms_00033,stu_03,personal,Monthly personal milestone - Jul,2026-07-28,2026-07-22
+ms_00034,stu_03,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-08-02
+ms_00035,stu_03,personal,Monthly personal milestone - Aug,2026-08-28,2026-08-25
+ms_00036,stu_03,academic,Monthly syllabus sprint - Aug,2026-08-28,2026-08-23
+ms_00037,stu_03,personal,Monthly personal milestone - Sep,2026-09-28,2026-09-27
+ms_00038,stu_03,academic,Monthly syllabus sprint - Sep,2026-09-28,
+ms_00039,stu_03,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00040,stu_03,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00041,stu_03,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00042,stu_03,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00043,stu_03,career,Career interest inventory,2026-07-04,2026-06-23
+ms_00044,stu_03,career,Two mentor calls in chosen field,2026-08-18,2026-08-23
+ms_00045,stu_03,career,Shadow a professional for a day,2026-10-02,
+ms_00046,stu_04,personal,Monthly personal milestone - May,2026-05-28,2026-05-29
+ms_00047,stu_04,academic,Monthly syllabus sprint - May,2026-05-28,2026-05-22
+ms_00048,stu_04,personal,Monthly personal milestone - Jun,2026-06-28,2026-07-01
+ms_00049,stu_04,academic,Monthly syllabus sprint - Jun,2026-06-28,2026-06-22
+ms_00050,stu_04,personal,Monthly personal milestone - Jul,2026-07-28,2026-07-21
+ms_00051,stu_04,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-08-01
+ms_00052,stu_04,personal,Monthly personal milestone - Aug,2026-08-28,
+ms_00053,stu_04,academic,Monthly syllabus sprint - Aug,2026-08-28,2026-08-18
+ms_00054,stu_04,personal,Monthly personal milestone - Sep,2026-09-28,2026-09-23
+ms_00055,stu_04,academic,Monthly syllabus sprint - Sep,2026-09-28,2026-09-24
+ms_00056,stu_04,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00057,stu_04,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00058,stu_04,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00059,stu_04,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00060,stu_04,career,Career interest inventory,2026-05-23,2026-05-28
+ms_00061,stu_04,career,Two mentor calls in chosen field,2026-07-07,2026-07-11
+ms_00062,stu_04,career,Shadow a professional for a day,2026-08-21,2026-08-26
+ms_00063,stu_05,personal,Monthly personal milestone - Jun,2026-06-28,
+ms_00064,stu_05,academic,Monthly syllabus sprint - Jun,2026-06-28,2026-06-28
+ms_00065,stu_05,personal,Monthly personal milestone - Jul,2026-07-28,2026-07-21
+ms_00066,stu_05,academic,Monthly syllabus sprint - Jul,2026-07-28,
+ms_00067,stu_05,personal,Monthly personal milestone - Aug,2026-08-28,2026-09-01
+ms_00068,stu_05,academic,Monthly syllabus sprint - Aug,2026-08-28,
+ms_00069,stu_05,personal,Monthly personal milestone - Sep,2026-09-28,2026-09-22
+ms_00070,stu_05,academic,Monthly syllabus sprint - Sep,2026-09-28,2026-09-26
+ms_00071,stu_05,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00072,stu_05,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00073,stu_05,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00074,stu_05,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00075,stu_05,career,Career interest inventory,2026-07-04,
+ms_00076,stu_05,career,Two mentor calls in chosen field,2026-08-18,
+ms_00077,stu_05,career,Shadow a professional for a day,2026-10-02,
+ms_00078,stu_06,personal,Monthly personal milestone - May,2026-05-28,2026-05-30
+ms_00079,stu_06,academic,Monthly syllabus sprint - May,2026-05-28,2026-05-30
+ms_00080,stu_06,personal,Monthly personal milestone - Jun,2026-06-28,2026-06-20
+ms_00081,stu_06,academic,Monthly syllabus sprint - Jun,2026-06-28,
+ms_00082,stu_06,personal,Monthly personal milestone - Jul,2026-07-28,2026-07-18
+ms_00083,stu_06,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-07-25
+ms_00084,stu_06,personal,Monthly personal milestone - Aug,2026-08-28,2026-08-20
+ms_00085,stu_06,academic,Monthly syllabus sprint - Aug,2026-08-28,2026-08-27
+ms_00086,stu_06,personal,Monthly personal milestone - Sep,2026-09-28,
+ms_00087,stu_06,academic,Monthly syllabus sprint - Sep,2026-09-28,2026-09-26
+ms_00088,stu_06,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00089,stu_06,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00090,stu_06,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00091,stu_06,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00092,stu_06,career,Career interest inventory,2026-05-16,
+ms_00093,stu_06,career,Two mentor calls in chosen field,2026-06-30,
+ms_00094,stu_06,career,Shadow a professional for a day,2026-08-14,
+ms_00095,stu_07,personal,Monthly personal milestone - Aug,2026-08-28,2026-08-19
+ms_00096,stu_07,academic,Monthly syllabus sprint - Aug,2026-08-28,2026-08-31
+ms_00097,stu_07,personal,Monthly personal milestone - Sep,2026-09-28,
+ms_00098,stu_07,academic,Monthly syllabus sprint - Sep,2026-09-28,2026-10-01
+ms_00099,stu_07,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00100,stu_07,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00101,stu_07,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00102,stu_07,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00103,stu_07,career,Career interest inventory,2026-09-13,2026-09-01
+ms_00104,stu_07,career,Two mentor calls in chosen field,2026-10-28,
+ms_00105,stu_07,career,Shadow a professional for a day,2026-12-12,
+ms_00106,stu_08,personal,Monthly personal milestone - May,2026-05-28,
+ms_00107,stu_08,academic,Monthly syllabus sprint - May,2026-05-28,
+ms_00108,stu_08,personal,Monthly personal milestone - Jun,2026-06-28,
+ms_00109,stu_08,academic,Monthly syllabus sprint - Jun,2026-06-28,2026-06-19
+ms_00110,stu_08,personal,Monthly personal milestone - Jul,2026-07-28,2026-07-24
+ms_00111,stu_08,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-08-02
+ms_00112,stu_08,personal,Monthly personal milestone - Aug,2026-08-28,2026-09-01
+ms_00113,stu_08,academic,Monthly syllabus sprint - Aug,2026-08-28,
+ms_00114,stu_08,personal,Monthly personal milestone - Sep,2026-09-28,2026-09-28
+ms_00115,stu_08,academic,Monthly syllabus sprint - Sep,2026-09-28,
+ms_00116,stu_08,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00117,stu_08,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00118,stu_08,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00119,stu_08,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00120,stu_08,career,Career interest inventory,2026-06-06,
+ms_00121,stu_08,career,Two mentor calls in chosen field,2026-07-21,2026-07-26
+ms_00122,stu_08,career,Shadow a professional for a day,2026-09-04,2026-08-29
+ms_00123,stu_09,personal,Monthly personal milestone - Jun,2026-06-28,
+ms_00124,stu_09,academic,Monthly syllabus sprint - Jun,2026-06-28,
+ms_00125,stu_09,personal,Monthly personal milestone - Jul,2026-07-28,2026-07-24
+ms_00126,stu_09,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-07-30
+ms_00127,stu_09,personal,Monthly personal milestone - Aug,2026-08-28,2026-08-24
+ms_00128,stu_09,academic,Monthly syllabus sprint - Aug,2026-08-28,2026-08-26
+ms_00129,stu_09,personal,Monthly personal milestone - Sep,2026-09-28,
+ms_00130,stu_09,academic,Monthly syllabus sprint - Sep,2026-09-28,2026-09-19
+ms_00131,stu_09,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00132,stu_09,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00133,stu_09,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00134,stu_09,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00135,stu_09,career,Career interest inventory,2026-06-20,
+ms_00136,stu_09,career,Two mentor calls in chosen field,2026-08-04,
+ms_00137,stu_09,career,Shadow a professional for a day,2026-09-18,2026-09-24
+ms_00138,stu_10,personal,Monthly personal milestone - Jul,2026-07-28,2026-08-02
+ms_00139,stu_10,academic,Monthly syllabus sprint - Jul,2026-07-28,
+ms_00140,stu_10,personal,Monthly personal milestone - Aug,2026-08-28,2026-08-28
+ms_00141,stu_10,academic,Monthly syllabus sprint - Aug,2026-08-28,2026-08-31
+ms_00142,stu_10,personal,Monthly personal milestone - Sep,2026-09-28,
+ms_00143,stu_10,academic,Monthly syllabus sprint - Sep,2026-09-28,
+ms_00144,stu_10,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00145,stu_10,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00146,stu_10,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00147,stu_10,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00148,stu_10,career,Career interest inventory,2026-08-14,2026-08-20
+ms_00149,stu_10,career,Two mentor calls in chosen field,2026-09-28,2026-10-03
+ms_00150,stu_10,career,Shadow a professional for a day,2026-11-12,
+ms_00151,stu_11,personal,Monthly personal milestone - May,2026-05-28,
+ms_00152,stu_11,academic,Monthly syllabus sprint - May,2026-05-28,2026-05-21
+ms_00153,stu_11,personal,Monthly personal milestone - Jun,2026-06-28,
+ms_00154,stu_11,academic,Monthly syllabus sprint - Jun,2026-06-28,
+ms_00155,stu_11,personal,Monthly personal milestone - Jul,2026-07-28,2026-07-30
+ms_00156,stu_11,academic,Monthly syllabus sprint - Jul,2026-07-28,
+ms_00157,stu_11,personal,Monthly personal milestone - Aug,2026-08-28,2026-08-31
+ms_00158,stu_11,academic,Monthly syllabus sprint - Aug,2026-08-28,2026-08-26
+ms_00159,stu_11,personal,Monthly personal milestone - Sep,2026-09-28,
+ms_00160,stu_11,academic,Monthly syllabus sprint - Sep,2026-09-28,
+ms_00161,stu_11,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00162,stu_11,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00163,stu_11,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00164,stu_11,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00165,stu_11,career,Career interest inventory,2026-05-30,2026-05-25
+ms_00166,stu_11,career,Two mentor calls in chosen field,2026-07-14,2026-07-17
+ms_00167,stu_11,career,Shadow a professional for a day,2026-08-28,2026-08-18
+ms_00168,stu_12,personal,Monthly personal milestone - Jun,2026-06-28,2026-06-30
+ms_00169,stu_12,academic,Monthly syllabus sprint - Jun,2026-06-28,2026-06-22
+ms_00170,stu_12,personal,Monthly personal milestone - Jul,2026-07-28,2026-07-31
+ms_00171,stu_12,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-07-29
+ms_00172,stu_12,personal,Monthly personal milestone - Aug,2026-08-28,
+ms_00173,stu_12,academic,Monthly syllabus sprint - Aug,2026-08-28,
+ms_00174,stu_12,personal,Monthly personal milestone - Sep,2026-09-28,2026-09-18
+ms_00175,stu_12,academic,Monthly syllabus sprint - Sep,2026-09-28,2026-10-02
+ms_00176,stu_12,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00177,stu_12,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00178,stu_12,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00179,stu_12,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00180,stu_12,career,Career interest inventory,2026-06-20,2026-06-19
+ms_00181,stu_12,career,Two mentor calls in chosen field,2026-08-04,
+ms_00182,stu_12,career,Shadow a professional for a day,2026-09-18,2026-09-14
+ms_00183,stu_13,personal,Monthly personal milestone - May,2026-05-28,2026-06-01
+ms_00184,stu_13,academic,Monthly syllabus sprint - May,2026-05-28,2026-06-02
+ms_00185,stu_13,personal,Monthly personal milestone - Jun,2026-06-28,2026-06-25
+ms_00186,stu_13,academic,Monthly syllabus sprint - Jun,2026-06-28,2026-06-28
+ms_00187,stu_13,personal,Monthly personal milestone - Jul,2026-07-28,2026-07-27
+ms_00188,stu_13,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-07-29
+ms_00189,stu_13,personal,Monthly personal milestone - Aug,2026-08-28,2026-08-31
+ms_00190,stu_13,academic,Monthly syllabus sprint - Aug,2026-08-28,2026-08-20
+ms_00191,stu_13,personal,Monthly personal milestone - Sep,2026-09-28,2026-09-21
+ms_00192,stu_13,academic,Monthly syllabus sprint - Sep,2026-09-28,
+ms_00193,stu_13,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00194,stu_13,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00195,stu_13,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00196,stu_13,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00197,stu_13,career,Career interest inventory,2026-06-06,
+ms_00198,stu_13,career,Two mentor calls in chosen field,2026-07-21,2026-07-18
+ms_00199,stu_13,career,Shadow a professional for a day,2026-09-04,2026-08-28
+ms_00200,stu_14,personal,Monthly personal milestone - Jun,2026-06-28,2026-07-03
+ms_00201,stu_14,academic,Monthly syllabus sprint - Jun,2026-06-28,2026-06-20
+ms_00202,stu_14,personal,Monthly personal milestone - Jul,2026-07-28,2026-07-21
+ms_00203,stu_14,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-07-27
+ms_00204,stu_14,personal,Monthly personal milestone - Aug,2026-08-28,2026-08-18
+ms_00205,stu_14,academic,Monthly syllabus sprint - Aug,2026-08-28,2026-08-31
+ms_00206,stu_14,personal,Monthly personal milestone - Sep,2026-09-28,2026-10-02
+ms_00207,stu_14,academic,Monthly syllabus sprint - Sep,2026-09-28,2026-09-20
+ms_00208,stu_14,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00209,stu_14,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00210,stu_14,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00211,stu_14,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00212,stu_14,career,Career interest inventory,2026-06-20,
+ms_00213,stu_14,career,Two mentor calls in chosen field,2026-08-04,2026-08-08
+ms_00214,stu_14,career,Shadow a professional for a day,2026-09-18,
+ms_00215,stu_15,personal,Monthly personal milestone - Jun,2026-06-28,
+ms_00216,stu_15,academic,Monthly syllabus sprint - Jun,2026-06-28,2026-07-02
+ms_00217,stu_15,personal,Monthly personal milestone - Jul,2026-07-28,2026-07-22
+ms_00218,stu_15,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-07-31
+ms_00219,stu_15,personal,Monthly personal milestone - Aug,2026-08-28,
+ms_00220,stu_15,academic,Monthly syllabus sprint - Aug,2026-08-28,
+ms_00221,stu_15,personal,Monthly personal milestone - Sep,2026-09-28,2026-09-26
+ms_00222,stu_15,academic,Monthly syllabus sprint - Sep,2026-09-28,
+ms_00223,stu_15,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00224,stu_15,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00225,stu_15,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00226,stu_15,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00227,stu_15,career,Career interest inventory,2026-07-04,2026-06-22
+ms_00228,stu_15,career,Two mentor calls in chosen field,2026-08-18,
+ms_00229,stu_15,career,Shadow a professional for a day,2026-10-02,
+ms_00230,stu_16,personal,Monthly personal milestone - Jul,2026-07-28,
+ms_00231,stu_16,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-08-02
+ms_00232,stu_16,personal,Monthly personal milestone - Aug,2026-08-28,2026-09-01
+ms_00233,stu_16,academic,Monthly syllabus sprint - Aug,2026-08-28,2026-08-30
+ms_00234,stu_16,personal,Monthly personal milestone - Sep,2026-09-28,
+ms_00235,stu_16,academic,Monthly syllabus sprint - Sep,2026-09-28,
+ms_00236,stu_16,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00237,stu_16,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00238,stu_16,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00239,stu_16,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00240,stu_16,career,Career interest inventory,2026-08-14,2026-08-19
+ms_00241,stu_16,career,Two mentor calls in chosen field,2026-09-28,
+ms_00242,stu_16,career,Shadow a professional for a day,2026-11-12,
+ms_00243,stu_17,personal,Monthly personal milestone - May,2026-05-28,
+ms_00244,stu_17,academic,Monthly syllabus sprint - May,2026-05-28,2026-05-30
+ms_00245,stu_17,personal,Monthly personal milestone - Jun,2026-06-28,
+ms_00246,stu_17,academic,Monthly syllabus sprint - Jun,2026-06-28,
+ms_00247,stu_17,personal,Monthly personal milestone - Jul,2026-07-28,
+ms_00248,stu_17,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-07-30
+ms_00249,stu_17,personal,Monthly personal milestone - Aug,2026-08-28,
+ms_00250,stu_17,academic,Monthly syllabus sprint - Aug,2026-08-28,
+ms_00251,stu_17,personal,Monthly personal milestone - Sep,2026-09-28,2026-09-25
+ms_00252,stu_17,academic,Monthly syllabus sprint - Sep,2026-09-28,
+ms_00253,stu_17,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00254,stu_17,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00255,stu_17,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00256,stu_17,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00257,stu_17,career,Career interest inventory,2026-05-23,2026-05-18
+ms_00258,stu_17,career,Two mentor calls in chosen field,2026-07-07,
+ms_00259,stu_17,career,Shadow a professional for a day,2026-08-21,
+ms_00260,stu_18,personal,Monthly personal milestone - May,2026-05-28,2026-06-01
+ms_00261,stu_18,academic,Monthly syllabus sprint - May,2026-05-28,2026-05-20
+ms_00262,stu_18,personal,Monthly personal milestone - Jun,2026-06-28,2026-06-30
+ms_00263,stu_18,academic,Monthly syllabus sprint - Jun,2026-06-28,2026-06-19
+ms_00264,stu_18,personal,Monthly personal milestone - Jul,2026-07-28,2026-07-20
+ms_00265,stu_18,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-07-19
+ms_00266,stu_18,personal,Monthly personal milestone - Aug,2026-08-28,2026-08-21
+ms_00267,stu_18,academic,Monthly syllabus sprint - Aug,2026-08-28,2026-08-22
+ms_00268,stu_18,personal,Monthly personal milestone - Sep,2026-09-28,2026-09-19
+ms_00269,stu_18,academic,Monthly syllabus sprint - Sep,2026-09-28,2026-09-23
+ms_00270,stu_18,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00271,stu_18,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00272,stu_18,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00273,stu_18,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00274,stu_18,career,Career interest inventory,2026-05-30,2026-05-26
+ms_00275,stu_18,career,Two mentor calls in chosen field,2026-07-14,2026-07-13
+ms_00276,stu_18,career,Shadow a professional for a day,2026-08-28,2026-08-25
+ms_00277,stu_19,personal,Monthly personal milestone - May,2026-05-28,
+ms_00278,stu_19,academic,Monthly syllabus sprint - May,2026-05-28,
+ms_00279,stu_19,personal,Monthly personal milestone - Jun,2026-06-28,
+ms_00280,stu_19,academic,Monthly syllabus sprint - Jun,2026-06-28,2026-06-25
+ms_00281,stu_19,personal,Monthly personal milestone - Jul,2026-07-28,2026-07-19
+ms_00282,stu_19,academic,Monthly syllabus sprint - Jul,2026-07-28,
+ms_00283,stu_19,personal,Monthly personal milestone - Aug,2026-08-28,2026-08-26
+ms_00284,stu_19,academic,Monthly syllabus sprint - Aug,2026-08-28,
+ms_00285,stu_19,personal,Monthly personal milestone - Sep,2026-09-28,
+ms_00286,stu_19,academic,Monthly syllabus sprint - Sep,2026-09-28,
+ms_00287,stu_19,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00288,stu_19,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00289,stu_19,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00290,stu_19,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00291,stu_19,career,Career interest inventory,2026-05-23,
+ms_00292,stu_19,career,Two mentor calls in chosen field,2026-07-07,2026-07-07
+ms_00293,stu_19,career,Shadow a professional for a day,2026-08-21,2026-08-11
+ms_00294,stu_20,personal,Monthly personal milestone - Jun,2026-06-28,
+ms_00295,stu_20,academic,Monthly syllabus sprint - Jun,2026-06-28,2026-06-22
+ms_00296,stu_20,personal,Monthly personal milestone - Jul,2026-07-28,2026-07-22
+ms_00297,stu_20,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-08-01
+ms_00298,stu_20,personal,Monthly personal milestone - Aug,2026-08-28,
+ms_00299,stu_20,academic,Monthly syllabus sprint - Aug,2026-08-28,
+ms_00300,stu_20,personal,Monthly personal milestone - Sep,2026-09-28,
+ms_00301,stu_20,academic,Monthly syllabus sprint - Sep,2026-09-28,2026-09-26
+ms_00302,stu_20,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00303,stu_20,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00304,stu_20,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00305,stu_20,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00306,stu_20,career,Career interest inventory,2026-07-04,2026-07-01
+ms_00307,stu_20,career,Two mentor calls in chosen field,2026-08-18,
+ms_00308,stu_20,career,Shadow a professional for a day,2026-10-02,2026-09-25
+ms_00309,stu_21,personal,Monthly personal milestone - May,2026-05-28,2026-05-31
+ms_00310,stu_21,academic,Monthly syllabus sprint - May,2026-05-28,
+ms_00311,stu_21,personal,Monthly personal milestone - Jun,2026-06-28,2026-06-30
+ms_00312,stu_21,academic,Monthly syllabus sprint - Jun,2026-06-28,
+ms_00313,stu_21,personal,Monthly personal milestone - Jul,2026-07-28,
+ms_00314,stu_21,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-07-29
+ms_00315,stu_21,personal,Monthly personal milestone - Aug,2026-08-28,2026-08-27
+ms_00316,stu_21,academic,Monthly syllabus sprint - Aug,2026-08-28,2026-08-20
+ms_00317,stu_21,personal,Monthly personal milestone - Sep,2026-09-28,
+ms_00318,stu_21,academic,Monthly syllabus sprint - Sep,2026-09-28,
+ms_00319,stu_21,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00320,stu_21,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00321,stu_21,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00322,stu_21,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00323,stu_21,career,Career interest inventory,2026-05-30,
+ms_00324,stu_21,career,Two mentor calls in chosen field,2026-07-14,2026-07-18
+ms_00325,stu_21,career,Shadow a professional for a day,2026-08-28,2026-08-20
+ms_00326,stu_22,personal,Monthly personal milestone - Jul,2026-07-28,2026-07-30
+ms_00327,stu_22,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-08-01
+ms_00328,stu_22,personal,Monthly personal milestone - Aug,2026-08-28,2026-09-02
+ms_00329,stu_22,academic,Monthly syllabus sprint - Aug,2026-08-28,2026-08-28
+ms_00330,stu_22,personal,Monthly personal milestone - Sep,2026-09-28,
+ms_00331,stu_22,academic,Monthly syllabus sprint - Sep,2026-09-28,
+ms_00332,stu_22,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00333,stu_22,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00334,stu_22,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00335,stu_22,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00336,stu_22,career,Career interest inventory,2026-07-18,2026-07-23
+ms_00337,stu_22,career,Two mentor calls in chosen field,2026-09-01,2026-08-22
+ms_00338,stu_22,career,Shadow a professional for a day,2026-10-16,
+ms_00339,stu_23,personal,Monthly personal milestone - May,2026-05-28,
+ms_00340,stu_23,academic,Monthly syllabus sprint - May,2026-05-28,
+ms_00341,stu_23,personal,Monthly personal milestone - Jun,2026-06-28,
+ms_00342,stu_23,academic,Monthly syllabus sprint - Jun,2026-06-28,2026-06-25
+ms_00343,stu_23,personal,Monthly personal milestone - Jul,2026-07-28,2026-08-02
+ms_00344,stu_23,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-07-19
+ms_00345,stu_23,personal,Monthly personal milestone - Aug,2026-08-28,
+ms_00346,stu_23,academic,Monthly syllabus sprint - Aug,2026-08-28,2026-08-19
+ms_00347,stu_23,personal,Monthly personal milestone - Sep,2026-09-28,2026-09-28
+ms_00348,stu_23,academic,Monthly syllabus sprint - Sep,2026-09-28,2026-09-25
+ms_00349,stu_23,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00350,stu_23,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00351,stu_23,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00352,stu_23,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00353,stu_23,career,Career interest inventory,2026-05-23,
+ms_00354,stu_23,career,Two mentor calls in chosen field,2026-07-07,2026-07-13
+ms_00355,stu_23,career,Shadow a professional for a day,2026-08-21,2026-08-27
+ms_00356,stu_24,personal,Monthly personal milestone - May,2026-05-28,2026-05-29
+ms_00357,stu_24,academic,Monthly syllabus sprint - May,2026-05-28,
+ms_00358,stu_24,personal,Monthly personal milestone - Jun,2026-06-28,2026-06-20
+ms_00359,stu_24,academic,Monthly syllabus sprint - Jun,2026-06-28,2026-06-28
+ms_00360,stu_24,personal,Monthly personal milestone - Jul,2026-07-28,2026-07-31
+ms_00361,stu_24,academic,Monthly syllabus sprint - Jul,2026-07-28,2026-07-31
+ms_00362,stu_24,personal,Monthly personal milestone - Aug,2026-08-28,2026-08-24
+ms_00363,stu_24,academic,Monthly syllabus sprint - Aug,2026-08-28,2026-08-26
+ms_00364,stu_24,personal,Monthly personal milestone - Sep,2026-09-28,2026-09-29
+ms_00365,stu_24,academic,Monthly syllabus sprint - Sep,2026-09-28,2026-09-29
+ms_00366,stu_24,personal,Monthly personal milestone - Oct,2026-10-28,
+ms_00367,stu_24,academic,Monthly syllabus sprint - Oct,2026-10-28,
+ms_00368,stu_24,personal,Monthly personal milestone - Nov,2026-11-28,
+ms_00369,stu_24,academic,Monthly syllabus sprint - Nov,2026-11-28,
+ms_00370,stu_24,career,Career interest inventory,2026-05-23,2026-05-29
+ms_00371,stu_24,career,Two mentor calls in chosen field,2026-07-07,2026-07-13
+ms_00372,stu_24,career,Shadow a professional for a day,2026-08-21,2026-08-09

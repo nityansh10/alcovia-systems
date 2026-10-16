@@ -1,0 +1,296 @@
+{
+  "name": "07 \u00b7 Sunday digest: progress board \u2192 parent WhatsApp + advisor prep",
+  "nodes": [
+    {
+      "id": "d055f7d9-5348-5834-b78c-e1ed0c575ef8",
+      "name": "Sunday 18:00 IST",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        300
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 18 * * 0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "79897517-9363-53ab-bc46-6e673c10a9c1",
+      "name": "Scorecard, last 7 days",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        240,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "-- Same query as sql/metrics/40_student_kpis.sql#student_scorecard, window = last 7 days.\nSELECT * FROM weekly_scorecard WHERE week_ending = CURRENT_DATE;",
+        "options": {}
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "ec0e26f5-0f74-5ba9-9b48-1c53e06343f2",
+      "name": "One student at a time",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        480,
+        300
+      ],
+      "parameters": {
+        "batchSize": 1,
+        "options": {}
+      }
+    },
+    {
+      "id": "e4648440-af93-5c79-baaf-8887ae06a4a6",
+      "name": "Draft parent note (Claude)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        720,
+        300
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "options": {
+          "timeout": 30000
+        },
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"claude-haiku-5-5\",\n  \"max_tokens\": 400,\n  \"system\": \"You write a 5-line weekly update to an Indian parent about their teen in the Alcovia program. Use only the numbers given. One line each: focus time, quiz, tasks on time, syllabus pace, one thing to praise. No advice the advisor has not approved. Warm, specific, no emojis.\",\n  \"messages\": [{ \"role\": \"user\", \"content\": {{ JSON.stringify(JSON.stringify($json)) }} }]\n}"
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "f6fb3459-5551-5159-9eb0-43f908cf17eb",
+      "name": "Advisor approves in ClickUp",
+      "type": "n8n-nodes-base.clickUp",
+      "typeVersion": 1,
+      "position": [
+        960,
+        300
+      ],
+      "parameters": {
+        "team": "={{ $env.CLICKUP_TEAM_ID }}",
+        "space": "={{ $env.CLICKUP_PROGRAM_SPACE }}",
+        "list": "={{ $env.CLICKUP_DIGEST_LIST }}",
+        "name": "=Approve weekly note: {{ $('One student at a time').item.json.name }}",
+        "additionalFields": {
+          "content": "={{ $json.content[0].text }}",
+          "assignees": [
+            "={{ $('One student at a time').item.json.advisor_clickup_id }}"
+          ],
+          "dueDate": "={{ $now.plus({hours: 15}).toISO() }}",
+          "status": "to approve"
+        }
+      },
+      "credentials": {
+        "clickUpApi": {
+          "id": "clickup",
+          "name": "ClickUp (alcovia workspace)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "0e2a9176-883a-51d6-af62-9eddfb91bb56",
+      "name": "Monday 09:00 IST: send approved",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        600
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 9 * * 1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "8b19097d-832d-5310-ad82-49d053547734",
+      "name": "Approved notes",
+      "type": "n8n-nodes-base.clickUp",
+      "typeVersion": 1,
+      "position": [
+        240,
+        600
+      ],
+      "parameters": {
+        "operation": "getAll",
+        "team": "={{ $env.CLICKUP_TEAM_ID }}",
+        "space": "={{ $env.CLICKUP_PROGRAM_SPACE }}",
+        "list": "={{ $env.CLICKUP_DIGEST_LIST }}",
+        "filters": {
+          "statuses": [
+            "approved"
+          ]
+        }
+      },
+      "credentials": {
+        "clickUpApi": {
+          "id": "clickup",
+          "name": "ClickUp (alcovia workspace)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "d9303eae-4273-5439-8aa1-fb7335dd9938",
+      "name": "WhatsApp to parent",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        480,
+        600
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.WHATSAPP_API }}/messages",
+        "options": {
+          "timeout": 30000
+        },
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={ \"clickup_task\": \"{{ $json.id }}\", \"template\": \"weekly_digest\", \"body\": {{ JSON.stringify($json.text_content) }} }"
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    }
+  ],
+  "connections": {
+    "Sunday 18:00 IST": {
+      "main": [
+        [
+          {
+            "node": "Scorecard, last 7 days",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Scorecard, last 7 days": {
+      "main": [
+        [
+          {
+            "node": "One student at a time",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "One student at a time": {
+      "main": [
+        [],
+        [
+          {
+            "node": "Draft parent note (Claude)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Draft parent note (Claude)": {
+      "main": [
+        [
+          {
+            "node": "Advisor approves in ClickUp",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Advisor approves in ClickUp": {
+      "main": [
+        [
+          {
+            "node": "One student at a time",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Monday 09:00 IST: send approved": {
+      "main": [
+        [
+          {
+            "node": "Approved notes",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Approved notes": {
+      "main": [
+        [
+          {
+            "node": "WhatsApp to parent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Kolkata",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner",
+    "errorWorkflow": "00_error_handler"
+  },
+  "tags": [
+    {
+      "name": "student"
+    },
+    {
+      "name": "weekly"
+    }
+  ],
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "pinData": {}
+}

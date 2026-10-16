@@ -1,0 +1,22 @@
+ad_id,ad_set_id,name,creative_type,hook,landing_page_id,launched_on,paused_on
+ad_01,as_ncr_g9,Roadmap-in-60-min | video,video,Your teen's 5-year roadmap in one 60-minute session,lp_parent,2026-04-01,2026-07-10
+ad_02,as_ncr_g9,After-4pm | static,static,What toppers do between 4pm and 10pm,lp_parent,2026-04-01,2026-06-05
+ad_03,as_ncr_g9,Stream-choice-Class-9 | carousel,carousel,Class 9 is the year that decides streams. Most parents find out in Class 11.,lp_parent,2026-06-06,
+ad_04,as_ncr_g9,Parent-testimonial-Meera | video,video,"""My son stopped needing reminders"" - Meera, parent",lp_parent,2026-07-11,
+ad_05,as_ncr_lal,Advisor-not-tutor | reel,reel,An advisor is not a tutor. Here is what changes.,lp_parent,2026-04-05,
+ad_06,as_ncr_lal,Focus-2hrs | static,static,How Alcovians study 2 focused hours a day without a fight,lp_parent,2026-05-01,2026-08-20
+ad_07,as_ncr_lal,Podcast-clip-teen-host | reel,reel,A 15-year-old interviewed a CXO. Watch.,lp_parent,2026-08-21,
+ad_08,as_metro_g9,Roadmap-in-60-min | video,video,Your teen's 5-year roadmap in one 60-minute session,lp_parent,2026-04-01,
+ad_09,as_metro_g9,Report-card-anxiety | static,static,Report card day should not be a surprise,lp_parent,2026-04-01,2026-09-01
+ad_10,as_metro_g9,Career-simulation | carousel,carousel,Be a doctor for 90 minutes: our career simulation workshops,lp_parent,2026-09-02,
+ad_11,as_metro_ib,IB-roadmap | static,static,"IB parents: the Extended Essay starts in Grade 10, not 11",lp_parent,2026-04-10,
+ad_12,as_metro_ib,Summer-school-acceptances | carousel,carousel,From Grade 10 to Stanford Pre-Collegiate: the timeline,lp_parent,2026-06-15,
+ad_13,as_teen_broad,Realm-game | reel,reel,Study 25 minutes. Hatch a dragon. Conquer the map.,lp_teen,2026-05-15,
+ad_14,as_teen_broad,Day-in-life-designer | reel,reel,A day in the life of a product designer at 26,lp_teen,2026-05-15,2026-08-01
+ad_15,as_teen_broad,Pod-sessions | video,video,Five teens. Two hours. No parents. Real talk.,lp_teen,2026-08-02,
+ad_16,as_rtg_30d,Retarget-testimonial | video,video,"""My son stopped needing reminders"" - Meera, parent",lp_parent,2026-04-20,
+ad_17,as_rtg_30d,Retarget-offer-trial | static,static,Start with a 3-month trial. Decide with data.,lp_parent,2026-04-20,
+ad_18,as_wsp_parents,WSP-doctor-sim | carousel,carousel,Saturday workshop: your teen runs an ER for 90 minutes,lp_wsp,2026-04-01,2026-07-01
+ad_19,as_wsp_parents,WSP-founder-sim | video,video,Saturday workshop: build a startup in 2 hours,lp_wsp,2026-07-02,
+ad_20,as_wsp_teens,WSP-lawyer-sim | reel,reel,"Argue a real case. Win it. Saturday, 3pm.",lp_wsp,2026-04-01,
+ad_21,as_wsp_teens,WSP-generic-careers | static,static,Confused about careers? Join our workshop,lp_wsp,2026-06-01,

@@ -1,0 +1,1979 @@
+activity_id,kind,title,scheduled_on,conducted_on
+act_00001,academic_session,Academic session 1 - Aarav,2026-04-07,2026-04-07
+act_00002,academic_session,Academic session 2 - Aarav,2026-04-10,2026-04-10
+act_00003,academic_session,Academic session 1 - Aarav,2026-04-14,2026-04-14
+act_00004,academic_session,Academic session 2 - Aarav,2026-04-17,2026-04-17
+act_00005,academic_session,Academic session 1 - Aarav,2026-04-21,2026-04-21
+act_00006,academic_session,Academic session 2 - Aarav,2026-04-24,2026-04-24
+act_00007,academic_session,Academic session 1 - Aarav,2026-04-28,
+act_00008,academic_session,Academic session 2 - Aarav,2026-05-01,2026-05-01
+act_00009,academic_session,Academic session 1 - Aarav,2026-05-05,2026-05-05
+act_00010,academic_session,Academic session 2 - Aarav,2026-05-08,2026-05-08
+act_00011,academic_session,Academic session 1 - Aarav,2026-05-12,2026-05-12
+act_00012,academic_session,Academic session 2 - Aarav,2026-05-15,2026-05-15
+act_00013,academic_session,Academic session 1 - Aarav,2026-05-19,2026-05-19
+act_00014,academic_session,Academic session 2 - Aarav,2026-05-22,
+act_00015,academic_session,Academic session 1 - Aarav,2026-05-26,2026-05-26
+act_00016,academic_session,Academic session 2 - Aarav,2026-05-29,2026-05-29
+act_00017,academic_session,Academic session 1 - Aarav,2026-06-02,2026-06-02
+act_00018,academic_session,Academic session 2 - Aarav,2026-06-05,2026-06-05
+act_00019,academic_session,Academic session 1 - Aarav,2026-06-09,2026-06-09
+act_00020,academic_session,Academic session 2 - Aarav,2026-06-12,2026-06-12
+act_00021,academic_session,Academic session 1 - Aarav,2026-06-16,2026-06-16
+act_00022,academic_session,Academic session 2 - Aarav,2026-06-19,2026-06-19
+act_00023,academic_session,Academic session 1 - Aarav,2026-06-23,2026-06-23
+act_00024,academic_session,Academic session 2 - Aarav,2026-06-26,2026-06-26
+act_00025,academic_session,Academic session 1 - Aarav,2026-06-30,2026-06-30
+act_00026,academic_session,Academic session 2 - Aarav,2026-07-03,2026-07-03
+act_00027,academic_session,Academic session 1 - Aarav,2026-07-07,2026-07-07
+act_00028,academic_session,Academic session 2 - Aarav,2026-07-10,2026-07-10
+act_00029,academic_session,Academic session 1 - Aarav,2026-07-14,2026-07-14
+act_00030,academic_session,Academic session 2 - Aarav,2026-07-17,2026-07-17
+act_00031,academic_session,Academic session 1 - Aarav,2026-07-21,2026-07-21
+act_00032,academic_session,Academic session 2 - Aarav,2026-07-24,2026-07-24
+act_00033,academic_session,Academic session 1 - Aarav,2026-07-28,2026-07-28
+act_00034,academic_session,Academic session 2 - Aarav,2026-07-31,2026-07-31
+act_00035,academic_session,Academic session 1 - Aarav,2026-08-04,2026-08-04
+act_00036,academic_session,Academic session 2 - Aarav,2026-08-07,2026-08-07
+act_00037,academic_session,Academic session 1 - Aarav,2026-08-11,2026-08-11
+act_00038,academic_session,Academic session 2 - Aarav,2026-08-14,2026-08-14
+act_00039,academic_session,Academic session 1 - Aarav,2026-08-18,2026-08-18
+act_00040,academic_session,Academic session 2 - Aarav,2026-08-21,2026-08-21
+act_00041,academic_session,Academic session 1 - Aarav,2026-08-25,2026-08-25
+act_00042,academic_session,Academic session 2 - Aarav,2026-08-28,2026-08-28
+act_00043,academic_session,Academic session 1 - Aarav,2026-09-01,
+act_00044,academic_session,Academic session 2 - Aarav,2026-09-04,2026-09-04
+act_00045,academic_session,Academic session 1 - Aarav,2026-09-08,2026-09-08
+act_00046,academic_session,Academic session 2 - Aarav,2026-09-11,2026-09-11
+act_00047,academic_session,Academic session 1 - Aarav,2026-09-15,2026-09-15
+act_00048,academic_session,Academic session 2 - Aarav,2026-09-18,2026-09-18
+act_00049,academic_session,Academic session 1 - Aarav,2026-09-22,2026-09-22
+act_00050,academic_session,Academic session 2 - Aarav,2026-09-25,2026-09-25
+act_00051,academic_session,Academic session 1 - Aarav,2026-09-29,2026-09-29
+act_00052,academic_session,Academic session 2 - Aarav,2026-10-02,2026-10-02
+act_00053,academic_session,Academic session 1 - Aarav,2026-10-06,2026-10-06
+act_00054,academic_session,Academic session 2 - Aarav,2026-10-09,2026-10-09
+act_00055,academic_session,Academic session 1 - Aarav,2026-10-13,2026-10-13
+act_00056,academic_session,Academic session 2 - Aarav,2026-10-16,
+act_00057,academic_session,Academic session 1 - Aarav,2026-10-20,
+act_00058,academic_session,Academic session 2 - Aarav,2026-10-23,
+act_00059,academic_session,Academic session 1 - Aarav,2026-10-27,
+act_00060,academic_session,Academic session 2 - Aarav,2026-10-30,
+act_00061,academic_session,Academic session 1 - Anika,2026-06-30,2026-06-30
+act_00062,academic_session,Academic session 2 - Anika,2026-07-03,
+act_00063,academic_session,Academic session 1 - Anika,2026-07-07,2026-07-07
+act_00064,academic_session,Academic session 2 - Anika,2026-07-10,2026-07-10
+act_00065,academic_session,Academic session 1 - Anika,2026-07-14,2026-07-14
+act_00066,academic_session,Academic session 2 - Anika,2026-07-17,2026-07-17
+act_00067,academic_session,Academic session 1 - Anika,2026-07-21,2026-07-21
+act_00068,academic_session,Academic session 2 - Anika,2026-07-24,2026-07-24
+act_00069,academic_session,Academic session 1 - Anika,2026-07-28,2026-07-28
+act_00070,academic_session,Academic session 2 - Anika,2026-07-31,2026-07-31
+act_00071,academic_session,Academic session 1 - Anika,2026-08-04,2026-08-04
+act_00072,academic_session,Academic session 2 - Anika,2026-08-07,2026-08-07
+act_00073,academic_session,Academic session 1 - Anika,2026-08-11,2026-08-11
+act_00074,academic_session,Academic session 2 - Anika,2026-08-14,2026-08-14
+act_00075,academic_session,Academic session 1 - Anika,2026-08-18,2026-08-18
+act_00076,academic_session,Academic session 2 - Anika,2026-08-21,2026-08-21
+act_00077,academic_session,Academic session 1 - Anika,2026-08-25,2026-08-25
+act_00078,academic_session,Academic session 2 - Anika,2026-08-28,2026-08-28
+act_00079,academic_session,Academic session 1 - Anika,2026-09-01,2026-09-01
+act_00080,academic_session,Academic session 2 - Anika,2026-09-04,2026-09-04
+act_00081,academic_session,Academic session 1 - Anika,2026-09-08,
+act_00082,academic_session,Academic session 2 - Anika,2026-09-11,2026-09-11
+act_00083,academic_session,Academic session 1 - Anika,2026-09-15,2026-09-15
+act_00084,academic_session,Academic session 2 - Anika,2026-09-18,2026-09-18
+act_00085,academic_session,Academic session 1 - Anika,2026-09-22,2026-09-22
+act_00086,academic_session,Academic session 2 - Anika,2026-09-25,2026-09-25
+act_00087,academic_session,Academic session 1 - Anika,2026-09-29,
+act_00088,academic_session,Academic session 2 - Anika,2026-10-02,2026-10-02
+act_00089,academic_session,Academic session 1 - Anika,2026-10-06,2026-10-06
+act_00090,academic_session,Academic session 2 - Anika,2026-10-09,2026-10-09
+act_00091,academic_session,Academic session 1 - Anika,2026-10-13,2026-10-13
+act_00092,academic_session,Academic session 2 - Anika,2026-10-16,
+act_00093,academic_session,Academic session 1 - Anika,2026-10-20,
+act_00094,academic_session,Academic session 2 - Anika,2026-10-23,
+act_00095,academic_session,Academic session 1 - Anika,2026-10-27,
+act_00096,academic_session,Academic session 2 - Anika,2026-10-30,
+act_00097,academic_session,Academic session 1 - Vihaan,2026-05-26,2026-05-26
+act_00098,academic_session,Academic session 2 - Vihaan,2026-05-29,2026-05-29
+act_00099,academic_session,Academic session 1 - Vihaan,2026-06-02,2026-06-02
+act_00100,academic_session,Academic session 2 - Vihaan,2026-06-05,2026-06-05
+act_00101,academic_session,Academic session 1 - Vihaan,2026-06-09,2026-06-09
+act_00102,academic_session,Academic session 2 - Vihaan,2026-06-12,2026-06-12
+act_00103,academic_session,Academic session 1 - Vihaan,2026-06-16,2026-06-16
+act_00104,academic_session,Academic session 2 - Vihaan,2026-06-19,2026-06-19
+act_00105,academic_session,Academic session 1 - Vihaan,2026-06-23,2026-06-23
+act_00106,academic_session,Academic session 2 - Vihaan,2026-06-26,2026-06-26
+act_00107,academic_session,Academic session 1 - Vihaan,2026-06-30,2026-06-30
+act_00108,academic_session,Academic session 2 - Vihaan,2026-07-03,2026-07-03
+act_00109,academic_session,Academic session 1 - Vihaan,2026-07-07,2026-07-07
+act_00110,academic_session,Academic session 2 - Vihaan,2026-07-10,2026-07-10
+act_00111,academic_session,Academic session 1 - Vihaan,2026-07-14,2026-07-14
+act_00112,academic_session,Academic session 2 - Vihaan,2026-07-17,2026-07-17
+act_00113,academic_session,Academic session 1 - Vihaan,2026-07-21,2026-07-21
+act_00114,academic_session,Academic session 2 - Vihaan,2026-07-24,2026-07-24
+act_00115,academic_session,Academic session 1 - Vihaan,2026-07-28,
+act_00116,academic_session,Academic session 2 - Vihaan,2026-07-31,2026-07-31
+act_00117,academic_session,Academic session 1 - Vihaan,2026-08-04,2026-08-04
+act_00118,academic_session,Academic session 2 - Vihaan,2026-08-07,2026-08-07
+act_00119,academic_session,Academic session 1 - Vihaan,2026-08-11,2026-08-11
+act_00120,academic_session,Academic session 2 - Vihaan,2026-08-14,2026-08-14
+act_00121,academic_session,Academic session 1 - Vihaan,2026-08-18,2026-08-18
+act_00122,academic_session,Academic session 2 - Vihaan,2026-08-21,2026-08-21
+act_00123,academic_session,Academic session 1 - Vihaan,2026-08-25,2026-08-25
+act_00124,academic_session,Academic session 2 - Vihaan,2026-08-28,2026-08-28
+act_00125,academic_session,Academic session 1 - Vihaan,2026-09-01,2026-09-01
+act_00126,academic_session,Academic session 2 - Vihaan,2026-09-04,
+act_00127,academic_session,Academic session 1 - Vihaan,2026-09-08,2026-09-08
+act_00128,academic_session,Academic session 2 - Vihaan,2026-09-11,2026-09-11
+act_00129,academic_session,Academic session 1 - Vihaan,2026-09-15,2026-09-15
+act_00130,academic_session,Academic session 2 - Vihaan,2026-09-18,
+act_00131,academic_session,Academic session 1 - Vihaan,2026-09-22,2026-09-22
+act_00132,academic_session,Academic session 2 - Vihaan,2026-09-25,2026-09-25
+act_00133,academic_session,Academic session 1 - Vihaan,2026-09-29,
+act_00134,academic_session,Academic session 2 - Vihaan,2026-10-02,2026-10-02
+act_00135,academic_session,Academic session 1 - Vihaan,2026-10-06,2026-10-06
+act_00136,academic_session,Academic session 2 - Vihaan,2026-10-09,2026-10-09
+act_00137,academic_session,Academic session 1 - Vihaan,2026-10-13,2026-10-13
+act_00138,academic_session,Academic session 2 - Vihaan,2026-10-16,
+act_00139,academic_session,Academic session 1 - Vihaan,2026-10-20,
+act_00140,academic_session,Academic session 2 - Vihaan,2026-10-23,
+act_00141,academic_session,Academic session 1 - Vihaan,2026-10-27,
+act_00142,academic_session,Academic session 2 - Vihaan,2026-10-30,
+act_00143,academic_session,Academic session 1 - Myra,2026-04-14,2026-04-14
+act_00144,academic_session,Academic session 2 - Myra,2026-04-17,2026-04-17
+act_00145,academic_session,Academic session 1 - Myra,2026-04-21,2026-04-21
+act_00146,academic_session,Academic session 2 - Myra,2026-04-24,2026-04-24
+act_00147,academic_session,Academic session 1 - Myra,2026-04-28,2026-04-28
+act_00148,academic_session,Academic session 2 - Myra,2026-05-01,2026-05-01
+act_00149,academic_session,Academic session 1 - Myra,2026-05-05,2026-05-05
+act_00150,academic_session,Academic session 2 - Myra,2026-05-08,2026-05-08
+act_00151,academic_session,Academic session 1 - Myra,2026-05-12,2026-05-12
+act_00152,academic_session,Academic session 2 - Myra,2026-05-15,2026-05-15
+act_00153,academic_session,Academic session 1 - Myra,2026-05-19,
+act_00154,academic_session,Academic session 2 - Myra,2026-05-22,2026-05-22
+act_00155,academic_session,Academic session 1 - Myra,2026-05-26,2026-05-26
+act_00156,academic_session,Academic session 2 - Myra,2026-05-29,2026-05-29
+act_00157,academic_session,Academic session 1 - Myra,2026-06-02,2026-06-02
+act_00158,academic_session,Academic session 2 - Myra,2026-06-05,2026-06-05
+act_00159,academic_session,Academic session 1 - Myra,2026-06-09,2026-06-09
+act_00160,academic_session,Academic session 2 - Myra,2026-06-12,2026-06-12
+act_00161,academic_session,Academic session 1 - Myra,2026-06-16,2026-06-16
+act_00162,academic_session,Academic session 2 - Myra,2026-06-19,2026-06-19
+act_00163,academic_session,Academic session 1 - Myra,2026-06-23,2026-06-23
+act_00164,academic_session,Academic session 2 - Myra,2026-06-26,2026-06-26
+act_00165,academic_session,Academic session 1 - Myra,2026-06-30,2026-06-30
+act_00166,academic_session,Academic session 2 - Myra,2026-07-03,2026-07-03
+act_00167,academic_session,Academic session 1 - Myra,2026-07-07,2026-07-07
+act_00168,academic_session,Academic session 2 - Myra,2026-07-10,2026-07-10
+act_00169,academic_session,Academic session 1 - Myra,2026-07-14,2026-07-14
+act_00170,academic_session,Academic session 2 - Myra,2026-07-17,2026-07-17
+act_00171,academic_session,Academic session 1 - Myra,2026-07-21,2026-07-21
+act_00172,academic_session,Academic session 2 - Myra,2026-07-24,2026-07-24
+act_00173,academic_session,Academic session 1 - Myra,2026-07-28,2026-07-28
+act_00174,academic_session,Academic session 2 - Myra,2026-07-31,2026-07-31
+act_00175,academic_session,Academic session 1 - Myra,2026-08-04,2026-08-04
+act_00176,academic_session,Academic session 2 - Myra,2026-08-07,2026-08-07
+act_00177,academic_session,Academic session 1 - Myra,2026-08-11,2026-08-11
+act_00178,academic_session,Academic session 2 - Myra,2026-08-14,2026-08-14
+act_00179,academic_session,Academic session 1 - Myra,2026-08-18,2026-08-18
+act_00180,academic_session,Academic session 2 - Myra,2026-08-21,2026-08-21
+act_00181,academic_session,Academic session 1 - Myra,2026-08-25,2026-08-25
+act_00182,academic_session,Academic session 2 - Myra,2026-08-28,2026-08-28
+act_00183,academic_session,Academic session 1 - Myra,2026-09-01,
+act_00184,academic_session,Academic session 2 - Myra,2026-09-04,2026-09-04
+act_00185,academic_session,Academic session 1 - Myra,2026-09-08,2026-09-08
+act_00186,academic_session,Academic session 2 - Myra,2026-09-11,2026-09-11
+act_00187,academic_session,Academic session 1 - Myra,2026-09-15,2026-09-15
+act_00188,academic_session,Academic session 2 - Myra,2026-09-18,2026-09-18
+act_00189,academic_session,Academic session 1 - Myra,2026-09-22,2026-09-22
+act_00190,academic_session,Academic session 2 - Myra,2026-09-25,2026-09-25
+act_00191,academic_session,Academic session 1 - Myra,2026-09-29,2026-09-29
+act_00192,academic_session,Academic session 2 - Myra,2026-10-02,2026-10-02
+act_00193,academic_session,Academic session 1 - Myra,2026-10-06,2026-10-06
+act_00194,academic_session,Academic session 2 - Myra,2026-10-09,2026-10-09
+act_00195,academic_session,Academic session 1 - Myra,2026-10-13,2026-10-13
+act_00196,academic_session,Academic session 2 - Myra,2026-10-16,
+act_00197,academic_session,Academic session 1 - Myra,2026-10-20,
+act_00198,academic_session,Academic session 2 - Myra,2026-10-23,
+act_00199,academic_session,Academic session 1 - Myra,2026-10-27,
+act_00200,academic_session,Academic session 2 - Myra,2026-10-30,
+act_00201,academic_session,Academic session 1 - Kabir,2026-05-26,2026-05-26
+act_00202,academic_session,Academic session 2 - Kabir,2026-05-29,2026-05-29
+act_00203,academic_session,Academic session 1 - Kabir,2026-06-02,2026-06-02
+act_00204,academic_session,Academic session 2 - Kabir,2026-06-05,2026-06-05
+act_00205,academic_session,Academic session 1 - Kabir,2026-06-09,2026-06-09
+act_00206,academic_session,Academic session 2 - Kabir,2026-06-12,2026-06-12
+act_00207,academic_session,Academic session 1 - Kabir,2026-06-16,2026-06-16
+act_00208,academic_session,Academic session 2 - Kabir,2026-06-19,2026-06-19
+act_00209,academic_session,Academic session 1 - Kabir,2026-06-23,2026-06-23
+act_00210,academic_session,Academic session 2 - Kabir,2026-06-26,2026-06-26
+act_00211,academic_session,Academic session 1 - Kabir,2026-06-30,2026-06-30
+act_00212,academic_session,Academic session 2 - Kabir,2026-07-03,2026-07-03
+act_00213,academic_session,Academic session 1 - Kabir,2026-07-07,2026-07-07
+act_00214,academic_session,Academic session 2 - Kabir,2026-07-10,2026-07-10
+act_00215,academic_session,Academic session 1 - Kabir,2026-07-14,2026-07-14
+act_00216,academic_session,Academic session 2 - Kabir,2026-07-17,2026-07-17
+act_00217,academic_session,Academic session 1 - Kabir,2026-07-21,2026-07-21
+act_00218,academic_session,Academic session 2 - Kabir,2026-07-24,2026-07-24
+act_00219,academic_session,Academic session 1 - Kabir,2026-07-28,2026-07-28
+act_00220,academic_session,Academic session 2 - Kabir,2026-07-31,2026-07-31
+act_00221,academic_session,Academic session 1 - Kabir,2026-08-04,2026-08-04
+act_00222,academic_session,Academic session 2 - Kabir,2026-08-07,2026-08-07
+act_00223,academic_session,Academic session 1 - Kabir,2026-08-11,2026-08-11
+act_00224,academic_session,Academic session 2 - Kabir,2026-08-14,2026-08-14
+act_00225,academic_session,Academic session 1 - Kabir,2026-08-18,2026-08-18
+act_00226,academic_session,Academic session 2 - Kabir,2026-08-21,2026-08-21
+act_00227,academic_session,Academic session 1 - Kabir,2026-08-25,2026-08-25
+act_00228,academic_session,Academic session 2 - Kabir,2026-08-28,2026-08-28
+act_00229,academic_session,Academic session 1 - Kabir,2026-09-01,2026-09-01
+act_00230,academic_session,Academic session 2 - Kabir,2026-09-04,2026-09-04
+act_00231,academic_session,Academic session 1 - Kabir,2026-09-08,2026-09-08
+act_00232,academic_session,Academic session 2 - Kabir,2026-09-11,2026-09-11
+act_00233,academic_session,Academic session 1 - Kabir,2026-09-15,2026-09-15
+act_00234,academic_session,Academic session 2 - Kabir,2026-09-18,2026-09-18
+act_00235,academic_session,Academic session 1 - Kabir,2026-09-22,2026-09-22
+act_00236,academic_session,Academic session 2 - Kabir,2026-09-25,2026-09-25
+act_00237,academic_session,Academic session 1 - Kabir,2026-09-29,2026-09-29
+act_00238,academic_session,Academic session 2 - Kabir,2026-10-02,2026-10-02
+act_00239,academic_session,Academic session 1 - Kabir,2026-10-06,2026-10-06
+act_00240,academic_session,Academic session 2 - Kabir,2026-10-09,
+act_00241,academic_session,Academic session 1 - Kabir,2026-10-13,2026-10-13
+act_00242,academic_session,Academic session 2 - Kabir,2026-10-16,
+act_00243,academic_session,Academic session 1 - Kabir,2026-10-20,
+act_00244,academic_session,Academic session 2 - Kabir,2026-10-23,
+act_00245,academic_session,Academic session 1 - Kabir,2026-10-27,
+act_00246,academic_session,Academic session 2 - Kabir,2026-10-30,
+act_00247,academic_session,Academic session 1 - Saanvi,2026-04-07,2026-04-07
+act_00248,academic_session,Academic session 2 - Saanvi,2026-04-10,2026-04-10
+act_00249,academic_session,Academic session 1 - Saanvi,2026-04-14,2026-04-14
+act_00250,academic_session,Academic session 2 - Saanvi,2026-04-17,2026-04-17
+act_00251,academic_session,Academic session 1 - Saanvi,2026-04-21,2026-04-21
+act_00252,academic_session,Academic session 2 - Saanvi,2026-04-24,2026-04-24
+act_00253,academic_session,Academic session 1 - Saanvi,2026-04-28,2026-04-28
+act_00254,academic_session,Academic session 2 - Saanvi,2026-05-01,2026-05-01
+act_00255,academic_session,Academic session 1 - Saanvi,2026-05-05,2026-05-05
+act_00256,academic_session,Academic session 2 - Saanvi,2026-05-08,2026-05-08
+act_00257,academic_session,Academic session 1 - Saanvi,2026-05-12,2026-05-12
+act_00258,academic_session,Academic session 2 - Saanvi,2026-05-15,2026-05-15
+act_00259,academic_session,Academic session 1 - Saanvi,2026-05-19,2026-05-19
+act_00260,academic_session,Academic session 2 - Saanvi,2026-05-22,2026-05-22
+act_00261,academic_session,Academic session 1 - Saanvi,2026-05-26,
+act_00262,academic_session,Academic session 2 - Saanvi,2026-05-29,2026-05-29
+act_00263,academic_session,Academic session 1 - Saanvi,2026-06-02,
+act_00264,academic_session,Academic session 2 - Saanvi,2026-06-05,2026-06-05
+act_00265,academic_session,Academic session 1 - Saanvi,2026-06-09,2026-06-09
+act_00266,academic_session,Academic session 2 - Saanvi,2026-06-12,2026-06-12
+act_00267,academic_session,Academic session 1 - Saanvi,2026-06-16,2026-06-16
+act_00268,academic_session,Academic session 2 - Saanvi,2026-06-19,2026-06-19
+act_00269,academic_session,Academic session 1 - Saanvi,2026-06-23,2026-06-23
+act_00270,academic_session,Academic session 2 - Saanvi,2026-06-26,2026-06-26
+act_00271,academic_session,Academic session 1 - Saanvi,2026-06-30,2026-06-30
+act_00272,academic_session,Academic session 2 - Saanvi,2026-07-03,2026-07-03
+act_00273,academic_session,Academic session 1 - Saanvi,2026-07-07,2026-07-07
+act_00274,academic_session,Academic session 2 - Saanvi,2026-07-10,2026-07-10
+act_00275,academic_session,Academic session 1 - Saanvi,2026-07-14,
+act_00276,academic_session,Academic session 2 - Saanvi,2026-07-17,2026-07-17
+act_00277,academic_session,Academic session 1 - Saanvi,2026-07-21,2026-07-21
+act_00278,academic_session,Academic session 2 - Saanvi,2026-07-24,2026-07-24
+act_00279,academic_session,Academic session 1 - Saanvi,2026-07-28,2026-07-28
+act_00280,academic_session,Academic session 2 - Saanvi,2026-07-31,2026-07-31
+act_00281,academic_session,Academic session 1 - Saanvi,2026-08-04,2026-08-04
+act_00282,academic_session,Academic session 2 - Saanvi,2026-08-07,2026-08-07
+act_00283,academic_session,Academic session 1 - Saanvi,2026-08-11,2026-08-11
+act_00284,academic_session,Academic session 2 - Saanvi,2026-08-14,2026-08-14
+act_00285,academic_session,Academic session 1 - Saanvi,2026-08-18,2026-08-18
+act_00286,academic_session,Academic session 2 - Saanvi,2026-08-21,2026-08-21
+act_00287,academic_session,Academic session 1 - Saanvi,2026-08-25,2026-08-25
+act_00288,academic_session,Academic session 2 - Saanvi,2026-08-28,2026-08-28
+act_00289,academic_session,Academic session 1 - Saanvi,2026-09-01,2026-09-01
+act_00290,academic_session,Academic session 2 - Saanvi,2026-09-04,2026-09-04
+act_00291,academic_session,Academic session 1 - Saanvi,2026-09-08,
+act_00292,academic_session,Academic session 2 - Saanvi,2026-09-11,2026-09-11
+act_00293,academic_session,Academic session 1 - Saanvi,2026-09-15,2026-09-15
+act_00294,academic_session,Academic session 2 - Saanvi,2026-09-18,2026-09-18
+act_00295,academic_session,Academic session 1 - Saanvi,2026-09-22,2026-09-22
+act_00296,academic_session,Academic session 2 - Saanvi,2026-09-25,2026-09-25
+act_00297,academic_session,Academic session 1 - Saanvi,2026-09-29,
+act_00298,academic_session,Academic session 2 - Saanvi,2026-10-02,2026-10-02
+act_00299,academic_session,Academic session 1 - Saanvi,2026-10-06,2026-10-06
+act_00300,academic_session,Academic session 2 - Saanvi,2026-10-09,2026-10-09
+act_00301,academic_session,Academic session 1 - Saanvi,2026-10-13,2026-10-13
+act_00302,academic_session,Academic session 2 - Saanvi,2026-10-16,
+act_00303,academic_session,Academic session 1 - Saanvi,2026-10-20,
+act_00304,academic_session,Academic session 2 - Saanvi,2026-10-23,
+act_00305,academic_session,Academic session 1 - Saanvi,2026-10-27,
+act_00306,academic_session,Academic session 2 - Saanvi,2026-10-30,
+act_00307,academic_session,Academic session 1 - Ishaan,2026-08-04,2026-08-04
+act_00308,academic_session,Academic session 2 - Ishaan,2026-08-07,2026-08-07
+act_00309,academic_session,Academic session 1 - Ishaan,2026-08-11,2026-08-11
+act_00310,academic_session,Academic session 2 - Ishaan,2026-08-14,2026-08-14
+act_00311,academic_session,Academic session 1 - Ishaan,2026-08-18,2026-08-18
+act_00312,academic_session,Academic session 2 - Ishaan,2026-08-21,2026-08-21
+act_00313,academic_session,Academic session 1 - Ishaan,2026-08-25,2026-08-25
+act_00314,academic_session,Academic session 2 - Ishaan,2026-08-28,2026-08-28
+act_00315,academic_session,Academic session 1 - Ishaan,2026-09-01,2026-09-01
+act_00316,academic_session,Academic session 2 - Ishaan,2026-09-04,2026-09-04
+act_00317,academic_session,Academic session 1 - Ishaan,2026-09-08,2026-09-08
+act_00318,academic_session,Academic session 2 - Ishaan,2026-09-11,2026-09-11
+act_00319,academic_session,Academic session 1 - Ishaan,2026-09-15,2026-09-15
+act_00320,academic_session,Academic session 2 - Ishaan,2026-09-18,2026-09-18
+act_00321,academic_session,Academic session 1 - Ishaan,2026-09-22,2026-09-22
+act_00322,academic_session,Academic session 2 - Ishaan,2026-09-25,2026-09-25
+act_00323,academic_session,Academic session 1 - Ishaan,2026-09-29,2026-09-29
+act_00324,academic_session,Academic session 2 - Ishaan,2026-10-02,2026-10-02
+act_00325,academic_session,Academic session 1 - Ishaan,2026-10-06,2026-10-06
+act_00326,academic_session,Academic session 2 - Ishaan,2026-10-09,
+act_00327,academic_session,Academic session 1 - Ishaan,2026-10-13,2026-10-13
+act_00328,academic_session,Academic session 2 - Ishaan,2026-10-16,
+act_00329,academic_session,Academic session 1 - Ishaan,2026-10-20,
+act_00330,academic_session,Academic session 2 - Ishaan,2026-10-23,
+act_00331,academic_session,Academic session 1 - Ishaan,2026-10-27,
+act_00332,academic_session,Academic session 2 - Ishaan,2026-10-30,
+act_00333,academic_session,Academic session 1 - Kiara,2026-04-28,2026-04-28
+act_00334,academic_session,Academic session 2 - Kiara,2026-05-01,2026-05-01
+act_00335,academic_session,Academic session 1 - Kiara,2026-05-05,2026-05-05
+act_00336,academic_session,Academic session 2 - Kiara,2026-05-08,2026-05-08
+act_00337,academic_session,Academic session 1 - Kiara,2026-05-12,2026-05-12
+act_00338,academic_session,Academic session 2 - Kiara,2026-05-15,2026-05-15
+act_00339,academic_session,Academic session 1 - Kiara,2026-05-19,2026-05-19
+act_00340,academic_session,Academic session 2 - Kiara,2026-05-22,2026-05-22
+act_00341,academic_session,Academic session 1 - Kiara,2026-05-26,2026-05-26
+act_00342,academic_session,Academic session 2 - Kiara,2026-05-29,2026-05-29
+act_00343,academic_session,Academic session 1 - Kiara,2026-06-02,2026-06-02
+act_00344,academic_session,Academic session 2 - Kiara,2026-06-05,2026-06-05
+act_00345,academic_session,Academic session 1 - Kiara,2026-06-09,2026-06-09
+act_00346,academic_session,Academic session 2 - Kiara,2026-06-12,2026-06-12
+act_00347,academic_session,Academic session 1 - Kiara,2026-06-16,2026-06-16
+act_00348,academic_session,Academic session 2 - Kiara,2026-06-19,2026-06-19
+act_00349,academic_session,Academic session 1 - Kiara,2026-06-23,2026-06-23
+act_00350,academic_session,Academic session 2 - Kiara,2026-06-26,2026-06-26
+act_00351,academic_session,Academic session 1 - Kiara,2026-06-30,2026-06-30
+act_00352,academic_session,Academic session 2 - Kiara,2026-07-03,2026-07-03
+act_00353,academic_session,Academic session 1 - Kiara,2026-07-07,2026-07-07
+act_00354,academic_session,Academic session 2 - Kiara,2026-07-10,2026-07-10
+act_00355,academic_session,Academic session 1 - Kiara,2026-07-14,2026-07-14
+act_00356,academic_session,Academic session 2 - Kiara,2026-07-17,2026-07-17
+act_00357,academic_session,Academic session 1 - Kiara,2026-07-21,2026-07-21
+act_00358,academic_session,Academic session 2 - Kiara,2026-07-24,
+act_00359,academic_session,Academic session 1 - Kiara,2026-07-28,2026-07-28
+act_00360,academic_session,Academic session 2 - Kiara,2026-07-31,2026-07-31
+act_00361,academic_session,Academic session 1 - Kiara,2026-08-04,2026-08-04
+act_00362,academic_session,Academic session 2 - Kiara,2026-08-07,2026-08-07
+act_00363,academic_session,Academic session 1 - Kiara,2026-08-11,2026-08-11
+act_00364,academic_session,Academic session 2 - Kiara,2026-08-14,2026-08-14
+act_00365,academic_session,Academic session 1 - Kiara,2026-08-18,2026-08-18
+act_00366,academic_session,Academic session 2 - Kiara,2026-08-21,2026-08-21
+act_00367,academic_session,Academic session 1 - Kiara,2026-08-25,2026-08-25
+act_00368,academic_session,Academic session 2 - Kiara,2026-08-28,2026-08-28
+act_00369,academic_session,Academic session 1 - Kiara,2026-09-01,2026-09-01
+act_00370,academic_session,Academic session 2 - Kiara,2026-09-04,2026-09-04
+act_00371,academic_session,Academic session 1 - Kiara,2026-09-08,2026-09-08
+act_00372,academic_session,Academic session 2 - Kiara,2026-09-11,2026-09-11
+act_00373,academic_session,Academic session 1 - Kiara,2026-09-15,2026-09-15
+act_00374,academic_session,Academic session 2 - Kiara,2026-09-18,2026-09-18
+act_00375,academic_session,Academic session 1 - Kiara,2026-09-22,2026-09-22
+act_00376,academic_session,Academic session 2 - Kiara,2026-09-25,2026-09-25
+act_00377,academic_session,Academic session 1 - Kiara,2026-09-29,2026-09-29
+act_00378,academic_session,Academic session 2 - Kiara,2026-10-02,2026-10-02
+act_00379,academic_session,Academic session 1 - Kiara,2026-10-06,2026-10-06
+act_00380,academic_session,Academic session 2 - Kiara,2026-10-09,2026-10-09
+act_00381,academic_session,Academic session 1 - Kiara,2026-10-13,2026-10-13
+act_00382,academic_session,Academic session 2 - Kiara,2026-10-16,
+act_00383,academic_session,Academic session 1 - Kiara,2026-10-20,
+act_00384,academic_session,Academic session 2 - Kiara,2026-10-23,
+act_00385,academic_session,Academic session 1 - Kiara,2026-10-27,
+act_00386,academic_session,Academic session 2 - Kiara,2026-10-30,
+act_00387,academic_session,Academic session 1 - Reyansh,2026-05-12,2026-05-12
+act_00388,academic_session,Academic session 2 - Reyansh,2026-05-15,2026-05-15
+act_00389,academic_session,Academic session 1 - Reyansh,2026-05-19,2026-05-19
+act_00390,academic_session,Academic session 2 - Reyansh,2026-05-22,2026-05-22
+act_00391,academic_session,Academic session 1 - Reyansh,2026-05-26,2026-05-26
+act_00392,academic_session,Academic session 2 - Reyansh,2026-05-29,2026-05-29
+act_00393,academic_session,Academic session 1 - Reyansh,2026-06-02,2026-06-02
+act_00394,academic_session,Academic session 2 - Reyansh,2026-06-05,2026-06-05
+act_00395,academic_session,Academic session 1 - Reyansh,2026-06-09,2026-06-09
+act_00396,academic_session,Academic session 2 - Reyansh,2026-06-12,2026-06-12
+act_00397,academic_session,Academic session 1 - Reyansh,2026-06-16,2026-06-16
+act_00398,academic_session,Academic session 2 - Reyansh,2026-06-19,2026-06-19
+act_00399,academic_session,Academic session 1 - Reyansh,2026-06-23,2026-06-23
+act_00400,academic_session,Academic session 2 - Reyansh,2026-06-26,2026-06-26
+act_00401,academic_session,Academic session 1 - Reyansh,2026-06-30,2026-06-30
+act_00402,academic_session,Academic session 2 - Reyansh,2026-07-03,2026-07-03
+act_00403,academic_session,Academic session 1 - Reyansh,2026-07-07,2026-07-07
+act_00404,academic_session,Academic session 2 - Reyansh,2026-07-10,2026-07-10
+act_00405,academic_session,Academic session 1 - Reyansh,2026-07-14,2026-07-14
+act_00406,academic_session,Academic session 2 - Reyansh,2026-07-17,2026-07-17
+act_00407,academic_session,Academic session 1 - Reyansh,2026-07-21,2026-07-21
+act_00408,academic_session,Academic session 2 - Reyansh,2026-07-24,2026-07-24
+act_00409,academic_session,Academic session 1 - Reyansh,2026-07-28,2026-07-28
+act_00410,academic_session,Academic session 2 - Reyansh,2026-07-31,2026-07-31
+act_00411,academic_session,Academic session 1 - Reyansh,2026-08-04,2026-08-04
+act_00412,academic_session,Academic session 2 - Reyansh,2026-08-07,2026-08-07
+act_00413,academic_session,Academic session 1 - Reyansh,2026-08-11,2026-08-11
+act_00414,academic_session,Academic session 2 - Reyansh,2026-08-14,2026-08-14
+act_00415,academic_session,Academic session 1 - Reyansh,2026-08-18,2026-08-18
+act_00416,academic_session,Academic session 2 - Reyansh,2026-08-21,2026-08-21
+act_00417,academic_session,Academic session 1 - Reyansh,2026-08-25,2026-08-25
+act_00418,academic_session,Academic session 2 - Reyansh,2026-08-28,2026-08-28
+act_00419,academic_session,Academic session 1 - Reyansh,2026-09-01,2026-09-01
+act_00420,academic_session,Academic session 2 - Reyansh,2026-09-04,2026-09-04
+act_00421,academic_session,Academic session 1 - Reyansh,2026-09-08,2026-09-08
+act_00422,academic_session,Academic session 2 - Reyansh,2026-09-11,2026-09-11
+act_00423,academic_session,Academic session 1 - Reyansh,2026-09-15,2026-09-15
+act_00424,academic_session,Academic session 2 - Reyansh,2026-09-18,2026-09-18
+act_00425,academic_session,Academic session 1 - Reyansh,2026-09-22,2026-09-22
+act_00426,academic_session,Academic session 2 - Reyansh,2026-09-25,2026-09-25
+act_00427,academic_session,Academic session 1 - Reyansh,2026-09-29,2026-09-29
+act_00428,academic_session,Academic session 2 - Reyansh,2026-10-02,2026-10-02
+act_00429,academic_session,Academic session 1 - Reyansh,2026-10-06,2026-10-06
+act_00430,academic_session,Academic session 2 - Reyansh,2026-10-09,2026-10-09
+act_00431,academic_session,Academic session 1 - Reyansh,2026-10-13,2026-10-13
+act_00432,academic_session,Academic session 2 - Reyansh,2026-10-16,
+act_00433,academic_session,Academic session 1 - Reyansh,2026-10-20,
+act_00434,academic_session,Academic session 2 - Reyansh,2026-10-23,
+act_00435,academic_session,Academic session 1 - Reyansh,2026-10-27,
+act_00436,academic_session,Academic session 2 - Reyansh,2026-10-30,
+act_00437,academic_session,Academic session 1 - Ira,2026-06-30,2026-06-30
+act_00438,academic_session,Academic session 2 - Ira,2026-07-03,2026-07-03
+act_00439,academic_session,Academic session 1 - Ira,2026-07-07,2026-07-07
+act_00440,academic_session,Academic session 2 - Ira,2026-07-10,2026-07-10
+act_00441,academic_session,Academic session 1 - Ira,2026-07-14,2026-07-14
+act_00442,academic_session,Academic session 2 - Ira,2026-07-17,2026-07-17
+act_00443,academic_session,Academic session 1 - Ira,2026-07-21,2026-07-21
+act_00444,academic_session,Academic session 2 - Ira,2026-07-24,2026-07-24
+act_00445,academic_session,Academic session 1 - Ira,2026-07-28,2026-07-28
+act_00446,academic_session,Academic session 2 - Ira,2026-07-31,2026-07-31
+act_00447,academic_session,Academic session 1 - Ira,2026-08-04,2026-08-04
+act_00448,academic_session,Academic session 2 - Ira,2026-08-07,2026-08-07
+act_00449,academic_session,Academic session 1 - Ira,2026-08-11,2026-08-11
+act_00450,academic_session,Academic session 2 - Ira,2026-08-14,2026-08-14
+act_00451,academic_session,Academic session 1 - Ira,2026-08-18,2026-08-18
+act_00452,academic_session,Academic session 2 - Ira,2026-08-21,2026-08-21
+act_00453,academic_session,Academic session 1 - Ira,2026-08-25,2026-08-25
+act_00454,academic_session,Academic session 2 - Ira,2026-08-28,2026-08-28
+act_00455,academic_session,Academic session 1 - Ira,2026-09-01,2026-09-01
+act_00456,academic_session,Academic session 2 - Ira,2026-09-04,2026-09-04
+act_00457,academic_session,Academic session 1 - Ira,2026-09-08,2026-09-08
+act_00458,academic_session,Academic session 2 - Ira,2026-09-11,2026-09-11
+act_00459,academic_session,Academic session 1 - Ira,2026-09-15,2026-09-15
+act_00460,academic_session,Academic session 2 - Ira,2026-09-18,2026-09-18
+act_00461,academic_session,Academic session 1 - Ira,2026-09-22,2026-09-22
+act_00462,academic_session,Academic session 2 - Ira,2026-09-25,2026-09-25
+act_00463,academic_session,Academic session 1 - Ira,2026-09-29,2026-09-29
+act_00464,academic_session,Academic session 2 - Ira,2026-10-02,2026-10-02
+act_00465,academic_session,Academic session 1 - Ira,2026-10-06,2026-10-06
+act_00466,academic_session,Academic session 2 - Ira,2026-10-09,2026-10-09
+act_00467,academic_session,Academic session 1 - Ira,2026-10-13,2026-10-13
+act_00468,academic_session,Academic session 2 - Ira,2026-10-16,
+act_00469,academic_session,Academic session 1 - Ira,2026-10-20,
+act_00470,academic_session,Academic session 2 - Ira,2026-10-23,
+act_00471,academic_session,Academic session 1 - Ira,2026-10-27,
+act_00472,academic_session,Academic session 2 - Ira,2026-10-30,
+act_00473,academic_session,Academic session 1 - Dhruv,2026-04-21,2026-04-21
+act_00474,academic_session,Academic session 2 - Dhruv,2026-04-24,
+act_00475,academic_session,Academic session 1 - Dhruv,2026-04-28,
+act_00476,academic_session,Academic session 2 - Dhruv,2026-05-01,2026-05-01
+act_00477,academic_session,Academic session 1 - Dhruv,2026-05-05,2026-05-05
+act_00478,academic_session,Academic session 2 - Dhruv,2026-05-08,2026-05-08
+act_00479,academic_session,Academic session 1 - Dhruv,2026-05-12,2026-05-12
+act_00480,academic_session,Academic session 2 - Dhruv,2026-05-15,2026-05-15
+act_00481,academic_session,Academic session 1 - Dhruv,2026-05-19,2026-05-19
+act_00482,academic_session,Academic session 2 - Dhruv,2026-05-22,2026-05-22
+act_00483,academic_session,Academic session 1 - Dhruv,2026-05-26,2026-05-26
+act_00484,academic_session,Academic session 2 - Dhruv,2026-05-29,2026-05-29
+act_00485,academic_session,Academic session 1 - Dhruv,2026-06-02,2026-06-02
+act_00486,academic_session,Academic session 2 - Dhruv,2026-06-05,
+act_00487,academic_session,Academic session 1 - Dhruv,2026-06-09,2026-06-09
+act_00488,academic_session,Academic session 2 - Dhruv,2026-06-12,2026-06-12
+act_00489,academic_session,Academic session 1 - Dhruv,2026-06-16,2026-06-16
+act_00490,academic_session,Academic session 2 - Dhruv,2026-06-19,2026-06-19
+act_00491,academic_session,Academic session 1 - Dhruv,2026-06-23,
+act_00492,academic_session,Academic session 2 - Dhruv,2026-06-26,2026-06-26
+act_00493,academic_session,Academic session 1 - Dhruv,2026-06-30,2026-06-30
+act_00494,academic_session,Academic session 2 - Dhruv,2026-07-03,
+act_00495,academic_session,Academic session 1 - Dhruv,2026-07-07,2026-07-07
+act_00496,academic_session,Academic session 2 - Dhruv,2026-07-10,2026-07-10
+act_00497,academic_session,Academic session 1 - Dhruv,2026-07-14,2026-07-14
+act_00498,academic_session,Academic session 2 - Dhruv,2026-07-17,2026-07-17
+act_00499,academic_session,Academic session 1 - Dhruv,2026-07-21,2026-07-21
+act_00500,academic_session,Academic session 2 - Dhruv,2026-07-24,2026-07-24
+act_00501,academic_session,Academic session 1 - Dhruv,2026-07-28,2026-07-28
+act_00502,academic_session,Academic session 2 - Dhruv,2026-07-31,2026-07-31
+act_00503,academic_session,Academic session 1 - Dhruv,2026-08-04,2026-08-04
+act_00504,academic_session,Academic session 2 - Dhruv,2026-08-07,2026-08-07
+act_00505,academic_session,Academic session 1 - Dhruv,2026-08-11,2026-08-11
+act_00506,academic_session,Academic session 2 - Dhruv,2026-08-14,2026-08-14
+act_00507,academic_session,Academic session 1 - Dhruv,2026-08-18,2026-08-18
+act_00508,academic_session,Academic session 2 - Dhruv,2026-08-21,2026-08-21
+act_00509,academic_session,Academic session 1 - Dhruv,2026-08-25,2026-08-25
+act_00510,academic_session,Academic session 2 - Dhruv,2026-08-28,2026-08-28
+act_00511,academic_session,Academic session 1 - Dhruv,2026-09-01,2026-09-01
+act_00512,academic_session,Academic session 2 - Dhruv,2026-09-04,2026-09-04
+act_00513,academic_session,Academic session 1 - Dhruv,2026-09-08,
+act_00514,academic_session,Academic session 2 - Dhruv,2026-09-11,2026-09-11
+act_00515,academic_session,Academic session 1 - Dhruv,2026-09-15,2026-09-15
+act_00516,academic_session,Academic session 2 - Dhruv,2026-09-18,2026-09-18
+act_00517,academic_session,Academic session 1 - Dhruv,2026-09-22,2026-09-22
+act_00518,academic_session,Academic session 2 - Dhruv,2026-09-25,2026-09-25
+act_00519,academic_session,Academic session 1 - Dhruv,2026-09-29,
+act_00520,academic_session,Academic session 2 - Dhruv,2026-10-02,2026-10-02
+act_00521,academic_session,Academic session 1 - Dhruv,2026-10-06,2026-10-06
+act_00522,academic_session,Academic session 2 - Dhruv,2026-10-09,2026-10-09
+act_00523,academic_session,Academic session 1 - Dhruv,2026-10-13,2026-10-13
+act_00524,academic_session,Academic session 2 - Dhruv,2026-10-16,
+act_00525,academic_session,Academic session 1 - Dhruv,2026-10-20,
+act_00526,academic_session,Academic session 2 - Dhruv,2026-10-23,
+act_00527,academic_session,Academic session 1 - Dhruv,2026-10-27,
+act_00528,academic_session,Academic session 2 - Dhruv,2026-10-30,
+act_00529,academic_session,Academic session 1 - Aadhya,2026-05-12,2026-05-12
+act_00530,academic_session,Academic session 2 - Aadhya,2026-05-15,2026-05-15
+act_00531,academic_session,Academic session 1 - Aadhya,2026-05-19,2026-05-19
+act_00532,academic_session,Academic session 2 - Aadhya,2026-05-22,2026-05-22
+act_00533,academic_session,Academic session 1 - Aadhya,2026-05-26,
+act_00534,academic_session,Academic session 2 - Aadhya,2026-05-29,2026-05-29
+act_00535,academic_session,Academic session 1 - Aadhya,2026-06-02,
+act_00536,academic_session,Academic session 2 - Aadhya,2026-06-05,2026-06-05
+act_00537,academic_session,Academic session 1 - Aadhya,2026-06-09,2026-06-09
+act_00538,academic_session,Academic session 2 - Aadhya,2026-06-12,2026-06-12
+act_00539,academic_session,Academic session 1 - Aadhya,2026-06-16,2026-06-16
+act_00540,academic_session,Academic session 2 - Aadhya,2026-06-19,
+act_00541,academic_session,Academic session 1 - Aadhya,2026-06-23,2026-06-23
+act_00542,academic_session,Academic session 2 - Aadhya,2026-06-26,2026-06-26
+act_00543,academic_session,Academic session 1 - Aadhya,2026-06-30,2026-06-30
+act_00544,academic_session,Academic session 2 - Aadhya,2026-07-03,2026-07-03
+act_00545,academic_session,Academic session 1 - Aadhya,2026-07-07,2026-07-07
+act_00546,academic_session,Academic session 2 - Aadhya,2026-07-10,2026-07-10
+act_00547,academic_session,Academic session 1 - Aadhya,2026-07-14,2026-07-14
+act_00548,academic_session,Academic session 2 - Aadhya,2026-07-17,2026-07-17
+act_00549,academic_session,Academic session 1 - Aadhya,2026-07-21,
+act_00550,academic_session,Academic session 2 - Aadhya,2026-07-24,2026-07-24
+act_00551,academic_session,Academic session 1 - Aadhya,2026-07-28,2026-07-28
+act_00552,academic_session,Academic session 2 - Aadhya,2026-07-31,2026-07-31
+act_00553,academic_session,Academic session 1 - Aadhya,2026-08-04,2026-08-04
+act_00554,academic_session,Academic session 2 - Aadhya,2026-08-07,2026-08-07
+act_00555,academic_session,Academic session 1 - Aadhya,2026-08-11,2026-08-11
+act_00556,academic_session,Academic session 2 - Aadhya,2026-08-14,2026-08-14
+act_00557,academic_session,Academic session 1 - Aadhya,2026-08-18,2026-08-18
+act_00558,academic_session,Academic session 2 - Aadhya,2026-08-21,
+act_00559,academic_session,Academic session 1 - Aadhya,2026-08-25,2026-08-25
+act_00560,academic_session,Academic session 2 - Aadhya,2026-08-28,2026-08-28
+act_00561,academic_session,Academic session 1 - Aadhya,2026-09-01,2026-09-01
+act_00562,academic_session,Academic session 2 - Aadhya,2026-09-04,2026-09-04
+act_00563,academic_session,Academic session 1 - Aadhya,2026-09-08,
+act_00564,academic_session,Academic session 2 - Aadhya,2026-09-11,2026-09-11
+act_00565,academic_session,Academic session 1 - Aadhya,2026-09-15,2026-09-15
+act_00566,academic_session,Academic session 2 - Aadhya,2026-09-18,2026-09-18
+act_00567,academic_session,Academic session 1 - Aadhya,2026-09-22,2026-09-22
+act_00568,academic_session,Academic session 2 - Aadhya,2026-09-25,2026-09-25
+act_00569,academic_session,Academic session 1 - Aadhya,2026-09-29,2026-09-29
+act_00570,academic_session,Academic session 2 - Aadhya,2026-10-02,2026-10-02
+act_00571,academic_session,Academic session 1 - Aadhya,2026-10-06,2026-10-06
+act_00572,academic_session,Academic session 2 - Aadhya,2026-10-09,2026-10-09
+act_00573,academic_session,Academic session 1 - Aadhya,2026-10-13,2026-10-13
+act_00574,academic_session,Academic session 2 - Aadhya,2026-10-16,
+act_00575,academic_session,Academic session 1 - Aadhya,2026-10-20,
+act_00576,academic_session,Academic session 2 - Aadhya,2026-10-23,
+act_00577,academic_session,Academic session 1 - Aadhya,2026-10-27,
+act_00578,academic_session,Academic session 2 - Aadhya,2026-10-30,
+act_00579,academic_session,Academic session 1 - Arjun,2026-04-28,2026-04-28
+act_00580,academic_session,Academic session 2 - Arjun,2026-05-01,2026-05-01
+act_00581,academic_session,Academic session 1 - Arjun,2026-05-05,2026-05-05
+act_00582,academic_session,Academic session 2 - Arjun,2026-05-08,2026-05-08
+act_00583,academic_session,Academic session 1 - Arjun,2026-05-12,2026-05-12
+act_00584,academic_session,Academic session 2 - Arjun,2026-05-15,2026-05-15
+act_00585,academic_session,Academic session 1 - Arjun,2026-05-19,2026-05-19
+act_00586,academic_session,Academic session 2 - Arjun,2026-05-22,2026-05-22
+act_00587,academic_session,Academic session 1 - Arjun,2026-05-26,
+act_00588,academic_session,Academic session 2 - Arjun,2026-05-29,2026-05-29
+act_00589,academic_session,Academic session 1 - Arjun,2026-06-02,2026-06-02
+act_00590,academic_session,Academic session 2 - Arjun,2026-06-05,2026-06-05
+act_00591,academic_session,Academic session 1 - Arjun,2026-06-09,2026-06-09
+act_00592,academic_session,Academic session 2 - Arjun,2026-06-12,2026-06-12
+act_00593,academic_session,Academic session 1 - Arjun,2026-06-16,2026-06-16
+act_00594,academic_session,Academic session 2 - Arjun,2026-06-19,2026-06-19
+act_00595,academic_session,Academic session 1 - Arjun,2026-06-23,2026-06-23
+act_00596,academic_session,Academic session 2 - Arjun,2026-06-26,2026-06-26
+act_00597,academic_session,Academic session 1 - Arjun,2026-06-30,2026-06-30
+act_00598,academic_session,Academic session 2 - Arjun,2026-07-03,2026-07-03
+act_00599,academic_session,Academic session 1 - Arjun,2026-07-07,2026-07-07
+act_00600,academic_session,Academic session 2 - Arjun,2026-07-10,
+act_00601,academic_session,Academic session 1 - Arjun,2026-07-14,2026-07-14
+act_00602,academic_session,Academic session 2 - Arjun,2026-07-17,2026-07-17
+act_00603,academic_session,Academic session 1 - Arjun,2026-07-21,2026-07-21
+act_00604,academic_session,Academic session 2 - Arjun,2026-07-24,2026-07-24
+act_00605,academic_session,Academic session 1 - Arjun,2026-07-28,
+act_00606,academic_session,Academic session 2 - Arjun,2026-07-31,2026-07-31
+act_00607,academic_session,Academic session 1 - Arjun,2026-08-04,2026-08-04
+act_00608,academic_session,Academic session 2 - Arjun,2026-08-07,2026-08-07
+act_00609,academic_session,Academic session 1 - Arjun,2026-08-11,2026-08-11
+act_00610,academic_session,Academic session 2 - Arjun,2026-08-14,2026-08-14
+act_00611,academic_session,Academic session 1 - Arjun,2026-08-18,2026-08-18
+act_00612,academic_session,Academic session 2 - Arjun,2026-08-21,2026-08-21
+act_00613,academic_session,Academic session 1 - Arjun,2026-08-25,2026-08-25
+act_00614,academic_session,Academic session 2 - Arjun,2026-08-28,2026-08-28
+act_00615,academic_session,Academic session 1 - Arjun,2026-09-01,2026-09-01
+act_00616,academic_session,Academic session 2 - Arjun,2026-09-04,2026-09-04
+act_00617,academic_session,Academic session 1 - Arjun,2026-09-08,2026-09-08
+act_00618,academic_session,Academic session 2 - Arjun,2026-09-11,2026-09-11
+act_00619,academic_session,Academic session 1 - Arjun,2026-09-15,2026-09-15
+act_00620,academic_session,Academic session 2 - Arjun,2026-09-18,2026-09-18
+act_00621,academic_session,Academic session 1 - Arjun,2026-09-22,2026-09-22
+act_00622,academic_session,Academic session 2 - Arjun,2026-09-25,2026-09-25
+act_00623,academic_session,Academic session 1 - Arjun,2026-09-29,2026-09-29
+act_00624,academic_session,Academic session 2 - Arjun,2026-10-02,2026-10-02
+act_00625,academic_session,Academic session 1 - Arjun,2026-10-06,2026-10-06
+act_00626,academic_session,Academic session 2 - Arjun,2026-10-09,2026-10-09
+act_00627,academic_session,Academic session 1 - Arjun,2026-10-13,2026-10-13
+act_00628,academic_session,Academic session 2 - Arjun,2026-10-16,
+act_00629,academic_session,Academic session 1 - Arjun,2026-10-20,
+act_00630,academic_session,Academic session 2 - Arjun,2026-10-23,
+act_00631,academic_session,Academic session 1 - Arjun,2026-10-27,
+act_00632,academic_session,Academic session 2 - Arjun,2026-10-30,
+act_00633,academic_session,Academic session 1 - Tara,2026-05-12,2026-05-12
+act_00634,academic_session,Academic session 2 - Tara,2026-05-15,2026-05-15
+act_00635,academic_session,Academic session 1 - Tara,2026-05-19,2026-05-19
+act_00636,academic_session,Academic session 2 - Tara,2026-05-22,2026-05-22
+act_00637,academic_session,Academic session 1 - Tara,2026-05-26,2026-05-26
+act_00638,academic_session,Academic session 2 - Tara,2026-05-29,2026-05-29
+act_00639,academic_session,Academic session 1 - Tara,2026-06-02,2026-06-02
+act_00640,academic_session,Academic session 2 - Tara,2026-06-05,2026-06-05
+act_00641,academic_session,Academic session 1 - Tara,2026-06-09,2026-06-09
+act_00642,academic_session,Academic session 2 - Tara,2026-06-12,
+act_00643,academic_session,Academic session 1 - Tara,2026-06-16,2026-06-16
+act_00644,academic_session,Academic session 2 - Tara,2026-06-19,2026-06-19
+act_00645,academic_session,Academic session 1 - Tara,2026-06-23,2026-06-23
+act_00646,academic_session,Academic session 2 - Tara,2026-06-26,2026-06-26
+act_00647,academic_session,Academic session 1 - Tara,2026-06-30,2026-06-30
+act_00648,academic_session,Academic session 2 - Tara,2026-07-03,2026-07-03
+act_00649,academic_session,Academic session 1 - Tara,2026-07-07,2026-07-07
+act_00650,academic_session,Academic session 2 - Tara,2026-07-10,2026-07-10
+act_00651,academic_session,Academic session 1 - Tara,2026-07-14,2026-07-14
+act_00652,academic_session,Academic session 2 - Tara,2026-07-17,2026-07-17
+act_00653,academic_session,Academic session 1 - Tara,2026-07-21,2026-07-21
+act_00654,academic_session,Academic session 2 - Tara,2026-07-24,2026-07-24
+act_00655,academic_session,Academic session 1 - Tara,2026-07-28,2026-07-28
+act_00656,academic_session,Academic session 2 - Tara,2026-07-31,2026-07-31
+act_00657,academic_session,Academic session 1 - Tara,2026-08-04,2026-08-04
+act_00658,academic_session,Academic session 2 - Tara,2026-08-07,2026-08-07
+act_00659,academic_session,Academic session 1 - Tara,2026-08-11,2026-08-11
+act_00660,academic_session,Academic session 2 - Tara,2026-08-14,2026-08-14
+act_00661,academic_session,Academic session 1 - Tara,2026-08-18,2026-08-18
+act_00662,academic_session,Academic session 2 - Tara,2026-08-21,2026-08-21
+act_00663,academic_session,Academic session 1 - Tara,2026-08-25,2026-08-25
+act_00664,academic_session,Academic session 2 - Tara,2026-08-28,2026-08-28
+act_00665,academic_session,Academic session 1 - Tara,2026-09-01,2026-09-01
+act_00666,academic_session,Academic session 2 - Tara,2026-09-04,2026-09-04
+act_00667,academic_session,Academic session 1 - Tara,2026-09-08,2026-09-08
+act_00668,academic_session,Academic session 2 - Tara,2026-09-11,2026-09-11
+act_00669,academic_session,Academic session 1 - Tara,2026-09-15,2026-09-15
+act_00670,academic_session,Academic session 2 - Tara,2026-09-18,2026-09-18
+act_00671,academic_session,Academic session 1 - Tara,2026-09-22,2026-09-22
+act_00672,academic_session,Academic session 2 - Tara,2026-09-25,
+act_00673,academic_session,Academic session 1 - Tara,2026-09-29,2026-09-29
+act_00674,academic_session,Academic session 2 - Tara,2026-10-02,2026-10-02
+act_00675,academic_session,Academic session 1 - Tara,2026-10-06,2026-10-06
+act_00676,academic_session,Academic session 2 - Tara,2026-10-09,2026-10-09
+act_00677,academic_session,Academic session 1 - Tara,2026-10-13,2026-10-13
+act_00678,academic_session,Academic session 2 - Tara,2026-10-16,
+act_00679,academic_session,Academic session 1 - Tara,2026-10-20,
+act_00680,academic_session,Academic session 2 - Tara,2026-10-23,
+act_00681,academic_session,Academic session 1 - Tara,2026-10-27,
+act_00682,academic_session,Academic session 2 - Tara,2026-10-30,
+act_00683,academic_session,Academic session 1 - Ayaan,2026-05-26,2026-05-26
+act_00684,academic_session,Academic session 2 - Ayaan,2026-05-29,
+act_00685,academic_session,Academic session 1 - Ayaan,2026-06-02,2026-06-02
+act_00686,academic_session,Academic session 2 - Ayaan,2026-06-05,2026-06-05
+act_00687,academic_session,Academic session 1 - Ayaan,2026-06-09,2026-06-09
+act_00688,academic_session,Academic session 2 - Ayaan,2026-06-12,2026-06-12
+act_00689,academic_session,Academic session 1 - Ayaan,2026-06-16,2026-06-16
+act_00690,academic_session,Academic session 2 - Ayaan,2026-06-19,2026-06-19
+act_00691,academic_session,Academic session 1 - Ayaan,2026-06-23,2026-06-23
+act_00692,academic_session,Academic session 2 - Ayaan,2026-06-26,2026-06-26
+act_00693,academic_session,Academic session 1 - Ayaan,2026-06-30,2026-06-30
+act_00694,academic_session,Academic session 2 - Ayaan,2026-07-03,2026-07-03
+act_00695,academic_session,Academic session 1 - Ayaan,2026-07-07,
+act_00696,academic_session,Academic session 2 - Ayaan,2026-07-10,2026-07-10
+act_00697,academic_session,Academic session 1 - Ayaan,2026-07-14,2026-07-14
+act_00698,academic_session,Academic session 2 - Ayaan,2026-07-17,2026-07-17
+act_00699,academic_session,Academic session 1 - Ayaan,2026-07-21,2026-07-21
+act_00700,academic_session,Academic session 2 - Ayaan,2026-07-24,2026-07-24
+act_00701,academic_session,Academic session 1 - Ayaan,2026-07-28,2026-07-28
+act_00702,academic_session,Academic session 2 - Ayaan,2026-07-31,
+act_00703,academic_session,Academic session 1 - Ayaan,2026-08-04,2026-08-04
+act_00704,academic_session,Academic session 2 - Ayaan,2026-08-07,2026-08-07
+act_00705,academic_session,Academic session 1 - Ayaan,2026-08-11,2026-08-11
+act_00706,academic_session,Academic session 2 - Ayaan,2026-08-14,2026-08-14
+act_00707,academic_session,Academic session 1 - Ayaan,2026-08-18,2026-08-18
+act_00708,academic_session,Academic session 2 - Ayaan,2026-08-21,2026-08-21
+act_00709,academic_session,Academic session 1 - Ayaan,2026-08-25,2026-08-25
+act_00710,academic_session,Academic session 2 - Ayaan,2026-08-28,2026-08-28
+act_00711,academic_session,Academic session 1 - Ayaan,2026-09-01,2026-09-01
+act_00712,academic_session,Academic session 2 - Ayaan,2026-09-04,2026-09-04
+act_00713,academic_session,Academic session 1 - Ayaan,2026-09-08,2026-09-08
+act_00714,academic_session,Academic session 2 - Ayaan,2026-09-11,2026-09-11
+act_00715,academic_session,Academic session 1 - Ayaan,2026-09-15,2026-09-15
+act_00716,academic_session,Academic session 2 - Ayaan,2026-09-18,2026-09-18
+act_00717,academic_session,Academic session 1 - Ayaan,2026-09-22,2026-09-22
+act_00718,academic_session,Academic session 2 - Ayaan,2026-09-25,2026-09-25
+act_00719,academic_session,Academic session 1 - Ayaan,2026-09-29,2026-09-29
+act_00720,academic_session,Academic session 2 - Ayaan,2026-10-02,2026-10-02
+act_00721,academic_session,Academic session 1 - Ayaan,2026-10-06,2026-10-06
+act_00722,academic_session,Academic session 2 - Ayaan,2026-10-09,2026-10-09
+act_00723,academic_session,Academic session 1 - Ayaan,2026-10-13,2026-10-13
+act_00724,academic_session,Academic session 2 - Ayaan,2026-10-16,
+act_00725,academic_session,Academic session 1 - Ayaan,2026-10-20,
+act_00726,academic_session,Academic session 2 - Ayaan,2026-10-23,
+act_00727,academic_session,Academic session 1 - Ayaan,2026-10-27,
+act_00728,academic_session,Academic session 2 - Ayaan,2026-10-30,
+act_00729,academic_session,Academic session 1 - Navya,2026-06-30,2026-06-30
+act_00730,academic_session,Academic session 2 - Navya,2026-07-03,2026-07-03
+act_00731,academic_session,Academic session 1 - Navya,2026-07-07,2026-07-07
+act_00732,academic_session,Academic session 2 - Navya,2026-07-10,2026-07-10
+act_00733,academic_session,Academic session 1 - Navya,2026-07-14,
+act_00734,academic_session,Academic session 2 - Navya,2026-07-17,2026-07-17
+act_00735,academic_session,Academic session 1 - Navya,2026-07-21,2026-07-21
+act_00736,academic_session,Academic session 2 - Navya,2026-07-24,2026-07-24
+act_00737,academic_session,Academic session 1 - Navya,2026-07-28,2026-07-28
+act_00738,academic_session,Academic session 2 - Navya,2026-07-31,2026-07-31
+act_00739,academic_session,Academic session 1 - Navya,2026-08-04,2026-08-04
+act_00740,academic_session,Academic session 2 - Navya,2026-08-07,2026-08-07
+act_00741,academic_session,Academic session 1 - Navya,2026-08-11,2026-08-11
+act_00742,academic_session,Academic session 2 - Navya,2026-08-14,2026-08-14
+act_00743,academic_session,Academic session 1 - Navya,2026-08-18,2026-08-18
+act_00744,academic_session,Academic session 2 - Navya,2026-08-21,2026-08-21
+act_00745,academic_session,Academic session 1 - Navya,2026-08-25,2026-08-25
+act_00746,academic_session,Academic session 2 - Navya,2026-08-28,2026-08-28
+act_00747,academic_session,Academic session 1 - Navya,2026-09-01,2026-09-01
+act_00748,academic_session,Academic session 2 - Navya,2026-09-04,2026-09-04
+act_00749,academic_session,Academic session 1 - Navya,2026-09-08,2026-09-08
+act_00750,academic_session,Academic session 2 - Navya,2026-09-11,2026-09-11
+act_00751,academic_session,Academic session 1 - Navya,2026-09-15,2026-09-15
+act_00752,academic_session,Academic session 2 - Navya,2026-09-18,2026-09-18
+act_00753,academic_session,Academic session 1 - Navya,2026-09-22,2026-09-22
+act_00754,academic_session,Academic session 2 - Navya,2026-09-25,2026-09-25
+act_00755,academic_session,Academic session 1 - Navya,2026-09-29,2026-09-29
+act_00756,academic_session,Academic session 2 - Navya,2026-10-02,
+act_00757,academic_session,Academic session 1 - Navya,2026-10-06,2026-10-06
+act_00758,academic_session,Academic session 2 - Navya,2026-10-09,2026-10-09
+act_00759,academic_session,Academic session 1 - Navya,2026-10-13,2026-10-13
+act_00760,academic_session,Academic session 2 - Navya,2026-10-16,
+act_00761,academic_session,Academic session 1 - Navya,2026-10-20,
+act_00762,academic_session,Academic session 2 - Navya,2026-10-23,
+act_00763,academic_session,Academic session 1 - Navya,2026-10-27,
+act_00764,academic_session,Academic session 2 - Navya,2026-10-30,
+act_00765,academic_session,Academic session 1 - Rudra,2026-04-14,2026-04-14
+act_00766,academic_session,Academic session 2 - Rudra,2026-04-17,2026-04-17
+act_00767,academic_session,Academic session 1 - Rudra,2026-04-21,2026-04-21
+act_00768,academic_session,Academic session 2 - Rudra,2026-04-24,2026-04-24
+act_00769,academic_session,Academic session 1 - Rudra,2026-04-28,2026-04-28
+act_00770,academic_session,Academic session 2 - Rudra,2026-05-01,2026-05-01
+act_00771,academic_session,Academic session 1 - Rudra,2026-05-05,2026-05-05
+act_00772,academic_session,Academic session 2 - Rudra,2026-05-08,2026-05-08
+act_00773,academic_session,Academic session 1 - Rudra,2026-05-12,2026-05-12
+act_00774,academic_session,Academic session 2 - Rudra,2026-05-15,2026-05-15
+act_00775,academic_session,Academic session 1 - Rudra,2026-05-19,2026-05-19
+act_00776,academic_session,Academic session 2 - Rudra,2026-05-22,2026-05-22
+act_00777,academic_session,Academic session 1 - Rudra,2026-05-26,
+act_00778,academic_session,Academic session 2 - Rudra,2026-05-29,2026-05-29
+act_00779,academic_session,Academic session 1 - Rudra,2026-06-02,2026-06-02
+act_00780,academic_session,Academic session 2 - Rudra,2026-06-05,2026-06-05
+act_00781,academic_session,Academic session 1 - Rudra,2026-06-09,2026-06-09
+act_00782,academic_session,Academic session 2 - Rudra,2026-06-12,2026-06-12
+act_00783,academic_session,Academic session 1 - Rudra,2026-06-16,2026-06-16
+act_00784,academic_session,Academic session 2 - Rudra,2026-06-19,2026-06-19
+act_00785,academic_session,Academic session 1 - Rudra,2026-06-23,2026-06-23
+act_00786,academic_session,Academic session 2 - Rudra,2026-06-26,2026-06-26
+act_00787,academic_session,Academic session 1 - Rudra,2026-06-30,2026-06-30
+act_00788,academic_session,Academic session 2 - Rudra,2026-07-03,2026-07-03
+act_00789,academic_session,Academic session 1 - Rudra,2026-07-07,2026-07-07
+act_00790,academic_session,Academic session 2 - Rudra,2026-07-10,2026-07-10
+act_00791,academic_session,Academic session 1 - Rudra,2026-07-14,2026-07-14
+act_00792,academic_session,Academic session 2 - Rudra,2026-07-17,2026-07-17
+act_00793,academic_session,Academic session 1 - Rudra,2026-07-21,2026-07-21
+act_00794,academic_session,Academic session 2 - Rudra,2026-07-24,2026-07-24
+act_00795,academic_session,Academic session 1 - Rudra,2026-07-28,2026-07-28
+act_00796,academic_session,Academic session 2 - Rudra,2026-07-31,2026-07-31
+act_00797,academic_session,Academic session 1 - Rudra,2026-08-04,2026-08-04
+act_00798,academic_session,Academic session 2 - Rudra,2026-08-07,2026-08-07
+act_00799,academic_session,Academic session 1 - Rudra,2026-08-11,2026-08-11
+act_00800,academic_session,Academic session 2 - Rudra,2026-08-14,2026-08-14
+act_00801,academic_session,Academic session 1 - Rudra,2026-08-18,2026-08-18
+act_00802,academic_session,Academic session 2 - Rudra,2026-08-21,2026-08-21
+act_00803,academic_session,Academic session 1 - Rudra,2026-08-25,2026-08-25
+act_00804,academic_session,Academic session 2 - Rudra,2026-08-28,2026-08-28
+act_00805,academic_session,Academic session 1 - Rudra,2026-09-01,2026-09-01
+act_00806,academic_session,Academic session 2 - Rudra,2026-09-04,2026-09-04
+act_00807,academic_session,Academic session 1 - Rudra,2026-09-08,2026-09-08
+act_00808,academic_session,Academic session 2 - Rudra,2026-09-11,2026-09-11
+act_00809,academic_session,Academic session 1 - Rudra,2026-09-15,2026-09-15
+act_00810,academic_session,Academic session 2 - Rudra,2026-09-18,2026-09-18
+act_00811,academic_session,Academic session 1 - Rudra,2026-09-22,2026-09-22
+act_00812,academic_session,Academic session 2 - Rudra,2026-09-25,2026-09-25
+act_00813,academic_session,Academic session 1 - Rudra,2026-09-29,2026-09-29
+act_00814,academic_session,Academic session 2 - Rudra,2026-10-02,2026-10-02
+act_00815,academic_session,Academic session 1 - Rudra,2026-10-06,2026-10-06
+act_00816,academic_session,Academic session 2 - Rudra,2026-10-09,2026-10-09
+act_00817,academic_session,Academic session 1 - Rudra,2026-10-13,2026-10-13
+act_00818,academic_session,Academic session 2 - Rudra,2026-10-16,
+act_00819,academic_session,Academic session 1 - Rudra,2026-10-20,
+act_00820,academic_session,Academic session 2 - Rudra,2026-10-23,
+act_00821,academic_session,Academic session 1 - Rudra,2026-10-27,
+act_00822,academic_session,Academic session 2 - Rudra,2026-10-30,
+act_00823,academic_session,Academic session 1 - Zoya,2026-04-21,2026-04-21
+act_00824,academic_session,Academic session 2 - Zoya,2026-04-24,2026-04-24
+act_00825,academic_session,Academic session 1 - Zoya,2026-04-28,2026-04-28
+act_00826,academic_session,Academic session 2 - Zoya,2026-05-01,
+act_00827,academic_session,Academic session 1 - Zoya,2026-05-05,2026-05-05
+act_00828,academic_session,Academic session 2 - Zoya,2026-05-08,2026-05-08
+act_00829,academic_session,Academic session 1 - Zoya,2026-05-12,2026-05-12
+act_00830,academic_session,Academic session 2 - Zoya,2026-05-15,2026-05-15
+act_00831,academic_session,Academic session 1 - Zoya,2026-05-19,
+act_00832,academic_session,Academic session 2 - Zoya,2026-05-22,2026-05-22
+act_00833,academic_session,Academic session 1 - Zoya,2026-05-26,2026-05-26
+act_00834,academic_session,Academic session 2 - Zoya,2026-05-29,2026-05-29
+act_00835,academic_session,Academic session 1 - Zoya,2026-06-02,
+act_00836,academic_session,Academic session 2 - Zoya,2026-06-05,2026-06-05
+act_00837,academic_session,Academic session 1 - Zoya,2026-06-09,2026-06-09
+act_00838,academic_session,Academic session 2 - Zoya,2026-06-12,2026-06-12
+act_00839,academic_session,Academic session 1 - Zoya,2026-06-16,2026-06-16
+act_00840,academic_session,Academic session 2 - Zoya,2026-06-19,2026-06-19
+act_00841,academic_session,Academic session 1 - Zoya,2026-06-23,2026-06-23
+act_00842,academic_session,Academic session 2 - Zoya,2026-06-26,2026-06-26
+act_00843,academic_session,Academic session 1 - Zoya,2026-06-30,
+act_00844,academic_session,Academic session 2 - Zoya,2026-07-03,2026-07-03
+act_00845,academic_session,Academic session 1 - Zoya,2026-07-07,2026-07-07
+act_00846,academic_session,Academic session 2 - Zoya,2026-07-10,2026-07-10
+act_00847,academic_session,Academic session 1 - Zoya,2026-07-14,2026-07-14
+act_00848,academic_session,Academic session 2 - Zoya,2026-07-17,2026-07-17
+act_00849,academic_session,Academic session 1 - Zoya,2026-07-21,2026-07-21
+act_00850,academic_session,Academic session 2 - Zoya,2026-07-24,2026-07-24
+act_00851,academic_session,Academic session 1 - Zoya,2026-07-28,2026-07-28
+act_00852,academic_session,Academic session 2 - Zoya,2026-07-31,2026-07-31
+act_00853,academic_session,Academic session 1 - Zoya,2026-08-04,2026-08-04
+act_00854,academic_session,Academic session 2 - Zoya,2026-08-07,2026-08-07
+act_00855,academic_session,Academic session 1 - Zoya,2026-08-11,2026-08-11
+act_00856,academic_session,Academic session 2 - Zoya,2026-08-14,2026-08-14
+act_00857,academic_session,Academic session 1 - Zoya,2026-08-18,
+act_00858,academic_session,Academic session 2 - Zoya,2026-08-21,2026-08-21
+act_00859,academic_session,Academic session 1 - Zoya,2026-08-25,2026-08-25
+act_00860,academic_session,Academic session 2 - Zoya,2026-08-28,2026-08-28
+act_00861,academic_session,Academic session 1 - Zoya,2026-09-01,2026-09-01
+act_00862,academic_session,Academic session 2 - Zoya,2026-09-04,2026-09-04
+act_00863,academic_session,Academic session 1 - Zoya,2026-09-08,2026-09-08
+act_00864,academic_session,Academic session 2 - Zoya,2026-09-11,2026-09-11
+act_00865,academic_session,Academic session 1 - Zoya,2026-09-15,2026-09-15
+act_00866,academic_session,Academic session 2 - Zoya,2026-09-18,2026-09-18
+act_00867,academic_session,Academic session 1 - Zoya,2026-09-22,2026-09-22
+act_00868,academic_session,Academic session 2 - Zoya,2026-09-25,2026-09-25
+act_00869,academic_session,Academic session 1 - Zoya,2026-09-29,2026-09-29
+act_00870,academic_session,Academic session 2 - Zoya,2026-10-02,2026-10-02
+act_00871,academic_session,Academic session 1 - Zoya,2026-10-06,2026-10-06
+act_00872,academic_session,Academic session 2 - Zoya,2026-10-09,2026-10-09
+act_00873,academic_session,Academic session 1 - Zoya,2026-10-13,2026-10-13
+act_00874,academic_session,Academic session 2 - Zoya,2026-10-16,
+act_00875,academic_session,Academic session 1 - Zoya,2026-10-20,
+act_00876,academic_session,Academic session 2 - Zoya,2026-10-23,
+act_00877,academic_session,Academic session 1 - Zoya,2026-10-27,
+act_00878,academic_session,Academic session 2 - Zoya,2026-10-30,
+act_00879,academic_session,Academic session 1 - Advait,2026-04-14,2026-04-14
+act_00880,academic_session,Academic session 2 - Advait,2026-04-17,2026-04-17
+act_00881,academic_session,Academic session 1 - Advait,2026-04-21,2026-04-21
+act_00882,academic_session,Academic session 2 - Advait,2026-04-24,2026-04-24
+act_00883,academic_session,Academic session 1 - Advait,2026-04-28,2026-04-28
+act_00884,academic_session,Academic session 2 - Advait,2026-05-01,2026-05-01
+act_00885,academic_session,Academic session 1 - Advait,2026-05-05,2026-05-05
+act_00886,academic_session,Academic session 2 - Advait,2026-05-08,2026-05-08
+act_00887,academic_session,Academic session 1 - Advait,2026-05-12,2026-05-12
+act_00888,academic_session,Academic session 2 - Advait,2026-05-15,2026-05-15
+act_00889,academic_session,Academic session 1 - Advait,2026-05-19,2026-05-19
+act_00890,academic_session,Academic session 2 - Advait,2026-05-22,2026-05-22
+act_00891,academic_session,Academic session 1 - Advait,2026-05-26,
+act_00892,academic_session,Academic session 2 - Advait,2026-05-29,2026-05-29
+act_00893,academic_session,Academic session 1 - Advait,2026-06-02,2026-06-02
+act_00894,academic_session,Academic session 2 - Advait,2026-06-05,2026-06-05
+act_00895,academic_session,Academic session 1 - Advait,2026-06-09,2026-06-09
+act_00896,academic_session,Academic session 2 - Advait,2026-06-12,2026-06-12
+act_00897,academic_session,Academic session 1 - Advait,2026-06-16,2026-06-16
+act_00898,academic_session,Academic session 2 - Advait,2026-06-19,2026-06-19
+act_00899,academic_session,Academic session 1 - Advait,2026-06-23,2026-06-23
+act_00900,academic_session,Academic session 2 - Advait,2026-06-26,2026-06-26
+act_00901,academic_session,Academic session 1 - Advait,2026-06-30,2026-06-30
+act_00902,academic_session,Academic session 2 - Advait,2026-07-03,2026-07-03
+act_00903,academic_session,Academic session 1 - Advait,2026-07-07,2026-07-07
+act_00904,academic_session,Academic session 2 - Advait,2026-07-10,2026-07-10
+act_00905,academic_session,Academic session 1 - Advait,2026-07-14,2026-07-14
+act_00906,academic_session,Academic session 2 - Advait,2026-07-17,2026-07-17
+act_00907,academic_session,Academic session 1 - Advait,2026-07-21,2026-07-21
+act_00908,academic_session,Academic session 2 - Advait,2026-07-24,2026-07-24
+act_00909,academic_session,Academic session 1 - Advait,2026-07-28,2026-07-28
+act_00910,academic_session,Academic session 2 - Advait,2026-07-31,2026-07-31
+act_00911,academic_session,Academic session 1 - Advait,2026-08-04,2026-08-04
+act_00912,academic_session,Academic session 2 - Advait,2026-08-07,2026-08-07
+act_00913,academic_session,Academic session 1 - Advait,2026-08-11,2026-08-11
+act_00914,academic_session,Academic session 2 - Advait,2026-08-14,2026-08-14
+act_00915,academic_session,Academic session 1 - Advait,2026-08-18,2026-08-18
+act_00916,academic_session,Academic session 2 - Advait,2026-08-21,2026-08-21
+act_00917,academic_session,Academic session 1 - Advait,2026-08-25,2026-08-25
+act_00918,academic_session,Academic session 2 - Advait,2026-08-28,2026-08-28
+act_00919,academic_session,Academic session 1 - Advait,2026-09-01,2026-09-01
+act_00920,academic_session,Academic session 2 - Advait,2026-09-04,2026-09-04
+act_00921,academic_session,Academic session 1 - Advait,2026-09-08,2026-09-08
+act_00922,academic_session,Academic session 2 - Advait,2026-09-11,2026-09-11
+act_00923,academic_session,Academic session 1 - Advait,2026-09-15,2026-09-15
+act_00924,academic_session,Academic session 2 - Advait,2026-09-18,2026-09-18
+act_00925,academic_session,Academic session 1 - Advait,2026-09-22,2026-09-22
+act_00926,academic_session,Academic session 2 - Advait,2026-09-25,2026-09-25
+act_00927,academic_session,Academic session 1 - Advait,2026-09-29,2026-09-29
+act_00928,academic_session,Academic session 2 - Advait,2026-10-02,2026-10-02
+act_00929,academic_session,Academic session 1 - Advait,2026-10-06,
+act_00930,academic_session,Academic session 2 - Advait,2026-10-09,
+act_00931,academic_session,Academic session 1 - Advait,2026-10-13,2026-10-13
+act_00932,academic_session,Academic session 2 - Advait,2026-10-16,
+act_00933,academic_session,Academic session 1 - Advait,2026-10-20,
+act_00934,academic_session,Academic session 2 - Advait,2026-10-23,
+act_00935,academic_session,Academic session 1 - Advait,2026-10-27,
+act_00936,academic_session,Academic session 2 - Advait,2026-10-30,
+act_00937,academic_session,Academic session 1 - Meher,2026-05-26,2026-05-26
+act_00938,academic_session,Academic session 2 - Meher,2026-05-29,2026-05-29
+act_00939,academic_session,Academic session 1 - Meher,2026-06-02,2026-06-02
+act_00940,academic_session,Academic session 2 - Meher,2026-06-05,2026-06-05
+act_00941,academic_session,Academic session 1 - Meher,2026-06-09,2026-06-09
+act_00942,academic_session,Academic session 2 - Meher,2026-06-12,2026-06-12
+act_00943,academic_session,Academic session 1 - Meher,2026-06-16,2026-06-16
+act_00944,academic_session,Academic session 2 - Meher,2026-06-19,2026-06-19
+act_00945,academic_session,Academic session 1 - Meher,2026-06-23,2026-06-23
+act_00946,academic_session,Academic session 2 - Meher,2026-06-26,2026-06-26
+act_00947,academic_session,Academic session 1 - Meher,2026-06-30,2026-06-30
+act_00948,academic_session,Academic session 2 - Meher,2026-07-03,2026-07-03
+act_00949,academic_session,Academic session 1 - Meher,2026-07-07,2026-07-07
+act_00950,academic_session,Academic session 2 - Meher,2026-07-10,2026-07-10
+act_00951,academic_session,Academic session 1 - Meher,2026-07-14,2026-07-14
+act_00952,academic_session,Academic session 2 - Meher,2026-07-17,2026-07-17
+act_00953,academic_session,Academic session 1 - Meher,2026-07-21,2026-07-21
+act_00954,academic_session,Academic session 2 - Meher,2026-07-24,2026-07-24
+act_00955,academic_session,Academic session 1 - Meher,2026-07-28,2026-07-28
+act_00956,academic_session,Academic session 2 - Meher,2026-07-31,2026-07-31
+act_00957,academic_session,Academic session 1 - Meher,2026-08-04,2026-08-04
+act_00958,academic_session,Academic session 2 - Meher,2026-08-07,2026-08-07
+act_00959,academic_session,Academic session 1 - Meher,2026-08-11,2026-08-11
+act_00960,academic_session,Academic session 2 - Meher,2026-08-14,2026-08-14
+act_00961,academic_session,Academic session 1 - Meher,2026-08-18,2026-08-18
+act_00962,academic_session,Academic session 2 - Meher,2026-08-21,2026-08-21
+act_00963,academic_session,Academic session 1 - Meher,2026-08-25,2026-08-25
+act_00964,academic_session,Academic session 2 - Meher,2026-08-28,2026-08-28
+act_00965,academic_session,Academic session 1 - Meher,2026-09-01,2026-09-01
+act_00966,academic_session,Academic session 2 - Meher,2026-09-04,2026-09-04
+act_00967,academic_session,Academic session 1 - Meher,2026-09-08,2026-09-08
+act_00968,academic_session,Academic session 2 - Meher,2026-09-11,2026-09-11
+act_00969,academic_session,Academic session 1 - Meher,2026-09-15,2026-09-15
+act_00970,academic_session,Academic session 2 - Meher,2026-09-18,2026-09-18
+act_00971,academic_session,Academic session 1 - Meher,2026-09-22,2026-09-22
+act_00972,academic_session,Academic session 2 - Meher,2026-09-25,2026-09-25
+act_00973,academic_session,Academic session 1 - Meher,2026-09-29,2026-09-29
+act_00974,academic_session,Academic session 2 - Meher,2026-10-02,2026-10-02
+act_00975,academic_session,Academic session 1 - Meher,2026-10-06,2026-10-06
+act_00976,academic_session,Academic session 2 - Meher,2026-10-09,2026-10-09
+act_00977,academic_session,Academic session 1 - Meher,2026-10-13,2026-10-13
+act_00978,academic_session,Academic session 2 - Meher,2026-10-16,
+act_00979,academic_session,Academic session 1 - Meher,2026-10-20,
+act_00980,academic_session,Academic session 2 - Meher,2026-10-23,
+act_00981,academic_session,Academic session 1 - Meher,2026-10-27,
+act_00982,academic_session,Academic session 2 - Meher,2026-10-30,
+act_00983,academic_session,Academic session 1 - Siya,2026-04-21,2026-04-21
+act_00984,academic_session,Academic session 2 - Siya,2026-04-24,2026-04-24
+act_00985,academic_session,Academic session 1 - Siya,2026-04-28,2026-04-28
+act_00986,academic_session,Academic session 2 - Siya,2026-05-01,2026-05-01
+act_00987,academic_session,Academic session 1 - Siya,2026-05-05,2026-05-05
+act_00988,academic_session,Academic session 2 - Siya,2026-05-08,2026-05-08
+act_00989,academic_session,Academic session 1 - Siya,2026-05-12,2026-05-12
+act_00990,academic_session,Academic session 2 - Siya,2026-05-15,2026-05-15
+act_00991,academic_session,Academic session 1 - Siya,2026-05-19,2026-05-19
+act_00992,academic_session,Academic session 2 - Siya,2026-05-22,2026-05-22
+act_00993,academic_session,Academic session 1 - Siya,2026-05-26,2026-05-26
+act_00994,academic_session,Academic session 2 - Siya,2026-05-29,2026-05-29
+act_00995,academic_session,Academic session 1 - Siya,2026-06-02,
+act_00996,academic_session,Academic session 2 - Siya,2026-06-05,2026-06-05
+act_00997,academic_session,Academic session 1 - Siya,2026-06-09,2026-06-09
+act_00998,academic_session,Academic session 2 - Siya,2026-06-12,2026-06-12
+act_00999,academic_session,Academic session 1 - Siya,2026-06-16,2026-06-16
+act_01000,academic_session,Academic session 2 - Siya,2026-06-19,
+act_01001,academic_session,Academic session 1 - Siya,2026-06-23,2026-06-23
+act_01002,academic_session,Academic session 2 - Siya,2026-06-26,2026-06-26
+act_01003,academic_session,Academic session 1 - Siya,2026-06-30,2026-06-30
+act_01004,academic_session,Academic session 2 - Siya,2026-07-03,2026-07-03
+act_01005,academic_session,Academic session 1 - Siya,2026-07-07,2026-07-07
+act_01006,academic_session,Academic session 2 - Siya,2026-07-10,2026-07-10
+act_01007,academic_session,Academic session 1 - Siya,2026-07-14,2026-07-14
+act_01008,academic_session,Academic session 2 - Siya,2026-07-17,2026-07-17
+act_01009,academic_session,Academic session 1 - Siya,2026-07-21,2026-07-21
+act_01010,academic_session,Academic session 2 - Siya,2026-07-24,2026-07-24
+act_01011,academic_session,Academic session 1 - Siya,2026-07-28,2026-07-28
+act_01012,academic_session,Academic session 2 - Siya,2026-07-31,2026-07-31
+act_01013,academic_session,Academic session 1 - Siya,2026-08-04,2026-08-04
+act_01014,academic_session,Academic session 2 - Siya,2026-08-07,2026-08-07
+act_01015,academic_session,Academic session 1 - Siya,2026-08-11,2026-08-11
+act_01016,academic_session,Academic session 2 - Siya,2026-08-14,2026-08-14
+act_01017,academic_session,Academic session 1 - Siya,2026-08-18,2026-08-18
+act_01018,academic_session,Academic session 2 - Siya,2026-08-21,2026-08-21
+act_01019,academic_session,Academic session 1 - Siya,2026-08-25,
+act_01020,academic_session,Academic session 2 - Siya,2026-08-28,2026-08-28
+act_01021,academic_session,Academic session 1 - Siya,2026-09-01,2026-09-01
+act_01022,academic_session,Academic session 2 - Siya,2026-09-04,2026-09-04
+act_01023,academic_session,Academic session 1 - Siya,2026-09-08,2026-09-08
+act_01024,academic_session,Academic session 2 - Siya,2026-09-11,2026-09-11
+act_01025,academic_session,Academic session 1 - Siya,2026-09-15,2026-09-15
+act_01026,academic_session,Academic session 2 - Siya,2026-09-18,2026-09-18
+act_01027,academic_session,Academic session 1 - Siya,2026-09-22,2026-09-22
+act_01028,academic_session,Academic session 2 - Siya,2026-09-25,2026-09-25
+act_01029,academic_session,Academic session 1 - Siya,2026-09-29,2026-09-29
+act_01030,academic_session,Academic session 2 - Siya,2026-10-02,2026-10-02
+act_01031,academic_session,Academic session 1 - Siya,2026-10-06,2026-10-06
+act_01032,academic_session,Academic session 2 - Siya,2026-10-09,2026-10-09
+act_01033,academic_session,Academic session 1 - Siya,2026-10-13,2026-10-13
+act_01034,academic_session,Academic session 2 - Siya,2026-10-16,
+act_01035,academic_session,Academic session 1 - Siya,2026-10-20,
+act_01036,academic_session,Academic session 2 - Siya,2026-10-23,
+act_01037,academic_session,Academic session 1 - Siya,2026-10-27,
+act_01038,academic_session,Academic session 2 - Siya,2026-10-30,
+act_01039,academic_session,Academic session 1 - Riya,2026-06-09,2026-06-09
+act_01040,academic_session,Academic session 2 - Riya,2026-06-12,2026-06-12
+act_01041,academic_session,Academic session 1 - Riya,2026-06-16,
+act_01042,academic_session,Academic session 2 - Riya,2026-06-19,
+act_01043,academic_session,Academic session 1 - Riya,2026-06-23,2026-06-23
+act_01044,academic_session,Academic session 2 - Riya,2026-06-26,2026-06-26
+act_01045,academic_session,Academic session 1 - Riya,2026-06-30,2026-06-30
+act_01046,academic_session,Academic session 2 - Riya,2026-07-03,2026-07-03
+act_01047,academic_session,Academic session 1 - Riya,2026-07-07,2026-07-07
+act_01048,academic_session,Academic session 2 - Riya,2026-07-10,2026-07-10
+act_01049,academic_session,Academic session 1 - Riya,2026-07-14,2026-07-14
+act_01050,academic_session,Academic session 2 - Riya,2026-07-17,2026-07-17
+act_01051,academic_session,Academic session 1 - Riya,2026-07-21,2026-07-21
+act_01052,academic_session,Academic session 2 - Riya,2026-07-24,2026-07-24
+act_01053,academic_session,Academic session 1 - Riya,2026-07-28,2026-07-28
+act_01054,academic_session,Academic session 2 - Riya,2026-07-31,2026-07-31
+act_01055,academic_session,Academic session 1 - Riya,2026-08-04,2026-08-04
+act_01056,academic_session,Academic session 2 - Riya,2026-08-07,2026-08-07
+act_01057,academic_session,Academic session 1 - Riya,2026-08-11,2026-08-11
+act_01058,academic_session,Academic session 2 - Riya,2026-08-14,2026-08-14
+act_01059,academic_session,Academic session 1 - Riya,2026-08-18,2026-08-18
+act_01060,academic_session,Academic session 2 - Riya,2026-08-21,2026-08-21
+act_01061,academic_session,Academic session 1 - Riya,2026-08-25,2026-08-25
+act_01062,academic_session,Academic session 2 - Riya,2026-08-28,2026-08-28
+act_01063,academic_session,Academic session 1 - Riya,2026-09-01,2026-09-01
+act_01064,academic_session,Academic session 2 - Riya,2026-09-04,2026-09-04
+act_01065,academic_session,Academic session 1 - Riya,2026-09-08,2026-09-08
+act_01066,academic_session,Academic session 2 - Riya,2026-09-11,2026-09-11
+act_01067,academic_session,Academic session 1 - Riya,2026-09-15,2026-09-15
+act_01068,academic_session,Academic session 2 - Riya,2026-09-18,2026-09-18
+act_01069,academic_session,Academic session 1 - Riya,2026-09-22,2026-09-22
+act_01070,academic_session,Academic session 2 - Riya,2026-09-25,2026-09-25
+act_01071,academic_session,Academic session 1 - Riya,2026-09-29,2026-09-29
+act_01072,academic_session,Academic session 2 - Riya,2026-10-02,2026-10-02
+act_01073,academic_session,Academic session 1 - Riya,2026-10-06,2026-10-06
+act_01074,academic_session,Academic session 2 - Riya,2026-10-09,2026-10-09
+act_01075,academic_session,Academic session 1 - Riya,2026-10-13,2026-10-13
+act_01076,academic_session,Academic session 2 - Riya,2026-10-16,
+act_01077,academic_session,Academic session 1 - Riya,2026-10-20,
+act_01078,academic_session,Academic session 2 - Riya,2026-10-23,
+act_01079,academic_session,Academic session 1 - Riya,2026-10-27,
+act_01080,academic_session,Academic session 2 - Riya,2026-10-30,
+act_01081,academic_session,Academic session 1 - Dev,2026-04-14,2026-04-14
+act_01082,academic_session,Academic session 2 - Dev,2026-04-17,2026-04-17
+act_01083,academic_session,Academic session 1 - Dev,2026-04-21,2026-04-21
+act_01084,academic_session,Academic session 2 - Dev,2026-04-24,2026-04-24
+act_01085,academic_session,Academic session 1 - Dev,2026-04-28,
+act_01086,academic_session,Academic session 2 - Dev,2026-05-01,2026-05-01
+act_01087,academic_session,Academic session 1 - Dev,2026-05-05,2026-05-05
+act_01088,academic_session,Academic session 2 - Dev,2026-05-08,2026-05-08
+act_01089,academic_session,Academic session 1 - Dev,2026-05-12,2026-05-12
+act_01090,academic_session,Academic session 2 - Dev,2026-05-15,2026-05-15
+act_01091,academic_session,Academic session 1 - Dev,2026-05-19,2026-05-19
+act_01092,academic_session,Academic session 2 - Dev,2026-05-22,2026-05-22
+act_01093,academic_session,Academic session 1 - Dev,2026-05-26,2026-05-26
+act_01094,academic_session,Academic session 2 - Dev,2026-05-29,2026-05-29
+act_01095,academic_session,Academic session 1 - Dev,2026-06-02,2026-06-02
+act_01096,academic_session,Academic session 2 - Dev,2026-06-05,2026-06-05
+act_01097,academic_session,Academic session 1 - Dev,2026-06-09,2026-06-09
+act_01098,academic_session,Academic session 2 - Dev,2026-06-12,2026-06-12
+act_01099,academic_session,Academic session 1 - Dev,2026-06-16,2026-06-16
+act_01100,academic_session,Academic session 2 - Dev,2026-06-19,2026-06-19
+act_01101,academic_session,Academic session 1 - Dev,2026-06-23,2026-06-23
+act_01102,academic_session,Academic session 2 - Dev,2026-06-26,2026-06-26
+act_01103,academic_session,Academic session 1 - Dev,2026-06-30,
+act_01104,academic_session,Academic session 2 - Dev,2026-07-03,2026-07-03
+act_01105,academic_session,Academic session 1 - Dev,2026-07-07,2026-07-07
+act_01106,academic_session,Academic session 2 - Dev,2026-07-10,2026-07-10
+act_01107,academic_session,Academic session 1 - Dev,2026-07-14,2026-07-14
+act_01108,academic_session,Academic session 2 - Dev,2026-07-17,2026-07-17
+act_01109,academic_session,Academic session 1 - Dev,2026-07-21,2026-07-21
+act_01110,academic_session,Academic session 2 - Dev,2026-07-24,2026-07-24
+act_01111,academic_session,Academic session 1 - Dev,2026-07-28,2026-07-28
+act_01112,academic_session,Academic session 2 - Dev,2026-07-31,2026-07-31
+act_01113,academic_session,Academic session 1 - Dev,2026-08-04,2026-08-04
+act_01114,academic_session,Academic session 2 - Dev,2026-08-07,2026-08-07
+act_01115,academic_session,Academic session 1 - Dev,2026-08-11,2026-08-11
+act_01116,academic_session,Academic session 2 - Dev,2026-08-14,2026-08-14
+act_01117,academic_session,Academic session 1 - Dev,2026-08-18,2026-08-18
+act_01118,academic_session,Academic session 2 - Dev,2026-08-21,2026-08-21
+act_01119,academic_session,Academic session 1 - Dev,2026-08-25,2026-08-25
+act_01120,academic_session,Academic session 2 - Dev,2026-08-28,2026-08-28
+act_01121,academic_session,Academic session 1 - Dev,2026-09-01,
+act_01122,academic_session,Academic session 2 - Dev,2026-09-04,2026-09-04
+act_01123,academic_session,Academic session 1 - Dev,2026-09-08,2026-09-08
+act_01124,academic_session,Academic session 2 - Dev,2026-09-11,
+act_01125,academic_session,Academic session 1 - Dev,2026-09-15,2026-09-15
+act_01126,academic_session,Academic session 2 - Dev,2026-09-18,
+act_01127,academic_session,Academic session 1 - Dev,2026-09-22,2026-09-22
+act_01128,academic_session,Academic session 2 - Dev,2026-09-25,2026-09-25
+act_01129,academic_session,Academic session 1 - Dev,2026-09-29,2026-09-29
+act_01130,academic_session,Academic session 2 - Dev,2026-10-02,2026-10-02
+act_01131,academic_session,Academic session 1 - Dev,2026-10-06,2026-10-06
+act_01132,academic_session,Academic session 2 - Dev,2026-10-09,2026-10-09
+act_01133,academic_session,Academic session 1 - Dev,2026-10-13,2026-10-13
+act_01134,academic_session,Academic session 2 - Dev,2026-10-16,
+act_01135,academic_session,Academic session 1 - Dev,2026-10-20,
+act_01136,academic_session,Academic session 2 - Dev,2026-10-23,
+act_01137,academic_session,Academic session 1 - Dev,2026-10-27,
+act_01138,academic_session,Academic session 2 - Dev,2026-10-30,
+act_01139,academic_session,Academic session 1 - Naira,2026-04-14,2026-04-14
+act_01140,academic_session,Academic session 2 - Naira,2026-04-17,2026-04-17
+act_01141,academic_session,Academic session 1 - Naira,2026-04-21,2026-04-21
+act_01142,academic_session,Academic session 2 - Naira,2026-04-24,2026-04-24
+act_01143,academic_session,Academic session 1 - Naira,2026-04-28,2026-04-28
+act_01144,academic_session,Academic session 2 - Naira,2026-05-01,2026-05-01
+act_01145,academic_session,Academic session 1 - Naira,2026-05-05,2026-05-05
+act_01146,academic_session,Academic session 2 - Naira,2026-05-08,2026-05-08
+act_01147,academic_session,Academic session 1 - Naira,2026-05-12,2026-05-12
+act_01148,academic_session,Academic session 2 - Naira,2026-05-15,2026-05-15
+act_01149,academic_session,Academic session 1 - Naira,2026-05-19,2026-05-19
+act_01150,academic_session,Academic session 2 - Naira,2026-05-22,2026-05-22
+act_01151,academic_session,Academic session 1 - Naira,2026-05-26,2026-05-26
+act_01152,academic_session,Academic session 2 - Naira,2026-05-29,2026-05-29
+act_01153,academic_session,Academic session 1 - Naira,2026-06-02,2026-06-02
+act_01154,academic_session,Academic session 2 - Naira,2026-06-05,2026-06-05
+act_01155,academic_session,Academic session 1 - Naira,2026-06-09,
+act_01156,academic_session,Academic session 2 - Naira,2026-06-12,2026-06-12
+act_01157,academic_session,Academic session 1 - Naira,2026-06-16,2026-06-16
+act_01158,academic_session,Academic session 2 - Naira,2026-06-19,2026-06-19
+act_01159,academic_session,Academic session 1 - Naira,2026-06-23,2026-06-23
+act_01160,academic_session,Academic session 2 - Naira,2026-06-26,2026-06-26
+act_01161,academic_session,Academic session 1 - Naira,2026-06-30,2026-06-30
+act_01162,academic_session,Academic session 2 - Naira,2026-07-03,2026-07-03
+act_01163,academic_session,Academic session 1 - Naira,2026-07-07,2026-07-07
+act_01164,academic_session,Academic session 2 - Naira,2026-07-10,2026-07-10
+act_01165,academic_session,Academic session 1 - Naira,2026-07-14,2026-07-14
+act_01166,academic_session,Academic session 2 - Naira,2026-07-17,2026-07-17
+act_01167,academic_session,Academic session 1 - Naira,2026-07-21,2026-07-21
+act_01168,academic_session,Academic session 2 - Naira,2026-07-24,2026-07-24
+act_01169,academic_session,Academic session 1 - Naira,2026-07-28,2026-07-28
+act_01170,academic_session,Academic session 2 - Naira,2026-07-31,2026-07-31
+act_01171,academic_session,Academic session 1 - Naira,2026-08-04,2026-08-04
+act_01172,academic_session,Academic session 2 - Naira,2026-08-07,2026-08-07
+act_01173,academic_session,Academic session 1 - Naira,2026-08-11,2026-08-11
+act_01174,academic_session,Academic session 2 - Naira,2026-08-14,2026-08-14
+act_01175,academic_session,Academic session 1 - Naira,2026-08-18,2026-08-18
+act_01176,academic_session,Academic session 2 - Naira,2026-08-21,2026-08-21
+act_01177,academic_session,Academic session 1 - Naira,2026-08-25,
+act_01178,academic_session,Academic session 2 - Naira,2026-08-28,2026-08-28
+act_01179,academic_session,Academic session 1 - Naira,2026-09-01,
+act_01180,academic_session,Academic session 2 - Naira,2026-09-04,2026-09-04
+act_01181,academic_session,Academic session 1 - Naira,2026-09-08,2026-09-08
+act_01182,academic_session,Academic session 2 - Naira,2026-09-11,
+act_01183,academic_session,Academic session 1 - Naira,2026-09-15,2026-09-15
+act_01184,academic_session,Academic session 2 - Naira,2026-09-18,2026-09-18
+act_01185,academic_session,Academic session 1 - Naira,2026-09-22,2026-09-22
+act_01186,academic_session,Academic session 2 - Naira,2026-09-25,2026-09-25
+act_01187,academic_session,Academic session 1 - Naira,2026-09-29,2026-09-29
+act_01188,academic_session,Academic session 2 - Naira,2026-10-02,2026-10-02
+act_01189,academic_session,Academic session 1 - Naira,2026-10-06,2026-10-06
+act_01190,academic_session,Academic session 2 - Naira,2026-10-09,2026-10-09
+act_01191,academic_session,Academic session 1 - Naira,2026-10-13,2026-10-13
+act_01192,academic_session,Academic session 2 - Naira,2026-10-16,
+act_01193,academic_session,Academic session 1 - Naira,2026-10-20,
+act_01194,academic_session,Academic session 2 - Naira,2026-10-23,
+act_01195,academic_session,Academic session 1 - Naira,2026-10-27,
+act_01196,academic_session,Academic session 2 - Naira,2026-10-30,
+act_01197,workshop,Career workshop: Doctor,2026-04-11,2026-04-11
+act_01198,workshop,Career workshop: Founder,2026-04-25,2026-04-25
+act_01199,workshop,Career workshop: Lawyer,2026-05-09,2026-05-09
+act_01200,workshop,Career workshop: Product Designer,2026-05-23,2026-05-23
+act_01201,workshop,Career workshop: Investment Banker,2026-06-06,2026-06-06
+act_01202,workshop,Career workshop: Architect,2026-06-20,2026-06-20
+act_01203,workshop,Career workshop: Journalist,2026-07-04,2026-07-04
+act_01204,workshop,Career workshop: Psychologist,2026-07-18,2026-07-18
+act_01205,workshop,Career workshop: Game Developer,2026-08-01,2026-08-01
+act_01206,workshop,Career workshop: Diplomat,2026-08-15,2026-08-15
+act_01207,workshop,Career workshop: Chef-Entrepreneur,2026-08-29,2026-08-29
+act_01208,workshop,Career workshop: Data Scientist,2026-09-12,2026-09-12
+act_01209,workshop,Career workshop: Film Director,2026-09-26,2026-09-26
+act_01210,workshop,Career workshop: Aerospace Engineer,2026-10-10,2026-10-10
+act_01211,workshop,Career workshop: Doctor,2026-10-24,
+act_01212,workshop,Career workshop: Founder,2026-11-07,
+act_01213,pod,Pod Aurora - Apr,2026-04-14,2026-04-14
+act_01214,pod,Pod Banyan - Apr,2026-04-21,2026-04-21
+act_01215,pod,Pod Comet - Apr,2026-04-14,2026-04-14
+act_01216,pod,Pod Delta - Apr,2026-04-12,
+act_01217,pod,Pod Ember - Apr,2026-04-11,2026-04-11
+act_01218,peer_session,Peer session - Aarav - Apr,2026-04-08,2026-04-08
+act_01219,mentor_call,Mentor call - Aarav - Apr,2026-04-15,
+act_01220,branding_shoot,Branding shoot - Aarav - Apr,2026-04-08,2026-04-08
+act_01221,peer_session,Peer session - Anika - Apr,2026-04-12,2026-04-12
+act_01222,mentor_call,Mentor call - Anika - Apr,2026-04-16,2026-04-16
+act_01223,branding_shoot,Branding shoot - Anika - Apr,2026-04-23,2026-04-23
+act_01224,peer_session,Peer session - Vihaan - Apr,2026-04-06,2026-04-06
+act_01225,mentor_call,Mentor call - Vihaan - Apr,2026-04-19,2026-04-19
+act_01226,branding_shoot,Branding shoot - Vihaan - Apr,2026-04-18,
+act_01227,peer_session,Peer session - Myra - Apr,2026-04-14,2026-04-14
+act_01228,mentor_call,Mentor call - Myra - Apr,2026-04-18,2026-04-18
+act_01229,branding_shoot,Branding shoot - Myra - Apr,2026-04-16,2026-04-16
+act_01230,peer_session,Peer session - Kabir - Apr,2026-04-13,2026-04-13
+act_01231,mentor_call,Mentor call - Kabir - Apr,2026-04-06,2026-04-06
+act_01232,branding_shoot,Branding shoot - Kabir - Apr,2026-04-24,
+act_01233,peer_session,Peer session - Saanvi - Apr,2026-04-25,2026-04-25
+act_01234,mentor_call,Mentor call - Saanvi - Apr,2026-04-09,2026-04-09
+act_01235,branding_shoot,Branding shoot - Saanvi - Apr,2026-04-17,2026-04-17
+act_01236,peer_session,Peer session - Ishaan - Apr,2026-04-13,2026-04-13
+act_01237,mentor_call,Mentor call - Ishaan - Apr,2026-04-20,2026-04-20
+act_01238,branding_shoot,Branding shoot - Ishaan - Apr,2026-04-18,
+act_01239,peer_session,Peer session - Kiara - Apr,2026-04-17,
+act_01240,mentor_call,Mentor call - Kiara - Apr,2026-04-14,2026-04-14
+act_01241,branding_shoot,Branding shoot - Kiara - Apr,2026-04-20,2026-04-20
+act_01242,peer_session,Peer session - Reyansh - Apr,2026-04-23,2026-04-23
+act_01243,mentor_call,Mentor call - Reyansh - Apr,2026-04-22,2026-04-22
+act_01244,branding_shoot,Branding shoot - Reyansh - Apr,2026-04-15,
+act_01245,peer_session,Peer session - Ira - Apr,2026-04-10,2026-04-10
+act_01246,mentor_call,Mentor call - Ira - Apr,2026-04-17,2026-04-17
+act_01247,branding_shoot,Branding shoot - Ira - Apr,2026-04-11,
+act_01248,peer_session,Peer session - Dhruv - Apr,2026-04-14,2026-04-14
+act_01249,mentor_call,Mentor call - Dhruv - Apr,2026-04-16,2026-04-16
+act_01250,branding_shoot,Branding shoot - Dhruv - Apr,2026-04-12,2026-04-12
+act_01251,peer_session,Peer session - Aadhya - Apr,2026-04-20,2026-04-20
+act_01252,mentor_call,Mentor call - Aadhya - Apr,2026-04-26,
+act_01253,branding_shoot,Branding shoot - Aadhya - Apr,2026-04-21,
+act_01254,peer_session,Peer session - Arjun - Apr,2026-04-22,2026-04-22
+act_01255,mentor_call,Mentor call - Arjun - Apr,2026-04-07,2026-04-07
+act_01256,branding_shoot,Branding shoot - Arjun - Apr,2026-04-21,2026-04-21
+act_01257,peer_session,Peer session - Tara - Apr,2026-04-17,2026-04-17
+act_01258,mentor_call,Mentor call - Tara - Apr,2026-04-09,2026-04-09
+act_01259,branding_shoot,Branding shoot - Tara - Apr,2026-04-13,
+act_01260,peer_session,Peer session - Ayaan - Apr,2026-04-26,2026-04-26
+act_01261,mentor_call,Mentor call - Ayaan - Apr,2026-04-24,2026-04-24
+act_01262,branding_shoot,Branding shoot - Ayaan - Apr,2026-04-23,2026-04-23
+act_01263,peer_session,Peer session - Navya - Apr,2026-04-12,
+act_01264,mentor_call,Mentor call - Navya - Apr,2026-04-11,2026-04-11
+act_01265,branding_shoot,Branding shoot - Navya - Apr,2026-04-19,2026-04-19
+act_01266,peer_session,Peer session - Rudra - Apr,2026-04-25,2026-04-25
+act_01267,mentor_call,Mentor call - Rudra - Apr,2026-04-15,2026-04-15
+act_01268,branding_shoot,Branding shoot - Rudra - Apr,2026-04-13,
+act_01269,peer_session,Peer session - Zoya - Apr,2026-04-25,2026-04-25
+act_01270,mentor_call,Mentor call - Zoya - Apr,2026-04-17,2026-04-17
+act_01271,branding_shoot,Branding shoot - Zoya - Apr,2026-04-25,2026-04-25
+act_01272,peer_session,Peer session - Advait - Apr,2026-04-22,2026-04-22
+act_01273,mentor_call,Mentor call - Advait - Apr,2026-04-09,2026-04-09
+act_01274,branding_shoot,Branding shoot - Advait - Apr,2026-04-08,2026-04-08
+act_01275,peer_session,Peer session - Meher - Apr,2026-04-25,2026-04-25
+act_01276,mentor_call,Mentor call - Meher - Apr,2026-04-11,2026-04-11
+act_01277,branding_shoot,Branding shoot - Meher - Apr,2026-04-18,2026-04-18
+act_01278,peer_session,Peer session - Siya - Apr,2026-04-16,2026-04-16
+act_01279,mentor_call,Mentor call - Siya - Apr,2026-04-25,2026-04-25
+act_01280,branding_shoot,Branding shoot - Siya - Apr,2026-04-07,2026-04-07
+act_01281,peer_session,Peer session - Riya - Apr,2026-04-15,2026-04-15
+act_01282,mentor_call,Mentor call - Riya - Apr,2026-04-19,2026-04-19
+act_01283,branding_shoot,Branding shoot - Riya - Apr,2026-04-14,2026-04-14
+act_01284,peer_session,Peer session - Dev - Apr,2026-04-09,2026-04-09
+act_01285,mentor_call,Mentor call - Dev - Apr,2026-04-23,
+act_01286,branding_shoot,Branding shoot - Dev - Apr,2026-04-12,2026-04-12
+act_01287,peer_session,Peer session - Naira - Apr,2026-04-10,2026-04-10
+act_01288,mentor_call,Mentor call - Naira - Apr,2026-04-14,2026-04-14
+act_01289,branding_shoot,Branding shoot - Naira - Apr,2026-04-21,
+act_01290,pod,Pod Aurora - May,2026-05-19,2026-05-19
+act_01291,pod,Pod Banyan - May,2026-05-12,2026-05-12
+act_01292,pod,Pod Comet - May,2026-05-13,2026-05-13
+act_01293,pod,Pod Delta - May,2026-05-11,2026-05-11
+act_01294,pod,Pod Ember - May,2026-05-15,2026-05-15
+act_01295,peer_session,Peer session - Aarav - May,2026-05-07,2026-05-07
+act_01296,mentor_call,Mentor call - Aarav - May,2026-05-20,
+act_01297,branding_shoot,Branding shoot - Aarav - May,2026-05-08,2026-05-08
+act_01298,peer_session,Peer session - Anika - May,2026-05-24,2026-05-24
+act_01299,mentor_call,Mentor call - Anika - May,2026-05-17,2026-05-17
+act_01300,branding_shoot,Branding shoot - Anika - May,2026-05-23,2026-05-23
+act_01301,peer_session,Peer session - Vihaan - May,2026-05-24,2026-05-24
+act_01302,mentor_call,Mentor call - Vihaan - May,2026-05-11,2026-05-11
+act_01303,branding_shoot,Branding shoot - Vihaan - May,2026-05-13,2026-05-13
+act_01304,peer_session,Peer session - Myra - May,2026-05-13,2026-05-13
+act_01305,mentor_call,Mentor call - Myra - May,2026-05-16,2026-05-16
+act_01306,branding_shoot,Branding shoot - Myra - May,2026-05-11,
+act_01307,peer_session,Peer session - Kabir - May,2026-05-21,2026-05-21
+act_01308,mentor_call,Mentor call - Kabir - May,2026-05-14,2026-05-14
+act_01309,branding_shoot,Branding shoot - Kabir - May,2026-05-17,2026-05-17
+act_01310,peer_session,Peer session - Saanvi - May,2026-05-11,2026-05-11
+act_01311,mentor_call,Mentor call - Saanvi - May,2026-05-17,2026-05-17
+act_01312,branding_shoot,Branding shoot - Saanvi - May,2026-05-17,2026-05-17
+act_01313,peer_session,Peer session - Ishaan - May,2026-05-16,2026-05-16
+act_01314,mentor_call,Mentor call - Ishaan - May,2026-05-26,2026-05-26
+act_01315,branding_shoot,Branding shoot - Ishaan - May,2026-05-24,2026-05-24
+act_01316,peer_session,Peer session - Kiara - May,2026-05-17,2026-05-17
+act_01317,mentor_call,Mentor call - Kiara - May,2026-05-15,2026-05-15
+act_01318,branding_shoot,Branding shoot - Kiara - May,2026-05-08,2026-05-08
+act_01319,peer_session,Peer session - Reyansh - May,2026-05-23,2026-05-23
+act_01320,mentor_call,Mentor call - Reyansh - May,2026-05-23,2026-05-23
+act_01321,branding_shoot,Branding shoot - Reyansh - May,2026-05-06,
+act_01322,peer_session,Peer session - Ira - May,2026-05-23,2026-05-23
+act_01323,mentor_call,Mentor call - Ira - May,2026-05-10,2026-05-10
+act_01324,branding_shoot,Branding shoot - Ira - May,2026-05-11,
+act_01325,peer_session,Peer session - Dhruv - May,2026-05-22,2026-05-22
+act_01326,mentor_call,Mentor call - Dhruv - May,2026-05-25,2026-05-25
+act_01327,branding_shoot,Branding shoot - Dhruv - May,2026-05-08,2026-05-08
+act_01328,peer_session,Peer session - Aadhya - May,2026-05-26,
+act_01329,mentor_call,Mentor call - Aadhya - May,2026-05-20,2026-05-20
+act_01330,branding_shoot,Branding shoot - Aadhya - May,2026-05-08,
+act_01331,peer_session,Peer session - Arjun - May,2026-05-22,
+act_01332,mentor_call,Mentor call - Arjun - May,2026-05-06,2026-05-06
+act_01333,branding_shoot,Branding shoot - Arjun - May,2026-05-14,2026-05-14
+act_01334,peer_session,Peer session - Tara - May,2026-05-15,2026-05-15
+act_01335,mentor_call,Mentor call - Tara - May,2026-05-20,2026-05-20
+act_01336,branding_shoot,Branding shoot - Tara - May,2026-05-18,
+act_01337,peer_session,Peer session - Ayaan - May,2026-05-21,
+act_01338,mentor_call,Mentor call - Ayaan - May,2026-05-20,2026-05-20
+act_01339,branding_shoot,Branding shoot - Ayaan - May,2026-05-16,2026-05-16
+act_01340,peer_session,Peer session - Navya - May,2026-05-13,2026-05-13
+act_01341,mentor_call,Mentor call - Navya - May,2026-05-21,2026-05-21
+act_01342,branding_shoot,Branding shoot - Navya - May,2026-05-23,2026-05-23
+act_01343,peer_session,Peer session - Rudra - May,2026-05-18,
+act_01344,mentor_call,Mentor call - Rudra - May,2026-05-22,2026-05-22
+act_01345,branding_shoot,Branding shoot - Rudra - May,2026-05-06,2026-05-06
+act_01346,peer_session,Peer session - Zoya - May,2026-05-16,2026-05-16
+act_01347,mentor_call,Mentor call - Zoya - May,2026-05-16,
+act_01348,branding_shoot,Branding shoot - Zoya - May,2026-05-18,2026-05-18
+act_01349,peer_session,Peer session - Advait - May,2026-05-14,2026-05-14
+act_01350,mentor_call,Mentor call - Advait - May,2026-05-10,2026-05-10
+act_01351,branding_shoot,Branding shoot - Advait - May,2026-05-09,2026-05-09
+act_01352,peer_session,Peer session - Meher - May,2026-05-26,2026-05-26
+act_01353,mentor_call,Mentor call - Meher - May,2026-05-17,
+act_01354,branding_shoot,Branding shoot - Meher - May,2026-05-22,2026-05-22
+act_01355,peer_session,Peer session - Siya - May,2026-05-22,2026-05-22
+act_01356,mentor_call,Mentor call - Siya - May,2026-05-15,2026-05-15
+act_01357,branding_shoot,Branding shoot - Siya - May,2026-05-22,
+act_01358,peer_session,Peer session - Riya - May,2026-05-12,
+act_01359,mentor_call,Mentor call - Riya - May,2026-05-23,
+act_01360,branding_shoot,Branding shoot - Riya - May,2026-05-17,2026-05-17
+act_01361,peer_session,Peer session - Dev - May,2026-05-11,
+act_01362,mentor_call,Mentor call - Dev - May,2026-05-07,2026-05-07
+act_01363,branding_shoot,Branding shoot - Dev - May,2026-05-15,2026-05-15
+act_01364,peer_session,Peer session - Naira - May,2026-05-07,2026-05-07
+act_01365,mentor_call,Mentor call - Naira - May,2026-05-11,2026-05-11
+act_01366,branding_shoot,Branding shoot - Naira - May,2026-05-18,2026-05-18
+act_01367,pod,Pod Aurora - Jun,2026-06-16,2026-06-16
+act_01368,pod,Pod Banyan - Jun,2026-06-20,
+act_01369,pod,Pod Comet - Jun,2026-06-21,2026-06-21
+act_01370,pod,Pod Delta - Jun,2026-06-11,2026-06-11
+act_01371,pod,Pod Ember - Jun,2026-06-14,2026-06-14
+act_01372,peer_session,Peer session - Aarav - Jun,2026-06-19,2026-06-19
+act_01373,mentor_call,Mentor call - Aarav - Jun,2026-06-13,2026-06-13
+act_01374,branding_shoot,Branding shoot - Aarav - Jun,2026-06-09,2026-06-09
+act_01375,peer_session,Peer session - Anika - Jun,2026-06-12,2026-06-12
+act_01376,mentor_call,Mentor call - Anika - Jun,2026-06-20,
+act_01377,branding_shoot,Branding shoot - Anika - Jun,2026-06-12,2026-06-12
+act_01378,peer_session,Peer session - Vihaan - Jun,2026-06-18,2026-06-18
+act_01379,mentor_call,Mentor call - Vihaan - Jun,2026-06-07,
+act_01380,branding_shoot,Branding shoot - Vihaan - Jun,2026-06-22,2026-06-22
+act_01381,peer_session,Peer session - Myra - Jun,2026-06-20,2026-06-20
+act_01382,mentor_call,Mentor call - Myra - Jun,2026-06-10,2026-06-10
+act_01383,branding_shoot,Branding shoot - Myra - Jun,2026-06-11,2026-06-11
+act_01384,peer_session,Peer session - Kabir - Jun,2026-06-26,2026-06-26
+act_01385,mentor_call,Mentor call - Kabir - Jun,2026-06-18,2026-06-18
+act_01386,branding_shoot,Branding shoot - Kabir - Jun,2026-06-17,
+act_01387,peer_session,Peer session - Saanvi - Jun,2026-06-24,2026-06-24
+act_01388,mentor_call,Mentor call - Saanvi - Jun,2026-06-06,2026-06-06
+act_01389,branding_shoot,Branding shoot - Saanvi - Jun,2026-06-25,2026-06-25
+act_01390,peer_session,Peer session - Ishaan - Jun,2026-06-17,2026-06-17
+act_01391,mentor_call,Mentor call - Ishaan - Jun,2026-06-17,
+act_01392,branding_shoot,Branding shoot - Ishaan - Jun,2026-06-14,2026-06-14
+act_01393,peer_session,Peer session - Kiara - Jun,2026-06-17,
+act_01394,mentor_call,Mentor call - Kiara - Jun,2026-06-14,2026-06-14
+act_01395,branding_shoot,Branding shoot - Kiara - Jun,2026-06-15,
+act_01396,peer_session,Peer session - Reyansh - Jun,2026-06-09,2026-06-09
+act_01397,mentor_call,Mentor call - Reyansh - Jun,2026-06-08,2026-06-08
+act_01398,branding_shoot,Branding shoot - Reyansh - Jun,2026-06-09,2026-06-09
+act_01399,peer_session,Peer session - Ira - Jun,2026-06-23,2026-06-23
+act_01400,mentor_call,Mentor call - Ira - Jun,2026-06-16,2026-06-16
+act_01401,branding_shoot,Branding shoot - Ira - Jun,2026-06-19,2026-06-19
+act_01402,peer_session,Peer session - Dhruv - Jun,2026-06-17,2026-06-17
+act_01403,mentor_call,Mentor call - Dhruv - Jun,2026-06-12,2026-06-12
+act_01404,branding_shoot,Branding shoot - Dhruv - Jun,2026-06-15,2026-06-15
+act_01405,peer_session,Peer session - Aadhya - Jun,2026-06-16,2026-06-16
+act_01406,mentor_call,Mentor call - Aadhya - Jun,2026-06-09,
+act_01407,branding_shoot,Branding shoot - Aadhya - Jun,2026-06-26,2026-06-26
+act_01408,peer_session,Peer session - Arjun - Jun,2026-06-14,
+act_01409,mentor_call,Mentor call - Arjun - Jun,2026-06-07,
+act_01410,branding_shoot,Branding shoot - Arjun - Jun,2026-06-11,
+act_01411,peer_session,Peer session - Tara - Jun,2026-06-19,2026-06-19
+act_01412,mentor_call,Mentor call - Tara - Jun,2026-06-08,2026-06-08
+act_01413,branding_shoot,Branding shoot - Tara - Jun,2026-06-25,2026-06-25
+act_01414,peer_session,Peer session - Ayaan - Jun,2026-06-18,2026-06-18
+act_01415,mentor_call,Mentor call - Ayaan - Jun,2026-06-18,2026-06-18
+act_01416,branding_shoot,Branding shoot - Ayaan - Jun,2026-06-23,2026-06-23
+act_01417,peer_session,Peer session - Navya - Jun,2026-06-15,2026-06-15
+act_01418,mentor_call,Mentor call - Navya - Jun,2026-06-09,2026-06-09
+act_01419,branding_shoot,Branding shoot - Navya - Jun,2026-06-06,2026-06-06
+act_01420,peer_session,Peer session - Rudra - Jun,2026-06-16,2026-06-16
+act_01421,mentor_call,Mentor call - Rudra - Jun,2026-06-15,2026-06-15
+act_01422,branding_shoot,Branding shoot - Rudra - Jun,2026-06-09,2026-06-09
+act_01423,peer_session,Peer session - Zoya - Jun,2026-06-22,2026-06-22
+act_01424,mentor_call,Mentor call - Zoya - Jun,2026-06-24,2026-06-24
+act_01425,branding_shoot,Branding shoot - Zoya - Jun,2026-06-06,2026-06-06
+act_01426,peer_session,Peer session - Advait - Jun,2026-06-07,2026-06-07
+act_01427,mentor_call,Mentor call - Advait - Jun,2026-06-09,2026-06-09
+act_01428,branding_shoot,Branding shoot - Advait - Jun,2026-06-10,2026-06-10
+act_01429,peer_session,Peer session - Meher - Jun,2026-06-25,2026-06-25
+act_01430,mentor_call,Mentor call - Meher - Jun,2026-06-23,2026-06-23
+act_01431,branding_shoot,Branding shoot - Meher - Jun,2026-06-09,2026-06-09
+act_01432,peer_session,Peer session - Siya - Jun,2026-06-08,2026-06-08
+act_01433,mentor_call,Mentor call - Siya - Jun,2026-06-24,2026-06-24
+act_01434,branding_shoot,Branding shoot - Siya - Jun,2026-06-23,2026-06-23
+act_01435,peer_session,Peer session - Riya - Jun,2026-06-17,2026-06-17
+act_01436,mentor_call,Mentor call - Riya - Jun,2026-06-16,
+act_01437,branding_shoot,Branding shoot - Riya - Jun,2026-06-15,2026-06-15
+act_01438,peer_session,Peer session - Dev - Jun,2026-06-21,2026-06-21
+act_01439,mentor_call,Mentor call - Dev - Jun,2026-06-17,2026-06-17
+act_01440,branding_shoot,Branding shoot - Dev - Jun,2026-06-09,2026-06-09
+act_01441,peer_session,Peer session - Naira - Jun,2026-06-16,2026-06-16
+act_01442,mentor_call,Mentor call - Naira - Jun,2026-06-18,2026-06-18
+act_01443,branding_shoot,Branding shoot - Naira - Jun,2026-06-21,
+act_01444,pod,Pod Aurora - Jul,2026-07-10,2026-07-10
+act_01445,pod,Pod Banyan - Jul,2026-07-16,2026-07-16
+act_01446,pod,Pod Comet - Jul,2026-07-14,2026-07-14
+act_01447,pod,Pod Delta - Jul,2026-07-15,2026-07-15
+act_01448,pod,Pod Ember - Jul,2026-07-11,2026-07-11
+act_01449,peer_session,Peer session - Aarav - Jul,2026-07-23,
+act_01450,mentor_call,Mentor call - Aarav - Jul,2026-07-11,
+act_01451,branding_shoot,Branding shoot - Aarav - Jul,2026-07-23,2026-07-23
+act_01452,peer_session,Peer session - Anika - Jul,2026-07-19,2026-07-19
+act_01453,mentor_call,Mentor call - Anika - Jul,2026-07-26,
+act_01454,branding_shoot,Branding shoot - Anika - Jul,2026-07-21,
+act_01455,peer_session,Peer session - Vihaan - Jul,2026-07-06,2026-07-06
+act_01456,mentor_call,Mentor call - Vihaan - Jul,2026-07-06,2026-07-06
+act_01457,branding_shoot,Branding shoot - Vihaan - Jul,2026-07-22,
+act_01458,peer_session,Peer session - Myra - Jul,2026-07-16,2026-07-16
+act_01459,mentor_call,Mentor call - Myra - Jul,2026-07-18,2026-07-18
+act_01460,branding_shoot,Branding shoot - Myra - Jul,2026-07-11,2026-07-11
+act_01461,peer_session,Peer session - Kabir - Jul,2026-07-14,2026-07-14
+act_01462,mentor_call,Mentor call - Kabir - Jul,2026-07-08,2026-07-08
+act_01463,branding_shoot,Branding shoot - Kabir - Jul,2026-07-22,
+act_01464,peer_session,Peer session - Saanvi - Jul,2026-07-13,2026-07-13
+act_01465,mentor_call,Mentor call - Saanvi - Jul,2026-07-16,
+act_01466,branding_shoot,Branding shoot - Saanvi - Jul,2026-07-14,
+act_01467,peer_session,Peer session - Ishaan - Jul,2026-07-24,2026-07-24
+act_01468,mentor_call,Mentor call - Ishaan - Jul,2026-07-11,
+act_01469,branding_shoot,Branding shoot - Ishaan - Jul,2026-07-22,
+act_01470,peer_session,Peer session - Kiara - Jul,2026-07-26,2026-07-26
+act_01471,mentor_call,Mentor call - Kiara - Jul,2026-07-09,
+act_01472,branding_shoot,Branding shoot - Kiara - Jul,2026-07-11,2026-07-11
+act_01473,peer_session,Peer session - Reyansh - Jul,2026-07-19,
+act_01474,mentor_call,Mentor call - Reyansh - Jul,2026-07-06,
+act_01475,branding_shoot,Branding shoot - Reyansh - Jul,2026-07-11,2026-07-11
+act_01476,peer_session,Peer session - Ira - Jul,2026-07-16,
+act_01477,mentor_call,Mentor call - Ira - Jul,2026-07-12,2026-07-12
+act_01478,branding_shoot,Branding shoot - Ira - Jul,2026-07-12,2026-07-12
+act_01479,peer_session,Peer session - Dhruv - Jul,2026-07-21,2026-07-21
+act_01480,mentor_call,Mentor call - Dhruv - Jul,2026-07-16,2026-07-16
+act_01481,branding_shoot,Branding shoot - Dhruv - Jul,2026-07-19,2026-07-19
+act_01482,peer_session,Peer session - Aadhya - Jul,2026-07-07,2026-07-07
+act_01483,mentor_call,Mentor call - Aadhya - Jul,2026-07-08,
+act_01484,branding_shoot,Branding shoot - Aadhya - Jul,2026-07-18,
+act_01485,peer_session,Peer session - Arjun - Jul,2026-07-22,2026-07-22
+act_01486,mentor_call,Mentor call - Arjun - Jul,2026-07-06,2026-07-06
+act_01487,branding_shoot,Branding shoot - Arjun - Jul,2026-07-11,
+act_01488,peer_session,Peer session - Tara - Jul,2026-07-24,2026-07-24
+act_01489,mentor_call,Mentor call - Tara - Jul,2026-07-13,
+act_01490,branding_shoot,Branding shoot - Tara - Jul,2026-07-07,
+act_01491,peer_session,Peer session - Ayaan - Jul,2026-07-06,2026-07-06
+act_01492,mentor_call,Mentor call - Ayaan - Jul,2026-07-15,2026-07-15
+act_01493,branding_shoot,Branding shoot - Ayaan - Jul,2026-07-24,
+act_01494,peer_session,Peer session - Navya - Jul,2026-07-07,2026-07-07
+act_01495,mentor_call,Mentor call - Navya - Jul,2026-07-07,2026-07-07
+act_01496,branding_shoot,Branding shoot - Navya - Jul,2026-07-12,2026-07-12
+act_01497,peer_session,Peer session - Rudra - Jul,2026-07-13,2026-07-13
+act_01498,mentor_call,Mentor call - Rudra - Jul,2026-07-20,
+act_01499,branding_shoot,Branding shoot - Rudra - Jul,2026-07-16,2026-07-16
+act_01500,peer_session,Peer session - Zoya - Jul,2026-07-19,2026-07-19
+act_01501,mentor_call,Mentor call - Zoya - Jul,2026-07-08,2026-07-08
+act_01502,branding_shoot,Branding shoot - Zoya - Jul,2026-07-08,2026-07-08
+act_01503,peer_session,Peer session - Advait - Jul,2026-07-15,
+act_01504,mentor_call,Mentor call - Advait - Jul,2026-07-06,
+act_01505,branding_shoot,Branding shoot - Advait - Jul,2026-07-08,2026-07-08
+act_01506,peer_session,Peer session - Meher - Jul,2026-07-21,2026-07-21
+act_01507,mentor_call,Mentor call - Meher - Jul,2026-07-06,2026-07-06
+act_01508,branding_shoot,Branding shoot - Meher - Jul,2026-07-07,
+act_01509,peer_session,Peer session - Siya - Jul,2026-07-10,2026-07-10
+act_01510,mentor_call,Mentor call - Siya - Jul,2026-07-14,
+act_01511,branding_shoot,Branding shoot - Siya - Jul,2026-07-22,2026-07-22
+act_01512,peer_session,Peer session - Riya - Jul,2026-07-12,2026-07-12
+act_01513,mentor_call,Mentor call - Riya - Jul,2026-07-12,2026-07-12
+act_01514,branding_shoot,Branding shoot - Riya - Jul,2026-07-21,
+act_01515,peer_session,Peer session - Dev - Jul,2026-07-23,2026-07-23
+act_01516,mentor_call,Mentor call - Dev - Jul,2026-07-15,2026-07-15
+act_01517,branding_shoot,Branding shoot - Dev - Jul,2026-07-12,2026-07-12
+act_01518,peer_session,Peer session - Naira - Jul,2026-07-09,2026-07-09
+act_01519,mentor_call,Mentor call - Naira - Jul,2026-07-16,
+act_01520,branding_shoot,Branding shoot - Naira - Jul,2026-07-24,2026-07-24
+act_01521,pod,Pod Aurora - Aug,2026-08-20,2026-08-20
+act_01522,pod,Pod Banyan - Aug,2026-08-20,2026-08-20
+act_01523,pod,Pod Comet - Aug,2026-08-14,2026-08-14
+act_01524,pod,Pod Delta - Aug,2026-08-16,2026-08-16
+act_01525,pod,Pod Ember - Aug,2026-08-10,2026-08-10
+act_01526,peer_session,Peer session - Aarav - Aug,2026-08-24,2026-08-24
+act_01527,mentor_call,Mentor call - Aarav - Aug,2026-08-13,2026-08-13
+act_01528,branding_shoot,Branding shoot - Aarav - Aug,2026-08-21,2026-08-21
+act_01529,peer_session,Peer session - Anika - Aug,2026-08-17,2026-08-17
+act_01530,mentor_call,Mentor call - Anika - Aug,2026-08-06,
+act_01531,branding_shoot,Branding shoot - Anika - Aug,2026-08-22,2026-08-22
+act_01532,peer_session,Peer session - Vihaan - Aug,2026-08-15,2026-08-15
+act_01533,mentor_call,Mentor call - Vihaan - Aug,2026-08-21,2026-08-21
+act_01534,branding_shoot,Branding shoot - Vihaan - Aug,2026-08-15,
+act_01535,peer_session,Peer session - Myra - Aug,2026-08-11,2026-08-11
+act_01536,mentor_call,Mentor call - Myra - Aug,2026-08-09,2026-08-09
+act_01537,branding_shoot,Branding shoot - Myra - Aug,2026-08-10,2026-08-10
+act_01538,peer_session,Peer session - Kabir - Aug,2026-08-07,
+act_01539,mentor_call,Mentor call - Kabir - Aug,2026-08-12,
+act_01540,branding_shoot,Branding shoot - Kabir - Aug,2026-08-08,
+act_01541,peer_session,Peer session - Saanvi - Aug,2026-08-08,2026-08-08
+act_01542,mentor_call,Mentor call - Saanvi - Aug,2026-08-17,
+act_01543,branding_shoot,Branding shoot - Saanvi - Aug,2026-08-06,2026-08-06
+act_01544,peer_session,Peer session - Ishaan - Aug,2026-08-08,2026-08-08
+act_01545,mentor_call,Mentor call - Ishaan - Aug,2026-08-06,
+act_01546,branding_shoot,Branding shoot - Ishaan - Aug,2026-08-26,2026-08-26
+act_01547,peer_session,Peer session - Kiara - Aug,2026-08-23,2026-08-23
+act_01548,mentor_call,Mentor call - Kiara - Aug,2026-08-26,2026-08-26
+act_01549,branding_shoot,Branding shoot - Kiara - Aug,2026-08-07,
+act_01550,peer_session,Peer session - Reyansh - Aug,2026-08-20,2026-08-20
+act_01551,mentor_call,Mentor call - Reyansh - Aug,2026-08-17,
+act_01552,branding_shoot,Branding shoot - Reyansh - Aug,2026-08-20,2026-08-20
+act_01553,peer_session,Peer session - Ira - Aug,2026-08-19,2026-08-19
+act_01554,mentor_call,Mentor call - Ira - Aug,2026-08-19,
+act_01555,branding_shoot,Branding shoot - Ira - Aug,2026-08-17,2026-08-17
+act_01556,peer_session,Peer session - Dhruv - Aug,2026-08-07,2026-08-07
+act_01557,mentor_call,Mentor call - Dhruv - Aug,2026-08-07,2026-08-07
+act_01558,branding_shoot,Branding shoot - Dhruv - Aug,2026-08-15,2026-08-15
+act_01559,peer_session,Peer session - Aadhya - Aug,2026-08-14,2026-08-14
+act_01560,mentor_call,Mentor call - Aadhya - Aug,2026-08-14,2026-08-14
+act_01561,branding_shoot,Branding shoot - Aadhya - Aug,2026-08-06,2026-08-06
+act_01562,peer_session,Peer session - Arjun - Aug,2026-08-23,2026-08-23
+act_01563,mentor_call,Mentor call - Arjun - Aug,2026-08-11,2026-08-11
+act_01564,branding_shoot,Branding shoot - Arjun - Aug,2026-08-14,
+act_01565,peer_session,Peer session - Tara - Aug,2026-08-06,
+act_01566,mentor_call,Mentor call - Tara - Aug,2026-08-11,2026-08-11
+act_01567,branding_shoot,Branding shoot - Tara - Aug,2026-08-10,
+act_01568,peer_session,Peer session - Ayaan - Aug,2026-08-06,
+act_01569,mentor_call,Mentor call - Ayaan - Aug,2026-08-15,
+act_01570,branding_shoot,Branding shoot - Ayaan - Aug,2026-08-12,2026-08-12
+act_01571,peer_session,Peer session - Navya - Aug,2026-08-12,
+act_01572,mentor_call,Mentor call - Navya - Aug,2026-08-21,2026-08-21
+act_01573,branding_shoot,Branding shoot - Navya - Aug,2026-08-08,
+act_01574,peer_session,Peer session - Rudra - Aug,2026-08-10,2026-08-10
+act_01575,mentor_call,Mentor call - Rudra - Aug,2026-08-08,
+act_01576,branding_shoot,Branding shoot - Rudra - Aug,2026-08-06,
+act_01577,peer_session,Peer session - Zoya - Aug,2026-08-16,2026-08-16
+act_01578,mentor_call,Mentor call - Zoya - Aug,2026-08-19,2026-08-19
+act_01579,branding_shoot,Branding shoot - Zoya - Aug,2026-08-11,2026-08-11
+act_01580,peer_session,Peer session - Advait - Aug,2026-08-07,2026-08-07
+act_01581,mentor_call,Mentor call - Advait - Aug,2026-08-10,2026-08-10
+act_01582,branding_shoot,Branding shoot - Advait - Aug,2026-08-10,2026-08-10
+act_01583,peer_session,Peer session - Meher - Aug,2026-08-23,2026-08-23
+act_01584,mentor_call,Mentor call - Meher - Aug,2026-08-11,
+act_01585,branding_shoot,Branding shoot - Meher - Aug,2026-08-12,
+act_01586,peer_session,Peer session - Siya - Aug,2026-08-20,2026-08-20
+act_01587,mentor_call,Mentor call - Siya - Aug,2026-08-16,
+act_01588,branding_shoot,Branding shoot - Siya - Aug,2026-08-22,2026-08-22
+act_01589,peer_session,Peer session - Riya - Aug,2026-08-12,2026-08-12
+act_01590,mentor_call,Mentor call - Riya - Aug,2026-08-25,2026-08-25
+act_01591,branding_shoot,Branding shoot - Riya - Aug,2026-08-07,2026-08-07
+act_01592,peer_session,Peer session - Dev - Aug,2026-08-08,
+act_01593,mentor_call,Mentor call - Dev - Aug,2026-08-23,2026-08-23
+act_01594,branding_shoot,Branding shoot - Dev - Aug,2026-08-18,
+act_01595,peer_session,Peer session - Naira - Aug,2026-08-08,
+act_01596,mentor_call,Mentor call - Naira - Aug,2026-08-11,2026-08-11
+act_01597,branding_shoot,Branding shoot - Naira - Aug,2026-08-16,
+act_01598,pod,Pod Aurora - Sep,2026-09-11,2026-09-11
+act_01599,pod,Pod Banyan - Sep,2026-09-16,2026-09-16
+act_01600,pod,Pod Comet - Sep,2026-09-15,
+act_01601,pod,Pod Delta - Sep,2026-09-16,2026-09-16
+act_01602,pod,Pod Ember - Sep,2026-09-10,2026-09-10
+act_01603,peer_session,Peer session - Aarav - Sep,2026-09-16,2026-09-16
+act_01604,mentor_call,Mentor call - Aarav - Sep,2026-09-17,2026-09-17
+act_01605,branding_shoot,Branding shoot - Aarav - Sep,2026-09-25,2026-09-25
+act_01606,peer_session,Peer session - Anika - Sep,2026-09-24,2026-09-24
+act_01607,mentor_call,Mentor call - Anika - Sep,2026-09-08,2026-09-08
+act_01608,branding_shoot,Branding shoot - Anika - Sep,2026-09-13,2026-09-13
+act_01609,peer_session,Peer session - Vihaan - Sep,2026-09-14,
+act_01610,mentor_call,Mentor call - Vihaan - Sep,2026-09-21,
+act_01611,branding_shoot,Branding shoot - Vihaan - Sep,2026-09-20,
+act_01612,peer_session,Peer session - Myra - Sep,2026-09-14,
+act_01613,mentor_call,Mentor call - Myra - Sep,2026-09-12,2026-09-12
+act_01614,branding_shoot,Branding shoot - Myra - Sep,2026-09-23,2026-09-23
+act_01615,peer_session,Peer session - Kabir - Sep,2026-09-24,
+act_01616,mentor_call,Mentor call - Kabir - Sep,2026-09-17,2026-09-17
+act_01617,branding_shoot,Branding shoot - Kabir - Sep,2026-09-09,2026-09-09
+act_01618,peer_session,Peer session - Saanvi - Sep,2026-09-26,2026-09-26
+act_01619,mentor_call,Mentor call - Saanvi - Sep,2026-09-19,
+act_01620,branding_shoot,Branding shoot - Saanvi - Sep,2026-09-26,2026-09-26
+act_01621,peer_session,Peer session - Ishaan - Sep,2026-09-14,2026-09-14
+act_01622,mentor_call,Mentor call - Ishaan - Sep,2026-09-10,2026-09-10
+act_01623,branding_shoot,Branding shoot - Ishaan - Sep,2026-09-15,
+act_01624,peer_session,Peer session - Kiara - Sep,2026-09-22,2026-09-22
+act_01625,mentor_call,Mentor call - Kiara - Sep,2026-09-19,
+act_01626,branding_shoot,Branding shoot - Kiara - Sep,2026-09-08,2026-09-08
+act_01627,peer_session,Peer session - Reyansh - Sep,2026-09-06,2026-09-06
+act_01628,mentor_call,Mentor call - Reyansh - Sep,2026-09-10,2026-09-10
+act_01629,branding_shoot,Branding shoot - Reyansh - Sep,2026-09-12,
+act_01630,peer_session,Peer session - Ira - Sep,2026-09-14,
+act_01631,mentor_call,Mentor call - Ira - Sep,2026-09-17,2026-09-17
+act_01632,branding_shoot,Branding shoot - Ira - Sep,2026-09-25,
+act_01633,peer_session,Peer session - Dhruv - Sep,2026-09-26,2026-09-26
+act_01634,mentor_call,Mentor call - Dhruv - Sep,2026-09-18,
+act_01635,branding_shoot,Branding shoot - Dhruv - Sep,2026-09-24,
+act_01636,peer_session,Peer session - Aadhya - Sep,2026-09-23,2026-09-23
+act_01637,mentor_call,Mentor call - Aadhya - Sep,2026-09-13,2026-09-13
+act_01638,branding_shoot,Branding shoot - Aadhya - Sep,2026-09-15,2026-09-15
+act_01639,peer_session,Peer session - Arjun - Sep,2026-09-25,2026-09-25
+act_01640,mentor_call,Mentor call - Arjun - Sep,2026-09-22,2026-09-22
+act_01641,branding_shoot,Branding shoot - Arjun - Sep,2026-09-22,2026-09-22
+act_01642,peer_session,Peer session - Tara - Sep,2026-09-09,
+act_01643,mentor_call,Mentor call - Tara - Sep,2026-09-25,2026-09-25
+act_01644,branding_shoot,Branding shoot - Tara - Sep,2026-09-13,2026-09-13
+act_01645,peer_session,Peer session - Ayaan - Sep,2026-09-09,2026-09-09
+act_01646,mentor_call,Mentor call - Ayaan - Sep,2026-09-12,2026-09-12
+act_01647,branding_shoot,Branding shoot - Ayaan - Sep,2026-09-13,2026-09-13
+act_01648,peer_session,Peer session - Navya - Sep,2026-09-19,2026-09-19
+act_01649,mentor_call,Mentor call - Navya - Sep,2026-09-16,2026-09-16
+act_01650,branding_shoot,Branding shoot - Navya - Sep,2026-09-17,2026-09-17
+act_01651,peer_session,Peer session - Rudra - Sep,2026-09-08,2026-09-08
+act_01652,mentor_call,Mentor call - Rudra - Sep,2026-09-26,
+act_01653,branding_shoot,Branding shoot - Rudra - Sep,2026-09-20,2026-09-20
+act_01654,peer_session,Peer session - Zoya - Sep,2026-09-25,2026-09-25
+act_01655,mentor_call,Mentor call - Zoya - Sep,2026-09-08,2026-09-08
+act_01656,branding_shoot,Branding shoot - Zoya - Sep,2026-09-07,2026-09-07
+act_01657,peer_session,Peer session - Advait - Sep,2026-09-12,2026-09-12
+act_01658,mentor_call,Mentor call - Advait - Sep,2026-09-09,2026-09-09
+act_01659,branding_shoot,Branding shoot - Advait - Sep,2026-09-25,2026-09-25
+act_01660,peer_session,Peer session - Meher - Sep,2026-09-23,2026-09-23
+act_01661,mentor_call,Mentor call - Meher - Sep,2026-09-07,2026-09-07
+act_01662,branding_shoot,Branding shoot - Meher - Sep,2026-09-11,2026-09-11
+act_01663,peer_session,Peer session - Siya - Sep,2026-09-07,2026-09-07
+act_01664,mentor_call,Mentor call - Siya - Sep,2026-09-14,2026-09-14
+act_01665,branding_shoot,Branding shoot - Siya - Sep,2026-09-09,
+act_01666,peer_session,Peer session - Riya - Sep,2026-09-15,2026-09-15
+act_01667,mentor_call,Mentor call - Riya - Sep,2026-09-06,
+act_01668,branding_shoot,Branding shoot - Riya - Sep,2026-09-19,2026-09-19
+act_01669,peer_session,Peer session - Dev - Sep,2026-09-12,2026-09-12
+act_01670,mentor_call,Mentor call - Dev - Sep,2026-09-26,
+act_01671,branding_shoot,Branding shoot - Dev - Sep,2026-09-20,2026-09-20
+act_01672,peer_session,Peer session - Naira - Sep,2026-09-25,2026-09-25
+act_01673,mentor_call,Mentor call - Naira - Sep,2026-09-16,2026-09-16
+act_01674,branding_shoot,Branding shoot - Naira - Sep,2026-09-16,2026-09-16
+act_01675,pod,Pod Aurora - Oct,2026-10-13,2026-10-13
+act_01676,pod,Pod Banyan - Oct,2026-10-14,2026-10-14
+act_01677,pod,Pod Comet - Oct,2026-10-18,
+act_01678,pod,Pod Delta - Oct,2026-10-16,
+act_01679,pod,Pod Ember - Oct,2026-10-14,2026-10-14
+act_01680,peer_session,Peer session - Aarav - Oct,2026-10-21,
+act_01681,mentor_call,Mentor call - Aarav - Oct,2026-10-11,
+act_01682,branding_shoot,Branding shoot - Aarav - Oct,2026-10-14,2026-10-14
+act_01683,peer_session,Peer session - Anika - Oct,2026-10-14,2026-10-14
+act_01684,mentor_call,Mentor call - Anika - Oct,2026-10-14,2026-10-14
+act_01685,branding_shoot,Branding shoot - Anika - Oct,2026-10-26,
+act_01686,peer_session,Peer session - Vihaan - Oct,2026-10-25,
+act_01687,mentor_call,Mentor call - Vihaan - Oct,2026-10-06,2026-10-06
+act_01688,branding_shoot,Branding shoot - Vihaan - Oct,2026-10-06,2026-10-06
+act_01689,peer_session,Peer session - Myra - Oct,2026-10-19,
+act_01690,mentor_call,Mentor call - Myra - Oct,2026-10-26,
+act_01691,branding_shoot,Branding shoot - Myra - Oct,2026-10-12,2026-10-12
+act_01692,peer_session,Peer session - Kabir - Oct,2026-10-18,
+act_01693,mentor_call,Mentor call - Kabir - Oct,2026-10-14,2026-10-14
+act_01694,branding_shoot,Branding shoot - Kabir - Oct,2026-10-21,
+act_01695,peer_session,Peer session - Saanvi - Oct,2026-10-19,
+act_01696,mentor_call,Mentor call - Saanvi - Oct,2026-10-26,
+act_01697,branding_shoot,Branding shoot - Saanvi - Oct,2026-10-12,2026-10-12
+act_01698,peer_session,Peer session - Ishaan - Oct,2026-10-23,
+act_01699,mentor_call,Mentor call - Ishaan - Oct,2026-10-08,2026-10-08
+act_01700,branding_shoot,Branding shoot - Ishaan - Oct,2026-10-17,
+act_01701,peer_session,Peer session - Kiara - Oct,2026-10-21,
+act_01702,mentor_call,Mentor call - Kiara - Oct,2026-10-11,2026-10-11
+act_01703,branding_shoot,Branding shoot - Kiara - Oct,2026-10-13,
+act_01704,peer_session,Peer session - Reyansh - Oct,2026-10-11,2026-10-11
+act_01705,mentor_call,Mentor call - Reyansh - Oct,2026-10-09,2026-10-09
+act_01706,branding_shoot,Branding shoot - Reyansh - Oct,2026-10-25,
+act_01707,peer_session,Peer session - Ira - Oct,2026-10-08,2026-10-08
+act_01708,mentor_call,Mentor call - Ira - Oct,2026-10-24,
+act_01709,branding_shoot,Branding shoot - Ira - Oct,2026-10-26,
+act_01710,peer_session,Peer session - Dhruv - Oct,2026-10-14,2026-10-14
+act_01711,mentor_call,Mentor call - Dhruv - Oct,2026-10-21,
+act_01712,branding_shoot,Branding shoot - Dhruv - Oct,2026-10-19,
+act_01713,peer_session,Peer session - Aadhya - Oct,2026-10-15,
+act_01714,mentor_call,Mentor call - Aadhya - Oct,2026-10-11,2026-10-11
+act_01715,branding_shoot,Branding shoot - Aadhya - Oct,2026-10-19,
+act_01716,peer_session,Peer session - Arjun - Oct,2026-10-07,2026-10-07
+act_01717,mentor_call,Mentor call - Arjun - Oct,2026-10-19,
+act_01718,branding_shoot,Branding shoot - Arjun - Oct,2026-10-26,
+act_01719,peer_session,Peer session - Tara - Oct,2026-10-22,
+act_01720,mentor_call,Mentor call - Tara - Oct,2026-10-24,
+act_01721,branding_shoot,Branding shoot - Tara - Oct,2026-10-22,
+act_01722,peer_session,Peer session - Ayaan - Oct,2026-10-12,2026-10-12
+act_01723,mentor_call,Mentor call - Ayaan - Oct,2026-10-25,
+act_01724,branding_shoot,Branding shoot - Ayaan - Oct,2026-10-11,
+act_01725,peer_session,Peer session - Navya - Oct,2026-10-26,
+act_01726,mentor_call,Mentor call - Navya - Oct,2026-10-07,2026-10-07
+act_01727,branding_shoot,Branding shoot - Navya - Oct,2026-10-08,2026-10-08
+act_01728,peer_session,Peer session - Rudra - Oct,2026-10-06,2026-10-06
+act_01729,mentor_call,Mentor call - Rudra - Oct,2026-10-21,
+act_01730,branding_shoot,Branding shoot - Rudra - Oct,2026-10-17,
+act_01731,peer_session,Peer session - Zoya - Oct,2026-10-09,2026-10-09
+act_01732,mentor_call,Mentor call - Zoya - Oct,2026-10-20,
+act_01733,branding_shoot,Branding shoot - Zoya - Oct,2026-10-15,2026-10-15
+act_01734,peer_session,Peer session - Advait - Oct,2026-10-23,
+act_01735,mentor_call,Mentor call - Advait - Oct,2026-10-11,
+act_01736,branding_shoot,Branding shoot - Advait - Oct,2026-10-22,
+act_01737,peer_session,Peer session - Meher - Oct,2026-10-14,2026-10-14
+act_01738,mentor_call,Mentor call - Meher - Oct,2026-10-10,2026-10-10
+act_01739,branding_shoot,Branding shoot - Meher - Oct,2026-10-14,2026-10-14
+act_01740,peer_session,Peer session - Siya - Oct,2026-10-24,
+act_01741,mentor_call,Mentor call - Siya - Oct,2026-10-18,
+act_01742,branding_shoot,Branding shoot - Siya - Oct,2026-10-21,
+act_01743,peer_session,Peer session - Riya - Oct,2026-10-18,
+act_01744,mentor_call,Mentor call - Riya - Oct,2026-10-06,2026-10-06
+act_01745,branding_shoot,Branding shoot - Riya - Oct,2026-10-08,2026-10-08
+act_01746,peer_session,Peer session - Dev - Oct,2026-10-18,
+act_01747,mentor_call,Mentor call - Dev - Oct,2026-10-15,
+act_01748,branding_shoot,Branding shoot - Dev - Oct,2026-10-09,2026-10-09
+act_01749,peer_session,Peer session - Naira - Oct,2026-10-10,2026-10-10
+act_01750,mentor_call,Mentor call - Naira - Oct,2026-10-25,
+act_01751,branding_shoot,Branding shoot - Naira - Oct,2026-10-10,
+act_01752,pod,Pod Aurora - Nov,2026-11-11,
+act_01753,pod,Pod Banyan - Nov,2026-11-21,
+act_01754,pod,Pod Comet - Nov,2026-11-09,
+act_01755,pod,Pod Delta - Nov,2026-11-10,
+act_01756,pod,Pod Ember - Nov,2026-11-15,
+act_01757,peer_session,Peer session - Aarav - Nov,2026-11-07,
+act_01758,mentor_call,Mentor call - Aarav - Nov,2026-11-12,
+act_01759,branding_shoot,Branding shoot - Aarav - Nov,2026-11-22,
+act_01760,peer_session,Peer session - Anika - Nov,2026-11-24,
+act_01761,mentor_call,Mentor call - Anika - Nov,2026-11-25,
+act_01762,branding_shoot,Branding shoot - Anika - Nov,2026-11-16,
+act_01763,peer_session,Peer session - Vihaan - Nov,2026-11-22,
+act_01764,mentor_call,Mentor call - Vihaan - Nov,2026-11-22,
+act_01765,branding_shoot,Branding shoot - Vihaan - Nov,2026-11-17,
+act_01766,peer_session,Peer session - Myra - Nov,2026-11-23,
+act_01767,mentor_call,Mentor call - Myra - Nov,2026-11-25,
+act_01768,branding_shoot,Branding shoot - Myra - Nov,2026-11-16,
+act_01769,peer_session,Peer session - Kabir - Nov,2026-11-07,
+act_01770,mentor_call,Mentor call - Kabir - Nov,2026-11-15,
+act_01771,branding_shoot,Branding shoot - Kabir - Nov,2026-11-23,
+act_01772,peer_session,Peer session - Saanvi - Nov,2026-11-20,
+act_01773,mentor_call,Mentor call - Saanvi - Nov,2026-11-13,
+act_01774,branding_shoot,Branding shoot - Saanvi - Nov,2026-11-08,
+act_01775,peer_session,Peer session - Ishaan - Nov,2026-11-20,
+act_01776,mentor_call,Mentor call - Ishaan - Nov,2026-11-24,
+act_01777,branding_shoot,Branding shoot - Ishaan - Nov,2026-11-17,
+act_01778,peer_session,Peer session - Kiara - Nov,2026-11-20,
+act_01779,mentor_call,Mentor call - Kiara - Nov,2026-11-22,
+act_01780,branding_shoot,Branding shoot - Kiara - Nov,2026-11-22,
+act_01781,peer_session,Peer session - Reyansh - Nov,2026-11-18,
+act_01782,mentor_call,Mentor call - Reyansh - Nov,2026-11-23,
+act_01783,branding_shoot,Branding shoot - Reyansh - Nov,2026-11-14,
+act_01784,peer_session,Peer session - Ira - Nov,2026-11-19,
+act_01785,mentor_call,Mentor call - Ira - Nov,2026-11-11,
+act_01786,branding_shoot,Branding shoot - Ira - Nov,2026-11-10,
+act_01787,peer_session,Peer session - Dhruv - Nov,2026-11-09,
+act_01788,mentor_call,Mentor call - Dhruv - Nov,2026-11-10,
+act_01789,branding_shoot,Branding shoot - Dhruv - Nov,2026-11-21,
+act_01790,peer_session,Peer session - Aadhya - Nov,2026-11-09,
+act_01791,mentor_call,Mentor call - Aadhya - Nov,2026-11-10,
+act_01792,branding_shoot,Branding shoot - Aadhya - Nov,2026-11-16,
+act_01793,peer_session,Peer session - Arjun - Nov,2026-11-06,
+act_01794,mentor_call,Mentor call - Arjun - Nov,2026-11-07,
+act_01795,branding_shoot,Branding shoot - Arjun - Nov,2026-11-13,
+act_01796,peer_session,Peer session - Tara - Nov,2026-11-16,
+act_01797,mentor_call,Mentor call - Tara - Nov,2026-11-17,
+act_01798,branding_shoot,Branding shoot - Tara - Nov,2026-11-19,
+act_01799,peer_session,Peer session - Ayaan - Nov,2026-11-25,
+act_01800,mentor_call,Mentor call - Ayaan - Nov,2026-11-21,
+act_01801,branding_shoot,Branding shoot - Ayaan - Nov,2026-11-23,
+act_01802,peer_session,Peer session - Navya - Nov,2026-11-25,
+act_01803,mentor_call,Mentor call - Navya - Nov,2026-11-25,
+act_01804,branding_shoot,Branding shoot - Navya - Nov,2026-11-15,
+act_01805,peer_session,Peer session - Rudra - Nov,2026-11-17,
+act_01806,mentor_call,Mentor call - Rudra - Nov,2026-11-22,
+act_01807,branding_shoot,Branding shoot - Rudra - Nov,2026-11-22,
+act_01808,peer_session,Peer session - Zoya - Nov,2026-11-24,
+act_01809,mentor_call,Mentor call - Zoya - Nov,2026-11-18,
+act_01810,branding_shoot,Branding shoot - Zoya - Nov,2026-11-22,
+act_01811,peer_session,Peer session - Advait - Nov,2026-11-19,
+act_01812,mentor_call,Mentor call - Advait - Nov,2026-11-20,
+act_01813,branding_shoot,Branding shoot - Advait - Nov,2026-11-22,
+act_01814,peer_session,Peer session - Meher - Nov,2026-11-07,
+act_01815,mentor_call,Mentor call - Meher - Nov,2026-11-13,
+act_01816,branding_shoot,Branding shoot - Meher - Nov,2026-11-16,
+act_01817,peer_session,Peer session - Siya - Nov,2026-11-26,
+act_01818,mentor_call,Mentor call - Siya - Nov,2026-11-16,
+act_01819,branding_shoot,Branding shoot - Siya - Nov,2026-11-07,
+act_01820,peer_session,Peer session - Riya - Nov,2026-11-22,
+act_01821,mentor_call,Mentor call - Riya - Nov,2026-11-24,
+act_01822,branding_shoot,Branding shoot - Riya - Nov,2026-11-18,
+act_01823,peer_session,Peer session - Dev - Nov,2026-11-06,
+act_01824,mentor_call,Mentor call - Dev - Nov,2026-11-14,
+act_01825,branding_shoot,Branding shoot - Dev - Nov,2026-11-12,
+act_01826,peer_session,Peer session - Naira - Nov,2026-11-15,
+act_01827,mentor_call,Mentor call - Naira - Nov,2026-11-13,
+act_01828,branding_shoot,Branding shoot - Naira - Nov,2026-11-24,
+act_01829,podcast,Podcast shoot - Aarav - Q2,2026-05-25,2026-05-25
+act_01830,competition_prep,Competition prep - Aarav - Q2,2026-04-15,2026-04-15
+act_01831,podcast,Podcast shoot - Anika - Q2,2026-06-15,2026-06-15
+act_01832,competition_prep,Competition prep - Anika - Q2,2026-05-25,2026-05-25
+act_01833,podcast,Podcast shoot - Vihaan - Q2,2026-06-01,
+act_01834,competition_prep,Competition prep - Vihaan - Q2,2026-05-10,2026-05-10
+act_01835,podcast,Podcast shoot - Myra - Q2,2026-06-14,2026-06-14
+act_01836,competition_prep,Competition prep - Myra - Q2,2026-06-05,2026-06-05
+act_01837,podcast,Podcast shoot - Kabir - Q2,2026-06-19,2026-06-19
+act_01838,competition_prep,Competition prep - Kabir - Q2,2026-04-13,2026-04-13
+act_01839,podcast,Podcast shoot - Saanvi - Q2,2026-06-14,2026-06-14
+act_01840,competition_prep,Competition prep - Saanvi - Q2,2026-05-20,2026-05-20
+act_01841,podcast,Podcast shoot - Ishaan - Q2,2026-06-12,
+act_01842,competition_prep,Competition prep - Ishaan - Q2,2026-04-25,2026-04-25
+act_01843,podcast,Podcast shoot - Kiara - Q2,2026-06-13,2026-06-13
+act_01844,competition_prep,Competition prep - Kiara - Q2,2026-06-03,2026-06-03
+act_01845,podcast,Podcast shoot - Reyansh - Q2,2026-05-13,2026-05-13
+act_01846,competition_prep,Competition prep - Reyansh - Q2,2026-05-06,2026-05-06
+act_01847,podcast,Podcast shoot - Ira - Q2,2026-05-05,
+act_01848,competition_prep,Competition prep - Ira - Q2,2026-04-12,2026-04-12
+act_01849,podcast,Podcast shoot - Dhruv - Q2,2026-05-21,
+act_01850,competition_prep,Competition prep - Dhruv - Q2,2026-05-20,2026-05-20
+act_01851,podcast,Podcast shoot - Aadhya - Q2,2026-05-26,2026-05-26
+act_01852,competition_prep,Competition prep - Aadhya - Q2,2026-06-04,2026-06-04
+act_01853,podcast,Podcast shoot - Arjun - Q2,2026-06-01,2026-06-01
+act_01854,competition_prep,Competition prep - Arjun - Q2,2026-04-22,2026-04-22
+act_01855,podcast,Podcast shoot - Tara - Q2,2026-04-27,2026-04-27
+act_01856,competition_prep,Competition prep - Tara - Q2,2026-06-08,2026-06-08
+act_01857,podcast,Podcast shoot - Ayaan - Q2,2026-06-04,2026-06-04
+act_01858,competition_prep,Competition prep - Ayaan - Q2,2026-04-30,2026-04-30
+act_01859,podcast,Podcast shoot - Navya - Q2,2026-05-29,
+act_01860,competition_prep,Competition prep - Navya - Q2,2026-05-26,2026-05-26
+act_01861,podcast,Podcast shoot - Rudra - Q2,2026-06-01,2026-06-01
+act_01862,competition_prep,Competition prep - Rudra - Q2,2026-04-26,2026-04-26
+act_01863,podcast,Podcast shoot - Zoya - Q2,2026-05-27,2026-05-27
+act_01864,competition_prep,Competition prep - Zoya - Q2,2026-05-13,
+act_01865,podcast,Podcast shoot - Advait - Q2,2026-05-26,2026-05-26
+act_01866,competition_prep,Competition prep - Advait - Q2,2026-05-28,
+act_01867,podcast,Podcast shoot - Meher - Q2,2026-06-03,2026-06-03
+act_01868,competition_prep,Competition prep - Meher - Q2,2026-04-25,2026-04-25
+act_01869,podcast,Podcast shoot - Siya - Q2,2026-05-18,2026-05-18
+act_01870,competition_prep,Competition prep - Siya - Q2,2026-05-24,2026-05-24
+act_01871,podcast,Podcast shoot - Riya - Q2,2026-05-12,2026-05-12
+act_01872,competition_prep,Competition prep - Riya - Q2,2026-05-08,
+act_01873,podcast,Podcast shoot - Dev - Q2,2026-06-14,
+act_01874,competition_prep,Competition prep - Dev - Q2,2026-04-12,2026-04-12
+act_01875,podcast,Podcast shoot - Naira - Q2,2026-06-08,2026-06-08
+act_01876,competition_prep,Competition prep - Naira - Q2,2026-05-11,2026-05-11
+act_01877,parent_child,Parent-child workshop - Q2,2026-05-09,2026-05-09
+act_01878,out_of_city,Out-of-city experience - Q2,2026-06-13,2026-06-13
+act_01879,podcast,Podcast shoot - Aarav - Q3,2026-08-31,
+act_01880,competition_prep,Competition prep - Aarav - Q3,2026-09-07,2026-09-07
+act_01881,podcast,Podcast shoot - Anika - Q3,2026-07-27,2026-07-27
+act_01882,competition_prep,Competition prep - Anika - Q3,2026-07-20,2026-07-20
+act_01883,podcast,Podcast shoot - Vihaan - Q3,2026-09-11,2026-09-11
+act_01884,competition_prep,Competition prep - Vihaan - Q3,2026-07-31,
+act_01885,podcast,Podcast shoot - Myra - Q3,2026-09-12,2026-09-12
+act_01886,competition_prep,Competition prep - Myra - Q3,2026-09-07,2026-09-07
+act_01887,podcast,Podcast shoot - Kabir - Q3,2026-08-02,2026-08-02
+act_01888,competition_prep,Competition prep - Kabir - Q3,2026-07-29,2026-07-29
+act_01889,podcast,Podcast shoot - Saanvi - Q3,2026-07-22,2026-07-22
+act_01890,competition_prep,Competition prep - Saanvi - Q3,2026-07-26,2026-07-26
+act_01891,podcast,Podcast shoot - Ishaan - Q3,2026-09-14,2026-09-14
+act_01892,competition_prep,Competition prep - Ishaan - Q3,2026-09-02,
+act_01893,podcast,Podcast shoot - Kiara - Q3,2026-08-01,2026-08-01
+act_01894,competition_prep,Competition prep - Kiara - Q3,2026-08-27,
+act_01895,podcast,Podcast shoot - Reyansh - Q3,2026-09-12,
+act_01896,competition_prep,Competition prep - Reyansh - Q3,2026-08-13,2026-08-13
+act_01897,podcast,Podcast shoot - Ira - Q3,2026-09-12,
+act_01898,competition_prep,Competition prep - Ira - Q3,2026-08-03,2026-08-03
+act_01899,podcast,Podcast shoot - Dhruv - Q3,2026-09-16,
+act_01900,competition_prep,Competition prep - Dhruv - Q3,2026-08-06,2026-08-06
+act_01901,podcast,Podcast shoot - Aadhya - Q3,2026-08-12,2026-08-12
+act_01902,competition_prep,Competition prep - Aadhya - Q3,2026-07-22,2026-07-22
+act_01903,podcast,Podcast shoot - Arjun - Q3,2026-09-09,2026-09-09
+act_01904,competition_prep,Competition prep - Arjun - Q3,2026-08-03,2026-08-03
+act_01905,podcast,Podcast shoot - Tara - Q3,2026-08-02,2026-08-02
+act_01906,competition_prep,Competition prep - Tara - Q3,2026-07-21,2026-07-21
+act_01907,podcast,Podcast shoot - Ayaan - Q3,2026-08-26,2026-08-26
+act_01908,competition_prep,Competition prep - Ayaan - Q3,2026-09-06,2026-09-06
+act_01909,podcast,Podcast shoot - Navya - Q3,2026-08-04,2026-08-04
+act_01910,competition_prep,Competition prep - Navya - Q3,2026-08-31,2026-08-31
+act_01911,podcast,Podcast shoot - Rudra - Q3,2026-08-12,2026-08-12
+act_01912,competition_prep,Competition prep - Rudra - Q3,2026-09-02,2026-09-02
+act_01913,podcast,Podcast shoot - Zoya - Q3,2026-07-28,
+act_01914,competition_prep,Competition prep - Zoya - Q3,2026-07-26,2026-07-26
+act_01915,podcast,Podcast shoot - Advait - Q3,2026-08-26,
+act_01916,competition_prep,Competition prep - Advait - Q3,2026-07-14,2026-07-14
+act_01917,podcast,Podcast shoot - Meher - Q3,2026-08-12,2026-08-12
+act_01918,competition_prep,Competition prep - Meher - Q3,2026-08-03,
+act_01919,podcast,Podcast shoot - Siya - Q3,2026-08-20,2026-08-20
+act_01920,competition_prep,Competition prep - Siya - Q3,2026-08-12,2026-08-12
+act_01921,podcast,Podcast shoot - Riya - Q3,2026-09-14,2026-09-14
+act_01922,competition_prep,Competition prep - Riya - Q3,2026-08-10,2026-08-10
+act_01923,podcast,Podcast shoot - Dev - Q3,2026-09-11,2026-09-11
+act_01924,competition_prep,Competition prep - Dev - Q3,2026-07-17,
+act_01925,podcast,Podcast shoot - Naira - Q3,2026-07-25,2026-07-25
+act_01926,competition_prep,Competition prep - Naira - Q3,2026-08-18,2026-08-18
+act_01927,parent_child,Parent-child workshop - Q3,2026-08-25,2026-08-25
+act_01928,out_of_city,Out-of-city experience - Q3,2026-09-14,2026-09-14
+act_01929,podcast,Podcast shoot - Aarav - Q4,2026-11-24,
+act_01930,competition_prep,Competition prep - Aarav - Q4,2026-12-08,
+act_01931,podcast,Podcast shoot - Anika - Q4,2026-12-13,
+act_01932,competition_prep,Competition prep - Anika - Q4,2026-11-11,
+act_01933,podcast,Podcast shoot - Vihaan - Q4,2026-11-04,
+act_01934,competition_prep,Competition prep - Vihaan - Q4,2026-12-02,
+act_01935,podcast,Podcast shoot - Myra - Q4,2026-12-15,
+act_01936,competition_prep,Competition prep - Myra - Q4,2026-10-12,2026-10-12
+act_01937,podcast,Podcast shoot - Kabir - Q4,2026-11-16,
+act_01938,competition_prep,Competition prep - Kabir - Q4,2026-11-19,
+act_01939,podcast,Podcast shoot - Saanvi - Q4,2026-10-21,
+act_01940,competition_prep,Competition prep - Saanvi - Q4,2026-11-13,
+act_01941,podcast,Podcast shoot - Ishaan - Q4,2026-10-28,
+act_01942,competition_prep,Competition prep - Ishaan - Q4,2026-11-15,
+act_01943,podcast,Podcast shoot - Kiara - Q4,2026-12-09,
+act_01944,competition_prep,Competition prep - Kiara - Q4,2026-12-03,
+act_01945,podcast,Podcast shoot - Reyansh - Q4,2026-11-17,
+act_01946,competition_prep,Competition prep - Reyansh - Q4,2026-11-08,
+act_01947,podcast,Podcast shoot - Ira - Q4,2026-12-18,
+act_01948,competition_prep,Competition prep - Ira - Q4,2026-11-05,
+act_01949,podcast,Podcast shoot - Dhruv - Q4,2026-12-09,
+act_01950,competition_prep,Competition prep - Dhruv - Q4,2026-12-04,
+act_01951,podcast,Podcast shoot - Aadhya - Q4,2026-11-20,
+act_01952,competition_prep,Competition prep - Aadhya - Q4,2026-12-01,
+act_01953,podcast,Podcast shoot - Arjun - Q4,2026-11-27,
+act_01954,competition_prep,Competition prep - Arjun - Q4,2026-11-04,
+act_01955,podcast,Podcast shoot - Tara - Q4,2026-12-09,
+act_01956,competition_prep,Competition prep - Tara - Q4,2026-10-31,
+act_01957,podcast,Podcast shoot - Ayaan - Q4,2026-11-08,
+act_01958,competition_prep,Competition prep - Ayaan - Q4,2026-10-26,
+act_01959,podcast,Podcast shoot - Navya - Q4,2026-11-04,
+act_01960,competition_prep,Competition prep - Navya - Q4,2026-10-18,
+act_01961,podcast,Podcast shoot - Rudra - Q4,2026-11-27,
+act_01962,competition_prep,Competition prep - Rudra - Q4,2026-10-16,
+act_01963,podcast,Podcast shoot - Zoya - Q4,2026-12-12,
+act_01964,competition_prep,Competition prep - Zoya - Q4,2026-10-11,
+act_01965,podcast,Podcast shoot - Advait - Q4,2026-11-26,
+act_01966,competition_prep,Competition prep - Advait - Q4,2026-11-29,
+act_01967,podcast,Podcast shoot - Meher - Q4,2026-10-29,
+act_01968,competition_prep,Competition prep - Meher - Q4,2026-11-13,
+act_01969,podcast,Podcast shoot - Siya - Q4,2026-12-18,
+act_01970,competition_prep,Competition prep - Siya - Q4,2026-10-14,2026-10-14
+act_01971,podcast,Podcast shoot - Riya - Q4,2026-11-26,
+act_01972,competition_prep,Competition prep - Riya - Q4,2026-11-18,
+act_01973,podcast,Podcast shoot - Dev - Q4,2026-12-16,
+act_01974,competition_prep,Competition prep - Dev - Q4,2026-11-05,
+act_01975,podcast,Podcast shoot - Naira - Q4,2026-10-27,
+act_01976,competition_prep,Competition prep - Naira - Q4,2026-10-29,
+act_01977,parent_child,Parent-child workshop - Q4,2026-11-02,
+act_01978,out_of_city,Out-of-city experience - Q4,2026-12-19,

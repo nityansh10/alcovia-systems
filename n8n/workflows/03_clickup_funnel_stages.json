@@ -1,0 +1,194 @@
+{
+  "name": "03 \u00b7 ClickUp status change \u2192 lead_stage_events (+ show-up calls)",
+  "nodes": [
+    {
+      "id": "2790264f-2975-59d1-8fbb-ea6243d130f4",
+      "name": "ClickUp: task status updated",
+      "type": "n8n-nodes-base.clickUpTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        300
+      ],
+      "parameters": {
+        "team": "={{ $env.CLICKUP_TEAM_ID }}",
+        "events": [
+          "taskStatusUpdated",
+          "taskCreated"
+        ],
+        "filters": {
+          "listId": "={{ $env.CLICKUP_LEADS_LIST }}"
+        }
+      },
+      "credentials": {
+        "clickUpApi": {
+          "id": "clickup",
+          "name": "ClickUp (alcovia workspace)"
+        }
+      }
+    },
+    {
+      "id": "5ca440f0-1a6a-544d-8c0b-a99cd0bc7d34",
+      "name": "Map status \u2192 stage",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        240,
+        300
+      ],
+      "parameters": {
+        "jsCode": "// The ClickUp list statuses ARE the funnel. This map is the single place the two are tied together.\nconst MAP = {\n  'new lead': null, 'workshop attendee': null,\n  'qualified': 'qualified', 'not a fit': 'disqualified',\n  'discovery booked': 'discovery_scheduled', 'discovery done': 'discovery_attended', 'discovery no-show': 'discovery_no_show',\n  'ambition booked': 'ambition_scheduled', 'ambition done': 'ambition_attended', 'ambition no-show': 'ambition_no_show',\n  'architect done': 'architect_done', 'won': 'won', 'lost': 'lost',\n};\nconst h = $json.history_items?.[0] || {};\nconst status = (h.after?.status || $json.status?.status || '').toLowerCase();\nif (!(status in MAP)) throw new Error(`Unmapped ClickUp status \"${status}\". Add it to the map before using it.`);\nconst stage = MAP[status];\nif (!stage) return [];\nreturn [{ json: { lead_id: $json.task_id, stage, occurred_at: new Date(Number(h.date || Date.now())).toISOString(),\n                  phone: $json.phone || null, when: $json.due_date || null } }];"
+      }
+    },
+    {
+      "id": "3f47547f-cc01-521a-93d0-42d65347618e",
+      "name": "Append stage (idempotent)",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        480,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO lead_stage_events (lead_id, stage, occurred_at) VALUES ($1, $2, $3)\nON CONFLICT (lead_id, stage) DO NOTHING;",
+        "options": {
+          "queryReplacement": "={{ $json.lead_id }},={{ $json.stage }},={{ $json.occurred_at }}"
+        }
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "89d73ea4-61fe-5f25-bd2b-85f3b02d033c",
+      "name": "Discovery or ambition booked?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        720,
+        300
+      ],
+      "parameters": {
+        "conditions": {
+          "combinator": "or",
+          "conditions": [
+            {
+              "leftValue": "={{ $('Map status \u2192 stage').item.json.stage }}",
+              "rightValue": "discovery_scheduled",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            },
+            {
+              "leftValue": "={{ $('Map status \u2192 stage').item.json.stage }}",
+              "rightValue": "ambition_scheduled",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "a7af41e7-57b6-5ae9-b60c-2e40c4d576f4",
+      "name": "Schedule Smallest.ai reminder calls",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        960,
+        300
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.smallest.ai/atoms/v1/campaigns/calls",
+        "options": {
+          "timeout": 30000
+        },
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"agent_id\": \"{{ $env.SMALLEST_REMINDER_AGENT }}\",\n  \"phone_number\": \"{{ $('Map status \u2192 stage').item.json.phone }}\",\n  \"schedule\": [\"{{ DateTime.fromISO($('Map status \u2192 stage').item.json.when).minus({hours: 24}).toISO() }}\",\n               \"{{ DateTime.fromISO($('Map status \u2192 stage').item.json.when).minus({hours: 2}).toISO() }}\"],\n  \"variables\": { \"session\": \"{{ $('Map status \u2192 stage').item.json.stage }}\" }\n}"
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    }
+  ],
+  "connections": {
+    "ClickUp: task status updated": {
+      "main": [
+        [
+          {
+            "node": "Map status \u2192 stage",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Map status \u2192 stage": {
+      "main": [
+        [
+          {
+            "node": "Append stage (idempotent)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Append stage (idempotent)": {
+      "main": [
+        [
+          {
+            "node": "Discovery or ambition booked?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Discovery or ambition booked?": {
+      "main": [
+        [
+          {
+            "node": "Schedule Smallest.ai reminder calls",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Kolkata",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner",
+    "errorWorkflow": "00_error_handler"
+  },
+  "tags": [
+    {
+      "name": "gtm"
+    },
+    {
+      "name": "funnel"
+    }
+  ],
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "pinData": {}
+}

@@ -1,0 +1,237 @@
+{
+  "name": "09 \u00b7 Mixpanel raw events \u2192 app_events + app_daily_usage",
+  "nodes": [
+    {
+      "id": "23d4386a-55f9-5072-99b0-25d6b2ac6799",
+      "name": "Daily 03:00 IST",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        300
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 3 * * *"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "6a5a3863-30c1-5fa2-9e69-e3eb01823044",
+      "name": "Raw export (yesterday)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        240,
+        300
+      ],
+      "parameters": {
+        "method": "GET",
+        "url": "https://data.mixpanel.com/api/2.0/export",
+        "options": {
+          "timeout": 30000,
+          "response": {
+            "response": {
+              "responseFormat": "text"
+            }
+          }
+        },
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpBasicAuth",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "from_date",
+              "value": "={{ $today.minus({days: 1}).toISODate() }}"
+            },
+            {
+              "name": "to_date",
+              "value": "={{ $today.minus({days: 1}).toISODate() }}"
+            },
+            {
+              "name": "project_id",
+              "value": "={{ $env.MIXPANEL_PROJECT_ID }}"
+            }
+          ]
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "19b4e290-2e15-5540-aff3-583409faa790",
+      "name": "Parse NDJSON",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        480,
+        300
+      ],
+      "parameters": {
+        "jsCode": "const TEST = new Set(($env.MIXPANEL_TEST_DEVICES || '').split(','));\nreturn $json.data.split('\\n').filter(Boolean).map(l => JSON.parse(l)).map(e => ({ json: {\n  insert_id: e.properties.$insert_id, distinct_id: e.properties.distinct_id, event: e.event,\n  ts: new Date(e.properties.time * 1000).toISOString(),\n  duration_sec: e.properties.duration_sec ?? e.properties.duration ?? null,\n  is_test_device: TEST.has(e.properties.distinct_id),\n}}));"
+      }
+    },
+    {
+      "id": "b254e671-8dfb-59f8-9fa8-b7229607d986",
+      "name": "Insert events (dedupe on $insert_id)",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        720,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO app_events (insert_id, distinct_id, event, ts, duration_sec, is_test_device) VALUES ($1, $2, $3, $4, $5, $6)\nON CONFLICT (insert_id) DO NOTHING;",
+        "options": {
+          "queryReplacement": "={{ $json.insert_id }},={{ $json.distinct_id }},={{ $json.event }},={{ $json.ts }},={{ $json.duration_sec }},={{ $json.is_test_device }}"
+        }
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "a7b48a71-0b06-5eb6-9be0-52f859526dbb",
+      "name": "Roll up app_daily_usage",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        960,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO app_daily_usage (student_id, date, foreground_min)\nSELECT distinct_id, ts::date, SUM(duration_sec) / 60.0 FROM app_events\nWHERE event = 'app_session_ended' AND NOT is_test_device AND ts::date = CURRENT_DATE - 1\nGROUP BY 1, 2\nON CONFLICT (student_id, date) DO UPDATE SET foreground_min = EXCLUDED.foreground_min;",
+        "options": {}
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000,
+      "executeOnce": true
+    },
+    {
+      "id": "09f67d5d-f9ae-5eb4-a11d-2c26dfaff738",
+      "name": "Heartbeat",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        1200,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO sync_runs (job, finished_at, rows_written)\nVALUES ('mixpanel_export', now(), $1)\nON CONFLICT (job) DO UPDATE SET finished_at = EXCLUDED.finished_at, rows_written = EXCLUDED.rows_written;",
+        "options": {
+          "queryReplacement": "={{ $input.all().length }}"
+        }
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000,
+      "executeOnce": true
+    }
+  ],
+  "connections": {
+    "Daily 03:00 IST": {
+      "main": [
+        [
+          {
+            "node": "Raw export (yesterday)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Raw export (yesterday)": {
+      "main": [
+        [
+          {
+            "node": "Parse NDJSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse NDJSON": {
+      "main": [
+        [
+          {
+            "node": "Insert events (dedupe on $insert_id)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Insert events (dedupe on $insert_id)": {
+      "main": [
+        [
+          {
+            "node": "Roll up app_daily_usage",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Roll up app_daily_usage": {
+      "main": [
+        [
+          {
+            "node": "Heartbeat",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Kolkata",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner",
+    "errorWorkflow": "00_error_handler"
+  },
+  "tags": [
+    {
+      "name": "product"
+    },
+    {
+      "name": "analytics"
+    }
+  ],
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "pinData": {}
+}

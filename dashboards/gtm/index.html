@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Alcovia GTM Tracker</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Geist+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="../assets/common.css">
+</head>
+<body>
+<div class="top">
+  <div class="wrap">
+    <div class="brand"><span class="mark"></span><h1>Alcovia GTM Tracker</h1><small>Revenue · Funnel · Campaigns · RCA</small></div>
+    <div class="filters" id="filters"></div>
+  </div>
+</div>
+
+<main class="wrap">
+  <nav class="nav" aria-label="Sections">
+    <a href="#revenue">Revenue</a><a href="#funnel">Funnel</a><a href="#campaigns">Campaigns</a><a href="#rca">Scale / refresh / drop</a>
+  </nav>
+
+  <div class="tiles" id="tiles"></div>
+
+  <!-- ================= REVENUE ================= -->
+  <section id="revenue">
+    <header><h2>Revenue</h2><p>Cash collected in Razorpay. Targets are pro-rated when the range covers part of a month.</p></header>
+    <div class="grid">
+      <div class="card span-8">
+        <h3 id="rev-title">Revenue vs target</h3>
+        <p class="sub" id="rev-sub"></p>
+        <div class="legend" id="rev-legend"></div>
+        <div class="chart"><canvas id="c-rev" role="img" aria-label="Revenue against target"></canvas></div>
+      </div>
+      <div class="card span-4">
+        <h3>Program vs workshop</h3>
+        <p class="sub">Share of cash collected in the range</p>
+        <div id="mix"></div>
+      </div>
+      <div class="card span-5">
+        <h3>Students onboarded</h3>
+        <p class="sub">First enrolments per month, by plan. Renewals are excluded. The dark mark is the target.</p>
+        <div class="legend"><span><i style="background:var(--s1)"></i>Full program</span><span><i style="background:var(--s2)"></i>3-month trial</span><span><i class="line" style="background:var(--target)"></i>Target</span></div>
+        <div class="chart short"><canvas id="c-onb" role="img" aria-label="Students onboarded per month"></canvas></div>
+      </div>
+      <div class="card span-7">
+        <h3>Fortnightly workshops</h3>
+        <p class="sub">₹3,999 per seat from Razorpay. "Became students" counts seat buyers who later enrolled.</p>
+        <div class="tbl" id="t-wsp"></div>
+      </div>
+      <div class="card span-6">
+        <h3>Invoices generated, not paid</h3>
+        <p class="sub" id="unpaid-sub"></p>
+        <div class="tbl" id="t-unpaid"></div>
+      </div>
+      <div class="card span-6">
+        <h3>Trial renewals coming up</h3>
+        <p class="sub" id="renew-sub"></p>
+        <div class="tbl" id="t-renew"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FUNNEL ================= -->
+  <section id="funnel">
+    <header><h2>Funnel journey</h2><p>Cohort view: leads created in the range, followed to wherever they are today. Stages come from ClickUp status changes.</p></header>
+    <div class="grid">
+      <div class="card span-7">
+        <h3>Lead to sign-up</h3>
+        <p class="sub">Show-up rate at discovery and drop-off before the ambition interview are the two conversion points this view tracks.</p>
+        <div class="funnel" id="funnel-steps"></div>
+      </div>
+      <div class="card span-5">
+        <h3>Where leads come from</h3>
+        <p class="sub">Organic = no ad attached. Workshop buyers count once they ask about the program.</p>
+        <div class="tbl" id="t-source"></div>
+        <h3 style="margin-top:16px">Average lead journey</h3>
+        <p class="sub">Days from lead created to the final outcome</p>
+        <div class="tbl" id="t-journey"></div>
+      </div>
+      <div class="card">
+        <h3>New leads per week</h3>
+        <div class="legend"><span><i style="background:var(--s1)"></i>Paid (Meta)</span><span><i style="background:var(--s2)"></i>Organic</span><span><i style="background:var(--s3)"></i>From workshops</span></div>
+        <div class="chart short"><canvas id="c-leads" role="img" aria-label="Leads per week by source"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CAMPAIGNS ================= -->
+  <section id="campaigns">
+    <header><h2>Campaign performance</h2><p>Meta Ads data pulled daily at 06:00 IST. Revenue is first-touch: the ad that created the lead gets the payment.</p></header>
+    <div class="grid">
+      <div class="card">
+        <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+          <div><h3>Creatives</h3><p class="sub" style="margin:0">Top 3 by CTR are marked to keep; bottom 3 go to the refresh queue (minimum 5,000 impressions).</p></div>
+          <div class="seg" id="obj-toggle" role="group" aria-label="Campaign objective">
+            <button type="button" data-o="program" aria-pressed="true">Program</button><button type="button" data-o="workshop" aria-pressed="false">Workshop</button>
+          </div>
+        </div>
+        <div class="tbl" id="t-ads" style="margin-top:10px"></div>
+      </div>
+      <div class="card span-5">
+        <h3>Ad set frequency, last 7 days</h3>
+        <p class="sub">Average times one person saw the ad that week. At 3 or more, change the creative or the audience.</p>
+        <div class="chart"><canvas id="c-freq" role="img" aria-label="Ad set frequency"></canvas></div>
+      </div>
+      <div class="card span-7">
+        <h3>Landing page health</h3>
+        <p class="sub">Bounce and load time (p75 LCP) vs the previous period of equal length</p>
+        <div class="tbl" id="t-lp"></div>
+        <div class="legend" style="margin-top:12px"><span><i class="line" style="background:var(--s1)"></i>Parent LP</span><span><i class="line" style="background:var(--s2)"></i>Teen LP</span><span><i class="line" style="background:var(--s3)"></i>Workshop checkout</span><span><i class="line" style="background:var(--critical)"></i>3s budget</span></div>
+        <div class="chart short"><canvas id="c-lp" role="img" aria-label="Landing page load time"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= RCA ================= -->
+  <section id="rca">
+    <header><h2>Scale, refresh or drop</h2><p>One decision per ad set, from fixed rules. The weekly review debates the thresholds, not each campaign.</p></header>
+    <div class="grid">
+      <div class="card span-5">
+        <h3>Cost vs fatigue</h3>
+        <p class="sub" id="rca-sub">Program ad sets. Up = expensive leads; right = tired audience.</p>
+        <div class="chart tall"><canvas id="c-rca" role="img" aria-label="Cost per qualified lead against frequency"></canvas></div>
+      </div>
+      <div class="card span-7">
+        <h3>Decision matrix</h3>
+        <p class="sub">Rules run top-down; the first match wins.</p>
+        <div class="tbl" id="t-rca"></div>
+        <div class="tbl" style="margin-top:12px">
+          <table>
+            <thead><tr><th>Decision</th><th>Rule</th><th>Action this week</th></tr></thead>
+            <tbody>
+              <tr><td><span class="pill neutral">LEARNING</span></td><td class="wrap">Under ₹15,000 spent in the range</td><td class="wrap">Leave it alone; not enough signal yet</td></tr>
+              <tr><td><span class="pill critical">DROP</span></td><td class="wrap">CPQL above 1.5× target with no sign-ups</td><td class="wrap">Pause. The audience is wrong, so new creative will not fix it.</td></tr>
+              <tr><td><span class="pill serious">REFRESH</span></td><td class="wrap">7-day frequency 3 or more, or CTR down 20%+ (first half vs second half of the range)</td><td class="wrap">Ship 2 new creatives on the best hook; keep the audience</td></tr>
+              <tr><td><span class="pill good">SCALE</span></td><td class="wrap">CPQL at or under target, frequency under 2.5, CTR steady</td><td class="wrap">+20% budget every 3 days while CPQL holds</td></tr>
+              <tr><td><span class="pill warn">HOLD</span></td><td class="wrap">Anything else</td><td class="wrap">No change; re-check next week</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <p class="foot">Dummy data generated by <code>data/generate_seed.py</code>: the mechanics are realistic, the numbers are not real. The same rules ship as SQL in <code>sql/metrics/</code>. <a href="../index.html">All dashboards</a> · <a href="../student/index.html">Student dashboard</a></p>
+</main>
+<div class="tt" id="tt" hidden></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="../assets/common.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

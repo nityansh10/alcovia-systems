@@ -1,0 +1,9 @@
+ad_set_id,campaign_id,name,audience
+as_ncr_g9,cmp_prg_ncr,"Parents of Class 8-10 | Interests: CBSE, IIT-JEE","Parents 35-50, NCR"
+as_ncr_lal,cmp_prg_ncr,Lookalike 1% | Enrolled parents,"LAL 1%, NCR"
+as_metro_g9,cmp_prg_metro,Parents | Mumbai + Bengaluru | Education interests,"Parents 35-50, MUM+BLR"
+as_metro_ib,cmp_prg_metro,Parents | IB/IGCSE school followers,"Parents, IB schools"
+as_teen_broad,cmp_prg_teen,Teens 14-17 | Broad | Reels,"Teens 14-17, metros"
+as_rtg_30d,cmp_prg_rtg,Website visitors 30d | excl. leads,Retargeting pool
+as_wsp_parents,cmp_wsp,Parents | Workshop | NCR,"Parents 35-50, NCR"
+as_wsp_teens,cmp_wsp,Teens | Workshop | NCR + metros,Teens 14-17

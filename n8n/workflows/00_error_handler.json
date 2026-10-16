@@ -1,0 +1,228 @@
+{
+  "name": "00 \u00b7 Error handler (all workflows)",
+  "nodes": [
+    {
+      "id": "294f8b0c-0431-5eff-bc5a-a7fe068fcf0f",
+      "name": "On any workflow error",
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        300
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "803f7df9-8e3a-546a-90f8-bbaa40808fe7",
+      "name": "Shape alert",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        240,
+        300
+      ],
+      "parameters": {
+        "jsCode": "const e = $json.execution || {};\nconst wf = $json.workflow || {};\nreturn [{ json: {\n  title: `[n8n] ${wf.name} failed at \"${e.lastNodeExecuted || 'unknown node'}\"`,\n  body: `Error: ${(e.error && e.error.message) || 'no message'}\\nExecution: ${e.url || e.id}\\nMode: ${e.mode}\\n\\nRunbook: docs/05_systems_and_data_flow.md#runbooks`,\n  workflow: wf.name,\n}}];"
+      }
+    },
+    {
+      "id": "e1937676-f555-5e0b-886f-e9a117cc30d5",
+      "name": "Log failure",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        480,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO sync_failures (workflow, failed_at, message) VALUES ($1, now(), $2);",
+        "options": {
+          "queryReplacement": "={{ $json.workflow }},={{ $json.body }}"
+        }
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "54bc3e26-1d2e-5720-a433-6cd975143503",
+      "name": "ClickUp task for owner",
+      "type": "n8n-nodes-base.clickUp",
+      "typeVersion": 1,
+      "position": [
+        720,
+        300
+      ],
+      "parameters": {
+        "team": "={{ $env.CLICKUP_TEAM_ID }}",
+        "space": "={{ $env.CLICKUP_SYSTEMS_SPACE }}",
+        "list": "={{ $env.CLICKUP_SYSTEMS_INCIDENTS_LIST }}",
+        "name": "={{ $json.title }}",
+        "additionalFields": {
+          "content": "={{ $json.body }}",
+          "priority": 2,
+          "tags": [
+            "n8n-failure"
+          ]
+        }
+      },
+      "credentials": {
+        "clickUpApi": {
+          "id": "clickup",
+          "name": "ClickUp (alcovia workspace)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "95ac728e-a6f1-54b2-a489-72c1e6e2aa53",
+      "name": "Every hour: stale-job watchdog",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        960,
+        300
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 * * * *"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "3faf268f-8f0f-5794-8054-5a84ac4216cf",
+      "name": "Jobs past their SLA",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        240,
+        560
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT job, finished_at FROM sync_runs s JOIN sync_sla USING (job)\nWHERE s.finished_at < now() - sync_sla.max_age;",
+        "options": {}
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "e5822eff-0f4e-56a8-b7c9-f0dcfe2d725e",
+      "name": "Shape stale alert",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        480,
+        560
+      ],
+      "parameters": {
+        "jsCode": "return $input.all().map(i => ({ json: {\n  title: `[n8n] ${i.json.job} has not run since ${i.json.finished_at}`,\n  body: 'Scheduled job missed its SLA. Dashboards built on it are stale.',\n  workflow: i.json.job } }));"
+      }
+    }
+  ],
+  "connections": {
+    "On any workflow error": {
+      "main": [
+        [
+          {
+            "node": "Shape alert",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Shape alert": {
+      "main": [
+        [
+          {
+            "node": "Log failure",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Log failure": {
+      "main": [
+        [
+          {
+            "node": "ClickUp task for owner",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Every hour: stale-job watchdog": {
+      "main": [
+        [
+          {
+            "node": "Jobs past their SLA",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Jobs past their SLA": {
+      "main": [
+        [
+          {
+            "node": "Shape stale alert",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Shape stale alert": {
+      "main": [
+        [
+          {
+            "node": "Log failure",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Kolkata",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "tags": [
+    {
+      "name": "ops"
+    }
+  ],
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "pinData": {}
+}

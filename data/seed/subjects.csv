@@ -1,0 +1,121 @@
+subject_id,student_id,name,affinity,has_tutor
+stu_01_s1,stu_01,Mathematics,neutral,true
+stu_01_s2,stu_01,Science,dislikes,true
+stu_01_s3,stu_01,Social Science,neutral,false
+stu_01_s4,stu_01,English,dislikes,false
+stu_01_s5,stu_01,Hindi,likes,false
+stu_02_s1,stu_02,Mathematics,likes,true
+stu_02_s2,stu_02,Science,neutral,false
+stu_02_s3,stu_02,Social Science,neutral,false
+stu_02_s4,stu_02,English,likes,false
+stu_02_s5,stu_02,Hindi,dislikes,false
+stu_03_s1,stu_03,Mathematics,neutral,true
+stu_03_s2,stu_03,Science,likes,false
+stu_03_s3,stu_03,Social Science,neutral,false
+stu_03_s4,stu_03,English,dislikes,false
+stu_03_s5,stu_03,Hindi,neutral,false
+stu_04_s1,stu_04,Mathematics,likes,true
+stu_04_s2,stu_04,Physics,dislikes,false
+stu_04_s3,stu_04,Chemistry,dislikes,true
+stu_04_s4,stu_04,History & Civics,dislikes,false
+stu_04_s5,stu_04,English,dislikes,false
+stu_05_s1,stu_05,Mathematics,neutral,false
+stu_05_s2,stu_05,Science,likes,true
+stu_05_s3,stu_05,Social Science,dislikes,false
+stu_05_s4,stu_05,English,dislikes,false
+stu_05_s5,stu_05,Hindi,likes,false
+stu_06_s1,stu_06,Mathematics AA,dislikes,true
+stu_06_s2,stu_06,Physics,neutral,false
+stu_06_s3,stu_06,Economics,dislikes,false
+stu_06_s4,stu_06,English A,dislikes,true
+stu_06_s5,stu_06,French B,neutral,false
+stu_07_s1,stu_07,Mathematics,dislikes,false
+stu_07_s2,stu_07,Science,dislikes,false
+stu_07_s3,stu_07,Social Science,likes,true
+stu_07_s4,stu_07,English,likes,false
+stu_07_s5,stu_07,Hindi,dislikes,false
+stu_08_s1,stu_08,Mathematics,dislikes,false
+stu_08_s2,stu_08,Physics,neutral,true
+stu_08_s3,stu_08,Business Studies,neutral,true
+stu_08_s4,stu_08,English,neutral,false
+stu_08_s5,stu_08,Computer Science,neutral,true
+stu_09_s1,stu_09,Mathematics,dislikes,false
+stu_09_s2,stu_09,Science,neutral,true
+stu_09_s3,stu_09,Social Science,dislikes,false
+stu_09_s4,stu_09,English,neutral,false
+stu_09_s5,stu_09,Hindi,neutral,true
+stu_10_s1,stu_10,Mathematics,neutral,false
+stu_10_s2,stu_10,Physics,neutral,false
+stu_10_s3,stu_10,Chemistry,likes,true
+stu_10_s4,stu_10,History & Civics,likes,false
+stu_10_s5,stu_10,English,likes,false
+stu_11_s1,stu_11,Mathematics,dislikes,true
+stu_11_s2,stu_11,Science,neutral,true
+stu_11_s3,stu_11,Social Science,dislikes,false
+stu_11_s4,stu_11,English,neutral,false
+stu_11_s5,stu_11,Hindi,likes,false
+stu_12_s1,stu_12,Mathematics,neutral,false
+stu_12_s2,stu_12,Science,dislikes,true
+stu_12_s3,stu_12,Social Science,dislikes,false
+stu_12_s4,stu_12,English,dislikes,false
+stu_12_s5,stu_12,Hindi,likes,false
+stu_13_s1,stu_13,Mathematics,likes,false
+stu_13_s2,stu_13,Science,likes,true
+stu_13_s3,stu_13,Social Science,likes,false
+stu_13_s4,stu_13,English,neutral,false
+stu_13_s5,stu_13,Hindi,likes,false
+stu_14_s1,stu_14,Mathematics AA,neutral,false
+stu_14_s2,stu_14,Physics,neutral,true
+stu_14_s3,stu_14,Economics,neutral,false
+stu_14_s4,stu_14,English A,neutral,true
+stu_14_s5,stu_14,French B,neutral,false
+stu_15_s1,stu_15,Mathematics,neutral,true
+stu_15_s2,stu_15,Science,dislikes,true
+stu_15_s3,stu_15,Social Science,dislikes,false
+stu_15_s4,stu_15,English,neutral,false
+stu_15_s5,stu_15,Hindi,neutral,true
+stu_16_s1,stu_16,Mathematics,neutral,true
+stu_16_s2,stu_16,Science,likes,true
+stu_16_s3,stu_16,Social Science,likes,false
+stu_16_s4,stu_16,English,likes,false
+stu_16_s5,stu_16,Hindi,neutral,false
+stu_17_s1,stu_17,Mathematics,dislikes,false
+stu_17_s2,stu_17,Physics,likes,true
+stu_17_s3,stu_17,Chemistry,neutral,true
+stu_17_s4,stu_17,History & Civics,dislikes,true
+stu_17_s5,stu_17,English,likes,false
+stu_18_s1,stu_18,Mathematics,neutral,true
+stu_18_s2,stu_18,Science,likes,false
+stu_18_s3,stu_18,Social Science,dislikes,true
+stu_18_s4,stu_18,English,dislikes,false
+stu_18_s5,stu_18,Hindi,dislikes,false
+stu_19_s1,stu_19,Mathematics,likes,false
+stu_19_s2,stu_19,Science,neutral,true
+stu_19_s3,stu_19,Social Science,likes,false
+stu_19_s4,stu_19,English,neutral,false
+stu_19_s5,stu_19,Hindi,likes,false
+stu_20_s1,stu_20,Mathematics,neutral,true
+stu_20_s2,stu_20,Science,neutral,true
+stu_20_s3,stu_20,Social Science,neutral,true
+stu_20_s4,stu_20,English,likes,false
+stu_20_s5,stu_20,Hindi,neutral,false
+stu_21_s1,stu_21,Mathematics,neutral,true
+stu_21_s2,stu_21,Physics,likes,true
+stu_21_s3,stu_21,Business Studies,dislikes,false
+stu_21_s4,stu_21,English,neutral,false
+stu_21_s5,stu_21,Computer Science,neutral,false
+stu_22_s1,stu_22,Mathematics,neutral,false
+stu_22_s2,stu_22,Science,neutral,false
+stu_22_s3,stu_22,Social Science,neutral,false
+stu_22_s4,stu_22,English,neutral,false
+stu_22_s5,stu_22,Hindi,dislikes,false
+stu_23_s1,stu_23,Mathematics,dislikes,false
+stu_23_s2,stu_23,Science,dislikes,true
+stu_23_s3,stu_23,Social Science,dislikes,false
+stu_23_s4,stu_23,English,dislikes,false
+stu_23_s5,stu_23,Hindi,neutral,true
+stu_24_s1,stu_24,Mathematics,neutral,false
+stu_24_s2,stu_24,Science,likes,true
+stu_24_s3,stu_24,Social Science,likes,false
+stu_24_s4,stu_24,English,neutral,false
+stu_24_s5,stu_24,Hindi,neutral,false

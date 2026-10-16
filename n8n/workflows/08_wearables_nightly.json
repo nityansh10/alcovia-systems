@@ -1,0 +1,363 @@
+{
+  "name": "08 \u00b7 WHOOP nightly pull \u2192 wearable_daily (Apple/Samsung/Garmin arrive via the app)",
+  "nodes": [
+    {
+      "id": "20969282-1fa1-5a7c-aba3-0b3d5b73bfcc",
+      "name": "Daily 05:00 IST",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        300
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 5 * * *"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "130afc33-49b4-5359-81f9-4457ad844fb8",
+      "name": "Students with WHOOP connected",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        240,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT student_id, whoop_user_id FROM wearable_connections WHERE provider = 'whoop' AND active;",
+        "options": {}
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "d9fd3187-9d7f-5b03-81e9-1bfd16643477",
+      "name": "Per student",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        480,
+        300
+      ],
+      "parameters": {
+        "batchSize": 1,
+        "options": {}
+      }
+    },
+    {
+      "id": "193176b4-3b87-5d7d-a3d5-6456198dbbe2",
+      "name": "Get fresh token (api.alcovia.life holds OAuth)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        720,
+        300
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.ALCOVIA_API }}/internal/wearables/whoop/token",
+        "options": {
+          "timeout": 30000
+        },
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={ \"student_id\": \"{{ $json.student_id }}\" }"
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "fc6c00df-6c03-5645-a1a0-211bb93a6983",
+      "name": "WHOOP recovery",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        960,
+        300
+      ],
+      "parameters": {
+        "method": "GET",
+        "url": "https://api.prod.whoop.com/developer/v1/recovery",
+        "options": {
+          "timeout": 30000
+        },
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "start",
+              "value": "={{ $today.minus({days: 1}).toISO() }}"
+            }
+          ]
+        },
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "=Bearer {{ $('Get fresh token (api.alcovia.life holds OAuth)').item.json.access_token }}"
+            }
+          ]
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "519889a2-a4a9-5c25-9678-dcb0a5aa31eb",
+      "name": "WHOOP sleep",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1200,
+        300
+      ],
+      "parameters": {
+        "method": "GET",
+        "url": "https://api.prod.whoop.com/developer/v1/activity/sleep",
+        "options": {
+          "timeout": 30000
+        },
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "start",
+              "value": "={{ $today.minus({days: 1}).toISO() }}"
+            }
+          ]
+        },
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "=Bearer {{ $('Get fresh token (api.alcovia.life holds OAuth)').item.json.access_token }}"
+            }
+          ]
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "5104f74f-a8ed-58eb-b560-6da842f6121a",
+      "name": "WHOOP cycle (strain)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1440,
+        300
+      ],
+      "parameters": {
+        "method": "GET",
+        "url": "https://api.prod.whoop.com/developer/v1/cycle",
+        "options": {
+          "timeout": 30000
+        },
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "start",
+              "value": "={{ $today.minus({days: 1}).toISO() }}"
+            }
+          ]
+        },
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "=Bearer {{ $('Get fresh token (api.alcovia.life holds OAuth)').item.json.access_token }}"
+            }
+          ]
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "417641d6-796b-5087-91d4-9ecd53a2be3e",
+      "name": "Shape daily row",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1680,
+        300
+      ],
+      "parameters": {
+        "jsCode": "const rec = $('WHOOP recovery').item.json.records?.[0]?.score || {};\nconst slp = $('WHOOP sleep').item.json.records?.[0]?.score?.stage_summary || {};\nconst cyc = $('WHOOP cycle (strain)').item.json.records?.[0]?.score || {};\nconst asleep = (slp.total_in_bed_time_milli || 0) - (slp.total_awake_time_milli || 0);\nreturn [{ json: {\n  student_id: $('Per student').item.json.student_id,\n  date: $today.minus({ days: 1 }).toISODate(),\n  active_min: Math.round((cyc.kilojoule || 0) / 25),   // proxy until WHOOP workout minutes are summed\n  strain: cyc.strain ?? null, sleep_min: Math.round(asleep / 60000), recovery_pct: rec.recovery_score ?? null,\n}}];"
+      }
+    },
+    {
+      "id": "88626cd9-51bc-5c2e-8916-0ac7c6919272",
+      "name": "Upsert wearable_daily",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        1920,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO wearable_daily (student_id, date, active_min, strain, sleep_min, recovery_pct) VALUES ($1, $2, $3, $4, $5, $6)\nON CONFLICT (student_id, date) DO UPDATE SET active_min = EXCLUDED.active_min, strain = EXCLUDED.strain,\n  sleep_min = EXCLUDED.sleep_min, recovery_pct = EXCLUDED.recovery_pct;",
+        "options": {
+          "queryReplacement": "={{ $json.student_id }},={{ $json.date }},={{ $json.active_min }},={{ $json.strain }},={{ $json.sleep_min }},={{ $json.recovery_pct }}"
+        }
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    }
+  ],
+  "connections": {
+    "Daily 05:00 IST": {
+      "main": [
+        [
+          {
+            "node": "Students with WHOOP connected",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Students with WHOOP connected": {
+      "main": [
+        [
+          {
+            "node": "Per student",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Per student": {
+      "main": [
+        [],
+        [
+          {
+            "node": "Get fresh token (api.alcovia.life holds OAuth)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get fresh token (api.alcovia.life holds OAuth)": {
+      "main": [
+        [
+          {
+            "node": "WHOOP recovery",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "WHOOP recovery": {
+      "main": [
+        [
+          {
+            "node": "WHOOP sleep",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "WHOOP sleep": {
+      "main": [
+        [
+          {
+            "node": "WHOOP cycle (strain)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "WHOOP cycle (strain)": {
+      "main": [
+        [
+          {
+            "node": "Shape daily row",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Shape daily row": {
+      "main": [
+        [
+          {
+            "node": "Upsert wearable_daily",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Upsert wearable_daily": {
+      "main": [
+        [
+          {
+            "node": "Per student",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Kolkata",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner",
+    "errorWorkflow": "00_error_handler"
+  },
+  "tags": [
+    {
+      "name": "student"
+    },
+    {
+      "name": "wellness"
+    }
+  ],
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "pinData": {}
+}

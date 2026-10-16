@@ -1,0 +1,373 @@
+{
+  "name": "01 \u00b7 Razorpay \u2192 payments, invoices, workshop seats",
+  "nodes": [
+    {
+      "id": "97c8400e-484c-52e9-a67e-c6087bfe5bec",
+      "name": "Razorpay webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        300
+      ],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "razorpay",
+        "responseMode": "responseNode",
+        "options": {
+          "rawBody": true
+        }
+      }
+    },
+    {
+      "id": "f383bb0a-6267-5f85-8d95-dae8ac6b0c47",
+      "name": "Verify signature",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        240,
+        300
+      ],
+      "parameters": {
+        "jsCode": "// Razorpay signs the raw body with the webhook secret (HMAC-SHA256).\n// Reject anything unsigned before it touches the revenue tables.\nconst crypto = require('crypto');\nconst raw = $input.first().binary?.data ? Buffer.from($input.first().binary.data.data, 'base64').toString() : JSON.stringify($json.body);\nconst sig = $json.headers['x-razorpay-signature'];\nconst expected = crypto.createHmac('sha256', $env.RAZORPAY_WEBHOOK_SECRET).update(raw).digest('hex');\nif (!sig || !crypto.timingSafeEqual(Buffer.from(sig), Buffer.from(expected))) throw new Error('Bad Razorpay signature');\nconst b = $json.body, p = b.payload?.payment?.entity, inv = b.payload?.invoice?.entity;\nreturn [{ json: {\n  event: b.event,\n  payment_id: p?.id, amount_inr: p ? p.amount / 100 : null, captured_at: p ? new Date(p.created_at * 1000).toISOString() : null,\n  invoice_id: p?.invoice_id || inv?.id || null,\n  workshop_id: p?.notes?.workshop_id || null,\n  revenue_line: p?.notes?.workshop_id ? 'workshop' : (p?.notes?.plan === 'full_program' ? 'program_full' : 'program_trial'),\n  buyer: { name: p?.notes?.name, phone: p?.contact, email: p?.email, grade: p?.notes?.grade },\n}}];"
+      }
+    },
+    {
+      "id": "3134f8a1-eb1d-56ed-99d8-28ff362e0f3e",
+      "name": "200 OK",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        480,
+        300
+      ],
+      "parameters": {
+        "respondWith": "noData",
+        "options": {
+          "responseCode": 200
+        }
+      }
+    },
+    {
+      "id": "e02ba557-6c8d-5371-92a5-f8f2ef8fbd0c",
+      "name": "Route by event",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [
+        720,
+        300
+      ],
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.event }}",
+                    "rightValue": "payment.captured",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ]
+              },
+              "renameOutput": true,
+              "outputKey": "captured"
+            },
+            {
+              "conditions": {
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.event }}",
+                    "rightValue": "invoice.expired",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ]
+              },
+              "renameOutput": true,
+              "outputKey": "expired"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "none"
+        }
+      }
+    },
+    {
+      "id": "d637bc5f-0b49-56f8-b0ea-98c97b98cc49",
+      "name": "Insert payment (idempotent)",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        960,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO payments (payment_id, captured_at, amount_inr, revenue_line, invoice_id, workshop_id)\nVALUES ($1, $2, $3, $4, NULLIF($5, ''), NULLIF($6, ''))\nON CONFLICT (payment_id) DO NOTHING\nRETURNING payment_id;",
+        "options": {
+          "queryReplacement": "={{ $json.payment_id }},={{ $json.captured_at }},={{ $json.amount_inr }},={{ $json.revenue_line }},={{ $json.invoice_id || '' }},={{ $json.workshop_id || '' }}"
+        }
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "02082b64-5547-5df3-937a-f23612fe18d6",
+      "name": "Mark invoice paid",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        1200,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "UPDATE invoices SET status = 'paid' WHERE invoice_id = $1 AND status = 'issued';",
+        "options": {
+          "queryReplacement": "={{ $('Verify signature').item.json.invoice_id }}"
+        }
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "444035fd-5c72-5022-89ed-9a5d33cf984c",
+      "name": "Workshop seat?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        1440,
+        300
+      ],
+      "parameters": {
+        "conditions": {
+          "conditions": [
+            {
+              "leftValue": "={{ $('Verify signature').item.json.workshop_id }}",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "06c5885d-ffa9-5c55-9c8c-1534307874d8",
+      "name": "Create ClickUp lead",
+      "type": "n8n-nodes-base.clickUp",
+      "typeVersion": 1,
+      "position": [
+        1680,
+        300
+      ],
+      "parameters": {
+        "team": "={{ $env.CLICKUP_TEAM_ID }}",
+        "space": "={{ $env.CLICKUP_SALES_SPACE }}",
+        "list": "={{ $env.CLICKUP_LEADS_LIST }}",
+        "name": "={{ $('Verify signature').item.json.buyer.name }} \u00b7 workshop seat",
+        "additionalFields": {
+          "status": "workshop attendee",
+          "tags": [
+            "source:workshop"
+          ],
+          "content": "=Bought a seat for {{ $('Verify signature').item.json.workshop_id }}. Phone {{ $('Verify signature').item.json.buyer.phone }}. Grade {{ $('Verify signature').item.json.buyer.grade }}."
+        }
+      },
+      "credentials": {
+        "clickUpApi": {
+          "id": "clickup",
+          "name": "ClickUp (alcovia workspace)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "c92fcc4a-1360-5067-baf0-417f4d853752",
+      "name": "Insert seat + lead",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        1920,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "WITH l AS (INSERT INTO leads (lead_id, created_at, source, teen_grade) VALUES ($1, now(), 'workshop', NULLIF($4,'')::smallint)\n           ON CONFLICT (lead_id) DO NOTHING RETURNING lead_id)\nINSERT INTO workshop_seats (seat_id, workshop_id, payment_id, lead_id, attended)\nVALUES ('seat_' || $3, $2, $3, $1, false)\nON CONFLICT (seat_id) DO NOTHING;",
+        "options": {
+          "queryReplacement": "={{ $json.id }},={{ $('Verify signature').item.json.workshop_id }},={{ $('Verify signature').item.json.payment_id }},={{ $('Verify signature').item.json.buyer.grade || '' }}"
+        }
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "9697cb48-e1a3-5d6b-87b5-972364155f59",
+      "name": "Flag expired invoice",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        1200,
+        520
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "UPDATE invoices SET status = 'cancelled' WHERE invoice_id = $1;",
+        "options": {
+          "queryReplacement": "={{ $json.invoice_id }}"
+        }
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    }
+  ],
+  "connections": {
+    "Razorpay webhook": {
+      "main": [
+        [
+          {
+            "node": "Verify signature",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Verify signature": {
+      "main": [
+        [
+          {
+            "node": "200 OK",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Route by event",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Route by event": {
+      "main": [
+        [
+          {
+            "node": "Insert payment (idempotent)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Flag expired invoice",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Insert payment (idempotent)": {
+      "main": [
+        [
+          {
+            "node": "Mark invoice paid",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Mark invoice paid": {
+      "main": [
+        [
+          {
+            "node": "Workshop seat?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Workshop seat?": {
+      "main": [
+        [
+          {
+            "node": "Create ClickUp lead",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create ClickUp lead": {
+      "main": [
+        [
+          {
+            "node": "Insert seat + lead",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Kolkata",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner",
+    "errorWorkflow": "00_error_handler"
+  },
+  "tags": [
+    {
+      "name": "revenue"
+    },
+    {
+      "name": "gtm"
+    }
+  ],
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "pinData": {}
+}

@@ -1,0 +1,388 @@
+{
+  "name": "02 \u00b7 Meta Ads insights \u2192 ad_daily_metrics + frequency",
+  "nodes": [
+    {
+      "id": "6021835b-688a-53cb-b4cb-6b23b80551c8",
+      "name": "Daily 06:00 IST",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        300
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 6 * * *"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "46e86564-a400-589c-84d9-bf2456885e05",
+      "name": "Ad-level insights (yesterday)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        240,
+        300
+      ],
+      "parameters": {
+        "method": "GET",
+        "url": "=https://graph.facebook.com/v21.0/act_{{ $env.META_AD_ACCOUNT_ID }}/insights",
+        "options": {
+          "timeout": 30000
+        },
+        "authentication": "genericCredentialType",
+        "genericAuthType": "facebookGraphApi",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "level",
+              "value": "ad"
+            },
+            {
+              "name": "date_preset",
+              "value": "yesterday"
+            },
+            {
+              "name": "time_increment",
+              "value": "1"
+            },
+            {
+              "name": "limit",
+              "value": "500"
+            },
+            {
+              "name": "fields",
+              "value": "ad_id,ad_name,adset_id,campaign_id,impressions,reach,inline_link_clicks,spend,actions,date_start"
+            }
+          ]
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "431293dc-f698-53bd-b1eb-9326b989400b",
+      "name": "Flatten rows",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        480,
+        300
+      ],
+      "parameters": {
+        "jsCode": "// Meta returns leads inside actions[]; lead forms and checkout starts are different action types.\nconst rows = $json.data || [];\nreturn rows.map(r => {\n  const act = Object.fromEntries((r.actions || []).map(a => [a.action_type, Number(a.value)]));\n  return { json: {\n    date: r.date_start, ad_id: r.ad_id, impressions: Number(r.impressions || 0), reach: Number(r.reach || 0),\n    link_clicks: Number(r.inline_link_clicks || 0), spend_inr: Number(r.spend || 0),\n    meta_leads: (act['lead'] || 0) + (act['offsite_conversion.fb_pixel_initiate_checkout'] || 0),\n  }};\n});"
+      }
+    },
+    {
+      "id": "1a26eaa7-9d6e-54d5-9e31-8b672342d327",
+      "name": "Upsert ad_daily_metrics",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        720,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO ad_daily_metrics (date, ad_id, impressions, reach, link_clicks, spend_inr, meta_leads)\nVALUES ($1, $2, $3, $4, $5, $6, $7)\nON CONFLICT (date, ad_id) DO UPDATE SET\n  impressions = EXCLUDED.impressions, reach = EXCLUDED.reach, link_clicks = EXCLUDED.link_clicks,\n  spend_inr = EXCLUDED.spend_inr, meta_leads = EXCLUDED.meta_leads;",
+        "options": {
+          "queryReplacement": "={{ $json.date }},={{ $json.ad_id }},={{ $json.impressions }},={{ $json.reach }},={{ $json.link_clicks }},={{ $json.spend_inr }},={{ $json.meta_leads }}"
+        }
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "5b45f202-6d3c-57fc-b185-242225a4cf71",
+      "name": "Ad-set 7-day frequency",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        960,
+        300
+      ],
+      "parameters": {
+        "method": "GET",
+        "url": "=https://graph.facebook.com/v21.0/act_{{ $env.META_AD_ACCOUNT_ID }}/insights",
+        "options": {
+          "timeout": 30000
+        },
+        "authentication": "genericCredentialType",
+        "genericAuthType": "facebookGraphApi",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "level",
+              "value": "adset"
+            },
+            {
+              "name": "date_preset",
+              "value": "last_7d"
+            },
+            {
+              "name": "fields",
+              "value": "adset_id,impressions,reach,frequency,date_stop"
+            }
+          ]
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000,
+      "executeOnce": true
+    },
+    {
+      "id": "d7e076cc-dedb-54a8-9eba-1c5796ae7ef2",
+      "name": "Frequency rows",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1200,
+        300
+      ],
+      "parameters": {
+        "jsCode": "return ($json.data || []).map(r => ({ json: { week_ending: r.date_stop, ad_set_id: r.adset_id,\n  impressions: Number(r.impressions), reach: Number(r.reach), frequency: Number(r.frequency) } }));"
+      }
+    },
+    {
+      "id": "1388c204-7bac-5a64-abbc-a604e0c296f2",
+      "name": "Upsert frequency",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        1440,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO ad_set_weekly_frequency (week_ending, ad_set_id, impressions, reach, frequency)\nVALUES ($1, $2, $3, $4, $5)\nON CONFLICT (week_ending, ad_set_id) DO UPDATE SET impressions = EXCLUDED.impressions, reach = EXCLUDED.reach, frequency = EXCLUDED.frequency;",
+        "options": {
+          "queryReplacement": "={{ $json.week_ending }},={{ $json.ad_set_id }},={{ $json.impressions }},={{ $json.reach }},={{ $json.frequency }}"
+        }
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "07fa8271-59ed-50bd-98cc-88c0440e4f61",
+      "name": "Ad sets at frequency 3+",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        1680,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT s.name, f.frequency FROM ad_set_weekly_frequency f JOIN ad_sets s USING (ad_set_id)\nWHERE f.week_ending = CURRENT_DATE - 1 AND f.frequency >= 3;",
+        "options": {}
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000,
+      "executeOnce": true
+    },
+    {
+      "id": "dc95323f-3b51-5d5b-9793-dd632689a0ed",
+      "name": "Refresh task for growth",
+      "type": "n8n-nodes-base.clickUp",
+      "typeVersion": 1,
+      "position": [
+        1920,
+        300
+      ],
+      "parameters": {
+        "team": "={{ $env.CLICKUP_TEAM_ID }}",
+        "space": "={{ $env.CLICKUP_GROWTH_SPACE }}",
+        "list": "={{ $env.CLICKUP_CREATIVE_LIST }}",
+        "name": "=Refresh creative: {{ $json.name }} (frequency {{ $json.frequency }})",
+        "additionalFields": {
+          "priority": 2,
+          "tags": [
+            "rca:refresh"
+          ]
+        }
+      },
+      "credentials": {
+        "clickUpApi": {
+          "id": "clickup",
+          "name": "ClickUp (alcovia workspace)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "adc6913a-d3f9-5881-9132-010fc0b66b4f",
+      "name": "Heartbeat",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        2160,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO sync_runs (job, finished_at, rows_written)\nVALUES ('meta_ads_daily', now(), $1)\nON CONFLICT (job) DO UPDATE SET finished_at = EXCLUDED.finished_at, rows_written = EXCLUDED.rows_written;",
+        "options": {
+          "queryReplacement": "={{ $input.all().length }}"
+        }
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000,
+      "executeOnce": true
+    }
+  ],
+  "connections": {
+    "Daily 06:00 IST": {
+      "main": [
+        [
+          {
+            "node": "Ad-level insights (yesterday)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ad-level insights (yesterday)": {
+      "main": [
+        [
+          {
+            "node": "Flatten rows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Flatten rows": {
+      "main": [
+        [
+          {
+            "node": "Upsert ad_daily_metrics",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Upsert ad_daily_metrics": {
+      "main": [
+        [
+          {
+            "node": "Ad-set 7-day frequency",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ad-set 7-day frequency": {
+      "main": [
+        [
+          {
+            "node": "Frequency rows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Frequency rows": {
+      "main": [
+        [
+          {
+            "node": "Upsert frequency",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Upsert frequency": {
+      "main": [
+        [
+          {
+            "node": "Ad sets at frequency 3+",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Heartbeat",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ad sets at frequency 3+": {
+      "main": [
+        [
+          {
+            "node": "Refresh task for growth",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Kolkata",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner",
+    "errorWorkflow": "00_error_handler"
+  },
+  "tags": [
+    {
+      "name": "gtm"
+    },
+    {
+      "name": "ads"
+    }
+  ],
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "pinData": {}
+}

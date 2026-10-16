@@ -1,0 +1,6 @@
+campaign_id,name,objective,status,started_on
+cmp_prg_ncr,PRG | Parents | Delhi NCR | Lead form,program,active,2026-04-01
+cmp_prg_metro,PRG | Parents | Mumbai + Bengaluru | LP,program,active,2026-04-01
+cmp_prg_teen,PRG | Teens 14-17 | Ambition LP,program,active,2026-05-15
+cmp_prg_rtg,PRG | Retargeting | Site visitors 30d,program,active,2026-04-20
+cmp_wsp,WSP | Career Discovery Workshops,workshop,active,2026-04-01

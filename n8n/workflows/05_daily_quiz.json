@@ -1,0 +1,260 @@
+{
+  "name": "05 \u00b7 8pm quiz: publish, push, record delivery",
+  "nodes": [
+    {
+      "id": "0889bb3d-c3cd-5d63-81cd-dec484b1a192",
+      "name": "Daily 19:55 IST",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        300
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "55 19 * * *"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "8d0f04a2-a32b-54ba-ada2-4e860c4ed889",
+      "name": "Pick tonight's quiz",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        240,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT quiz_id, topic FROM quiz_bank WHERE scheduled_for = CURRENT_DATE LIMIT 1;",
+        "options": {}
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "f3a5c574-88e1-5767-90ff-8033868f2974",
+      "name": "Quiz ready?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        480,
+        300
+      ],
+      "parameters": {
+        "conditions": {
+          "conditions": [
+            {
+              "leftValue": "={{ $json.quiz_id }}",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty"
+              }
+            }
+          ]
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "id": "cf28b0bf-0ab1-5844-a410-1c5ef65c2a46",
+      "name": "Publish in app + push",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        720,
+        300
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.ALCOVIA_API }}/internal/quiz/publish",
+        "options": {
+          "timeout": 30000
+        },
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={ \"quiz_id\": \"{{ $json.quiz_id }}\", \"push\": { \"title\": \"8pm quiz: {{ $json.topic }}\", \"deeplink\": \"alcovia://quiz/today\" } }"
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "688421c0-65bd-5441-bf78-56438d2185d7",
+      "name": "Record published",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        960,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO quizzes (quiz_id, quiz_date, topic, published) VALUES ($1, CURRENT_DATE, $2, true)\nON CONFLICT (quiz_date) DO UPDATE SET published = true;",
+        "options": {
+          "queryReplacement": "={{ $('Pick tonight\\'s quiz').item.json.quiz_id }},={{ $('Pick tonight\\'s quiz').item.json.topic }}"
+        }
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "6dde6bc2-8a6d-5190-a64e-0a4530cb6fb7",
+      "name": "Record missed day",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        960,
+        520
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO quizzes (quiz_id, quiz_date, topic, published) VALUES ('qz_' || to_char(CURRENT_DATE, 'YYYYMMDD'), CURRENT_DATE, 'none scheduled', false)\nON CONFLICT (quiz_date) DO NOTHING;",
+        "options": {}
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "e2eac73b-91e2-5166-a39f-fe0919033f30",
+      "name": "Tell content owner",
+      "type": "n8n-nodes-base.clickUp",
+      "typeVersion": 1,
+      "position": [
+        1200,
+        520
+      ],
+      "parameters": {
+        "team": "={{ $env.CLICKUP_TEAM_ID }}",
+        "space": "={{ $env.CLICKUP_PROGRAM_SPACE }}",
+        "list": "={{ $env.CLICKUP_CONTENT_LIST }}",
+        "name": "=No quiz in the bank for {{ $today.toISODate() }}. Tonight's quiz did not go out.",
+        "additionalFields": {
+          "priority": 1
+        }
+      },
+      "credentials": {
+        "clickUpApi": {
+          "id": "clickup",
+          "name": "ClickUp (alcovia workspace)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    }
+  ],
+  "connections": {
+    "Daily 19:55 IST": {
+      "main": [
+        [
+          {
+            "node": "Pick tonight's quiz",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Pick tonight's quiz": {
+      "main": [
+        [
+          {
+            "node": "Quiz ready?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Quiz ready?": {
+      "main": [
+        [
+          {
+            "node": "Publish in app + push",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Record missed day",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Publish in app + push": {
+      "main": [
+        [
+          {
+            "node": "Record published",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Record missed day": {
+      "main": [
+        [
+          {
+            "node": "Tell content owner",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Kolkata",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner",
+    "errorWorkflow": "00_error_handler"
+  },
+  "tags": [
+    {
+      "name": "student"
+    },
+    {
+      "name": "daily"
+    }
+  ],
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "pinData": {}
+}

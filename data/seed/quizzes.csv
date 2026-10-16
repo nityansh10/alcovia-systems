@@ -1,0 +1,199 @@
+quiz_id,quiz_date,topic,published
+qz_20260401,2026-04-01,Sports,true
+qz_20260402,2026-04-02,Indian history,true
+qz_20260403,2026-04-03,Logical reasoning,true
+qz_20260404,2026-04-04,Brand logos,true
+qz_20260405,2026-04-05,Science in the news,true
+qz_20260406,2026-04-06,Geography,false
+qz_20260407,2026-04-07,Business & startups,true
+qz_20260408,2026-04-08,Art & music,false
+qz_20260409,2026-04-09,World affairs,true
+qz_20260410,2026-04-10,Riddles & puzzles,true
+qz_20260411,2026-04-11,Space,true
+qz_20260412,2026-04-12,Economics basics,true
+qz_20260413,2026-04-13,Sports,true
+qz_20260414,2026-04-14,Indian history,true
+qz_20260415,2026-04-15,Logical reasoning,true
+qz_20260416,2026-04-16,Brand logos,true
+qz_20260417,2026-04-17,Science in the news,true
+qz_20260418,2026-04-18,Geography,true
+qz_20260419,2026-04-19,Business & startups,true
+qz_20260420,2026-04-20,Art & music,false
+qz_20260421,2026-04-21,World affairs,true
+qz_20260422,2026-04-22,Riddles & puzzles,true
+qz_20260423,2026-04-23,Space,true
+qz_20260424,2026-04-24,Economics basics,true
+qz_20260425,2026-04-25,Sports,true
+qz_20260426,2026-04-26,Indian history,true
+qz_20260427,2026-04-27,Logical reasoning,true
+qz_20260428,2026-04-28,Brand logos,true
+qz_20260429,2026-04-29,Science in the news,true
+qz_20260430,2026-04-30,Geography,true
+qz_20260501,2026-05-01,Business & startups,true
+qz_20260502,2026-05-02,Art & music,true
+qz_20260503,2026-05-03,World affairs,true
+qz_20260504,2026-05-04,Riddles & puzzles,true
+qz_20260505,2026-05-05,Space,true
+qz_20260506,2026-05-06,Economics basics,true
+qz_20260507,2026-05-07,Sports,true
+qz_20260508,2026-05-08,Indian history,true
+qz_20260509,2026-05-09,Logical reasoning,true
+qz_20260510,2026-05-10,Brand logos,true
+qz_20260511,2026-05-11,Science in the news,true
+qz_20260512,2026-05-12,Geography,true
+qz_20260513,2026-05-13,Business & startups,true
+qz_20260514,2026-05-14,Art & music,true
+qz_20260515,2026-05-15,World affairs,true
+qz_20260516,2026-05-16,Riddles & puzzles,true
+qz_20260517,2026-05-17,Space,true
+qz_20260518,2026-05-18,Economics basics,true
+qz_20260519,2026-05-19,Sports,true
+qz_20260520,2026-05-20,Indian history,true
+qz_20260521,2026-05-21,Logical reasoning,true
+qz_20260522,2026-05-22,Brand logos,true
+qz_20260523,2026-05-23,Science in the news,true
+qz_20260524,2026-05-24,Geography,true
+qz_20260525,2026-05-25,Business & startups,true
+qz_20260526,2026-05-26,Art & music,true
+qz_20260527,2026-05-27,World affairs,true
+qz_20260528,2026-05-28,Riddles & puzzles,true
+qz_20260529,2026-05-29,Space,true
+qz_20260530,2026-05-30,Economics basics,true
+qz_20260531,2026-05-31,Sports,true
+qz_20260601,2026-06-01,Indian history,true
+qz_20260602,2026-06-02,Logical reasoning,true
+qz_20260603,2026-06-03,Brand logos,true
+qz_20260604,2026-06-04,Science in the news,true
+qz_20260605,2026-06-05,Geography,true
+qz_20260606,2026-06-06,Business & startups,true
+qz_20260607,2026-06-07,Art & music,true
+qz_20260608,2026-06-08,World affairs,true
+qz_20260609,2026-06-09,Riddles & puzzles,true
+qz_20260610,2026-06-10,Space,true
+qz_20260611,2026-06-11,Economics basics,true
+qz_20260612,2026-06-12,Sports,true
+qz_20260613,2026-06-13,Indian history,true
+qz_20260614,2026-06-14,Logical reasoning,true
+qz_20260615,2026-06-15,Brand logos,true
+qz_20260616,2026-06-16,Science in the news,true
+qz_20260617,2026-06-17,Geography,false
+qz_20260618,2026-06-18,Business & startups,true
+qz_20260619,2026-06-19,Art & music,true
+qz_20260620,2026-06-20,World affairs,true
+qz_20260621,2026-06-21,Riddles & puzzles,true
+qz_20260622,2026-06-22,Space,true
+qz_20260623,2026-06-23,Economics basics,true
+qz_20260624,2026-06-24,Sports,true
+qz_20260625,2026-06-25,Indian history,true
+qz_20260626,2026-06-26,Logical reasoning,true
+qz_20260627,2026-06-27,Brand logos,true
+qz_20260628,2026-06-28,Science in the news,true
+qz_20260629,2026-06-29,Geography,true
+qz_20260630,2026-06-30,Business & startups,true
+qz_20260701,2026-07-01,Art & music,true
+qz_20260702,2026-07-02,World affairs,true
+qz_20260703,2026-07-03,Riddles & puzzles,true
+qz_20260704,2026-07-04,Space,true
+qz_20260705,2026-07-05,Economics basics,true
+qz_20260706,2026-07-06,Sports,true
+qz_20260707,2026-07-07,Indian history,true
+qz_20260708,2026-07-08,Logical reasoning,true
+qz_20260709,2026-07-09,Brand logos,false
+qz_20260710,2026-07-10,Science in the news,true
+qz_20260711,2026-07-11,Geography,true
+qz_20260712,2026-07-12,Business & startups,true
+qz_20260713,2026-07-13,Art & music,true
+qz_20260714,2026-07-14,World affairs,true
+qz_20260715,2026-07-15,Riddles & puzzles,true
+qz_20260716,2026-07-16,Space,true
+qz_20260717,2026-07-17,Economics basics,true
+qz_20260718,2026-07-18,Sports,true
+qz_20260719,2026-07-19,Indian history,true
+qz_20260720,2026-07-20,Logical reasoning,true
+qz_20260721,2026-07-21,Brand logos,true
+qz_20260722,2026-07-22,Science in the news,true
+qz_20260723,2026-07-23,Geography,true
+qz_20260724,2026-07-24,Business & startups,true
+qz_20260725,2026-07-25,Art & music,true
+qz_20260726,2026-07-26,World affairs,true
+qz_20260727,2026-07-27,Riddles & puzzles,true
+qz_20260728,2026-07-28,Space,true
+qz_20260729,2026-07-29,Economics basics,true
+qz_20260730,2026-07-30,Sports,true
+qz_20260731,2026-07-31,Indian history,true
+qz_20260801,2026-08-01,Logical reasoning,true
+qz_20260802,2026-08-02,Brand logos,true
+qz_20260803,2026-08-03,Science in the news,true
+qz_20260804,2026-08-04,Geography,true
+qz_20260805,2026-08-05,Business & startups,true
+qz_20260806,2026-08-06,Art & music,true
+qz_20260807,2026-08-07,World affairs,true
+qz_20260808,2026-08-08,Riddles & puzzles,true
+qz_20260809,2026-08-09,Space,true
+qz_20260810,2026-08-10,Economics basics,true
+qz_20260811,2026-08-11,Sports,true
+qz_20260812,2026-08-12,Indian history,true
+qz_20260813,2026-08-13,Logical reasoning,true
+qz_20260814,2026-08-14,Brand logos,true
+qz_20260815,2026-08-15,Science in the news,true
+qz_20260816,2026-08-16,Geography,true
+qz_20260817,2026-08-17,Business & startups,true
+qz_20260818,2026-08-18,Art & music,true
+qz_20260819,2026-08-19,World affairs,true
+qz_20260820,2026-08-20,Riddles & puzzles,true
+qz_20260821,2026-08-21,Space,true
+qz_20260822,2026-08-22,Economics basics,true
+qz_20260823,2026-08-23,Sports,true
+qz_20260824,2026-08-24,Indian history,true
+qz_20260825,2026-08-25,Logical reasoning,true
+qz_20260826,2026-08-26,Brand logos,true
+qz_20260827,2026-08-27,Science in the news,true
+qz_20260828,2026-08-28,Geography,true
+qz_20260829,2026-08-29,Business & startups,true
+qz_20260830,2026-08-30,Art & music,true
+qz_20260831,2026-08-31,World affairs,true
+qz_20260901,2026-09-01,Riddles & puzzles,true
+qz_20260902,2026-09-02,Space,true
+qz_20260903,2026-09-03,Economics basics,true
+qz_20260904,2026-09-04,Sports,true
+qz_20260905,2026-09-05,Indian history,true
+qz_20260906,2026-09-06,Logical reasoning,true
+qz_20260907,2026-09-07,Brand logos,true
+qz_20260908,2026-09-08,Science in the news,true
+qz_20260909,2026-09-09,Geography,true
+qz_20260910,2026-09-10,Business & startups,true
+qz_20260911,2026-09-11,Art & music,true
+qz_20260912,2026-09-12,World affairs,true
+qz_20260913,2026-09-13,Riddles & puzzles,true
+qz_20260914,2026-09-14,Space,true
+qz_20260915,2026-09-15,Economics basics,true
+qz_20260916,2026-09-16,Sports,true
+qz_20260917,2026-09-17,Indian history,true
+qz_20260918,2026-09-18,Logical reasoning,true
+qz_20260919,2026-09-19,Brand logos,true
+qz_20260920,2026-09-20,Science in the news,true
+qz_20260921,2026-09-21,Geography,true
+qz_20260922,2026-09-22,Business & startups,true
+qz_20260923,2026-09-23,Art & music,true
+qz_20260924,2026-09-24,World affairs,true
+qz_20260925,2026-09-25,Riddles & puzzles,true
+qz_20260926,2026-09-26,Space,true
+qz_20260927,2026-09-27,Economics basics,true
+qz_20260928,2026-09-28,Sports,true
+qz_20260929,2026-09-29,Indian history,true
+qz_20260930,2026-09-30,Logical reasoning,true
+qz_20261001,2026-10-01,Brand logos,true
+qz_20261002,2026-10-02,Science in the news,true
+qz_20261003,2026-10-03,Geography,true
+qz_20261004,2026-10-04,Business & startups,true
+qz_20261005,2026-10-05,Art & music,true
+qz_20261006,2026-10-06,World affairs,true
+qz_20261007,2026-10-07,Riddles & puzzles,true
+qz_20261008,2026-10-08,Space,true
+qz_20261009,2026-10-09,Economics basics,true
+qz_20261010,2026-10-10,Sports,true
+qz_20261011,2026-10-11,Indian history,false
+qz_20261012,2026-10-12,Logical reasoning,true
+qz_20261013,2026-10-13,Brand logos,true
+qz_20261014,2026-10-14,Science in the news,true
+qz_20261015,2026-10-15,Geography,true

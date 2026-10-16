@@ -1,0 +1,1441 @@
+chapter_id,subject_id,name,planned_quarter
+stu_01_s1_c01,stu_01_s1,Mathematics - Ch 1,1
+stu_01_s1_c02,stu_01_s1,Mathematics - Ch 2,1
+stu_01_s1_c03,stu_01_s1,Mathematics - Ch 3,1
+stu_01_s1_c04,stu_01_s1,Mathematics - Ch 4,2
+stu_01_s1_c05,stu_01_s1,Mathematics - Ch 5,2
+stu_01_s1_c06,stu_01_s1,Mathematics - Ch 6,2
+stu_01_s1_c07,stu_01_s1,Mathematics - Ch 7,3
+stu_01_s1_c08,stu_01_s1,Mathematics - Ch 8,3
+stu_01_s1_c09,stu_01_s1,Mathematics - Ch 9,3
+stu_01_s1_c10,stu_01_s1,Mathematics - Ch 10,4
+stu_01_s1_c11,stu_01_s1,Mathematics - Ch 11,4
+stu_01_s1_c12,stu_01_s1,Mathematics - Ch 12,4
+stu_01_s2_c01,stu_01_s2,Science - Ch 1,1
+stu_01_s2_c02,stu_01_s2,Science - Ch 2,1
+stu_01_s2_c03,stu_01_s2,Science - Ch 3,1
+stu_01_s2_c04,stu_01_s2,Science - Ch 4,2
+stu_01_s2_c05,stu_01_s2,Science - Ch 5,2
+stu_01_s2_c06,stu_01_s2,Science - Ch 6,2
+stu_01_s2_c07,stu_01_s2,Science - Ch 7,3
+stu_01_s2_c08,stu_01_s2,Science - Ch 8,3
+stu_01_s2_c09,stu_01_s2,Science - Ch 9,3
+stu_01_s2_c10,stu_01_s2,Science - Ch 10,4
+stu_01_s2_c11,stu_01_s2,Science - Ch 11,4
+stu_01_s2_c12,stu_01_s2,Science - Ch 12,4
+stu_01_s3_c01,stu_01_s3,Social Science - Ch 1,1
+stu_01_s3_c02,stu_01_s3,Social Science - Ch 2,1
+stu_01_s3_c03,stu_01_s3,Social Science - Ch 3,1
+stu_01_s3_c04,stu_01_s3,Social Science - Ch 4,2
+stu_01_s3_c05,stu_01_s3,Social Science - Ch 5,2
+stu_01_s3_c06,stu_01_s3,Social Science - Ch 6,2
+stu_01_s3_c07,stu_01_s3,Social Science - Ch 7,3
+stu_01_s3_c08,stu_01_s3,Social Science - Ch 8,3
+stu_01_s3_c09,stu_01_s3,Social Science - Ch 9,3
+stu_01_s3_c10,stu_01_s3,Social Science - Ch 10,4
+stu_01_s3_c11,stu_01_s3,Social Science - Ch 11,4
+stu_01_s3_c12,stu_01_s3,Social Science - Ch 12,4
+stu_01_s4_c01,stu_01_s4,English - Ch 1,1
+stu_01_s4_c02,stu_01_s4,English - Ch 2,1
+stu_01_s4_c03,stu_01_s4,English - Ch 3,1
+stu_01_s4_c04,stu_01_s4,English - Ch 4,2
+stu_01_s4_c05,stu_01_s4,English - Ch 5,2
+stu_01_s4_c06,stu_01_s4,English - Ch 6,2
+stu_01_s4_c07,stu_01_s4,English - Ch 7,3
+stu_01_s4_c08,stu_01_s4,English - Ch 8,3
+stu_01_s4_c09,stu_01_s4,English - Ch 9,3
+stu_01_s4_c10,stu_01_s4,English - Ch 10,4
+stu_01_s4_c11,stu_01_s4,English - Ch 11,4
+stu_01_s4_c12,stu_01_s4,English - Ch 12,4
+stu_01_s5_c01,stu_01_s5,Hindi - Ch 1,1
+stu_01_s5_c02,stu_01_s5,Hindi - Ch 2,1
+stu_01_s5_c03,stu_01_s5,Hindi - Ch 3,1
+stu_01_s5_c04,stu_01_s5,Hindi - Ch 4,2
+stu_01_s5_c05,stu_01_s5,Hindi - Ch 5,2
+stu_01_s5_c06,stu_01_s5,Hindi - Ch 6,2
+stu_01_s5_c07,stu_01_s5,Hindi - Ch 7,3
+stu_01_s5_c08,stu_01_s5,Hindi - Ch 8,3
+stu_01_s5_c09,stu_01_s5,Hindi - Ch 9,3
+stu_01_s5_c10,stu_01_s5,Hindi - Ch 10,4
+stu_01_s5_c11,stu_01_s5,Hindi - Ch 11,4
+stu_01_s5_c12,stu_01_s5,Hindi - Ch 12,4
+stu_02_s1_c01,stu_02_s1,Mathematics - Ch 1,1
+stu_02_s1_c02,stu_02_s1,Mathematics - Ch 2,1
+stu_02_s1_c03,stu_02_s1,Mathematics - Ch 3,1
+stu_02_s1_c04,stu_02_s1,Mathematics - Ch 4,2
+stu_02_s1_c05,stu_02_s1,Mathematics - Ch 5,2
+stu_02_s1_c06,stu_02_s1,Mathematics - Ch 6,2
+stu_02_s1_c07,stu_02_s1,Mathematics - Ch 7,3
+stu_02_s1_c08,stu_02_s1,Mathematics - Ch 8,3
+stu_02_s1_c09,stu_02_s1,Mathematics - Ch 9,3
+stu_02_s1_c10,stu_02_s1,Mathematics - Ch 10,4
+stu_02_s1_c11,stu_02_s1,Mathematics - Ch 11,4
+stu_02_s1_c12,stu_02_s1,Mathematics - Ch 12,4
+stu_02_s2_c01,stu_02_s2,Science - Ch 1,1
+stu_02_s2_c02,stu_02_s2,Science - Ch 2,1
+stu_02_s2_c03,stu_02_s2,Science - Ch 3,1
+stu_02_s2_c04,stu_02_s2,Science - Ch 4,2
+stu_02_s2_c05,stu_02_s2,Science - Ch 5,2
+stu_02_s2_c06,stu_02_s2,Science - Ch 6,2
+stu_02_s2_c07,stu_02_s2,Science - Ch 7,3
+stu_02_s2_c08,stu_02_s2,Science - Ch 8,3
+stu_02_s2_c09,stu_02_s2,Science - Ch 9,3
+stu_02_s2_c10,stu_02_s2,Science - Ch 10,4
+stu_02_s2_c11,stu_02_s2,Science - Ch 11,4
+stu_02_s2_c12,stu_02_s2,Science - Ch 12,4
+stu_02_s3_c01,stu_02_s3,Social Science - Ch 1,1
+stu_02_s3_c02,stu_02_s3,Social Science - Ch 2,1
+stu_02_s3_c03,stu_02_s3,Social Science - Ch 3,1
+stu_02_s3_c04,stu_02_s3,Social Science - Ch 4,2
+stu_02_s3_c05,stu_02_s3,Social Science - Ch 5,2
+stu_02_s3_c06,stu_02_s3,Social Science - Ch 6,2
+stu_02_s3_c07,stu_02_s3,Social Science - Ch 7,3
+stu_02_s3_c08,stu_02_s3,Social Science - Ch 8,3
+stu_02_s3_c09,stu_02_s3,Social Science - Ch 9,3
+stu_02_s3_c10,stu_02_s3,Social Science - Ch 10,4
+stu_02_s3_c11,stu_02_s3,Social Science - Ch 11,4
+stu_02_s3_c12,stu_02_s3,Social Science - Ch 12,4
+stu_02_s4_c01,stu_02_s4,English - Ch 1,1
+stu_02_s4_c02,stu_02_s4,English - Ch 2,1
+stu_02_s4_c03,stu_02_s4,English - Ch 3,1
+stu_02_s4_c04,stu_02_s4,English - Ch 4,2
+stu_02_s4_c05,stu_02_s4,English - Ch 5,2
+stu_02_s4_c06,stu_02_s4,English - Ch 6,2
+stu_02_s4_c07,stu_02_s4,English - Ch 7,3
+stu_02_s4_c08,stu_02_s4,English - Ch 8,3
+stu_02_s4_c09,stu_02_s4,English - Ch 9,3
+stu_02_s4_c10,stu_02_s4,English - Ch 10,4
+stu_02_s4_c11,stu_02_s4,English - Ch 11,4
+stu_02_s4_c12,stu_02_s4,English - Ch 12,4
+stu_02_s5_c01,stu_02_s5,Hindi - Ch 1,1
+stu_02_s5_c02,stu_02_s5,Hindi - Ch 2,1
+stu_02_s5_c03,stu_02_s5,Hindi - Ch 3,1
+stu_02_s5_c04,stu_02_s5,Hindi - Ch 4,2
+stu_02_s5_c05,stu_02_s5,Hindi - Ch 5,2
+stu_02_s5_c06,stu_02_s5,Hindi - Ch 6,2
+stu_02_s5_c07,stu_02_s5,Hindi - Ch 7,3
+stu_02_s5_c08,stu_02_s5,Hindi - Ch 8,3
+stu_02_s5_c09,stu_02_s5,Hindi - Ch 9,3
+stu_02_s5_c10,stu_02_s5,Hindi - Ch 10,4
+stu_02_s5_c11,stu_02_s5,Hindi - Ch 11,4
+stu_02_s5_c12,stu_02_s5,Hindi - Ch 12,4
+stu_03_s1_c01,stu_03_s1,Mathematics - Ch 1,1
+stu_03_s1_c02,stu_03_s1,Mathematics - Ch 2,1
+stu_03_s1_c03,stu_03_s1,Mathematics - Ch 3,1
+stu_03_s1_c04,stu_03_s1,Mathematics - Ch 4,2
+stu_03_s1_c05,stu_03_s1,Mathematics - Ch 5,2
+stu_03_s1_c06,stu_03_s1,Mathematics - Ch 6,2
+stu_03_s1_c07,stu_03_s1,Mathematics - Ch 7,3
+stu_03_s1_c08,stu_03_s1,Mathematics - Ch 8,3
+stu_03_s1_c09,stu_03_s1,Mathematics - Ch 9,3
+stu_03_s1_c10,stu_03_s1,Mathematics - Ch 10,4
+stu_03_s1_c11,stu_03_s1,Mathematics - Ch 11,4
+stu_03_s1_c12,stu_03_s1,Mathematics - Ch 12,4
+stu_03_s2_c01,stu_03_s2,Science - Ch 1,1
+stu_03_s2_c02,stu_03_s2,Science - Ch 2,1
+stu_03_s2_c03,stu_03_s2,Science - Ch 3,1
+stu_03_s2_c04,stu_03_s2,Science - Ch 4,2
+stu_03_s2_c05,stu_03_s2,Science - Ch 5,2
+stu_03_s2_c06,stu_03_s2,Science - Ch 6,2
+stu_03_s2_c07,stu_03_s2,Science - Ch 7,3
+stu_03_s2_c08,stu_03_s2,Science - Ch 8,3
+stu_03_s2_c09,stu_03_s2,Science - Ch 9,3
+stu_03_s2_c10,stu_03_s2,Science - Ch 10,4
+stu_03_s2_c11,stu_03_s2,Science - Ch 11,4
+stu_03_s2_c12,stu_03_s2,Science - Ch 12,4
+stu_03_s3_c01,stu_03_s3,Social Science - Ch 1,1
+stu_03_s3_c02,stu_03_s3,Social Science - Ch 2,1
+stu_03_s3_c03,stu_03_s3,Social Science - Ch 3,1
+stu_03_s3_c04,stu_03_s3,Social Science - Ch 4,2
+stu_03_s3_c05,stu_03_s3,Social Science - Ch 5,2
+stu_03_s3_c06,stu_03_s3,Social Science - Ch 6,2
+stu_03_s3_c07,stu_03_s3,Social Science - Ch 7,3
+stu_03_s3_c08,stu_03_s3,Social Science - Ch 8,3
+stu_03_s3_c09,stu_03_s3,Social Science - Ch 9,3
+stu_03_s3_c10,stu_03_s3,Social Science - Ch 10,4
+stu_03_s3_c11,stu_03_s3,Social Science - Ch 11,4
+stu_03_s3_c12,stu_03_s3,Social Science - Ch 12,4
+stu_03_s4_c01,stu_03_s4,English - Ch 1,1
+stu_03_s4_c02,stu_03_s4,English - Ch 2,1
+stu_03_s4_c03,stu_03_s4,English - Ch 3,1
+stu_03_s4_c04,stu_03_s4,English - Ch 4,2
+stu_03_s4_c05,stu_03_s4,English - Ch 5,2
+stu_03_s4_c06,stu_03_s4,English - Ch 6,2
+stu_03_s4_c07,stu_03_s4,English - Ch 7,3
+stu_03_s4_c08,stu_03_s4,English - Ch 8,3
+stu_03_s4_c09,stu_03_s4,English - Ch 9,3
+stu_03_s4_c10,stu_03_s4,English - Ch 10,4
+stu_03_s4_c11,stu_03_s4,English - Ch 11,4
+stu_03_s4_c12,stu_03_s4,English - Ch 12,4
+stu_03_s5_c01,stu_03_s5,Hindi - Ch 1,1
+stu_03_s5_c02,stu_03_s5,Hindi - Ch 2,1
+stu_03_s5_c03,stu_03_s5,Hindi - Ch 3,1
+stu_03_s5_c04,stu_03_s5,Hindi - Ch 4,2
+stu_03_s5_c05,stu_03_s5,Hindi - Ch 5,2
+stu_03_s5_c06,stu_03_s5,Hindi - Ch 6,2
+stu_03_s5_c07,stu_03_s5,Hindi - Ch 7,3
+stu_03_s5_c08,stu_03_s5,Hindi - Ch 8,3
+stu_03_s5_c09,stu_03_s5,Hindi - Ch 9,3
+stu_03_s5_c10,stu_03_s5,Hindi - Ch 10,4
+stu_03_s5_c11,stu_03_s5,Hindi - Ch 11,4
+stu_03_s5_c12,stu_03_s5,Hindi - Ch 12,4
+stu_04_s1_c01,stu_04_s1,Mathematics - Ch 1,1
+stu_04_s1_c02,stu_04_s1,Mathematics - Ch 2,1
+stu_04_s1_c03,stu_04_s1,Mathematics - Ch 3,1
+stu_04_s1_c04,stu_04_s1,Mathematics - Ch 4,2
+stu_04_s1_c05,stu_04_s1,Mathematics - Ch 5,2
+stu_04_s1_c06,stu_04_s1,Mathematics - Ch 6,2
+stu_04_s1_c07,stu_04_s1,Mathematics - Ch 7,3
+stu_04_s1_c08,stu_04_s1,Mathematics - Ch 8,3
+stu_04_s1_c09,stu_04_s1,Mathematics - Ch 9,3
+stu_04_s1_c10,stu_04_s1,Mathematics - Ch 10,4
+stu_04_s1_c11,stu_04_s1,Mathematics - Ch 11,4
+stu_04_s1_c12,stu_04_s1,Mathematics - Ch 12,4
+stu_04_s2_c01,stu_04_s2,Physics - Ch 1,1
+stu_04_s2_c02,stu_04_s2,Physics - Ch 2,1
+stu_04_s2_c03,stu_04_s2,Physics - Ch 3,1
+stu_04_s2_c04,stu_04_s2,Physics - Ch 4,2
+stu_04_s2_c05,stu_04_s2,Physics - Ch 5,2
+stu_04_s2_c06,stu_04_s2,Physics - Ch 6,2
+stu_04_s2_c07,stu_04_s2,Physics - Ch 7,3
+stu_04_s2_c08,stu_04_s2,Physics - Ch 8,3
+stu_04_s2_c09,stu_04_s2,Physics - Ch 9,3
+stu_04_s2_c10,stu_04_s2,Physics - Ch 10,4
+stu_04_s2_c11,stu_04_s2,Physics - Ch 11,4
+stu_04_s2_c12,stu_04_s2,Physics - Ch 12,4
+stu_04_s3_c01,stu_04_s3,Chemistry - Ch 1,1
+stu_04_s3_c02,stu_04_s3,Chemistry - Ch 2,1
+stu_04_s3_c03,stu_04_s3,Chemistry - Ch 3,1
+stu_04_s3_c04,stu_04_s3,Chemistry - Ch 4,2
+stu_04_s3_c05,stu_04_s3,Chemistry - Ch 5,2
+stu_04_s3_c06,stu_04_s3,Chemistry - Ch 6,2
+stu_04_s3_c07,stu_04_s3,Chemistry - Ch 7,3
+stu_04_s3_c08,stu_04_s3,Chemistry - Ch 8,3
+stu_04_s3_c09,stu_04_s3,Chemistry - Ch 9,3
+stu_04_s3_c10,stu_04_s3,Chemistry - Ch 10,4
+stu_04_s3_c11,stu_04_s3,Chemistry - Ch 11,4
+stu_04_s3_c12,stu_04_s3,Chemistry - Ch 12,4
+stu_04_s4_c01,stu_04_s4,History & Civics - Ch 1,1
+stu_04_s4_c02,stu_04_s4,History & Civics - Ch 2,1
+stu_04_s4_c03,stu_04_s4,History & Civics - Ch 3,1
+stu_04_s4_c04,stu_04_s4,History & Civics - Ch 4,2
+stu_04_s4_c05,stu_04_s4,History & Civics - Ch 5,2
+stu_04_s4_c06,stu_04_s4,History & Civics - Ch 6,2
+stu_04_s4_c07,stu_04_s4,History & Civics - Ch 7,3
+stu_04_s4_c08,stu_04_s4,History & Civics - Ch 8,3
+stu_04_s4_c09,stu_04_s4,History & Civics - Ch 9,3
+stu_04_s4_c10,stu_04_s4,History & Civics - Ch 10,4
+stu_04_s4_c11,stu_04_s4,History & Civics - Ch 11,4
+stu_04_s4_c12,stu_04_s4,History & Civics - Ch 12,4
+stu_04_s5_c01,stu_04_s5,English - Ch 1,1
+stu_04_s5_c02,stu_04_s5,English - Ch 2,1
+stu_04_s5_c03,stu_04_s5,English - Ch 3,1
+stu_04_s5_c04,stu_04_s5,English - Ch 4,2
+stu_04_s5_c05,stu_04_s5,English - Ch 5,2
+stu_04_s5_c06,stu_04_s5,English - Ch 6,2
+stu_04_s5_c07,stu_04_s5,English - Ch 7,3
+stu_04_s5_c08,stu_04_s5,English - Ch 8,3
+stu_04_s5_c09,stu_04_s5,English - Ch 9,3
+stu_04_s5_c10,stu_04_s5,English - Ch 10,4
+stu_04_s5_c11,stu_04_s5,English - Ch 11,4
+stu_04_s5_c12,stu_04_s5,English - Ch 12,4
+stu_05_s1_c01,stu_05_s1,Mathematics - Ch 1,1
+stu_05_s1_c02,stu_05_s1,Mathematics - Ch 2,1
+stu_05_s1_c03,stu_05_s1,Mathematics - Ch 3,1
+stu_05_s1_c04,stu_05_s1,Mathematics - Ch 4,2
+stu_05_s1_c05,stu_05_s1,Mathematics - Ch 5,2
+stu_05_s1_c06,stu_05_s1,Mathematics - Ch 6,2
+stu_05_s1_c07,stu_05_s1,Mathematics - Ch 7,3
+stu_05_s1_c08,stu_05_s1,Mathematics - Ch 8,3
+stu_05_s1_c09,stu_05_s1,Mathematics - Ch 9,3
+stu_05_s1_c10,stu_05_s1,Mathematics - Ch 10,4
+stu_05_s1_c11,stu_05_s1,Mathematics - Ch 11,4
+stu_05_s1_c12,stu_05_s1,Mathematics - Ch 12,4
+stu_05_s2_c01,stu_05_s2,Science - Ch 1,1
+stu_05_s2_c02,stu_05_s2,Science - Ch 2,1
+stu_05_s2_c03,stu_05_s2,Science - Ch 3,1
+stu_05_s2_c04,stu_05_s2,Science - Ch 4,2
+stu_05_s2_c05,stu_05_s2,Science - Ch 5,2
+stu_05_s2_c06,stu_05_s2,Science - Ch 6,2
+stu_05_s2_c07,stu_05_s2,Science - Ch 7,3
+stu_05_s2_c08,stu_05_s2,Science - Ch 8,3
+stu_05_s2_c09,stu_05_s2,Science - Ch 9,3
+stu_05_s2_c10,stu_05_s2,Science - Ch 10,4
+stu_05_s2_c11,stu_05_s2,Science - Ch 11,4
+stu_05_s2_c12,stu_05_s2,Science - Ch 12,4
+stu_05_s3_c01,stu_05_s3,Social Science - Ch 1,1
+stu_05_s3_c02,stu_05_s3,Social Science - Ch 2,1
+stu_05_s3_c03,stu_05_s3,Social Science - Ch 3,1
+stu_05_s3_c04,stu_05_s3,Social Science - Ch 4,2
+stu_05_s3_c05,stu_05_s3,Social Science - Ch 5,2
+stu_05_s3_c06,stu_05_s3,Social Science - Ch 6,2
+stu_05_s3_c07,stu_05_s3,Social Science - Ch 7,3
+stu_05_s3_c08,stu_05_s3,Social Science - Ch 8,3
+stu_05_s3_c09,stu_05_s3,Social Science - Ch 9,3
+stu_05_s3_c10,stu_05_s3,Social Science - Ch 10,4
+stu_05_s3_c11,stu_05_s3,Social Science - Ch 11,4
+stu_05_s3_c12,stu_05_s3,Social Science - Ch 12,4
+stu_05_s4_c01,stu_05_s4,English - Ch 1,1
+stu_05_s4_c02,stu_05_s4,English - Ch 2,1
+stu_05_s4_c03,stu_05_s4,English - Ch 3,1
+stu_05_s4_c04,stu_05_s4,English - Ch 4,2
+stu_05_s4_c05,stu_05_s4,English - Ch 5,2
+stu_05_s4_c06,stu_05_s4,English - Ch 6,2
+stu_05_s4_c07,stu_05_s4,English - Ch 7,3
+stu_05_s4_c08,stu_05_s4,English - Ch 8,3
+stu_05_s4_c09,stu_05_s4,English - Ch 9,3
+stu_05_s4_c10,stu_05_s4,English - Ch 10,4
+stu_05_s4_c11,stu_05_s4,English - Ch 11,4
+stu_05_s4_c12,stu_05_s4,English - Ch 12,4
+stu_05_s5_c01,stu_05_s5,Hindi - Ch 1,1
+stu_05_s5_c02,stu_05_s5,Hindi - Ch 2,1
+stu_05_s5_c03,stu_05_s5,Hindi - Ch 3,1
+stu_05_s5_c04,stu_05_s5,Hindi - Ch 4,2
+stu_05_s5_c05,stu_05_s5,Hindi - Ch 5,2
+stu_05_s5_c06,stu_05_s5,Hindi - Ch 6,2
+stu_05_s5_c07,stu_05_s5,Hindi - Ch 7,3
+stu_05_s5_c08,stu_05_s5,Hindi - Ch 8,3
+stu_05_s5_c09,stu_05_s5,Hindi - Ch 9,3
+stu_05_s5_c10,stu_05_s5,Hindi - Ch 10,4
+stu_05_s5_c11,stu_05_s5,Hindi - Ch 11,4
+stu_05_s5_c12,stu_05_s5,Hindi - Ch 12,4
+stu_06_s1_c01,stu_06_s1,Mathematics AA - Ch 1,1
+stu_06_s1_c02,stu_06_s1,Mathematics AA - Ch 2,1
+stu_06_s1_c03,stu_06_s1,Mathematics AA - Ch 3,1
+stu_06_s1_c04,stu_06_s1,Mathematics AA - Ch 4,2
+stu_06_s1_c05,stu_06_s1,Mathematics AA - Ch 5,2
+stu_06_s1_c06,stu_06_s1,Mathematics AA - Ch 6,2
+stu_06_s1_c07,stu_06_s1,Mathematics AA - Ch 7,3
+stu_06_s1_c08,stu_06_s1,Mathematics AA - Ch 8,3
+stu_06_s1_c09,stu_06_s1,Mathematics AA - Ch 9,3
+stu_06_s1_c10,stu_06_s1,Mathematics AA - Ch 10,4
+stu_06_s1_c11,stu_06_s1,Mathematics AA - Ch 11,4
+stu_06_s1_c12,stu_06_s1,Mathematics AA - Ch 12,4
+stu_06_s2_c01,stu_06_s2,Physics - Ch 1,1
+stu_06_s2_c02,stu_06_s2,Physics - Ch 2,1
+stu_06_s2_c03,stu_06_s2,Physics - Ch 3,1
+stu_06_s2_c04,stu_06_s2,Physics - Ch 4,2
+stu_06_s2_c05,stu_06_s2,Physics - Ch 5,2
+stu_06_s2_c06,stu_06_s2,Physics - Ch 6,2
+stu_06_s2_c07,stu_06_s2,Physics - Ch 7,3
+stu_06_s2_c08,stu_06_s2,Physics - Ch 8,3
+stu_06_s2_c09,stu_06_s2,Physics - Ch 9,3
+stu_06_s2_c10,stu_06_s2,Physics - Ch 10,4
+stu_06_s2_c11,stu_06_s2,Physics - Ch 11,4
+stu_06_s2_c12,stu_06_s2,Physics - Ch 12,4
+stu_06_s3_c01,stu_06_s3,Economics - Ch 1,1
+stu_06_s3_c02,stu_06_s3,Economics - Ch 2,1
+stu_06_s3_c03,stu_06_s3,Economics - Ch 3,1
+stu_06_s3_c04,stu_06_s3,Economics - Ch 4,2
+stu_06_s3_c05,stu_06_s3,Economics - Ch 5,2
+stu_06_s3_c06,stu_06_s3,Economics - Ch 6,2
+stu_06_s3_c07,stu_06_s3,Economics - Ch 7,3
+stu_06_s3_c08,stu_06_s3,Economics - Ch 8,3
+stu_06_s3_c09,stu_06_s3,Economics - Ch 9,3
+stu_06_s3_c10,stu_06_s3,Economics - Ch 10,4
+stu_06_s3_c11,stu_06_s3,Economics - Ch 11,4
+stu_06_s3_c12,stu_06_s3,Economics - Ch 12,4
+stu_06_s4_c01,stu_06_s4,English A - Ch 1,1
+stu_06_s4_c02,stu_06_s4,English A - Ch 2,1
+stu_06_s4_c03,stu_06_s4,English A - Ch 3,1
+stu_06_s4_c04,stu_06_s4,English A - Ch 4,2
+stu_06_s4_c05,stu_06_s4,English A - Ch 5,2
+stu_06_s4_c06,stu_06_s4,English A - Ch 6,2
+stu_06_s4_c07,stu_06_s4,English A - Ch 7,3
+stu_06_s4_c08,stu_06_s4,English A - Ch 8,3
+stu_06_s4_c09,stu_06_s4,English A - Ch 9,3
+stu_06_s4_c10,stu_06_s4,English A - Ch 10,4
+stu_06_s4_c11,stu_06_s4,English A - Ch 11,4
+stu_06_s4_c12,stu_06_s4,English A - Ch 12,4
+stu_06_s5_c01,stu_06_s5,French B - Ch 1,1
+stu_06_s5_c02,stu_06_s5,French B - Ch 2,1
+stu_06_s5_c03,stu_06_s5,French B - Ch 3,1
+stu_06_s5_c04,stu_06_s5,French B - Ch 4,2
+stu_06_s5_c05,stu_06_s5,French B - Ch 5,2
+stu_06_s5_c06,stu_06_s5,French B - Ch 6,2
+stu_06_s5_c07,stu_06_s5,French B - Ch 7,3
+stu_06_s5_c08,stu_06_s5,French B - Ch 8,3
+stu_06_s5_c09,stu_06_s5,French B - Ch 9,3
+stu_06_s5_c10,stu_06_s5,French B - Ch 10,4
+stu_06_s5_c11,stu_06_s5,French B - Ch 11,4
+stu_06_s5_c12,stu_06_s5,French B - Ch 12,4
+stu_07_s1_c01,stu_07_s1,Mathematics - Ch 1,1
+stu_07_s1_c02,stu_07_s1,Mathematics - Ch 2,1
+stu_07_s1_c03,stu_07_s1,Mathematics - Ch 3,1
+stu_07_s1_c04,stu_07_s1,Mathematics - Ch 4,2
+stu_07_s1_c05,stu_07_s1,Mathematics - Ch 5,2
+stu_07_s1_c06,stu_07_s1,Mathematics - Ch 6,2
+stu_07_s1_c07,stu_07_s1,Mathematics - Ch 7,3
+stu_07_s1_c08,stu_07_s1,Mathematics - Ch 8,3
+stu_07_s1_c09,stu_07_s1,Mathematics - Ch 9,3
+stu_07_s1_c10,stu_07_s1,Mathematics - Ch 10,4
+stu_07_s1_c11,stu_07_s1,Mathematics - Ch 11,4
+stu_07_s1_c12,stu_07_s1,Mathematics - Ch 12,4
+stu_07_s2_c01,stu_07_s2,Science - Ch 1,1
+stu_07_s2_c02,stu_07_s2,Science - Ch 2,1
+stu_07_s2_c03,stu_07_s2,Science - Ch 3,1
+stu_07_s2_c04,stu_07_s2,Science - Ch 4,2
+stu_07_s2_c05,stu_07_s2,Science - Ch 5,2
+stu_07_s2_c06,stu_07_s2,Science - Ch 6,2
+stu_07_s2_c07,stu_07_s2,Science - Ch 7,3
+stu_07_s2_c08,stu_07_s2,Science - Ch 8,3
+stu_07_s2_c09,stu_07_s2,Science - Ch 9,3
+stu_07_s2_c10,stu_07_s2,Science - Ch 10,4
+stu_07_s2_c11,stu_07_s2,Science - Ch 11,4
+stu_07_s2_c12,stu_07_s2,Science - Ch 12,4
+stu_07_s3_c01,stu_07_s3,Social Science - Ch 1,1
+stu_07_s3_c02,stu_07_s3,Social Science - Ch 2,1
+stu_07_s3_c03,stu_07_s3,Social Science - Ch 3,1
+stu_07_s3_c04,stu_07_s3,Social Science - Ch 4,2
+stu_07_s3_c05,stu_07_s3,Social Science - Ch 5,2
+stu_07_s3_c06,stu_07_s3,Social Science - Ch 6,2
+stu_07_s3_c07,stu_07_s3,Social Science - Ch 7,3
+stu_07_s3_c08,stu_07_s3,Social Science - Ch 8,3
+stu_07_s3_c09,stu_07_s3,Social Science - Ch 9,3
+stu_07_s3_c10,stu_07_s3,Social Science - Ch 10,4
+stu_07_s3_c11,stu_07_s3,Social Science - Ch 11,4
+stu_07_s3_c12,stu_07_s3,Social Science - Ch 12,4
+stu_07_s4_c01,stu_07_s4,English - Ch 1,1
+stu_07_s4_c02,stu_07_s4,English - Ch 2,1
+stu_07_s4_c03,stu_07_s4,English - Ch 3,1
+stu_07_s4_c04,stu_07_s4,English - Ch 4,2
+stu_07_s4_c05,stu_07_s4,English - Ch 5,2
+stu_07_s4_c06,stu_07_s4,English - Ch 6,2
+stu_07_s4_c07,stu_07_s4,English - Ch 7,3
+stu_07_s4_c08,stu_07_s4,English - Ch 8,3
+stu_07_s4_c09,stu_07_s4,English - Ch 9,3
+stu_07_s4_c10,stu_07_s4,English - Ch 10,4
+stu_07_s4_c11,stu_07_s4,English - Ch 11,4
+stu_07_s4_c12,stu_07_s4,English - Ch 12,4
+stu_07_s5_c01,stu_07_s5,Hindi - Ch 1,1
+stu_07_s5_c02,stu_07_s5,Hindi - Ch 2,1
+stu_07_s5_c03,stu_07_s5,Hindi - Ch 3,1
+stu_07_s5_c04,stu_07_s5,Hindi - Ch 4,2
+stu_07_s5_c05,stu_07_s5,Hindi - Ch 5,2
+stu_07_s5_c06,stu_07_s5,Hindi - Ch 6,2
+stu_07_s5_c07,stu_07_s5,Hindi - Ch 7,3
+stu_07_s5_c08,stu_07_s5,Hindi - Ch 8,3
+stu_07_s5_c09,stu_07_s5,Hindi - Ch 9,3
+stu_07_s5_c10,stu_07_s5,Hindi - Ch 10,4
+stu_07_s5_c11,stu_07_s5,Hindi - Ch 11,4
+stu_07_s5_c12,stu_07_s5,Hindi - Ch 12,4
+stu_08_s1_c01,stu_08_s1,Mathematics - Ch 1,1
+stu_08_s1_c02,stu_08_s1,Mathematics - Ch 2,1
+stu_08_s1_c03,stu_08_s1,Mathematics - Ch 3,1
+stu_08_s1_c04,stu_08_s1,Mathematics - Ch 4,2
+stu_08_s1_c05,stu_08_s1,Mathematics - Ch 5,2
+stu_08_s1_c06,stu_08_s1,Mathematics - Ch 6,2
+stu_08_s1_c07,stu_08_s1,Mathematics - Ch 7,3
+stu_08_s1_c08,stu_08_s1,Mathematics - Ch 8,3
+stu_08_s1_c09,stu_08_s1,Mathematics - Ch 9,3
+stu_08_s1_c10,stu_08_s1,Mathematics - Ch 10,4
+stu_08_s1_c11,stu_08_s1,Mathematics - Ch 11,4
+stu_08_s1_c12,stu_08_s1,Mathematics - Ch 12,4
+stu_08_s2_c01,stu_08_s2,Physics - Ch 1,1
+stu_08_s2_c02,stu_08_s2,Physics - Ch 2,1
+stu_08_s2_c03,stu_08_s2,Physics - Ch 3,1
+stu_08_s2_c04,stu_08_s2,Physics - Ch 4,2
+stu_08_s2_c05,stu_08_s2,Physics - Ch 5,2
+stu_08_s2_c06,stu_08_s2,Physics - Ch 6,2
+stu_08_s2_c07,stu_08_s2,Physics - Ch 7,3
+stu_08_s2_c08,stu_08_s2,Physics - Ch 8,3
+stu_08_s2_c09,stu_08_s2,Physics - Ch 9,3
+stu_08_s2_c10,stu_08_s2,Physics - Ch 10,4
+stu_08_s2_c11,stu_08_s2,Physics - Ch 11,4
+stu_08_s2_c12,stu_08_s2,Physics - Ch 12,4
+stu_08_s3_c01,stu_08_s3,Business Studies - Ch 1,1
+stu_08_s3_c02,stu_08_s3,Business Studies - Ch 2,1
+stu_08_s3_c03,stu_08_s3,Business Studies - Ch 3,1
+stu_08_s3_c04,stu_08_s3,Business Studies - Ch 4,2
+stu_08_s3_c05,stu_08_s3,Business Studies - Ch 5,2
+stu_08_s3_c06,stu_08_s3,Business Studies - Ch 6,2
+stu_08_s3_c07,stu_08_s3,Business Studies - Ch 7,3
+stu_08_s3_c08,stu_08_s3,Business Studies - Ch 8,3
+stu_08_s3_c09,stu_08_s3,Business Studies - Ch 9,3
+stu_08_s3_c10,stu_08_s3,Business Studies - Ch 10,4
+stu_08_s3_c11,stu_08_s3,Business Studies - Ch 11,4
+stu_08_s3_c12,stu_08_s3,Business Studies - Ch 12,4
+stu_08_s4_c01,stu_08_s4,English - Ch 1,1
+stu_08_s4_c02,stu_08_s4,English - Ch 2,1
+stu_08_s4_c03,stu_08_s4,English - Ch 3,1
+stu_08_s4_c04,stu_08_s4,English - Ch 4,2
+stu_08_s4_c05,stu_08_s4,English - Ch 5,2
+stu_08_s4_c06,stu_08_s4,English - Ch 6,2
+stu_08_s4_c07,stu_08_s4,English - Ch 7,3
+stu_08_s4_c08,stu_08_s4,English - Ch 8,3
+stu_08_s4_c09,stu_08_s4,English - Ch 9,3
+stu_08_s4_c10,stu_08_s4,English - Ch 10,4
+stu_08_s4_c11,stu_08_s4,English - Ch 11,4
+stu_08_s4_c12,stu_08_s4,English - Ch 12,4
+stu_08_s5_c01,stu_08_s5,Computer Science - Ch 1,1
+stu_08_s5_c02,stu_08_s5,Computer Science - Ch 2,1
+stu_08_s5_c03,stu_08_s5,Computer Science - Ch 3,1
+stu_08_s5_c04,stu_08_s5,Computer Science - Ch 4,2
+stu_08_s5_c05,stu_08_s5,Computer Science - Ch 5,2
+stu_08_s5_c06,stu_08_s5,Computer Science - Ch 6,2
+stu_08_s5_c07,stu_08_s5,Computer Science - Ch 7,3
+stu_08_s5_c08,stu_08_s5,Computer Science - Ch 8,3
+stu_08_s5_c09,stu_08_s5,Computer Science - Ch 9,3
+stu_08_s5_c10,stu_08_s5,Computer Science - Ch 10,4
+stu_08_s5_c11,stu_08_s5,Computer Science - Ch 11,4
+stu_08_s5_c12,stu_08_s5,Computer Science - Ch 12,4
+stu_09_s1_c01,stu_09_s1,Mathematics - Ch 1,1
+stu_09_s1_c02,stu_09_s1,Mathematics - Ch 2,1
+stu_09_s1_c03,stu_09_s1,Mathematics - Ch 3,1
+stu_09_s1_c04,stu_09_s1,Mathematics - Ch 4,2
+stu_09_s1_c05,stu_09_s1,Mathematics - Ch 5,2
+stu_09_s1_c06,stu_09_s1,Mathematics - Ch 6,2
+stu_09_s1_c07,stu_09_s1,Mathematics - Ch 7,3
+stu_09_s1_c08,stu_09_s1,Mathematics - Ch 8,3
+stu_09_s1_c09,stu_09_s1,Mathematics - Ch 9,3
+stu_09_s1_c10,stu_09_s1,Mathematics - Ch 10,4
+stu_09_s1_c11,stu_09_s1,Mathematics - Ch 11,4
+stu_09_s1_c12,stu_09_s1,Mathematics - Ch 12,4
+stu_09_s2_c01,stu_09_s2,Science - Ch 1,1
+stu_09_s2_c02,stu_09_s2,Science - Ch 2,1
+stu_09_s2_c03,stu_09_s2,Science - Ch 3,1
+stu_09_s2_c04,stu_09_s2,Science - Ch 4,2
+stu_09_s2_c05,stu_09_s2,Science - Ch 5,2
+stu_09_s2_c06,stu_09_s2,Science - Ch 6,2
+stu_09_s2_c07,stu_09_s2,Science - Ch 7,3
+stu_09_s2_c08,stu_09_s2,Science - Ch 8,3
+stu_09_s2_c09,stu_09_s2,Science - Ch 9,3
+stu_09_s2_c10,stu_09_s2,Science - Ch 10,4
+stu_09_s2_c11,stu_09_s2,Science - Ch 11,4
+stu_09_s2_c12,stu_09_s2,Science - Ch 12,4
+stu_09_s3_c01,stu_09_s3,Social Science - Ch 1,1
+stu_09_s3_c02,stu_09_s3,Social Science - Ch 2,1
+stu_09_s3_c03,stu_09_s3,Social Science - Ch 3,1
+stu_09_s3_c04,stu_09_s3,Social Science - Ch 4,2
+stu_09_s3_c05,stu_09_s3,Social Science - Ch 5,2
+stu_09_s3_c06,stu_09_s3,Social Science - Ch 6,2
+stu_09_s3_c07,stu_09_s3,Social Science - Ch 7,3
+stu_09_s3_c08,stu_09_s3,Social Science - Ch 8,3
+stu_09_s3_c09,stu_09_s3,Social Science - Ch 9,3
+stu_09_s3_c10,stu_09_s3,Social Science - Ch 10,4
+stu_09_s3_c11,stu_09_s3,Social Science - Ch 11,4
+stu_09_s3_c12,stu_09_s3,Social Science - Ch 12,4
+stu_09_s4_c01,stu_09_s4,English - Ch 1,1
+stu_09_s4_c02,stu_09_s4,English - Ch 2,1
+stu_09_s4_c03,stu_09_s4,English - Ch 3,1
+stu_09_s4_c04,stu_09_s4,English - Ch 4,2
+stu_09_s4_c05,stu_09_s4,English - Ch 5,2
+stu_09_s4_c06,stu_09_s4,English - Ch 6,2
+stu_09_s4_c07,stu_09_s4,English - Ch 7,3
+stu_09_s4_c08,stu_09_s4,English - Ch 8,3
+stu_09_s4_c09,stu_09_s4,English - Ch 9,3
+stu_09_s4_c10,stu_09_s4,English - Ch 10,4
+stu_09_s4_c11,stu_09_s4,English - Ch 11,4
+stu_09_s4_c12,stu_09_s4,English - Ch 12,4
+stu_09_s5_c01,stu_09_s5,Hindi - Ch 1,1
+stu_09_s5_c02,stu_09_s5,Hindi - Ch 2,1
+stu_09_s5_c03,stu_09_s5,Hindi - Ch 3,1
+stu_09_s5_c04,stu_09_s5,Hindi - Ch 4,2
+stu_09_s5_c05,stu_09_s5,Hindi - Ch 5,2
+stu_09_s5_c06,stu_09_s5,Hindi - Ch 6,2
+stu_09_s5_c07,stu_09_s5,Hindi - Ch 7,3
+stu_09_s5_c08,stu_09_s5,Hindi - Ch 8,3
+stu_09_s5_c09,stu_09_s5,Hindi - Ch 9,3
+stu_09_s5_c10,stu_09_s5,Hindi - Ch 10,4
+stu_09_s5_c11,stu_09_s5,Hindi - Ch 11,4
+stu_09_s5_c12,stu_09_s5,Hindi - Ch 12,4
+stu_10_s1_c01,stu_10_s1,Mathematics - Ch 1,1
+stu_10_s1_c02,stu_10_s1,Mathematics - Ch 2,1
+stu_10_s1_c03,stu_10_s1,Mathematics - Ch 3,1
+stu_10_s1_c04,stu_10_s1,Mathematics - Ch 4,2
+stu_10_s1_c05,stu_10_s1,Mathematics - Ch 5,2
+stu_10_s1_c06,stu_10_s1,Mathematics - Ch 6,2
+stu_10_s1_c07,stu_10_s1,Mathematics - Ch 7,3
+stu_10_s1_c08,stu_10_s1,Mathematics - Ch 8,3
+stu_10_s1_c09,stu_10_s1,Mathematics - Ch 9,3
+stu_10_s1_c10,stu_10_s1,Mathematics - Ch 10,4
+stu_10_s1_c11,stu_10_s1,Mathematics - Ch 11,4
+stu_10_s1_c12,stu_10_s1,Mathematics - Ch 12,4
+stu_10_s2_c01,stu_10_s2,Physics - Ch 1,1
+stu_10_s2_c02,stu_10_s2,Physics - Ch 2,1
+stu_10_s2_c03,stu_10_s2,Physics - Ch 3,1
+stu_10_s2_c04,stu_10_s2,Physics - Ch 4,2
+stu_10_s2_c05,stu_10_s2,Physics - Ch 5,2
+stu_10_s2_c06,stu_10_s2,Physics - Ch 6,2
+stu_10_s2_c07,stu_10_s2,Physics - Ch 7,3
+stu_10_s2_c08,stu_10_s2,Physics - Ch 8,3
+stu_10_s2_c09,stu_10_s2,Physics - Ch 9,3
+stu_10_s2_c10,stu_10_s2,Physics - Ch 10,4
+stu_10_s2_c11,stu_10_s2,Physics - Ch 11,4
+stu_10_s2_c12,stu_10_s2,Physics - Ch 12,4
+stu_10_s3_c01,stu_10_s3,Chemistry - Ch 1,1
+stu_10_s3_c02,stu_10_s3,Chemistry - Ch 2,1
+stu_10_s3_c03,stu_10_s3,Chemistry - Ch 3,1
+stu_10_s3_c04,stu_10_s3,Chemistry - Ch 4,2
+stu_10_s3_c05,stu_10_s3,Chemistry - Ch 5,2
+stu_10_s3_c06,stu_10_s3,Chemistry - Ch 6,2
+stu_10_s3_c07,stu_10_s3,Chemistry - Ch 7,3
+stu_10_s3_c08,stu_10_s3,Chemistry - Ch 8,3
+stu_10_s3_c09,stu_10_s3,Chemistry - Ch 9,3
+stu_10_s3_c10,stu_10_s3,Chemistry - Ch 10,4
+stu_10_s3_c11,stu_10_s3,Chemistry - Ch 11,4
+stu_10_s3_c12,stu_10_s3,Chemistry - Ch 12,4
+stu_10_s4_c01,stu_10_s4,History & Civics - Ch 1,1
+stu_10_s4_c02,stu_10_s4,History & Civics - Ch 2,1
+stu_10_s4_c03,stu_10_s4,History & Civics - Ch 3,1
+stu_10_s4_c04,stu_10_s4,History & Civics - Ch 4,2
+stu_10_s4_c05,stu_10_s4,History & Civics - Ch 5,2
+stu_10_s4_c06,stu_10_s4,History & Civics - Ch 6,2
+stu_10_s4_c07,stu_10_s4,History & Civics - Ch 7,3
+stu_10_s4_c08,stu_10_s4,History & Civics - Ch 8,3
+stu_10_s4_c09,stu_10_s4,History & Civics - Ch 9,3
+stu_10_s4_c10,stu_10_s4,History & Civics - Ch 10,4
+stu_10_s4_c11,stu_10_s4,History & Civics - Ch 11,4
+stu_10_s4_c12,stu_10_s4,History & Civics - Ch 12,4
+stu_10_s5_c01,stu_10_s5,English - Ch 1,1
+stu_10_s5_c02,stu_10_s5,English - Ch 2,1
+stu_10_s5_c03,stu_10_s5,English - Ch 3,1
+stu_10_s5_c04,stu_10_s5,English - Ch 4,2
+stu_10_s5_c05,stu_10_s5,English - Ch 5,2
+stu_10_s5_c06,stu_10_s5,English - Ch 6,2
+stu_10_s5_c07,stu_10_s5,English - Ch 7,3
+stu_10_s5_c08,stu_10_s5,English - Ch 8,3
+stu_10_s5_c09,stu_10_s5,English - Ch 9,3
+stu_10_s5_c10,stu_10_s5,English - Ch 10,4
+stu_10_s5_c11,stu_10_s5,English - Ch 11,4
+stu_10_s5_c12,stu_10_s5,English - Ch 12,4
+stu_11_s1_c01,stu_11_s1,Mathematics - Ch 1,1
+stu_11_s1_c02,stu_11_s1,Mathematics - Ch 2,1
+stu_11_s1_c03,stu_11_s1,Mathematics - Ch 3,1
+stu_11_s1_c04,stu_11_s1,Mathematics - Ch 4,2
+stu_11_s1_c05,stu_11_s1,Mathematics - Ch 5,2
+stu_11_s1_c06,stu_11_s1,Mathematics - Ch 6,2
+stu_11_s1_c07,stu_11_s1,Mathematics - Ch 7,3
+stu_11_s1_c08,stu_11_s1,Mathematics - Ch 8,3
+stu_11_s1_c09,stu_11_s1,Mathematics - Ch 9,3
+stu_11_s1_c10,stu_11_s1,Mathematics - Ch 10,4
+stu_11_s1_c11,stu_11_s1,Mathematics - Ch 11,4
+stu_11_s1_c12,stu_11_s1,Mathematics - Ch 12,4
+stu_11_s2_c01,stu_11_s2,Science - Ch 1,1
+stu_11_s2_c02,stu_11_s2,Science - Ch 2,1
+stu_11_s2_c03,stu_11_s2,Science - Ch 3,1
+stu_11_s2_c04,stu_11_s2,Science - Ch 4,2
+stu_11_s2_c05,stu_11_s2,Science - Ch 5,2
+stu_11_s2_c06,stu_11_s2,Science - Ch 6,2
+stu_11_s2_c07,stu_11_s2,Science - Ch 7,3
+stu_11_s2_c08,stu_11_s2,Science - Ch 8,3
+stu_11_s2_c09,stu_11_s2,Science - Ch 9,3
+stu_11_s2_c10,stu_11_s2,Science - Ch 10,4
+stu_11_s2_c11,stu_11_s2,Science - Ch 11,4
+stu_11_s2_c12,stu_11_s2,Science - Ch 12,4
+stu_11_s3_c01,stu_11_s3,Social Science - Ch 1,1
+stu_11_s3_c02,stu_11_s3,Social Science - Ch 2,1
+stu_11_s3_c03,stu_11_s3,Social Science - Ch 3,1
+stu_11_s3_c04,stu_11_s3,Social Science - Ch 4,2
+stu_11_s3_c05,stu_11_s3,Social Science - Ch 5,2
+stu_11_s3_c06,stu_11_s3,Social Science - Ch 6,2
+stu_11_s3_c07,stu_11_s3,Social Science - Ch 7,3
+stu_11_s3_c08,stu_11_s3,Social Science - Ch 8,3
+stu_11_s3_c09,stu_11_s3,Social Science - Ch 9,3
+stu_11_s3_c10,stu_11_s3,Social Science - Ch 10,4
+stu_11_s3_c11,stu_11_s3,Social Science - Ch 11,4
+stu_11_s3_c12,stu_11_s3,Social Science - Ch 12,4
+stu_11_s4_c01,stu_11_s4,English - Ch 1,1
+stu_11_s4_c02,stu_11_s4,English - Ch 2,1
+stu_11_s4_c03,stu_11_s4,English - Ch 3,1
+stu_11_s4_c04,stu_11_s4,English - Ch 4,2
+stu_11_s4_c05,stu_11_s4,English - Ch 5,2
+stu_11_s4_c06,stu_11_s4,English - Ch 6,2
+stu_11_s4_c07,stu_11_s4,English - Ch 7,3
+stu_11_s4_c08,stu_11_s4,English - Ch 8,3
+stu_11_s4_c09,stu_11_s4,English - Ch 9,3
+stu_11_s4_c10,stu_11_s4,English - Ch 10,4
+stu_11_s4_c11,stu_11_s4,English - Ch 11,4
+stu_11_s4_c12,stu_11_s4,English - Ch 12,4
+stu_11_s5_c01,stu_11_s5,Hindi - Ch 1,1
+stu_11_s5_c02,stu_11_s5,Hindi - Ch 2,1
+stu_11_s5_c03,stu_11_s5,Hindi - Ch 3,1
+stu_11_s5_c04,stu_11_s5,Hindi - Ch 4,2
+stu_11_s5_c05,stu_11_s5,Hindi - Ch 5,2
+stu_11_s5_c06,stu_11_s5,Hindi - Ch 6,2
+stu_11_s5_c07,stu_11_s5,Hindi - Ch 7,3
+stu_11_s5_c08,stu_11_s5,Hindi - Ch 8,3
+stu_11_s5_c09,stu_11_s5,Hindi - Ch 9,3
+stu_11_s5_c10,stu_11_s5,Hindi - Ch 10,4
+stu_11_s5_c11,stu_11_s5,Hindi - Ch 11,4
+stu_11_s5_c12,stu_11_s5,Hindi - Ch 12,4
+stu_12_s1_c01,stu_12_s1,Mathematics - Ch 1,1
+stu_12_s1_c02,stu_12_s1,Mathematics - Ch 2,1
+stu_12_s1_c03,stu_12_s1,Mathematics - Ch 3,1
+stu_12_s1_c04,stu_12_s1,Mathematics - Ch 4,2
+stu_12_s1_c05,stu_12_s1,Mathematics - Ch 5,2
+stu_12_s1_c06,stu_12_s1,Mathematics - Ch 6,2
+stu_12_s1_c07,stu_12_s1,Mathematics - Ch 7,3
+stu_12_s1_c08,stu_12_s1,Mathematics - Ch 8,3
+stu_12_s1_c09,stu_12_s1,Mathematics - Ch 9,3
+stu_12_s1_c10,stu_12_s1,Mathematics - Ch 10,4
+stu_12_s1_c11,stu_12_s1,Mathematics - Ch 11,4
+stu_12_s1_c12,stu_12_s1,Mathematics - Ch 12,4
+stu_12_s2_c01,stu_12_s2,Science - Ch 1,1
+stu_12_s2_c02,stu_12_s2,Science - Ch 2,1
+stu_12_s2_c03,stu_12_s2,Science - Ch 3,1
+stu_12_s2_c04,stu_12_s2,Science - Ch 4,2
+stu_12_s2_c05,stu_12_s2,Science - Ch 5,2
+stu_12_s2_c06,stu_12_s2,Science - Ch 6,2
+stu_12_s2_c07,stu_12_s2,Science - Ch 7,3
+stu_12_s2_c08,stu_12_s2,Science - Ch 8,3
+stu_12_s2_c09,stu_12_s2,Science - Ch 9,3
+stu_12_s2_c10,stu_12_s2,Science - Ch 10,4
+stu_12_s2_c11,stu_12_s2,Science - Ch 11,4
+stu_12_s2_c12,stu_12_s2,Science - Ch 12,4
+stu_12_s3_c01,stu_12_s3,Social Science - Ch 1,1
+stu_12_s3_c02,stu_12_s3,Social Science - Ch 2,1
+stu_12_s3_c03,stu_12_s3,Social Science - Ch 3,1
+stu_12_s3_c04,stu_12_s3,Social Science - Ch 4,2
+stu_12_s3_c05,stu_12_s3,Social Science - Ch 5,2
+stu_12_s3_c06,stu_12_s3,Social Science - Ch 6,2
+stu_12_s3_c07,stu_12_s3,Social Science - Ch 7,3
+stu_12_s3_c08,stu_12_s3,Social Science - Ch 8,3
+stu_12_s3_c09,stu_12_s3,Social Science - Ch 9,3
+stu_12_s3_c10,stu_12_s3,Social Science - Ch 10,4
+stu_12_s3_c11,stu_12_s3,Social Science - Ch 11,4
+stu_12_s3_c12,stu_12_s3,Social Science - Ch 12,4
+stu_12_s4_c01,stu_12_s4,English - Ch 1,1
+stu_12_s4_c02,stu_12_s4,English - Ch 2,1
+stu_12_s4_c03,stu_12_s4,English - Ch 3,1
+stu_12_s4_c04,stu_12_s4,English - Ch 4,2
+stu_12_s4_c05,stu_12_s4,English - Ch 5,2
+stu_12_s4_c06,stu_12_s4,English - Ch 6,2
+stu_12_s4_c07,stu_12_s4,English - Ch 7,3
+stu_12_s4_c08,stu_12_s4,English - Ch 8,3
+stu_12_s4_c09,stu_12_s4,English - Ch 9,3
+stu_12_s4_c10,stu_12_s4,English - Ch 10,4
+stu_12_s4_c11,stu_12_s4,English - Ch 11,4
+stu_12_s4_c12,stu_12_s4,English - Ch 12,4
+stu_12_s5_c01,stu_12_s5,Hindi - Ch 1,1
+stu_12_s5_c02,stu_12_s5,Hindi - Ch 2,1
+stu_12_s5_c03,stu_12_s5,Hindi - Ch 3,1
+stu_12_s5_c04,stu_12_s5,Hindi - Ch 4,2
+stu_12_s5_c05,stu_12_s5,Hindi - Ch 5,2
+stu_12_s5_c06,stu_12_s5,Hindi - Ch 6,2
+stu_12_s5_c07,stu_12_s5,Hindi - Ch 7,3
+stu_12_s5_c08,stu_12_s5,Hindi - Ch 8,3
+stu_12_s5_c09,stu_12_s5,Hindi - Ch 9,3
+stu_12_s5_c10,stu_12_s5,Hindi - Ch 10,4
+stu_12_s5_c11,stu_12_s5,Hindi - Ch 11,4
+stu_12_s5_c12,stu_12_s5,Hindi - Ch 12,4
+stu_13_s1_c01,stu_13_s1,Mathematics - Ch 1,1
+stu_13_s1_c02,stu_13_s1,Mathematics - Ch 2,1
+stu_13_s1_c03,stu_13_s1,Mathematics - Ch 3,1
+stu_13_s1_c04,stu_13_s1,Mathematics - Ch 4,2
+stu_13_s1_c05,stu_13_s1,Mathematics - Ch 5,2
+stu_13_s1_c06,stu_13_s1,Mathematics - Ch 6,2
+stu_13_s1_c07,stu_13_s1,Mathematics - Ch 7,3
+stu_13_s1_c08,stu_13_s1,Mathematics - Ch 8,3
+stu_13_s1_c09,stu_13_s1,Mathematics - Ch 9,3
+stu_13_s1_c10,stu_13_s1,Mathematics - Ch 10,4
+stu_13_s1_c11,stu_13_s1,Mathematics - Ch 11,4
+stu_13_s1_c12,stu_13_s1,Mathematics - Ch 12,4
+stu_13_s2_c01,stu_13_s2,Science - Ch 1,1
+stu_13_s2_c02,stu_13_s2,Science - Ch 2,1
+stu_13_s2_c03,stu_13_s2,Science - Ch 3,1
+stu_13_s2_c04,stu_13_s2,Science - Ch 4,2
+stu_13_s2_c05,stu_13_s2,Science - Ch 5,2
+stu_13_s2_c06,stu_13_s2,Science - Ch 6,2
+stu_13_s2_c07,stu_13_s2,Science - Ch 7,3
+stu_13_s2_c08,stu_13_s2,Science - Ch 8,3
+stu_13_s2_c09,stu_13_s2,Science - Ch 9,3
+stu_13_s2_c10,stu_13_s2,Science - Ch 10,4
+stu_13_s2_c11,stu_13_s2,Science - Ch 11,4
+stu_13_s2_c12,stu_13_s2,Science - Ch 12,4
+stu_13_s3_c01,stu_13_s3,Social Science - Ch 1,1
+stu_13_s3_c02,stu_13_s3,Social Science - Ch 2,1
+stu_13_s3_c03,stu_13_s3,Social Science - Ch 3,1
+stu_13_s3_c04,stu_13_s3,Social Science - Ch 4,2
+stu_13_s3_c05,stu_13_s3,Social Science - Ch 5,2
+stu_13_s3_c06,stu_13_s3,Social Science - Ch 6,2
+stu_13_s3_c07,stu_13_s3,Social Science - Ch 7,3
+stu_13_s3_c08,stu_13_s3,Social Science - Ch 8,3
+stu_13_s3_c09,stu_13_s3,Social Science - Ch 9,3
+stu_13_s3_c10,stu_13_s3,Social Science - Ch 10,4
+stu_13_s3_c11,stu_13_s3,Social Science - Ch 11,4
+stu_13_s3_c12,stu_13_s3,Social Science - Ch 12,4
+stu_13_s4_c01,stu_13_s4,English - Ch 1,1
+stu_13_s4_c02,stu_13_s4,English - Ch 2,1
+stu_13_s4_c03,stu_13_s4,English - Ch 3,1
+stu_13_s4_c04,stu_13_s4,English - Ch 4,2
+stu_13_s4_c05,stu_13_s4,English - Ch 5,2
+stu_13_s4_c06,stu_13_s4,English - Ch 6,2
+stu_13_s4_c07,stu_13_s4,English - Ch 7,3
+stu_13_s4_c08,stu_13_s4,English - Ch 8,3
+stu_13_s4_c09,stu_13_s4,English - Ch 9,3
+stu_13_s4_c10,stu_13_s4,English - Ch 10,4
+stu_13_s4_c11,stu_13_s4,English - Ch 11,4
+stu_13_s4_c12,stu_13_s4,English - Ch 12,4
+stu_13_s5_c01,stu_13_s5,Hindi - Ch 1,1
+stu_13_s5_c02,stu_13_s5,Hindi - Ch 2,1
+stu_13_s5_c03,stu_13_s5,Hindi - Ch 3,1
+stu_13_s5_c04,stu_13_s5,Hindi - Ch 4,2
+stu_13_s5_c05,stu_13_s5,Hindi - Ch 5,2
+stu_13_s5_c06,stu_13_s5,Hindi - Ch 6,2
+stu_13_s5_c07,stu_13_s5,Hindi - Ch 7,3
+stu_13_s5_c08,stu_13_s5,Hindi - Ch 8,3
+stu_13_s5_c09,stu_13_s5,Hindi - Ch 9,3
+stu_13_s5_c10,stu_13_s5,Hindi - Ch 10,4
+stu_13_s5_c11,stu_13_s5,Hindi - Ch 11,4
+stu_13_s5_c12,stu_13_s5,Hindi - Ch 12,4
+stu_14_s1_c01,stu_14_s1,Mathematics AA - Ch 1,1
+stu_14_s1_c02,stu_14_s1,Mathematics AA - Ch 2,1
+stu_14_s1_c03,stu_14_s1,Mathematics AA - Ch 3,1
+stu_14_s1_c04,stu_14_s1,Mathematics AA - Ch 4,2
+stu_14_s1_c05,stu_14_s1,Mathematics AA - Ch 5,2
+stu_14_s1_c06,stu_14_s1,Mathematics AA - Ch 6,2
+stu_14_s1_c07,stu_14_s1,Mathematics AA - Ch 7,3
+stu_14_s1_c08,stu_14_s1,Mathematics AA - Ch 8,3
+stu_14_s1_c09,stu_14_s1,Mathematics AA - Ch 9,3
+stu_14_s1_c10,stu_14_s1,Mathematics AA - Ch 10,4
+stu_14_s1_c11,stu_14_s1,Mathematics AA - Ch 11,4
+stu_14_s1_c12,stu_14_s1,Mathematics AA - Ch 12,4
+stu_14_s2_c01,stu_14_s2,Physics - Ch 1,1
+stu_14_s2_c02,stu_14_s2,Physics - Ch 2,1
+stu_14_s2_c03,stu_14_s2,Physics - Ch 3,1
+stu_14_s2_c04,stu_14_s2,Physics - Ch 4,2
+stu_14_s2_c05,stu_14_s2,Physics - Ch 5,2
+stu_14_s2_c06,stu_14_s2,Physics - Ch 6,2
+stu_14_s2_c07,stu_14_s2,Physics - Ch 7,3
+stu_14_s2_c08,stu_14_s2,Physics - Ch 8,3
+stu_14_s2_c09,stu_14_s2,Physics - Ch 9,3
+stu_14_s2_c10,stu_14_s2,Physics - Ch 10,4
+stu_14_s2_c11,stu_14_s2,Physics - Ch 11,4
+stu_14_s2_c12,stu_14_s2,Physics - Ch 12,4
+stu_14_s3_c01,stu_14_s3,Economics - Ch 1,1
+stu_14_s3_c02,stu_14_s3,Economics - Ch 2,1
+stu_14_s3_c03,stu_14_s3,Economics - Ch 3,1
+stu_14_s3_c04,stu_14_s3,Economics - Ch 4,2
+stu_14_s3_c05,stu_14_s3,Economics - Ch 5,2
+stu_14_s3_c06,stu_14_s3,Economics - Ch 6,2
+stu_14_s3_c07,stu_14_s3,Economics - Ch 7,3
+stu_14_s3_c08,stu_14_s3,Economics - Ch 8,3
+stu_14_s3_c09,stu_14_s3,Economics - Ch 9,3
+stu_14_s3_c10,stu_14_s3,Economics - Ch 10,4
+stu_14_s3_c11,stu_14_s3,Economics - Ch 11,4
+stu_14_s3_c12,stu_14_s3,Economics - Ch 12,4
+stu_14_s4_c01,stu_14_s4,English A - Ch 1,1
+stu_14_s4_c02,stu_14_s4,English A - Ch 2,1
+stu_14_s4_c03,stu_14_s4,English A - Ch 3,1
+stu_14_s4_c04,stu_14_s4,English A - Ch 4,2
+stu_14_s4_c05,stu_14_s4,English A - Ch 5,2
+stu_14_s4_c06,stu_14_s4,English A - Ch 6,2
+stu_14_s4_c07,stu_14_s4,English A - Ch 7,3
+stu_14_s4_c08,stu_14_s4,English A - Ch 8,3
+stu_14_s4_c09,stu_14_s4,English A - Ch 9,3
+stu_14_s4_c10,stu_14_s4,English A - Ch 10,4
+stu_14_s4_c11,stu_14_s4,English A - Ch 11,4
+stu_14_s4_c12,stu_14_s4,English A - Ch 12,4
+stu_14_s5_c01,stu_14_s5,French B - Ch 1,1
+stu_14_s5_c02,stu_14_s5,French B - Ch 2,1
+stu_14_s5_c03,stu_14_s5,French B - Ch 3,1
+stu_14_s5_c04,stu_14_s5,French B - Ch 4,2
+stu_14_s5_c05,stu_14_s5,French B - Ch 5,2
+stu_14_s5_c06,stu_14_s5,French B - Ch 6,2
+stu_14_s5_c07,stu_14_s5,French B - Ch 7,3
+stu_14_s5_c08,stu_14_s5,French B - Ch 8,3
+stu_14_s5_c09,stu_14_s5,French B - Ch 9,3
+stu_14_s5_c10,stu_14_s5,French B - Ch 10,4
+stu_14_s5_c11,stu_14_s5,French B - Ch 11,4
+stu_14_s5_c12,stu_14_s5,French B - Ch 12,4
+stu_15_s1_c01,stu_15_s1,Mathematics - Ch 1,1
+stu_15_s1_c02,stu_15_s1,Mathematics - Ch 2,1
+stu_15_s1_c03,stu_15_s1,Mathematics - Ch 3,1
+stu_15_s1_c04,stu_15_s1,Mathematics - Ch 4,2
+stu_15_s1_c05,stu_15_s1,Mathematics - Ch 5,2
+stu_15_s1_c06,stu_15_s1,Mathematics - Ch 6,2
+stu_15_s1_c07,stu_15_s1,Mathematics - Ch 7,3
+stu_15_s1_c08,stu_15_s1,Mathematics - Ch 8,3
+stu_15_s1_c09,stu_15_s1,Mathematics - Ch 9,3
+stu_15_s1_c10,stu_15_s1,Mathematics - Ch 10,4
+stu_15_s1_c11,stu_15_s1,Mathematics - Ch 11,4
+stu_15_s1_c12,stu_15_s1,Mathematics - Ch 12,4
+stu_15_s2_c01,stu_15_s2,Science - Ch 1,1
+stu_15_s2_c02,stu_15_s2,Science - Ch 2,1
+stu_15_s2_c03,stu_15_s2,Science - Ch 3,1
+stu_15_s2_c04,stu_15_s2,Science - Ch 4,2
+stu_15_s2_c05,stu_15_s2,Science - Ch 5,2
+stu_15_s2_c06,stu_15_s2,Science - Ch 6,2
+stu_15_s2_c07,stu_15_s2,Science - Ch 7,3
+stu_15_s2_c08,stu_15_s2,Science - Ch 8,3
+stu_15_s2_c09,stu_15_s2,Science - Ch 9,3
+stu_15_s2_c10,stu_15_s2,Science - Ch 10,4
+stu_15_s2_c11,stu_15_s2,Science - Ch 11,4
+stu_15_s2_c12,stu_15_s2,Science - Ch 12,4
+stu_15_s3_c01,stu_15_s3,Social Science - Ch 1,1
+stu_15_s3_c02,stu_15_s3,Social Science - Ch 2,1
+stu_15_s3_c03,stu_15_s3,Social Science - Ch 3,1
+stu_15_s3_c04,stu_15_s3,Social Science - Ch 4,2
+stu_15_s3_c05,stu_15_s3,Social Science - Ch 5,2
+stu_15_s3_c06,stu_15_s3,Social Science - Ch 6,2
+stu_15_s3_c07,stu_15_s3,Social Science - Ch 7,3
+stu_15_s3_c08,stu_15_s3,Social Science - Ch 8,3
+stu_15_s3_c09,stu_15_s3,Social Science - Ch 9,3
+stu_15_s3_c10,stu_15_s3,Social Science - Ch 10,4
+stu_15_s3_c11,stu_15_s3,Social Science - Ch 11,4
+stu_15_s3_c12,stu_15_s3,Social Science - Ch 12,4
+stu_15_s4_c01,stu_15_s4,English - Ch 1,1
+stu_15_s4_c02,stu_15_s4,English - Ch 2,1
+stu_15_s4_c03,stu_15_s4,English - Ch 3,1
+stu_15_s4_c04,stu_15_s4,English - Ch 4,2
+stu_15_s4_c05,stu_15_s4,English - Ch 5,2
+stu_15_s4_c06,stu_15_s4,English - Ch 6,2
+stu_15_s4_c07,stu_15_s4,English - Ch 7,3
+stu_15_s4_c08,stu_15_s4,English - Ch 8,3
+stu_15_s4_c09,stu_15_s4,English - Ch 9,3
+stu_15_s4_c10,stu_15_s4,English - Ch 10,4
+stu_15_s4_c11,stu_15_s4,English - Ch 11,4
+stu_15_s4_c12,stu_15_s4,English - Ch 12,4
+stu_15_s5_c01,stu_15_s5,Hindi - Ch 1,1
+stu_15_s5_c02,stu_15_s5,Hindi - Ch 2,1
+stu_15_s5_c03,stu_15_s5,Hindi - Ch 3,1
+stu_15_s5_c04,stu_15_s5,Hindi - Ch 4,2
+stu_15_s5_c05,stu_15_s5,Hindi - Ch 5,2
+stu_15_s5_c06,stu_15_s5,Hindi - Ch 6,2
+stu_15_s5_c07,stu_15_s5,Hindi - Ch 7,3
+stu_15_s5_c08,stu_15_s5,Hindi - Ch 8,3
+stu_15_s5_c09,stu_15_s5,Hindi - Ch 9,3
+stu_15_s5_c10,stu_15_s5,Hindi - Ch 10,4
+stu_15_s5_c11,stu_15_s5,Hindi - Ch 11,4
+stu_15_s5_c12,stu_15_s5,Hindi - Ch 12,4
+stu_16_s1_c01,stu_16_s1,Mathematics - Ch 1,1
+stu_16_s1_c02,stu_16_s1,Mathematics - Ch 2,1
+stu_16_s1_c03,stu_16_s1,Mathematics - Ch 3,1
+stu_16_s1_c04,stu_16_s1,Mathematics - Ch 4,2
+stu_16_s1_c05,stu_16_s1,Mathematics - Ch 5,2
+stu_16_s1_c06,stu_16_s1,Mathematics - Ch 6,2
+stu_16_s1_c07,stu_16_s1,Mathematics - Ch 7,3
+stu_16_s1_c08,stu_16_s1,Mathematics - Ch 8,3
+stu_16_s1_c09,stu_16_s1,Mathematics - Ch 9,3
+stu_16_s1_c10,stu_16_s1,Mathematics - Ch 10,4
+stu_16_s1_c11,stu_16_s1,Mathematics - Ch 11,4
+stu_16_s1_c12,stu_16_s1,Mathematics - Ch 12,4
+stu_16_s2_c01,stu_16_s2,Science - Ch 1,1
+stu_16_s2_c02,stu_16_s2,Science - Ch 2,1
+stu_16_s2_c03,stu_16_s2,Science - Ch 3,1
+stu_16_s2_c04,stu_16_s2,Science - Ch 4,2
+stu_16_s2_c05,stu_16_s2,Science - Ch 5,2
+stu_16_s2_c06,stu_16_s2,Science - Ch 6,2
+stu_16_s2_c07,stu_16_s2,Science - Ch 7,3
+stu_16_s2_c08,stu_16_s2,Science - Ch 8,3
+stu_16_s2_c09,stu_16_s2,Science - Ch 9,3
+stu_16_s2_c10,stu_16_s2,Science - Ch 10,4
+stu_16_s2_c11,stu_16_s2,Science - Ch 11,4
+stu_16_s2_c12,stu_16_s2,Science - Ch 12,4
+stu_16_s3_c01,stu_16_s3,Social Science - Ch 1,1
+stu_16_s3_c02,stu_16_s3,Social Science - Ch 2,1
+stu_16_s3_c03,stu_16_s3,Social Science - Ch 3,1
+stu_16_s3_c04,stu_16_s3,Social Science - Ch 4,2
+stu_16_s3_c05,stu_16_s3,Social Science - Ch 5,2
+stu_16_s3_c06,stu_16_s3,Social Science - Ch 6,2
+stu_16_s3_c07,stu_16_s3,Social Science - Ch 7,3
+stu_16_s3_c08,stu_16_s3,Social Science - Ch 8,3
+stu_16_s3_c09,stu_16_s3,Social Science - Ch 9,3
+stu_16_s3_c10,stu_16_s3,Social Science - Ch 10,4
+stu_16_s3_c11,stu_16_s3,Social Science - Ch 11,4
+stu_16_s3_c12,stu_16_s3,Social Science - Ch 12,4
+stu_16_s4_c01,stu_16_s4,English - Ch 1,1
+stu_16_s4_c02,stu_16_s4,English - Ch 2,1
+stu_16_s4_c03,stu_16_s4,English - Ch 3,1
+stu_16_s4_c04,stu_16_s4,English - Ch 4,2
+stu_16_s4_c05,stu_16_s4,English - Ch 5,2
+stu_16_s4_c06,stu_16_s4,English - Ch 6,2
+stu_16_s4_c07,stu_16_s4,English - Ch 7,3
+stu_16_s4_c08,stu_16_s4,English - Ch 8,3
+stu_16_s4_c09,stu_16_s4,English - Ch 9,3
+stu_16_s4_c10,stu_16_s4,English - Ch 10,4
+stu_16_s4_c11,stu_16_s4,English - Ch 11,4
+stu_16_s4_c12,stu_16_s4,English - Ch 12,4
+stu_16_s5_c01,stu_16_s5,Hindi - Ch 1,1
+stu_16_s5_c02,stu_16_s5,Hindi - Ch 2,1
+stu_16_s5_c03,stu_16_s5,Hindi - Ch 3,1
+stu_16_s5_c04,stu_16_s5,Hindi - Ch 4,2
+stu_16_s5_c05,stu_16_s5,Hindi - Ch 5,2
+stu_16_s5_c06,stu_16_s5,Hindi - Ch 6,2
+stu_16_s5_c07,stu_16_s5,Hindi - Ch 7,3
+stu_16_s5_c08,stu_16_s5,Hindi - Ch 8,3
+stu_16_s5_c09,stu_16_s5,Hindi - Ch 9,3
+stu_16_s5_c10,stu_16_s5,Hindi - Ch 10,4
+stu_16_s5_c11,stu_16_s5,Hindi - Ch 11,4
+stu_16_s5_c12,stu_16_s5,Hindi - Ch 12,4
+stu_17_s1_c01,stu_17_s1,Mathematics - Ch 1,1
+stu_17_s1_c02,stu_17_s1,Mathematics - Ch 2,1
+stu_17_s1_c03,stu_17_s1,Mathematics - Ch 3,1
+stu_17_s1_c04,stu_17_s1,Mathematics - Ch 4,2
+stu_17_s1_c05,stu_17_s1,Mathematics - Ch 5,2
+stu_17_s1_c06,stu_17_s1,Mathematics - Ch 6,2
+stu_17_s1_c07,stu_17_s1,Mathematics - Ch 7,3
+stu_17_s1_c08,stu_17_s1,Mathematics - Ch 8,3
+stu_17_s1_c09,stu_17_s1,Mathematics - Ch 9,3
+stu_17_s1_c10,stu_17_s1,Mathematics - Ch 10,4
+stu_17_s1_c11,stu_17_s1,Mathematics - Ch 11,4
+stu_17_s1_c12,stu_17_s1,Mathematics - Ch 12,4
+stu_17_s2_c01,stu_17_s2,Physics - Ch 1,1
+stu_17_s2_c02,stu_17_s2,Physics - Ch 2,1
+stu_17_s2_c03,stu_17_s2,Physics - Ch 3,1
+stu_17_s2_c04,stu_17_s2,Physics - Ch 4,2
+stu_17_s2_c05,stu_17_s2,Physics - Ch 5,2
+stu_17_s2_c06,stu_17_s2,Physics - Ch 6,2
+stu_17_s2_c07,stu_17_s2,Physics - Ch 7,3
+stu_17_s2_c08,stu_17_s2,Physics - Ch 8,3
+stu_17_s2_c09,stu_17_s2,Physics - Ch 9,3
+stu_17_s2_c10,stu_17_s2,Physics - Ch 10,4
+stu_17_s2_c11,stu_17_s2,Physics - Ch 11,4
+stu_17_s2_c12,stu_17_s2,Physics - Ch 12,4
+stu_17_s3_c01,stu_17_s3,Chemistry - Ch 1,1
+stu_17_s3_c02,stu_17_s3,Chemistry - Ch 2,1
+stu_17_s3_c03,stu_17_s3,Chemistry - Ch 3,1
+stu_17_s3_c04,stu_17_s3,Chemistry - Ch 4,2
+stu_17_s3_c05,stu_17_s3,Chemistry - Ch 5,2
+stu_17_s3_c06,stu_17_s3,Chemistry - Ch 6,2
+stu_17_s3_c07,stu_17_s3,Chemistry - Ch 7,3
+stu_17_s3_c08,stu_17_s3,Chemistry - Ch 8,3
+stu_17_s3_c09,stu_17_s3,Chemistry - Ch 9,3
+stu_17_s3_c10,stu_17_s3,Chemistry - Ch 10,4
+stu_17_s3_c11,stu_17_s3,Chemistry - Ch 11,4
+stu_17_s3_c12,stu_17_s3,Chemistry - Ch 12,4
+stu_17_s4_c01,stu_17_s4,History & Civics - Ch 1,1
+stu_17_s4_c02,stu_17_s4,History & Civics - Ch 2,1
+stu_17_s4_c03,stu_17_s4,History & Civics - Ch 3,1
+stu_17_s4_c04,stu_17_s4,History & Civics - Ch 4,2
+stu_17_s4_c05,stu_17_s4,History & Civics - Ch 5,2
+stu_17_s4_c06,stu_17_s4,History & Civics - Ch 6,2
+stu_17_s4_c07,stu_17_s4,History & Civics - Ch 7,3
+stu_17_s4_c08,stu_17_s4,History & Civics - Ch 8,3
+stu_17_s4_c09,stu_17_s4,History & Civics - Ch 9,3
+stu_17_s4_c10,stu_17_s4,History & Civics - Ch 10,4
+stu_17_s4_c11,stu_17_s4,History & Civics - Ch 11,4
+stu_17_s4_c12,stu_17_s4,History & Civics - Ch 12,4
+stu_17_s5_c01,stu_17_s5,English - Ch 1,1
+stu_17_s5_c02,stu_17_s5,English - Ch 2,1
+stu_17_s5_c03,stu_17_s5,English - Ch 3,1
+stu_17_s5_c04,stu_17_s5,English - Ch 4,2
+stu_17_s5_c05,stu_17_s5,English - Ch 5,2
+stu_17_s5_c06,stu_17_s5,English - Ch 6,2
+stu_17_s5_c07,stu_17_s5,English - Ch 7,3
+stu_17_s5_c08,stu_17_s5,English - Ch 8,3
+stu_17_s5_c09,stu_17_s5,English - Ch 9,3
+stu_17_s5_c10,stu_17_s5,English - Ch 10,4
+stu_17_s5_c11,stu_17_s5,English - Ch 11,4
+stu_17_s5_c12,stu_17_s5,English - Ch 12,4
+stu_18_s1_c01,stu_18_s1,Mathematics - Ch 1,1
+stu_18_s1_c02,stu_18_s1,Mathematics - Ch 2,1
+stu_18_s1_c03,stu_18_s1,Mathematics - Ch 3,1
+stu_18_s1_c04,stu_18_s1,Mathematics - Ch 4,2
+stu_18_s1_c05,stu_18_s1,Mathematics - Ch 5,2
+stu_18_s1_c06,stu_18_s1,Mathematics - Ch 6,2
+stu_18_s1_c07,stu_18_s1,Mathematics - Ch 7,3
+stu_18_s1_c08,stu_18_s1,Mathematics - Ch 8,3
+stu_18_s1_c09,stu_18_s1,Mathematics - Ch 9,3
+stu_18_s1_c10,stu_18_s1,Mathematics - Ch 10,4
+stu_18_s1_c11,stu_18_s1,Mathematics - Ch 11,4
+stu_18_s1_c12,stu_18_s1,Mathematics - Ch 12,4
+stu_18_s2_c01,stu_18_s2,Science - Ch 1,1
+stu_18_s2_c02,stu_18_s2,Science - Ch 2,1
+stu_18_s2_c03,stu_18_s2,Science - Ch 3,1
+stu_18_s2_c04,stu_18_s2,Science - Ch 4,2
+stu_18_s2_c05,stu_18_s2,Science - Ch 5,2
+stu_18_s2_c06,stu_18_s2,Science - Ch 6,2
+stu_18_s2_c07,stu_18_s2,Science - Ch 7,3
+stu_18_s2_c08,stu_18_s2,Science - Ch 8,3
+stu_18_s2_c09,stu_18_s2,Science - Ch 9,3
+stu_18_s2_c10,stu_18_s2,Science - Ch 10,4
+stu_18_s2_c11,stu_18_s2,Science - Ch 11,4
+stu_18_s2_c12,stu_18_s2,Science - Ch 12,4
+stu_18_s3_c01,stu_18_s3,Social Science - Ch 1,1
+stu_18_s3_c02,stu_18_s3,Social Science - Ch 2,1
+stu_18_s3_c03,stu_18_s3,Social Science - Ch 3,1
+stu_18_s3_c04,stu_18_s3,Social Science - Ch 4,2
+stu_18_s3_c05,stu_18_s3,Social Science - Ch 5,2
+stu_18_s3_c06,stu_18_s3,Social Science - Ch 6,2
+stu_18_s3_c07,stu_18_s3,Social Science - Ch 7,3
+stu_18_s3_c08,stu_18_s3,Social Science - Ch 8,3
+stu_18_s3_c09,stu_18_s3,Social Science - Ch 9,3
+stu_18_s3_c10,stu_18_s3,Social Science - Ch 10,4
+stu_18_s3_c11,stu_18_s3,Social Science - Ch 11,4
+stu_18_s3_c12,stu_18_s3,Social Science - Ch 12,4
+stu_18_s4_c01,stu_18_s4,English - Ch 1,1
+stu_18_s4_c02,stu_18_s4,English - Ch 2,1
+stu_18_s4_c03,stu_18_s4,English - Ch 3,1
+stu_18_s4_c04,stu_18_s4,English - Ch 4,2
+stu_18_s4_c05,stu_18_s4,English - Ch 5,2
+stu_18_s4_c06,stu_18_s4,English - Ch 6,2
+stu_18_s4_c07,stu_18_s4,English - Ch 7,3
+stu_18_s4_c08,stu_18_s4,English - Ch 8,3
+stu_18_s4_c09,stu_18_s4,English - Ch 9,3
+stu_18_s4_c10,stu_18_s4,English - Ch 10,4
+stu_18_s4_c11,stu_18_s4,English - Ch 11,4
+stu_18_s4_c12,stu_18_s4,English - Ch 12,4
+stu_18_s5_c01,stu_18_s5,Hindi - Ch 1,1
+stu_18_s5_c02,stu_18_s5,Hindi - Ch 2,1
+stu_18_s5_c03,stu_18_s5,Hindi - Ch 3,1
+stu_18_s5_c04,stu_18_s5,Hindi - Ch 4,2
+stu_18_s5_c05,stu_18_s5,Hindi - Ch 5,2
+stu_18_s5_c06,stu_18_s5,Hindi - Ch 6,2
+stu_18_s5_c07,stu_18_s5,Hindi - Ch 7,3
+stu_18_s5_c08,stu_18_s5,Hindi - Ch 8,3
+stu_18_s5_c09,stu_18_s5,Hindi - Ch 9,3
+stu_18_s5_c10,stu_18_s5,Hindi - Ch 10,4
+stu_18_s5_c11,stu_18_s5,Hindi - Ch 11,4
+stu_18_s5_c12,stu_18_s5,Hindi - Ch 12,4
+stu_19_s1_c01,stu_19_s1,Mathematics - Ch 1,1
+stu_19_s1_c02,stu_19_s1,Mathematics - Ch 2,1
+stu_19_s1_c03,stu_19_s1,Mathematics - Ch 3,1
+stu_19_s1_c04,stu_19_s1,Mathematics - Ch 4,2
+stu_19_s1_c05,stu_19_s1,Mathematics - Ch 5,2
+stu_19_s1_c06,stu_19_s1,Mathematics - Ch 6,2
+stu_19_s1_c07,stu_19_s1,Mathematics - Ch 7,3
+stu_19_s1_c08,stu_19_s1,Mathematics - Ch 8,3
+stu_19_s1_c09,stu_19_s1,Mathematics - Ch 9,3
+stu_19_s1_c10,stu_19_s1,Mathematics - Ch 10,4
+stu_19_s1_c11,stu_19_s1,Mathematics - Ch 11,4
+stu_19_s1_c12,stu_19_s1,Mathematics - Ch 12,4
+stu_19_s2_c01,stu_19_s2,Science - Ch 1,1
+stu_19_s2_c02,stu_19_s2,Science - Ch 2,1
+stu_19_s2_c03,stu_19_s2,Science - Ch 3,1
+stu_19_s2_c04,stu_19_s2,Science - Ch 4,2
+stu_19_s2_c05,stu_19_s2,Science - Ch 5,2
+stu_19_s2_c06,stu_19_s2,Science - Ch 6,2
+stu_19_s2_c07,stu_19_s2,Science - Ch 7,3
+stu_19_s2_c08,stu_19_s2,Science - Ch 8,3
+stu_19_s2_c09,stu_19_s2,Science - Ch 9,3
+stu_19_s2_c10,stu_19_s2,Science - Ch 10,4
+stu_19_s2_c11,stu_19_s2,Science - Ch 11,4
+stu_19_s2_c12,stu_19_s2,Science - Ch 12,4
+stu_19_s3_c01,stu_19_s3,Social Science - Ch 1,1
+stu_19_s3_c02,stu_19_s3,Social Science - Ch 2,1
+stu_19_s3_c03,stu_19_s3,Social Science - Ch 3,1
+stu_19_s3_c04,stu_19_s3,Social Science - Ch 4,2
+stu_19_s3_c05,stu_19_s3,Social Science - Ch 5,2
+stu_19_s3_c06,stu_19_s3,Social Science - Ch 6,2
+stu_19_s3_c07,stu_19_s3,Social Science - Ch 7,3
+stu_19_s3_c08,stu_19_s3,Social Science - Ch 8,3
+stu_19_s3_c09,stu_19_s3,Social Science - Ch 9,3
+stu_19_s3_c10,stu_19_s3,Social Science - Ch 10,4
+stu_19_s3_c11,stu_19_s3,Social Science - Ch 11,4
+stu_19_s3_c12,stu_19_s3,Social Science - Ch 12,4
+stu_19_s4_c01,stu_19_s4,English - Ch 1,1
+stu_19_s4_c02,stu_19_s4,English - Ch 2,1
+stu_19_s4_c03,stu_19_s4,English - Ch 3,1
+stu_19_s4_c04,stu_19_s4,English - Ch 4,2
+stu_19_s4_c05,stu_19_s4,English - Ch 5,2
+stu_19_s4_c06,stu_19_s4,English - Ch 6,2
+stu_19_s4_c07,stu_19_s4,English - Ch 7,3
+stu_19_s4_c08,stu_19_s4,English - Ch 8,3
+stu_19_s4_c09,stu_19_s4,English - Ch 9,3
+stu_19_s4_c10,stu_19_s4,English - Ch 10,4
+stu_19_s4_c11,stu_19_s4,English - Ch 11,4
+stu_19_s4_c12,stu_19_s4,English - Ch 12,4
+stu_19_s5_c01,stu_19_s5,Hindi - Ch 1,1
+stu_19_s5_c02,stu_19_s5,Hindi - Ch 2,1
+stu_19_s5_c03,stu_19_s5,Hindi - Ch 3,1
+stu_19_s5_c04,stu_19_s5,Hindi - Ch 4,2
+stu_19_s5_c05,stu_19_s5,Hindi - Ch 5,2
+stu_19_s5_c06,stu_19_s5,Hindi - Ch 6,2
+stu_19_s5_c07,stu_19_s5,Hindi - Ch 7,3
+stu_19_s5_c08,stu_19_s5,Hindi - Ch 8,3
+stu_19_s5_c09,stu_19_s5,Hindi - Ch 9,3
+stu_19_s5_c10,stu_19_s5,Hindi - Ch 10,4
+stu_19_s5_c11,stu_19_s5,Hindi - Ch 11,4
+stu_19_s5_c12,stu_19_s5,Hindi - Ch 12,4
+stu_20_s1_c01,stu_20_s1,Mathematics - Ch 1,1
+stu_20_s1_c02,stu_20_s1,Mathematics - Ch 2,1
+stu_20_s1_c03,stu_20_s1,Mathematics - Ch 3,1
+stu_20_s1_c04,stu_20_s1,Mathematics - Ch 4,2
+stu_20_s1_c05,stu_20_s1,Mathematics - Ch 5,2
+stu_20_s1_c06,stu_20_s1,Mathematics - Ch 6,2
+stu_20_s1_c07,stu_20_s1,Mathematics - Ch 7,3
+stu_20_s1_c08,stu_20_s1,Mathematics - Ch 8,3
+stu_20_s1_c09,stu_20_s1,Mathematics - Ch 9,3
+stu_20_s1_c10,stu_20_s1,Mathematics - Ch 10,4
+stu_20_s1_c11,stu_20_s1,Mathematics - Ch 11,4
+stu_20_s1_c12,stu_20_s1,Mathematics - Ch 12,4
+stu_20_s2_c01,stu_20_s2,Science - Ch 1,1
+stu_20_s2_c02,stu_20_s2,Science - Ch 2,1
+stu_20_s2_c03,stu_20_s2,Science - Ch 3,1
+stu_20_s2_c04,stu_20_s2,Science - Ch 4,2
+stu_20_s2_c05,stu_20_s2,Science - Ch 5,2
+stu_20_s2_c06,stu_20_s2,Science - Ch 6,2
+stu_20_s2_c07,stu_20_s2,Science - Ch 7,3
+stu_20_s2_c08,stu_20_s2,Science - Ch 8,3
+stu_20_s2_c09,stu_20_s2,Science - Ch 9,3
+stu_20_s2_c10,stu_20_s2,Science - Ch 10,4
+stu_20_s2_c11,stu_20_s2,Science - Ch 11,4
+stu_20_s2_c12,stu_20_s2,Science - Ch 12,4
+stu_20_s3_c01,stu_20_s3,Social Science - Ch 1,1
+stu_20_s3_c02,stu_20_s3,Social Science - Ch 2,1
+stu_20_s3_c03,stu_20_s3,Social Science - Ch 3,1
+stu_20_s3_c04,stu_20_s3,Social Science - Ch 4,2
+stu_20_s3_c05,stu_20_s3,Social Science - Ch 5,2
+stu_20_s3_c06,stu_20_s3,Social Science - Ch 6,2
+stu_20_s3_c07,stu_20_s3,Social Science - Ch 7,3
+stu_20_s3_c08,stu_20_s3,Social Science - Ch 8,3
+stu_20_s3_c09,stu_20_s3,Social Science - Ch 9,3
+stu_20_s3_c10,stu_20_s3,Social Science - Ch 10,4
+stu_20_s3_c11,stu_20_s3,Social Science - Ch 11,4
+stu_20_s3_c12,stu_20_s3,Social Science - Ch 12,4
+stu_20_s4_c01,stu_20_s4,English - Ch 1,1
+stu_20_s4_c02,stu_20_s4,English - Ch 2,1
+stu_20_s4_c03,stu_20_s4,English - Ch 3,1
+stu_20_s4_c04,stu_20_s4,English - Ch 4,2
+stu_20_s4_c05,stu_20_s4,English - Ch 5,2
+stu_20_s4_c06,stu_20_s4,English - Ch 6,2
+stu_20_s4_c07,stu_20_s4,English - Ch 7,3
+stu_20_s4_c08,stu_20_s4,English - Ch 8,3
+stu_20_s4_c09,stu_20_s4,English - Ch 9,3
+stu_20_s4_c10,stu_20_s4,English - Ch 10,4
+stu_20_s4_c11,stu_20_s4,English - Ch 11,4
+stu_20_s4_c12,stu_20_s4,English - Ch 12,4
+stu_20_s5_c01,stu_20_s5,Hindi - Ch 1,1
+stu_20_s5_c02,stu_20_s5,Hindi - Ch 2,1
+stu_20_s5_c03,stu_20_s5,Hindi - Ch 3,1
+stu_20_s5_c04,stu_20_s5,Hindi - Ch 4,2
+stu_20_s5_c05,stu_20_s5,Hindi - Ch 5,2
+stu_20_s5_c06,stu_20_s5,Hindi - Ch 6,2
+stu_20_s5_c07,stu_20_s5,Hindi - Ch 7,3
+stu_20_s5_c08,stu_20_s5,Hindi - Ch 8,3
+stu_20_s5_c09,stu_20_s5,Hindi - Ch 9,3
+stu_20_s5_c10,stu_20_s5,Hindi - Ch 10,4
+stu_20_s5_c11,stu_20_s5,Hindi - Ch 11,4
+stu_20_s5_c12,stu_20_s5,Hindi - Ch 12,4
+stu_21_s1_c01,stu_21_s1,Mathematics - Ch 1,1
+stu_21_s1_c02,stu_21_s1,Mathematics - Ch 2,1
+stu_21_s1_c03,stu_21_s1,Mathematics - Ch 3,1
+stu_21_s1_c04,stu_21_s1,Mathematics - Ch 4,2
+stu_21_s1_c05,stu_21_s1,Mathematics - Ch 5,2
+stu_21_s1_c06,stu_21_s1,Mathematics - Ch 6,2
+stu_21_s1_c07,stu_21_s1,Mathematics - Ch 7,3
+stu_21_s1_c08,stu_21_s1,Mathematics - Ch 8,3
+stu_21_s1_c09,stu_21_s1,Mathematics - Ch 9,3
+stu_21_s1_c10,stu_21_s1,Mathematics - Ch 10,4
+stu_21_s1_c11,stu_21_s1,Mathematics - Ch 11,4
+stu_21_s1_c12,stu_21_s1,Mathematics - Ch 12,4
+stu_21_s2_c01,stu_21_s2,Physics - Ch 1,1
+stu_21_s2_c02,stu_21_s2,Physics - Ch 2,1
+stu_21_s2_c03,stu_21_s2,Physics - Ch 3,1
+stu_21_s2_c04,stu_21_s2,Physics - Ch 4,2
+stu_21_s2_c05,stu_21_s2,Physics - Ch 5,2
+stu_21_s2_c06,stu_21_s2,Physics - Ch 6,2
+stu_21_s2_c07,stu_21_s2,Physics - Ch 7,3
+stu_21_s2_c08,stu_21_s2,Physics - Ch 8,3
+stu_21_s2_c09,stu_21_s2,Physics - Ch 9,3
+stu_21_s2_c10,stu_21_s2,Physics - Ch 10,4
+stu_21_s2_c11,stu_21_s2,Physics - Ch 11,4
+stu_21_s2_c12,stu_21_s2,Physics - Ch 12,4
+stu_21_s3_c01,stu_21_s3,Business Studies - Ch 1,1
+stu_21_s3_c02,stu_21_s3,Business Studies - Ch 2,1
+stu_21_s3_c03,stu_21_s3,Business Studies - Ch 3,1
+stu_21_s3_c04,stu_21_s3,Business Studies - Ch 4,2
+stu_21_s3_c05,stu_21_s3,Business Studies - Ch 5,2
+stu_21_s3_c06,stu_21_s3,Business Studies - Ch 6,2
+stu_21_s3_c07,stu_21_s3,Business Studies - Ch 7,3
+stu_21_s3_c08,stu_21_s3,Business Studies - Ch 8,3
+stu_21_s3_c09,stu_21_s3,Business Studies - Ch 9,3
+stu_21_s3_c10,stu_21_s3,Business Studies - Ch 10,4
+stu_21_s3_c11,stu_21_s3,Business Studies - Ch 11,4
+stu_21_s3_c12,stu_21_s3,Business Studies - Ch 12,4
+stu_21_s4_c01,stu_21_s4,English - Ch 1,1
+stu_21_s4_c02,stu_21_s4,English - Ch 2,1
+stu_21_s4_c03,stu_21_s4,English - Ch 3,1
+stu_21_s4_c04,stu_21_s4,English - Ch 4,2
+stu_21_s4_c05,stu_21_s4,English - Ch 5,2
+stu_21_s4_c06,stu_21_s4,English - Ch 6,2
+stu_21_s4_c07,stu_21_s4,English - Ch 7,3
+stu_21_s4_c08,stu_21_s4,English - Ch 8,3
+stu_21_s4_c09,stu_21_s4,English - Ch 9,3
+stu_21_s4_c10,stu_21_s4,English - Ch 10,4
+stu_21_s4_c11,stu_21_s4,English - Ch 11,4
+stu_21_s4_c12,stu_21_s4,English - Ch 12,4
+stu_21_s5_c01,stu_21_s5,Computer Science - Ch 1,1
+stu_21_s5_c02,stu_21_s5,Computer Science - Ch 2,1
+stu_21_s5_c03,stu_21_s5,Computer Science - Ch 3,1
+stu_21_s5_c04,stu_21_s5,Computer Science - Ch 4,2
+stu_21_s5_c05,stu_21_s5,Computer Science - Ch 5,2
+stu_21_s5_c06,stu_21_s5,Computer Science - Ch 6,2
+stu_21_s5_c07,stu_21_s5,Computer Science - Ch 7,3
+stu_21_s5_c08,stu_21_s5,Computer Science - Ch 8,3
+stu_21_s5_c09,stu_21_s5,Computer Science - Ch 9,3
+stu_21_s5_c10,stu_21_s5,Computer Science - Ch 10,4
+stu_21_s5_c11,stu_21_s5,Computer Science - Ch 11,4
+stu_21_s5_c12,stu_21_s5,Computer Science - Ch 12,4
+stu_22_s1_c01,stu_22_s1,Mathematics - Ch 1,1
+stu_22_s1_c02,stu_22_s1,Mathematics - Ch 2,1
+stu_22_s1_c03,stu_22_s1,Mathematics - Ch 3,1
+stu_22_s1_c04,stu_22_s1,Mathematics - Ch 4,2
+stu_22_s1_c05,stu_22_s1,Mathematics - Ch 5,2
+stu_22_s1_c06,stu_22_s1,Mathematics - Ch 6,2
+stu_22_s1_c07,stu_22_s1,Mathematics - Ch 7,3
+stu_22_s1_c08,stu_22_s1,Mathematics - Ch 8,3
+stu_22_s1_c09,stu_22_s1,Mathematics - Ch 9,3
+stu_22_s1_c10,stu_22_s1,Mathematics - Ch 10,4
+stu_22_s1_c11,stu_22_s1,Mathematics - Ch 11,4
+stu_22_s1_c12,stu_22_s1,Mathematics - Ch 12,4
+stu_22_s2_c01,stu_22_s2,Science - Ch 1,1
+stu_22_s2_c02,stu_22_s2,Science - Ch 2,1
+stu_22_s2_c03,stu_22_s2,Science - Ch 3,1
+stu_22_s2_c04,stu_22_s2,Science - Ch 4,2
+stu_22_s2_c05,stu_22_s2,Science - Ch 5,2
+stu_22_s2_c06,stu_22_s2,Science - Ch 6,2
+stu_22_s2_c07,stu_22_s2,Science - Ch 7,3
+stu_22_s2_c08,stu_22_s2,Science - Ch 8,3
+stu_22_s2_c09,stu_22_s2,Science - Ch 9,3
+stu_22_s2_c10,stu_22_s2,Science - Ch 10,4
+stu_22_s2_c11,stu_22_s2,Science - Ch 11,4
+stu_22_s2_c12,stu_22_s2,Science - Ch 12,4
+stu_22_s3_c01,stu_22_s3,Social Science - Ch 1,1
+stu_22_s3_c02,stu_22_s3,Social Science - Ch 2,1
+stu_22_s3_c03,stu_22_s3,Social Science - Ch 3,1
+stu_22_s3_c04,stu_22_s3,Social Science - Ch 4,2
+stu_22_s3_c05,stu_22_s3,Social Science - Ch 5,2
+stu_22_s3_c06,stu_22_s3,Social Science - Ch 6,2
+stu_22_s3_c07,stu_22_s3,Social Science - Ch 7,3
+stu_22_s3_c08,stu_22_s3,Social Science - Ch 8,3
+stu_22_s3_c09,stu_22_s3,Social Science - Ch 9,3
+stu_22_s3_c10,stu_22_s3,Social Science - Ch 10,4
+stu_22_s3_c11,stu_22_s3,Social Science - Ch 11,4
+stu_22_s3_c12,stu_22_s3,Social Science - Ch 12,4
+stu_22_s4_c01,stu_22_s4,English - Ch 1,1
+stu_22_s4_c02,stu_22_s4,English - Ch 2,1
+stu_22_s4_c03,stu_22_s4,English - Ch 3,1
+stu_22_s4_c04,stu_22_s4,English - Ch 4,2
+stu_22_s4_c05,stu_22_s4,English - Ch 5,2
+stu_22_s4_c06,stu_22_s4,English - Ch 6,2
+stu_22_s4_c07,stu_22_s4,English - Ch 7,3
+stu_22_s4_c08,stu_22_s4,English - Ch 8,3
+stu_22_s4_c09,stu_22_s4,English - Ch 9,3
+stu_22_s4_c10,stu_22_s4,English - Ch 10,4
+stu_22_s4_c11,stu_22_s4,English - Ch 11,4
+stu_22_s4_c12,stu_22_s4,English - Ch 12,4
+stu_22_s5_c01,stu_22_s5,Hindi - Ch 1,1
+stu_22_s5_c02,stu_22_s5,Hindi - Ch 2,1
+stu_22_s5_c03,stu_22_s5,Hindi - Ch 3,1
+stu_22_s5_c04,stu_22_s5,Hindi - Ch 4,2
+stu_22_s5_c05,stu_22_s5,Hindi - Ch 5,2
+stu_22_s5_c06,stu_22_s5,Hindi - Ch 6,2
+stu_22_s5_c07,stu_22_s5,Hindi - Ch 7,3
+stu_22_s5_c08,stu_22_s5,Hindi - Ch 8,3
+stu_22_s5_c09,stu_22_s5,Hindi - Ch 9,3
+stu_22_s5_c10,stu_22_s5,Hindi - Ch 10,4
+stu_22_s5_c11,stu_22_s5,Hindi - Ch 11,4
+stu_22_s5_c12,stu_22_s5,Hindi - Ch 12,4
+stu_23_s1_c01,stu_23_s1,Mathematics - Ch 1,1
+stu_23_s1_c02,stu_23_s1,Mathematics - Ch 2,1
+stu_23_s1_c03,stu_23_s1,Mathematics - Ch 3,1
+stu_23_s1_c04,stu_23_s1,Mathematics - Ch 4,2
+stu_23_s1_c05,stu_23_s1,Mathematics - Ch 5,2
+stu_23_s1_c06,stu_23_s1,Mathematics - Ch 6,2
+stu_23_s1_c07,stu_23_s1,Mathematics - Ch 7,3
+stu_23_s1_c08,stu_23_s1,Mathematics - Ch 8,3
+stu_23_s1_c09,stu_23_s1,Mathematics - Ch 9,3
+stu_23_s1_c10,stu_23_s1,Mathematics - Ch 10,4
+stu_23_s1_c11,stu_23_s1,Mathematics - Ch 11,4
+stu_23_s1_c12,stu_23_s1,Mathematics - Ch 12,4
+stu_23_s2_c01,stu_23_s2,Science - Ch 1,1
+stu_23_s2_c02,stu_23_s2,Science - Ch 2,1
+stu_23_s2_c03,stu_23_s2,Science - Ch 3,1
+stu_23_s2_c04,stu_23_s2,Science - Ch 4,2
+stu_23_s2_c05,stu_23_s2,Science - Ch 5,2
+stu_23_s2_c06,stu_23_s2,Science - Ch 6,2
+stu_23_s2_c07,stu_23_s2,Science - Ch 7,3
+stu_23_s2_c08,stu_23_s2,Science - Ch 8,3
+stu_23_s2_c09,stu_23_s2,Science - Ch 9,3
+stu_23_s2_c10,stu_23_s2,Science - Ch 10,4
+stu_23_s2_c11,stu_23_s2,Science - Ch 11,4
+stu_23_s2_c12,stu_23_s2,Science - Ch 12,4
+stu_23_s3_c01,stu_23_s3,Social Science - Ch 1,1
+stu_23_s3_c02,stu_23_s3,Social Science - Ch 2,1
+stu_23_s3_c03,stu_23_s3,Social Science - Ch 3,1
+stu_23_s3_c04,stu_23_s3,Social Science - Ch 4,2
+stu_23_s3_c05,stu_23_s3,Social Science - Ch 5,2
+stu_23_s3_c06,stu_23_s3,Social Science - Ch 6,2
+stu_23_s3_c07,stu_23_s3,Social Science - Ch 7,3
+stu_23_s3_c08,stu_23_s3,Social Science - Ch 8,3
+stu_23_s3_c09,stu_23_s3,Social Science - Ch 9,3
+stu_23_s3_c10,stu_23_s3,Social Science - Ch 10,4
+stu_23_s3_c11,stu_23_s3,Social Science - Ch 11,4
+stu_23_s3_c12,stu_23_s3,Social Science - Ch 12,4
+stu_23_s4_c01,stu_23_s4,English - Ch 1,1
+stu_23_s4_c02,stu_23_s4,English - Ch 2,1
+stu_23_s4_c03,stu_23_s4,English - Ch 3,1
+stu_23_s4_c04,stu_23_s4,English - Ch 4,2
+stu_23_s4_c05,stu_23_s4,English - Ch 5,2
+stu_23_s4_c06,stu_23_s4,English - Ch 6,2
+stu_23_s4_c07,stu_23_s4,English - Ch 7,3
+stu_23_s4_c08,stu_23_s4,English - Ch 8,3
+stu_23_s4_c09,stu_23_s4,English - Ch 9,3
+stu_23_s4_c10,stu_23_s4,English - Ch 10,4
+stu_23_s4_c11,stu_23_s4,English - Ch 11,4
+stu_23_s4_c12,stu_23_s4,English - Ch 12,4
+stu_23_s5_c01,stu_23_s5,Hindi - Ch 1,1
+stu_23_s5_c02,stu_23_s5,Hindi - Ch 2,1
+stu_23_s5_c03,stu_23_s5,Hindi - Ch 3,1
+stu_23_s5_c04,stu_23_s5,Hindi - Ch 4,2
+stu_23_s5_c05,stu_23_s5,Hindi - Ch 5,2
+stu_23_s5_c06,stu_23_s5,Hindi - Ch 6,2
+stu_23_s5_c07,stu_23_s5,Hindi - Ch 7,3
+stu_23_s5_c08,stu_23_s5,Hindi - Ch 8,3
+stu_23_s5_c09,stu_23_s5,Hindi - Ch 9,3
+stu_23_s5_c10,stu_23_s5,Hindi - Ch 10,4
+stu_23_s5_c11,stu_23_s5,Hindi - Ch 11,4
+stu_23_s5_c12,stu_23_s5,Hindi - Ch 12,4
+stu_24_s1_c01,stu_24_s1,Mathematics - Ch 1,1
+stu_24_s1_c02,stu_24_s1,Mathematics - Ch 2,1
+stu_24_s1_c03,stu_24_s1,Mathematics - Ch 3,1
+stu_24_s1_c04,stu_24_s1,Mathematics - Ch 4,2
+stu_24_s1_c05,stu_24_s1,Mathematics - Ch 5,2
+stu_24_s1_c06,stu_24_s1,Mathematics - Ch 6,2
+stu_24_s1_c07,stu_24_s1,Mathematics - Ch 7,3
+stu_24_s1_c08,stu_24_s1,Mathematics - Ch 8,3
+stu_24_s1_c09,stu_24_s1,Mathematics - Ch 9,3
+stu_24_s1_c10,stu_24_s1,Mathematics - Ch 10,4
+stu_24_s1_c11,stu_24_s1,Mathematics - Ch 11,4
+stu_24_s1_c12,stu_24_s1,Mathematics - Ch 12,4
+stu_24_s2_c01,stu_24_s2,Science - Ch 1,1
+stu_24_s2_c02,stu_24_s2,Science - Ch 2,1
+stu_24_s2_c03,stu_24_s2,Science - Ch 3,1
+stu_24_s2_c04,stu_24_s2,Science - Ch 4,2
+stu_24_s2_c05,stu_24_s2,Science - Ch 5,2
+stu_24_s2_c06,stu_24_s2,Science - Ch 6,2
+stu_24_s2_c07,stu_24_s2,Science - Ch 7,3
+stu_24_s2_c08,stu_24_s2,Science - Ch 8,3
+stu_24_s2_c09,stu_24_s2,Science - Ch 9,3
+stu_24_s2_c10,stu_24_s2,Science - Ch 10,4
+stu_24_s2_c11,stu_24_s2,Science - Ch 11,4
+stu_24_s2_c12,stu_24_s2,Science - Ch 12,4
+stu_24_s3_c01,stu_24_s3,Social Science - Ch 1,1
+stu_24_s3_c02,stu_24_s3,Social Science - Ch 2,1
+stu_24_s3_c03,stu_24_s3,Social Science - Ch 3,1
+stu_24_s3_c04,stu_24_s3,Social Science - Ch 4,2
+stu_24_s3_c05,stu_24_s3,Social Science - Ch 5,2
+stu_24_s3_c06,stu_24_s3,Social Science - Ch 6,2
+stu_24_s3_c07,stu_24_s3,Social Science - Ch 7,3
+stu_24_s3_c08,stu_24_s3,Social Science - Ch 8,3
+stu_24_s3_c09,stu_24_s3,Social Science - Ch 9,3
+stu_24_s3_c10,stu_24_s3,Social Science - Ch 10,4
+stu_24_s3_c11,stu_24_s3,Social Science - Ch 11,4
+stu_24_s3_c12,stu_24_s3,Social Science - Ch 12,4
+stu_24_s4_c01,stu_24_s4,English - Ch 1,1
+stu_24_s4_c02,stu_24_s4,English - Ch 2,1
+stu_24_s4_c03,stu_24_s4,English - Ch 3,1
+stu_24_s4_c04,stu_24_s4,English - Ch 4,2
+stu_24_s4_c05,stu_24_s4,English - Ch 5,2
+stu_24_s4_c06,stu_24_s4,English - Ch 6,2
+stu_24_s4_c07,stu_24_s4,English - Ch 7,3
+stu_24_s4_c08,stu_24_s4,English - Ch 8,3
+stu_24_s4_c09,stu_24_s4,English - Ch 9,3
+stu_24_s4_c10,stu_24_s4,English - Ch 10,4
+stu_24_s4_c11,stu_24_s4,English - Ch 11,4
+stu_24_s4_c12,stu_24_s4,English - Ch 12,4
+stu_24_s5_c01,stu_24_s5,Hindi - Ch 1,1
+stu_24_s5_c02,stu_24_s5,Hindi - Ch 2,1
+stu_24_s5_c03,stu_24_s5,Hindi - Ch 3,1
+stu_24_s5_c04,stu_24_s5,Hindi - Ch 4,2
+stu_24_s5_c05,stu_24_s5,Hindi - Ch 5,2
+stu_24_s5_c06,stu_24_s5,Hindi - Ch 6,2
+stu_24_s5_c07,stu_24_s5,Hindi - Ch 7,3
+stu_24_s5_c08,stu_24_s5,Hindi - Ch 8,3
+stu_24_s5_c09,stu_24_s5,Hindi - Ch 9,3
+stu_24_s5_c10,stu_24_s5,Hindi - Ch 10,4
+stu_24_s5_c11,stu_24_s5,Hindi - Ch 11,4
+stu_24_s5_c12,stu_24_s5,Hindi - Ch 12,4

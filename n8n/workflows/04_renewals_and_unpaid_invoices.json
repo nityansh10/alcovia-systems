@@ -1,0 +1,430 @@
+{
+  "name": "04 \u00b7 Trial renewals (T-21/14/7) + unpaid invoice chasers",
+  "nodes": [
+    {
+      "id": "3e6a72c1-6947-5064-b7a9-b1f333b5b9da",
+      "name": "Daily 09:30 IST",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        300
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "30 9 * * *"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "361b7620-9a05-5dac-b2aa-f411dd3589a1",
+      "name": "Trials ending at T-21 / T-14 / T-7",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        240,
+        300
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT t.enrollment_id, t.student_name, t.end_date, t.end_date - CURRENT_DATE AS days_left, l.lead_id\nFROM enrollments t JOIN leads l USING (lead_id)\nWHERE t.plan = 'trial_3m' AND t.end_date - CURRENT_DATE IN (21, 14, 7)\n  AND NOT EXISTS (SELECT 1 FROM enrollments r WHERE r.renewed_from = t.enrollment_id);",
+        "options": {}
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "bca7ffe0-0ae6-59bf-8e4d-8ce58c3e9b40",
+      "name": "Which touchpoint",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [
+        480,
+        300
+      ],
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.days_left }}",
+                    "rightValue": 21,
+                    "operator": {
+                      "type": "number",
+                      "operation": "equals"
+                    }
+                  }
+                ]
+              },
+              "renameOutput": true,
+              "outputKey": "T-21 report"
+            },
+            {
+              "conditions": {
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.days_left }}",
+                    "rightValue": 14,
+                    "operator": {
+                      "type": "number",
+                      "operation": "equals"
+                    }
+                  }
+                ]
+              },
+              "renameOutput": true,
+              "outputKey": "T-14 review"
+            },
+            {
+              "conditions": {
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.days_left }}",
+                    "rightValue": 7,
+                    "operator": {
+                      "type": "number",
+                      "operation": "equals"
+                    }
+                  }
+                ]
+              },
+              "renameOutput": true,
+              "outputKey": "T-7 call"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "95789bc7-4ae6-59e9-8a6a-7add7a6dab61",
+      "name": "T-21: send 90-day progress report",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        960,
+        140
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.ALCOVIA_API }}/internal/reports/trial-progress",
+        "options": {
+          "timeout": 30000
+        },
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={ \"enrollment_id\": \"{{ $json.enrollment_id }}\", \"send_to\": \"parent\" }"
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "bd5921e0-68a0-5773-a88c-5305e0c41f1f",
+      "name": "T-14: advisor renewal review",
+      "type": "n8n-nodes-base.clickUp",
+      "typeVersion": 1,
+      "position": [
+        960,
+        300
+      ],
+      "parameters": {
+        "team": "={{ $env.CLICKUP_TEAM_ID }}",
+        "space": "={{ $env.CLICKUP_SALES_SPACE }}",
+        "list": "={{ $env.CLICKUP_RENEWALS_LIST }}",
+        "name": "=Renewal review: {{ $json.student_name }} (trial ends {{ $json.end_date }})",
+        "additionalFields": {
+          "dueDate": "={{ $now.plus({days: 3}).toISO() }}",
+          "tags": [
+            "renewal"
+          ],
+          "content": "Walk the parent through the student's 90-day numbers on the progress board, then propose the full program."
+        }
+      },
+      "credentials": {
+        "clickUpApi": {
+          "id": "clickup",
+          "name": "ClickUp (alcovia workspace)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "b164f503-3cc8-522c-a484-953aba393b64",
+      "name": "T-7: founder call task",
+      "type": "n8n-nodes-base.clickUp",
+      "typeVersion": 1,
+      "position": [
+        960,
+        460
+      ],
+      "parameters": {
+        "team": "={{ $env.CLICKUP_TEAM_ID }}",
+        "space": "={{ $env.CLICKUP_SALES_SPACE }}",
+        "list": "={{ $env.CLICKUP_RENEWALS_LIST }}",
+        "name": "=Call parent today: {{ $json.student_name }} trial ends in 7 days",
+        "additionalFields": {
+          "priority": 1,
+          "tags": [
+            "renewal",
+            "urgent"
+          ]
+        }
+      },
+      "credentials": {
+        "clickUpApi": {
+          "id": "clickup",
+          "name": "ClickUp (alcovia workspace)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "81879db9-9101-58eb-ba4d-e4af35ca1480",
+      "name": "Daily 10:00 IST",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        700
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 10 * * *"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "f8cb5f6a-aa9d-5f50-a7b6-e213966c7571",
+      "name": "Invoices 3 / 10 / 30 days overdue",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        240,
+        700
+      ],
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT i.invoice_id, e.student_name, i.amount_inr, CURRENT_DATE - i.due_on AS days_overdue\nFROM invoices i JOIN enrollments e USING (enrollment_id)\nWHERE i.status = 'issued' AND CURRENT_DATE - i.due_on IN (3, 10, 30);",
+        "options": {}
+      },
+      "credentials": {
+        "postgres": {
+          "id": "supabase-pg",
+          "name": "Supabase Postgres (alcovia)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "54290aee-e853-5eac-9cc5-7af166918499",
+      "name": "Razorpay: resend payment link",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        480,
+        700
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=https://api.razorpay.com/v1/invoices/{{ $json.invoice_id }}/notify_by/sms",
+        "options": {
+          "timeout": 30000
+        },
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpBasicAuth"
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "2a6cc3cd-e939-5248-a918-3098c56d3cd4",
+      "name": "30 days: escalate to founder",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        720,
+        700
+      ],
+      "parameters": {
+        "conditions": {
+          "conditions": [
+            {
+              "leftValue": "={{ $('Invoices 3 / 10 / 30 days overdue').item.json.days_overdue }}",
+              "rightValue": 30,
+              "operator": {
+                "type": "number",
+                "operation": "gte"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "3ccb275e-61c5-510d-a465-e366abde0713",
+      "name": "Founder task",
+      "type": "n8n-nodes-base.clickUp",
+      "typeVersion": 1,
+      "position": [
+        960,
+        700
+      ],
+      "parameters": {
+        "team": "={{ $env.CLICKUP_TEAM_ID }}",
+        "space": "={{ $env.CLICKUP_SALES_SPACE }}",
+        "list": "={{ $env.CLICKUP_COLLECTIONS_LIST }}",
+        "name": "=Unpaid 30+ days: {{ $('Invoices 3 / 10 / 30 days overdue').item.json.student_name }} \u20b9{{ $('Invoices 3 / 10 / 30 days overdue').item.json.amount_inr }}",
+        "additionalFields": {
+          "priority": 1
+        }
+      },
+      "credentials": {
+        "clickUpApi": {
+          "id": "clickup",
+          "name": "ClickUp (alcovia workspace)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    }
+  ],
+  "connections": {
+    "Daily 09:30 IST": {
+      "main": [
+        [
+          {
+            "node": "Trials ending at T-21 / T-14 / T-7",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Trials ending at T-21 / T-14 / T-7": {
+      "main": [
+        [
+          {
+            "node": "Which touchpoint",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Which touchpoint": {
+      "main": [
+        [
+          {
+            "node": "T-21: send 90-day progress report",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "T-14: advisor renewal review",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "T-7: founder call task",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Daily 10:00 IST": {
+      "main": [
+        [
+          {
+            "node": "Invoices 3 / 10 / 30 days overdue",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Invoices 3 / 10 / 30 days overdue": {
+      "main": [
+        [
+          {
+            "node": "Razorpay: resend payment link",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Razorpay: resend payment link": {
+      "main": [
+        [
+          {
+            "node": "30 days: escalate to founder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "30 days: escalate to founder": {
+      "main": [
+        [
+          {
+            "node": "Founder task",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Kolkata",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner",
+    "errorWorkflow": "00_error_handler"
+  },
+  "tags": [
+    {
+      "name": "revenue"
+    }
+  ],
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "pinData": {}
+}
