@@ -76,7 +76,7 @@ This also ties Problem 1 to Problem 4. The brief asks for a phone-locking focus 
 | O19 | Wellness without WHOOP shows **0 data**. | Confirms H4: without the one supported wearable the tab is empty. HealthKit / Health Connect would cover most students' existing phones and watches. |
 | O20 | **No quiz found anywhere in the app.** | The brief's 8pm quiz isn't in the app (or is hidden). If it runs outside the app, its scores don't reach the student dashboard. Ask the team in week 1. New work for Problem 4. |
 | O21 | Power Rankings (inside Realm, not its own tab): a seasonal leaderboard by "Power", with season goals Raider (capture 3 castles, +150), Conqueror (6, +350) and Warlord (10, +700). The test account is **#3 at 1,020 Power**; #1 is at 1,420. The visible names look like team members, not 847 students. | Matches H3: the real league is small, and the "847 students" promised at setup isn't what a student finds. Power comes from castles, and castles are bought with coins, which logins also earn. So the ranking doesn't reward study directly. Bet 2's lever is to make Power come mainly from completed focus. |
-| O22 | Coins fell from ~203,667 to 202,977 (−690) after visiting the Realm, close to the 700 cost of a castle upgrade. | Spending works. A balance this large hides how slow earning is for a real student (see O17). |
+| O22 | Coins fell from ~203,667 to 202,977 (−690) after upgrading the Moscow castle (cost 700; the gap is coins earned meanwhile). | Spending works. A balance this large hides how slow earning is for a real student (see O17). |
 
 Week 1 method: 20-minute calls with all 20 students (n is small enough to talk to everyone), 6 parents and 3 advisors, plus 10 session replays. With 20 users, talking to everyone beats any survey.
 
